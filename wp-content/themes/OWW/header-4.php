@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles.css" rel="stylesheet" media="screen">
+    <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_govt.css" rel="stylesheet" media="screen">
      
    
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,4 +20,4 @@
     <![endif]-->
  
   </head>
- 
+  

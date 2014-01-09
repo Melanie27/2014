@@ -6,7 +6,7 @@
 										<div class="row solutions-columns">
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 												<div class="solutions consulting">
-													<a href="individual-business-traveler.php" class="industry-sections">
+													<a href="<?php bloginfo( 'template_directory' ); ?>/business-solutions/individual-business-traveler" class="industry-sections">
 														<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/consulting.jpg" alt="Woman Texting" class="img-responsive" />
 														<header class="industries">
 															<h3>Individual Business Traveler</h3>
@@ -30,7 +30,7 @@
 											</section><!--Column 1-->
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">	
 												<div class="solutions government">
-													<a href="government.php" class="industry-sections">
+													<a href="<?php bloginfo( 'template_directory' ); ?>/business-solutions/government" class="industry-sections">
 														<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/government.jpg" alt="Man Texting" class="img-responsive " />
 														<header class="industries">
 															<h3>Government</h3>
@@ -54,7 +54,7 @@
 											</section>
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">	
 												<div class="solutions government">
-													<a href="entertainment.php" class="industry-sections">
+													<a href="<?php bloginfo( 'template_directory' ); ?>/business-solutions/entertainment" class="industry-sections">
 														<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/entertainment.jpg" alt="Man Texting" class="img-responsive " />
 														<header class="industries">
 															<h3>Entertainment</h3>
@@ -84,7 +84,7 @@
 										<div class="row">
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 												<div class="solutions relocation">
-													<a href="relocation.php" class="industry-sections">
+													<a href="<?php bloginfo( 'template_directory' ); ?>/business-solutions/relocation" class="industry-sections">
 														<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/relocation.jpg" alt="Woman on iPad" class="img-responsive"/>
 														<header class="industries">
 															<h3>Relocation</h3>

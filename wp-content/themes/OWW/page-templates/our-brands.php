@@ -1,14 +1,18 @@
 <?php
 /**
 
- * Template Name: Our Brands
- *
- 
- */
+ * Template Name: Our Brands*/
 
- ?>
+?>
 
-<?php get_header(2); ?>
+			<?php get_header(2); ?>
+			
+			
+<body id="our-brands">
+  	<div class="container-full">
+  		<section class="container landing">
+		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
+			
 		  		<section class="two">
 					<div class="row heading">
 						<section class="col-lg-12">
@@ -18,7 +22,7 @@
 							</div>
 						</section>		
 					</div><!--heading-->		
-				<?php include "_/components/php/hero.php"; ?>
+				<?php include (TEMPLATEPATH . '/_/components/php/hero.php'); ?>	
 		  		</section> <!--two container-->	
 				<section class="three container">
 					<div class="row over2">
@@ -39,7 +43,7 @@
 										<section class="col-lg-8 col-lg-offset-2">
 											<div class="row archives">
 												<section class="col-lg-12 col-lg-offset-0 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
-													<a class="link-archives see-all text-center" href="upcoming-events.php">Find Housing</a>
+													<a class="link-archives see-all text-center" href="upcoming-events">Find Housing</a>
 												</section>			
 											</div>
 										</section>
@@ -62,7 +66,7 @@
 										<section class="col-lg-8 col-lg-offset-2">
 											<div class="row archives">
 												<section class="col-lg-12 col-lg-offset-0 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
-													<a class="link-archives see-all text-center" href="upcoming-events.php">Find Housing</a>
+													<a class="link-archives see-all text-center" href="upcoming-events">Find Housing</a>
 												</section>
 											</div>
 										</section>
@@ -109,10 +113,5 @@
 						</div>
 					</section><!--content 6-->
 				<hr />
-				<?php include "_/components/php/footer.php"; ?>	
-			</section><!-- container -->
-		</div><!--container-full-->
-  	<script src="<?php bloginfo( 'template_directory' ); ?>/_/js/bootstrap.js"></script>
-  	<script src="<?php bloginfo( 'template_directory' ); ?>/_/js/myscript.js"></script>
- </body>
-</html>
+						
+		<?php get_footer(); ?>

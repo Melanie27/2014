@@ -43,7 +43,7 @@
 													<h2>Search Fully Furnished Oakwood Military Lodging In Key US Cities at Oakwood.com</h2>
 												</div>
 											</section>
-											<?php include "_/components/php/carousel.php"; ?>
+											<?php include (TEMPLATEPATH . '/_/components/php/carousel.php'); ?>
 										</section><!--five-->
 									</div>
 								</div><!--end content five-->

@@ -6,4 +6,4 @@
 										</div>
 									</section><!--end three-->
 									
-									<?php include "_/components/php/entertainment-solutions.php"; ?>
+									<?php include (TEMPLATEPATH . '/_/components/php/entertainment-solutions.php'); ?>

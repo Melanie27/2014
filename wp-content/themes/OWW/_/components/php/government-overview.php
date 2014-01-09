@@ -13,7 +13,8 @@
 													<section class="col-lg-6 col-md-6">
 														<h3>US & Canada: </h3>
 														<p class="phone">1-888-268-9998</p>
-														<p class="email"><img src="images/icons/icon-email.jpg" alt="icon-email" width="25" height="20">Email Us</p>
+														<p class="email">
+															<img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-email.jpg" alt="icon-email" width="25" height="20">Email Us</p>
 													</section>
 													<section class="col-lg-6 col-md-6">
 														<h3>Everywhere Else: </h3>

@@ -13,7 +13,7 @@
      <!--[if lt IE 9]>
 		 <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_ie8_down.css" />
 	<![endif]-->
-	<?php wp_head(); ?>
+	
    
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

@@ -175,11 +175,11 @@ function twentythirteen_fonts_url() {
 
 function wpt_register_js() {
    
-    wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/_/js/bootstrap.js' );
+    /*wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/_/js/bootstrap.js' );
     wp_enqueue_script('bootstrap-js');
     
     wp_register_script( 'myscript-js', get_template_directory_uri() . '/_/js/myscript.js' );
-    wp_enqueue_script('myscript-js');
+    wp_enqueue_script('myscript-js');*/
 }
 
 add_action( 'init', 'wpt_register_js' );
@@ -189,7 +189,7 @@ function wpt_register_css() {
     wp_enqueue_style( 'bootstrap.min' );
 }
 
-add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
+/*add_action( 'wp_enqueue_scripts', 'wpt_register_css' );*/
  
 
 

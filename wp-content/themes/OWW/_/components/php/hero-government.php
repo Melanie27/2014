@@ -13,7 +13,7 @@
 												<p>See All Industry Insights for <a href="#">Government</a></p>
 											</section> <!--end two thirds-->
 											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs thirds teasers">
-												<?php include "_/components/php/news-thumbs.php"; ?>	
+												<?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>	
 											</section> <!--end three thirds-->	
 										</div><!--end nested row-->	
 									</section><!--end ver-->
