@@ -4,10 +4,10 @@
 									<section class="col-lg-12 vert">
 										<div class="row" >
 											<section class="hidden-sm hidden-xs">
-											<?php include "_/components/php/news-full-story.php"; ?>
+											<?php include (TEMPLATEPATH . '/_/components/php/news-full-story.php'); ?>	
 											</section>
 											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs thirds teasers">
-												<?php include "_/components/php/news-thumbs.php"; ?>	
+												<?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>		
 											</section> <!--end three thirds-->	
 										</div><!--end nested row-->	
 									</section><!--end ver-->

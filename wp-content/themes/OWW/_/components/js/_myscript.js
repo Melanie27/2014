@@ -95,25 +95,17 @@ $("#our-brands a:contains('Our Brands')").parent().addClass('active');
 $("#global-expertise a:contains('Global Expertise')").parent().addClass('active');
 
 
-$("#entertainment a:contains('Business Solutions')").parent().addClass('active');
-$("#relocation a:contains('Business Solutions')").parent().addClass('active');
 
 $("#industry-insights a:contains('Business Solutions')").parent().addClass('active');
 $("#industry-insights-government a:contains('Business Solutions')").parent().addClass('active');
 $("#industry-insights-relocation a:contains('Business Solutions')").parent().addClass('active');
 $("#industry-insights-consulting a:contains('Business Solutions')").parent().addClass('active');
 $("#industry-insights-insurance a:contains('Business Solutions')").parent().addClass('active');
-$("#vision-leadership a:contains('Vision and Leadership')").parent().addClass('active');
-$("#executive-leadership a:contains('Vision and Leadership')").parent().addClass('active');
-$("#industry-affiliations a:contains('Vision and Leadership')").parent().addClass('active');
 
 
 
 
 
-$("#news a:contains('News')").parent().addClass('active');
-$("#press-releases a:contains('News')").parent().addClass('active');
-$("#press-releases-single a:contains('News')").parent().addClass('active');
 $("#in-the-news a:contains('News')").parent().addClass('active');
 $("#in-the-news-single a:contains('News')").parent().addClass('active');
 $("#awards a:contains('News')").parent().addClass('active');

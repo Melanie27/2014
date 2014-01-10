@@ -9,7 +9,7 @@
 												</div>	
 												 <div id="collapseFour" class="panel-collapse collapse in">
 												 	<div class="panel-body">
-														<?php include "_/components/php/media-relations.php"; ?>
+														<?php include (TEMPLATEPATH . '/_/components/php/media-relations.php'); ?>	
 														<section class="awards-honors">
 															<h1 class="hidden-sm hidden-xs">Awards and Honors</h1>
 																<div class="row">
@@ -24,7 +24,7 @@
 																</div>		
 																<div class="row archives">
 																	<div class="col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-																		<a class="link-archives see-all text-center" href="awards.php">VIEW AWARDS</a>
+																		<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/news/awards/">VIEW AWARDS</a>
 																	</div>
 																</div>
 															</section><!--Awards and Honors-->

@@ -6,37 +6,72 @@
  
  */
 
-get_header(); ?>
+get_header(6); ?>
+
+ <body id="news">
+  	<div class="container-full">
+  		<section class="container landing">
+		 <?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<header class="entry-header">
-						<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-						<div class="entry-thumbnail">
-							<?php the_post_thumbnail(); ?>
-						</div>
-						<?php endif; ?>
-
-						<h1 class="entry-title"><?php the_title(); ?></h1>
-					</header><!-- .entry-header -->
-
-					<div class="entry-content">
-						<?php the_content(); ?>
-						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-					</div><!-- .entry-content -->
-
-					<footer class="entry-meta">
-						<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
-					</footer><!-- .entry-meta -->
-				</article><!-- #post -->
-
-				<?php comments_template(); ?>
-			<?php endwhile; ?>
+			<section class="two">
+			 	<div class="row heading">
+				 	<section class="col-lg-12">
+					 	<div class="container">
+						 	<h1>News</h1>
+						 </div>
+					</section>		
+				</div><!--heading-->
+				<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds.php'); ?>	
+			</section> <!--two-->	
+		  	<section class="three container">
+				<div class="row over2">
+					<section class="col-lg-12 col-md-12">
+						<div class="row">			
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">		
+								<?php include (TEMPLATEPATH . '/_/components/php/latest-news.php'); ?>	
+							</section><!--Latest News-->		
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols first-col">	
+								<?php include (TEMPLATEPATH . '/_/components/php/press-room.php'); ?>	
+							</section><!--Press Room-->	
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols second-col ">
+								<?php include (TEMPLATEPATH . '/_/components/php/in-the-news.php'); ?>	
+							</section><!--In the News-->		
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols third-col">	
+								<?php include (TEMPLATEPATH . '/_/components/php/awards-honors.php'); ?>	
+							</section><!--Awards-->				
+							<section class ="hidden-lg hidden-md">
+								<?php include (TEMPLATEPATH . '/_/components/php/events-mobile.php'); ?>	
+							</section>	
+						</div><!--end nested row-->	
+					</section>
+				</div><!--row-->
+			</section><!--three-->
+				<section class="row">
+					<div class="col-lg-12">
+						<section class="four hidden-xs">
+						</section>
+					</div>
+				</section><!--content 4-->
+				<div class="row hidden-sm hidden-xs">
+					<div class="col-lg-12">
+						<section class="five">
+							<div class="container">
+								<?php include (TEMPLATEPATH . '/_/components/php/events-desktop.php'); ?>	
+							</div><!--container-->
+						</section><!--five-->
+					</div>
+				</div>
+  				<section class="row">
+					<div class="col-lg-12">
+						<section class="six hidden-sm">
+						</section>
+					</div>
+				</section><!--content 6-->	
+				<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>	
+				<hr />
 
 		</div><!-- #content -->
 	</div><!-- #primary -->

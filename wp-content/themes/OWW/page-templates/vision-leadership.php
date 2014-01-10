@@ -8,38 +8,51 @@
 
 get_header(); ?>
 
+<body id="vision-leadership">
+  	<div class="container-full">
+  		<section class="container landing">
+		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
+
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<header class="entry-header">
-						<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-						<div class="entry-thumbnail">
-							<?php the_post_thumbnail(); ?>
-						</div>
-						<?php endif; ?>
-
-						<h1 class="entry-title"><?php the_title(); ?></h1>
-					</header><!-- .entry-header -->
-
-					<div class="entry-content">
-						<?php the_content(); ?>
-						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-					</div><!-- .entry-content -->
-
-					<footer class="entry-meta">
-						<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
-					</footer><!-- .entry-meta -->
-				</article><!-- #post -->
-
-				<?php comments_template(); ?>
-			<?php endwhile; ?>
+			<section class="two">
+					<div class="row heading">
+						<section class="col-lg-12">
+							<div class="container">
+								<h1>Vision and Leadership</h1>
+							</div>
+						</section>		
+					</div><!--heading-->		
+					<?php include (TEMPLATEPATH . '/_/components/php/hero-halves.php'); ?>>
+		  		</section> <!--two container-->	
+		  		<section class="hidden-lg hidden-md hidden-sm col-md-6 col-xs-12 hero-halves">
+					<h1>2013</h1>
+					<h2>Oakwood Worldwide</h2>
+					<p>Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
+				</section><!--End two halves-->	
+				<hr />
+				<section class="three container">
+					<div class="row over2">
+						<section class="col-lg-12 col-md-12">
+							<?php include (TEMPLATEPATH . '/_/components/php/executive-committee.php'); ?>												
+						</section>
+					</div><!--row-->
+					<div class="row archives">
+						<section class="hidden-lg hidden-md hidden-sm col-xs-10 col-xs-offset-1">
+							<a class="link-archives text-center" href="#">View All Executive Bios</a>
+						</section>
+					</div>
+				</section><!--three-->
+				<hr />
+				<section class="content row">
+					<div class="col-lg-12">
+						<section class="four hidden-sm hidden-xs">
+						</section>
+					</div>
+				</section><!--content 4-->
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
