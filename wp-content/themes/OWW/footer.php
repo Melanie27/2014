@@ -179,7 +179,7 @@
 	</div>
 </footer>
 		</section><!-- container -->
-  	<script src="<?php bloginfo( 'template_directory' ); ?>/_/js/bootstrap.js"></script>
+  	
   	<script src="<?php bloginfo( 'template_directory' ); ?>/_/js/myscript.js"></script>
   </body>
 </html>

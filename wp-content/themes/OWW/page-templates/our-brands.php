@@ -49,7 +49,7 @@
 										</section>
 									</div>
 								</section><!-- end intro oakwood-->
-								<hr />
+								<hr class="hidden-lg hidden-md"/>
 								
 								<section class="col-lg-4 col-md-4 intro execustay ">
 									<div class="row">
@@ -72,7 +72,7 @@
 										</section>
 									</div>
 								</section><!-- end intro execustay-->
-								
+								<hr class="hidden-lg hidden-md"/>
 								
 								<section class="col-lg-4 col-md-4 intro ihs">
 									<div class="row">

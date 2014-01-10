@@ -13,11 +13,11 @@
 														<h1 class="hidden-xs hidden-sm">Latest News</h1>	
 														<section class="latest-releases">
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
-															<?php include "_/components/php/news-thumbs.php"; ?>
+															 <?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>	
 															<div class="clearfix"></div>
 														</section><!--Latest Releases-->
 														<div class="hidden-xs">
-															<?php include "_/components/php/btn-view-archives.php"; ?>
+															 <?php include (TEMPLATEPATH . '/_/components/phpbtn-view-archives.php'); ?>	
 														</div>
 													</div><!--panel body-->
 												</div><!--Collapse One-->

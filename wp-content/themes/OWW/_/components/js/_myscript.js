@@ -88,34 +88,9 @@ $('.panel-heading-business a ').each(function (index) {
 
 /*MAIN Navigation*/
 
-$('.current-menu-parent, .current-page-ancestor').addClass('active');
+$('.current-menu-parent, .current-page-ancestor, .current-menu-ancestor' ).addClass('active');
 
-$("#home a:contains('Home')").parent().addClass('active');
-$("#our-brands a:contains('Our Brands')").parent().addClass('active');
-$("#global-expertise a:contains('Global Expertise')").parent().addClass('active');
-
-
-
-$("#industry-insights a:contains('Business Solutions')").parent().addClass('active');
-$("#industry-insights-government a:contains('Business Solutions')").parent().addClass('active');
-$("#industry-insights-relocation a:contains('Business Solutions')").parent().addClass('active');
-$("#industry-insights-consulting a:contains('Business Solutions')").parent().addClass('active');
-$("#industry-insights-insurance a:contains('Business Solutions')").parent().addClass('active');
-
-
-
-
-
-$("#in-the-news a:contains('News')").parent().addClass('active');
-$("#in-the-news-single a:contains('News')").parent().addClass('active');
-$("#awards a:contains('News')").parent().addClass('active');
-$("#awards-single a:contains('News')").parent().addClass('active');
-$("#upcoming-events a:contains('News')").parent().addClass('active');
-$("#upcoming-events-single a:contains('News')").parent().addClass('active');
-$("#affiliations a:contains('Affiliations')").parent().addClass('active');
-$("#careers a:contains('Careers')").parent().addClass('active');
-
-
+$('.current-menu-ancestor' ).addClass('active');
 /*News Subnavigation*/
 $("#press-releases a:contains('Press Releases')").addClass('active');
 $("#press-releases-single a:contains('Press Releases')").addClass('active');

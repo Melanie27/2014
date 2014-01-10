@@ -24,7 +24,7 @@
  */
 
 
-/* Theme setup */
+/* Theme setup OWW Responsive Main Menu*/
 add_action( 'after_setup_theme', 'wpt_setup' );
     if ( ! function_exists( 'wpt_setup' ) ):
         function wpt_setup() { 
@@ -33,6 +33,9 @@ add_action( 'after_setup_theme', 'wpt_setup' );
 
  // Register custom navigation walker
     require_once('wp_bootstrap_navwalker.php');
+    
+    /*Prevent the admin bar from showing up on front end*/
+    add_filter('show_admin_bar', '__return_false');
 
 /*
  * Set up the content width value based on the theme's design.
@@ -173,28 +176,66 @@ function twentythirteen_fonts_url() {
  
 /*MELANIE's ADDITIONS*/ 
 
-function wpt_register_js() {
+function wp_register_js() {
    
-    /*wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/_/js/bootstrap.js' );
+    wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/_/js/bootstrap.js' );
     wp_enqueue_script('bootstrap-js');
     
-    wp_register_script( 'myscript-js', get_template_directory_uri() . '/_/js/myscript.js' );
+    //Currently this script is only working when added in the footer -- look into this
+    /*wp_register_script( 'myscript-js', get_template_directory_uri() . '/_/js/myscript.js' );
     wp_enqueue_script('myscript-js');*/
 }
 
-add_action( 'init', 'wpt_register_js' );
-
-function wpt_register_css() {
-    wp_register_style( 'bootstrap.min', get_template_directory_uri() . '/css/bootstrap.min.css' );
-    wp_enqueue_style( 'bootstrap.min' );
-}
-
-/*add_action( 'wp_enqueue_scripts', 'wpt_register_css' );*/
+add_action( 'wp_enqueue_scripts', 'wp_register_js', 'wp_register_css' );
  
 
 
+function wp_register_css() {
 
+	//Loads Bootstrap
+	wp_register_style( 'bootstrap', get_template_directory_uri() . '/_/css/bootstrap.css' );
+    wp_enqueue_style( 'bootstrap' );
+    
+    //Loads Main Stylesheet
+    wp_register_style( 'mystyles', get_template_directory_uri() . '/_/css/mystyles.css' );
+    wp_enqueue_style( 'mystyles' );
+    
+    //Loads IE8 conditional stylesheet
+    wp_register_style( 'ie8-down', get_template_directory_uri() . '/_/css/mystyles_ie8_down.css' );
+	wp_enqueue_style( 'ie8-down' );
+	wp_style_add_data( 'ie8-down', 'conditional', 'lt IE 9' );
+    
+    
+    if ( is_home() ) {
+    /** Call landing-page-template-one enqueue */
+    	wp_register_style( 'mystyles-home', get_template_directory_uri() . '/_/css/mystyles_home.css' );
+		wp_enqueue_style( 'mystyles-home' );
+    
+    } 
+    
+    
+    //Global Section
+     if ( is_page_template( 'page-templates/global-expertise.php' ) || is_page_template( 'page-templates/global-scale.php' ) || is_page_template( 'page-templates/global-region.php' ) || is_page_template( 'page-templates/global-services.php' )) {
+    
+		wp_register_style( 'mystyles-global', get_template_directory_uri() . '/_/css/mystyles_global.css' );
+		wp_enqueue_style( 'mystyles-global' );
+    } 
+    
+    
+    //Entertainment Page
+    if ( is_page_template( 'page-templates/business-entertainment.php')) {
+    
+		wp_register_style( 'mystyles-govt', get_template_directory_uri() . '/_/css/mystyles_govt.css' );
+		wp_enqueue_style( 'mystyles-govt' );
+		wp_register_style( 'mystyles-entertainment', get_template_directory_uri() . '/_/css/mystyles_entertainment.css' );
+		wp_enqueue_style( 'mystyles-entertainment' );
+    } 
+    
+    //NEWS AND BUSINESS PAGES ARE STILL IN THEIR RESPECTIVE HEADERS  
+    
+}
 
+add_action( 'wp_enqueue_scripts', 'wp_register_css' );
 
 
 function twentythirteen_scripts_styles() {
@@ -203,10 +244,10 @@ function twentythirteen_scripts_styles() {
 	 * sites with threaded comments (when in use).
 	 */
 	/*if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
-		wp_enqueue_script( 'comment-reply' );
+		wp_enqueue_script( 'comment-reply' );*/
 
 	// Adds Masonry to handle vertical alignment of footer widgets.
-	if ( is_active_sidebar( 'sidebar-1' ) )
+	/*if ( is_active_sidebar( 'sidebar-1' ) )
 		wp_enqueue_script( 'jquery-masonry' );
 
 	// Loads JavaScript file with functionality specific to Twenty Thirteen.
@@ -224,8 +265,10 @@ function twentythirteen_scripts_styles() {
 	// Loads the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentythirteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentythirteen-style' ), '2013-07-18' );
 	wp_style_add_data( 'twentythirteen-ie', 'conditional', 'lt IE 9' );*/
+	
+	
 }
-/*add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );*/
+add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 
 /**
  * Filter the page title.

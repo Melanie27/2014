@@ -86,7 +86,7 @@
 										<div class="row hidden-xs">
 											<section class="tab-section">
 												<h1>Why does the Federal Government Prefer Oakwood?</h1>
-												<?php include "_/components/php/industry-tabs.php"; ?>
+												<?php include (TEMPLATEPATH . '/_/components/php/industry-tabs.php'); ?>
 											</section>	
 										</div><!--end tabbed section-->
 									</section>

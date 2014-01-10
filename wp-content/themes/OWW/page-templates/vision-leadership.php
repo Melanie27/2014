@@ -6,7 +6,7 @@
  
  */
 
-get_header(); ?>
+get_header(2); ?>
 
 <body id="vision-leadership">
   	<div class="container-full">
@@ -24,7 +24,7 @@ get_header(); ?>
 							</div>
 						</section>		
 					</div><!--heading-->		
-					<?php include (TEMPLATEPATH . '/_/components/php/hero-halves.php'); ?>>
+					<?php include (TEMPLATEPATH . '/_/components/php/hero-halves.php'); ?>
 		  		</section> <!--two container-->	
 		  		<section class="hidden-lg hidden-md hidden-sm col-md-6 col-xs-12 hero-halves">
 					<h1>2013</h1>

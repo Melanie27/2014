@@ -62,7 +62,7 @@ get_header(6); ?>
 			</section><!--three-->
 			<section class="content row">
 				<div class="col-lg-12">
-					<section class="four hidden-xs">
+					<section class="four hidden-sm hidden-xs">
 					</section>
 				</div>
 			</section><!--content 4-->			

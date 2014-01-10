@@ -6,7 +6,7 @@
  
  */
 
-get_header(); ?>
+get_header(2); ?>
 
 <body id="business-solutions">
   	<div class="container-full">  

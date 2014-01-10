@@ -6,7 +6,7 @@
  
  */
 
-get_header(); ?>
+get_header(2); ?>
 
  <body id="executive-leadership">
   	<div class="container-full">

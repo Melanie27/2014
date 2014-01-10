@@ -12,7 +12,7 @@
 												 	<div class="panel-body">		
 														<section class="upcoming-events">
 															<h1 class="hidden-sm hidden-xs">Events</h1>
-																<?php include "_/components/php/upcoming-events.php"; ?>	
+																 <?php include (TEMPLATEPATH . '/_/components/php/upcoming-events.php'); ?>	
 														</section><!--Upcoming Events-->	
 													</div><!--panel body-->
 												</div><!--Collapse Five-->

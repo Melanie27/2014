@@ -2,11 +2,11 @@
 /**
  * The template for displaying all pages
  *
- * * Template Name: Business Relocation
+ * * Template Name: Careers
  
  */
 
-get_header(4); ?>
+get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
