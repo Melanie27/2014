@@ -8,7 +8,7 @@
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_news.css" rel="stylesheet" media="screen">
+    <!--<link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_news.css" rel="stylesheet" media="screen">-->
      
    
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

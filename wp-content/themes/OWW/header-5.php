@@ -8,6 +8,8 @@
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
      
+     <!--<link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_govt.css" rel="stylesheet" media="screen">-->
+	 <!--<link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_entertainment.css" rel="stylesheet" media="screen">-->
    
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

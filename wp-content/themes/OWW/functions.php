@@ -196,7 +196,7 @@ function wp_register_css() {
 	wp_register_style( 'bootstrap', get_template_directory_uri() . '/_/css/bootstrap.css' );
     wp_enqueue_style( 'bootstrap' );
     
-    //Loads Main Stylesheet
+    //Loads Main Stylesheet HEADER 2
     wp_register_style( 'mystyles', get_template_directory_uri() . '/_/css/mystyles.css' );
     wp_enqueue_style( 'mystyles' );
     
@@ -206,6 +206,8 @@ function wp_register_css() {
 	wp_style_add_data( 'ie8-down', 'conditional', 'lt IE 9' );
     
     
+    // HOME PAGE LOADING HEADER
+    
     if ( is_home() ) {
     /** Call landing-page-template-one enqueue */
     	wp_register_style( 'mystyles-home', get_template_directory_uri() . '/_/css/mystyles_home.css' );
@@ -214,7 +216,8 @@ function wp_register_css() {
     } 
     
     
-    //Global Section
+    
+    //Global Section OR LOADING HEADER 3
      if ( is_page_template( 'page-templates/global-expertise.php' ) || is_page_template( 'page-templates/global-scale.php' ) || is_page_template( 'page-templates/global-region.php' ) || is_page_template( 'page-templates/global-services.php' )) {
     
 		wp_register_style( 'mystyles-global', get_template_directory_uri() . '/_/css/mystyles_global.css' );
@@ -222,7 +225,7 @@ function wp_register_css() {
     } 
     
     
-    //Entertainment Page
+    //Entertainment Page LOADING HEADER 5
     if ( is_page_template( 'page-templates/business-entertainment.php')) {
     
 		wp_register_style( 'mystyles-govt', get_template_directory_uri() . '/_/css/mystyles_govt.css' );
@@ -231,7 +234,30 @@ function wp_register_css() {
 		wp_enqueue_style( 'mystyles-entertainment' );
     } 
     
-    //NEWS AND BUSINESS PAGES ARE STILL IN THEIR RESPECTIVE HEADERS  
+    //NEWS SECTION OR LOADING HEADER 6
+    
+     if ( is_page_template( 'page-templates/news.php') || is_page_template( 'page-templates/press-releases.php') || is_page_template( 'page-templates/press-releases-single.php') || is_page_template( 'page-templates/awards.php') || is_page_template( 'page-templates/awards-single.php') || is_page_template( 'page-templates/business-solutions-industry-insights.php') ) {
+    
+		wp_register_style( 'mystyles-news', get_template_directory_uri() . '/_/css/mystyles_news.css' );
+		wp_enqueue_style( 'mystyles-news' );
+		
+    } 
+    
+    
+    //BUSINESS SECTION LOADING HEADER #4 
+    
+    
+     if ( is_page_template( 'page-templates/business-traveler.php') || is_page_template( 'page-templates/business-government.php') || is_page_template( 'page-templates/business-solutions-industry-insights-single.php')) {
+    
+		wp_register_style( 'mystyles-govt', get_template_directory_uri() . '/_/css/mystyles_govt.css' );
+		wp_enqueue_style( 'mystyles-govt' );
+		
+    } 
+    
+    
+    // BUSINESS PAGES ARE STILL IN THEIR RESPECTIVE HEADERS
+    
+      
     
 }
 

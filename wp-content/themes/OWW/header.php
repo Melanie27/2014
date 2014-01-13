@@ -6,8 +6,8 @@
      <title><?php include "_/components/php/title.php"; ?></title>
      <meta name="description" content="">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
    
+   <!--<link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_home.css" rel="stylesheet" media="screen">-->
       
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
