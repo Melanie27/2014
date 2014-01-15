@@ -27,33 +27,18 @@ get_header(7); ?>
 		  	</section> <!--two-->	
     
     <?php
-    $mypost = array( 'post_type' => 'movie_reviews', );
+    $mypost = array( 'post_type' => 'press_releases', );
     $loop = new WP_Query( $mypost );
     ?>
-    <?php while ( $loop->have_posts() ) : $loop->the_post();?>
+    
+    <!--loop with tutorioal - displaying all posts-->
+    <?php /*while ( $loop->have_posts() ) : $loop->the_post();*/?>
+    
+    
+    <?php /* The loop */ ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+        
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-            <header class="entry-header">
- 
-                <!-- Display Title and Author Name -->
-                
-                <strong>Director: </strong>
-                <?php echo esc_html( get_post_meta( get_the_ID(), 'movie_director', true ) ); ?>
-                <br />
- 
-                <!-- Display yellow stars based on rating -->
-                <strong>Rating: </strong>
-                <?php
-                $nb_stars = intval( get_post_meta( get_the_ID(), 'movie_rating', true ) );
-                for ( $star_counter = 1; $star_counter <= 5; $star_counter++ ) {
-                    if ( $star_counter <= $nb_stars ) {
-                        echo '<img src="' . plugins_url( 'Movie-Reviews/images/icon.png' ) . '" />';
-                    } else {
-                        echo '<img src="' . plugins_url( 'Movie-Reviews/images/grey.png' ). '" />';
-                    }
-                }
-                ?>
-            </header>
- 
             <!-- Display movie review contents -->
             <div class="entry-content">
             	<section class="three container">
@@ -62,31 +47,26 @@ get_header(7); ?>
 						<div class="row">
 							<section class="col-lg-8 col-md-8 press-release-list">
 								<h1><?php the_title(); ?></h1>
+								<h2><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></h2>
 								<section class="press-release-hero">
 									
 									<!-- Display featured image -->
 								
 										<?php the_post_thumbnail( array( 350, 350 ) ); ?>
-										<?php echo esc_html( get_post_meta( get_the_ID(), 'movie_caption', true ) ); ?>
-										
-								
-									
-					
+										<?php echo esc_html( get_post_meta( get_the_ID(), 'photo_caption', true ) ); ?>
 								</section>
-								<section class="press-release-content">	
-								           	
+								<section class="press-release-content">	       	
 									<?php the_content(); ?>
 									
 									<p class="more">More From:
 									<span class="tags"><?php  
-										the_terms( $post->ID, 'movie_reviews_tags' ,  ' ' );
+										the_terms( $post->ID, 'press_releases_tags' ,  ' ' );
 									?></span></p>
-									<div class="clearfix"></div>
-									
-            		</section><!--end two thirds--> 
-            		<hr />	
-							</section>			
-													
+									<div class="clearfix"></div>	
+								</section><!--end two thirds--> 
+								<hr />	
+							</section>									
+							
 							<section class="hidden-lg hidden-md hidden-sm">
 								<h1>Press Releases</h1>
 								<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>

@@ -22,6 +22,7 @@
 														</ul>
 												</section><!--end news-->	
 												<section class="media-relations hidden-sm hidden-xs">
-													 	<?php include "_/components/php/media-relations.php"; ?>
+													 	
+													 	<?php include (TEMPLATEPATH . '/_/components/php/media-relations.php'); ?>
 												</section><!--Media Relations-->	
 											</section><!--end one third-->

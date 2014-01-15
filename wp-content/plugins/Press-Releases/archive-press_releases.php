@@ -27,12 +27,7 @@
 		  				<?php include (TEMPLATEPATH . '/_/components/php/news-full-story.php'); ?>
 		  			</section>
 		  		</div>
-		  		
-											
-											
-    
-		  		
-    
+		  		    
     <?php if ( have_posts() ) : ?>
     
     
@@ -65,7 +60,7 @@
 							</section>
 							<section class="col-lg-8 col-md-7 col-sm-8 press-text">
 								<h2><?php the_title(); ?></h2>
-								<p>July 31, 2013 - Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</p>
+								<p><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></</p>
 								<p class="full-story "><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
 						 </section>
 						 <div class="clearfix"></div>				
@@ -79,6 +74,20 @@
         </table>
         
         <?php global $wp_query;
+        $total_pages = $wp_query->max_num_pages; 
+        if ($total_pages > 1){  
+  
+  $current_page = max(1, get_query_var('paged'));  
+    
+  echo paginate_links(array(  
+      'base' => get_pagenum_link(1) . '%_%',  
+      'format' => '/page/%#%',  
+      'current' => $current_page,  
+      'total' => $total_pages,  
+    ));  
+}  
+        
+        
         if ( isset( $wp_query->max_num_pages ) && $wp_query->max_num_pages > 1 ) { ?>
             <nav id="<?php echo $nav_id; ?>">
                 <div class="nav-previous"><?php next_posts_link( '<span class="meta-nav">&larr;</span> Older reviews'); ?></div>
