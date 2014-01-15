@@ -43,6 +43,8 @@ get_header(6); ?>
 											<section class="hidden-lg hidden-md hidden-sm">
 												<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>	
 											</section>
+											
+											
 											<div class="row hidden-xs" id="press1">
 												<ul>
 													<li>
@@ -115,6 +117,8 @@ get_header(6); ?>
 													</ul>
 												</section>
 											</div><!--end pagination row-->
+											
+											
 										</section><!--end two thirds-->
 										<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>																				
 									</div><!--end nested row-->

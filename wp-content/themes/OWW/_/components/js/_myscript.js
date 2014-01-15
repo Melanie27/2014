@@ -1,3 +1,7 @@
+//Make featured images in post responsive
+
+$('.wp-post-image').addClass('img-responsive');
+
 
 $('.carousel').carousel({
   interval: false
