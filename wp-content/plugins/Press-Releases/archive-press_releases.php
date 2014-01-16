@@ -69,31 +69,25 @@
             </div>
           <?php endwhile; ?>
  
-            <!-- Display page navigation -->
+        <!-- Display pagination -->
  
         </table>
         
         <?php global $wp_query;
         $total_pages = $wp_query->max_num_pages; 
+        
         if ($total_pages > 1){  
   
-  $current_page = max(1, get_query_var('paged'));  
+			$current_page = max(1, get_query_var('paged'));  
     
-  echo paginate_links(array(  
-      'base' => get_pagenum_link(1) . '%_%',  
-      'format' => '/page/%#%',  
-      'current' => $current_page,  
-      'total' => $total_pages,  
-    ));  
-}  
+			echo paginate_links(array(  
+			'base' => get_pagenum_link(1) . '%_%',  
+			'format' => '/page/%#%',  
+			'current' => $current_page,  
+			'total' => $total_pages,  
+			));  
+		}  
         
-        
-        if ( isset( $wp_query->max_num_pages ) && $wp_query->max_num_pages > 1 ) { ?>
-            <nav id="<?php echo $nav_id; ?>">
-                <div class="nav-previous"><?php next_posts_link( '<span class="meta-nav">&larr;</span> Older reviews'); ?></div>
-                <div class="nav-next"><?php previous_posts_link( 'Newer reviews <span class= "meta-nav">&rarr;</span>' ); ?></div>
-            </nav>
-        <?php };
     endif; ?>
     
     

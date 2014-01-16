@@ -27,7 +27,7 @@ get_header(7); ?>
 		  	</section> <!--two-->	
     
     <?php
-    $mypost = array( 'post_type' => 'press_releases', );
+    $mypost = array( 'post_type' => 'press-releases', );
     $loop = new WP_Query( $mypost );
     ?>
     
@@ -47,7 +47,7 @@ get_header(7); ?>
 						<div class="row">
 							<section class="col-lg-8 col-md-8 press-release-list">
 								<h1><?php the_title(); ?></h1>
-								<h2><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></h2>
+								
 								<section class="press-release-hero">
 									
 									<!-- Display featured image -->
