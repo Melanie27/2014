@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts
  *
- * * Template Name: Movie Single
+ * * Template Name: Press Release Single
  
  */
 
@@ -59,9 +59,9 @@ get_header(7); ?>
 									<?php the_content(); ?>
 									
 									<p class="more">More From:
-									<span class="tags"><?php  
-										the_terms( $post->ID, 'press_releases_tags' ,  ' ' );
-									?></span></p>
+									<span class="tags">
+									<?php the_terms( $post->ID, 'press_releases_tags' ,  ' ' );?>
+									</span></p>
 									<div class="clearfix"></div>	
 								</section><!--end two thirds--> 
 								<hr />	

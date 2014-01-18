@@ -46,7 +46,9 @@ get_header(6); ?>
 									</ul>
 								</section>
 							</div>
+						</section>
 							<!--Awards Navigation-->
+						<section>
 							<div class="row">
 								<section class="col-lg-8 col-md-8 press-release-list">
 									<h1>Awards and Honors: EMMAs</h1>

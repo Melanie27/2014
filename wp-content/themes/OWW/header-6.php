@@ -3,7 +3,7 @@
   <head>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-     <title><?php include "<?php bloginfo( 'template_directory' ); ?>/_/components/php/title.php"; ?></title>
+     <title><?php include (TEMPLATEPATH . '/_/components/php/title.php'); ?></title>
      <meta name="description" content="">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

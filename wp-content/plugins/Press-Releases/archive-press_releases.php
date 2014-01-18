@@ -56,7 +56,7 @@
                 	<ul>
 						<li>
 							<section class="col-lg-4 col-md-5 col-sm-4 press-image">
-								<?php the_post_thumbnail( array( 195, 122 ) ); ?>
+								<?php the_post_thumbnail('newssize'); ?>
 							</section>
 							<section class="col-lg-8 col-md-7 col-sm-8 press-text">
 								<h2><?php the_title(); ?></h2>

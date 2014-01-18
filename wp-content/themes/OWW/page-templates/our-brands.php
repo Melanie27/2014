@@ -22,7 +22,7 @@
 							</div>
 						</section>		
 					</div><!--heading-->		
-				<?php include (TEMPLATEPATH . '/_/components/php/hero.php'); ?>	
+				<!--place Hero overlay here-->
 		  		</section> <!--two container-->	
 				<section class="three container">
 					<div class="row over2">

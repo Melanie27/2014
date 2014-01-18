@@ -24,6 +24,11 @@
  */
 
 
+/*Set default thumbnail size for OWW archive pages*/
+ 
+/*set_post_thumbnail_size( 195, 120 ); // 100 pixels wide by 100 pixels tall, box resize mode*/
+
+
 /* Theme setup OWW Responsive Main Menu*/
 add_action( 'after_setup_theme', 'wpt_setup' );
     if ( ! function_exists( 'wpt_setup' ) ):
@@ -116,6 +121,11 @@ function twentythirteen_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 604, 270, true );
+	
+	
+	/*Additonal Thumbnails for OWW*/
+	add_image_size( 'leadershipsize', 75, 120, true );
+	add_image_size( 'newssize', 195, 122, true );
 
 	// This theme uses its own gallery styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );
