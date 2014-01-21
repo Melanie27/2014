@@ -2,13 +2,13 @@
 /**
  * The template for displaying all single posts
  *
- * * Template Name: Movie Single
+ * * Template Name: Press Release Single
  
  */
 
 get_header(7); ?>
 
-<body id="awards-single">
+<body id="in-the-news-single">
   	<div class="container-full">  
   		<section class="container landing">
 		  	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
@@ -19,7 +19,7 @@ get_header(7); ?>
 				<div class="row heading">
 					<section class="col-lg-12">
 						<div class="container">
-							<h1>Awards: <?php the_title(); ?></h1>
+							<h1>In The News: <?php the_title() ?></h1>
 						</div>
 					</section>		
 				</div><!--heading-->
@@ -27,7 +27,7 @@ get_header(7); ?>
 		  	</section> <!--two-->	
     
     <?php
-    $mypost = array( 'post_type' => 'awards', );
+    $mypost = array( 'post_type' => 'in-the-news', );
     $loop = new WP_Query( $mypost );
     ?>
     
@@ -46,18 +46,7 @@ get_header(7); ?>
 					<section class="col-lg-12 col-md-12">
 						<div class="row">
 							<section class="col-lg-8 col-md-8 press-release-list">
-								<!--awards navigation-->	
-									<div class="row">
-										<section class="col-lg-9 col-md-11 col-xs-12 awards-sections">
-											<h4>See Awards From:</h4>
-											<ul>
-												<li><<?php the_terms( $post->ID, 'awards_tags' ,  ' ' );?></li>
-												<li><a href="#" class="active">EMMAs</a></li>
-												<li><a href="#">Cartus Global Network</a></li>
-											</ul>
-										</section>	
-									</div><!--Awards Navigation-->
-									<h1><?php the_title(); ?></h1>
+								<h1><?php the_title(); ?></h1>
 								
 								<section class="press-release-hero">
 									
@@ -68,18 +57,22 @@ get_header(7); ?>
 								</section>
 								<section class="press-release-content">	       	
 									<?php the_content(); ?>
-									
+									<p>
+										<a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'article_link', true ) ); ?> target="_blank" ">View Article in <?php echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); ?></a>
+									</p>
 									<p class="more">More From:
-									<span class="tags"><?php  
-										the_terms( $post->ID, 'press_releases_tags' ,  ' ' );
-									?></span></p>
+										<span class="tags">
+										<?php the_terms( $post->ID, 'in_the_news_years' ,  ' ' );?>
+										</span>
+									</p>
+									
 									<div class="clearfix"></div>	
 								</section><!--end two thirds--> 
 								<hr />	
 							</section>									
 							
 							<section class="hidden-lg hidden-md hidden-sm">
-								<h1>Awards</h1>
+								<h1>Press Releases</h1>
 								<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>
 							</section>				
 							<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							

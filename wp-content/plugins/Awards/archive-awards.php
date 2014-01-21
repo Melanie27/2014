@@ -1,6 +1,6 @@
 <?php get_header(7); ?>
 
-<body id="press-releases">
+<body id="award">
   		<div class="container-full">
   			<section class="container landing">
 		  		<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
@@ -14,7 +14,7 @@
 					<div class="row heading">
 						<section class="col-lg-12">
 							<div class="container">
-								<h1>Press Releases</h1>
+								<h1>Awards</h1>
 							</div>
 						</section>		
 					</div><!--heading-->
@@ -38,11 +38,25 @@
 							<div class="row">
 								<section class="col-lg-6 col-md-6 col-xs-12 awards-sections">
 									<h4>See Awards From:</h4>
-									<ul>
-										<li><a href="#">All</a></li>
-										<li><a href="#" class="active">EMMAs</a></li>
-										<li><a href="#">Cartus Global Network</a></li>
-									</ul>
+									<!--List all the terms, with link to term archive-->	
+									<?php
+									$args = array( 'hide_empty=0' );
+									$terms = get_terms('awards_tags', $args);
+									$count = count($terms); $i=0;
+									if ($count > 0) {
+																	
+									echo '<ul class="release-years awards-honors-archive">';
+									$term_list = '<span class="my_term-archive">';
+									foreach ($terms as $term) {
+										$i++;
+										$term_list .= '<li><a href="' . get_term_link( $term ) . '" class="'. sprintf(__('%s', 'my_localization_domain'), $term->name) .'" title="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '">' . $term->name . '</a></li>';
+    	 $term_list .= '</span>';
+										}
+																	
+										echo $term_list;
+										echo "</ul>";
+									}
+									?>	
 								</section>
 							</div>
 						</section>
@@ -54,12 +68,7 @@
 										 	<section class="hidden-lg hidden-md hidden-sm">
 												<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>	
 											</section>
-    
-    
-    
-    
-    
-        
+
         <table>
             
             <!-- Start the Loop -->

@@ -102,13 +102,13 @@ function include_template_function( $template_path ) {
 <?php
 function create_my_taxonomies_ev() {
     register_taxonomy(
-        'events_event_year',
+        'events_event_month',
         'events',
         array(
             'labels' => array(
-                'name' => 'Event Year',
-                'add_new_item' => 'Add New Event Year',
-                'new_item_name' => "New Event Year"
+                'name' => 'Event Month',
+                'add_new_item' => 'Add New Event Month',
+                'new_item_name' => "New Event Month"
             ),
             'show_ui' => true,
             'show_tagcloud' => false,

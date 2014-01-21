@@ -97,13 +97,90 @@ $('.current-menu-parent, .current-page-ancestor, .current-menu-ancestor' ).addCl
 $('.current-menu-ancestor' ).addClass('active');
 /*News Subnavigation*/
 $("#press-releases a:contains('Press Releases')").addClass('active');
+
 $("#press-releases-single a:contains('Press Releases')").addClass('active');
 $("#in-the-news a:contains('In the News')").addClass('active');
 $("#in-the-news-single a:contains('In the News')").addClass('active');
-$("#awards a:contains('Awards & Honors')").addClass('active');
+$("#award a:contains('Awards & Honors')").addClass('active');
 $("#awards-single a:contains('Awards & Honors')").addClass('active');
-$("#upcoming-events a:contains('Upcoming Events')").addClass('active');
-$("#upcoming-events-single a:contains('Upcoming Events')").addClass('active');
+$("#events a:contains('Upcoming Events')").addClass('active');
+$("#events-single a:contains('Upcoming Events')").addClass('active');
+
+
+/*Archive Navigation*/
+var pathname = window.location.pathname;
+
+ 	if(pathname == '/2014/press_releases_tags/2011/' ){
+        
+        $('.press-releases-archive a.2011').addClass('active');
+     }
+     
+     
+     else if(pathname == '/2014/press_releases_tags/2012/' ){
+        
+        $('.press-releases-archive a.2012').addClass('active');
+     }
+          
+     else if(pathname == '/2014/press_releases_tags/2013/' ){
+        
+        $('.press-releases-archive a.2013').addClass('active');
+     }
+          
+     else if(pathname == '/2014/press_releases_tags/2014/' ){
+        
+        $('.press-releases-archive a.2014').addClass('active');
+     }
+     
+     
+     
+     
+// In the News Archives
+
+var pathnameNews = window.location.pathname;
+
+
+ 	if(pathnameNews == '/2014/in_the_news_years/2011/' ){
+        
+        $('.in-news-archive a.2011').addClass('active');
+     }
+     
+  
+     
+     else if(pathnameNews == '/2014/in_the_news_years/2012/' ){
+        
+        $('.in-news-archive a.2012').addClass('active');
+     }
+     
+          
+     else if(pathnameNews == '/2014/in_the_news_years/2013/' ){
+        
+        $('.in-news-archive a.2013').addClass('active');
+     }
+     
+          
+     else if(pathnameNews == '/2014/in_the_news_years/2014/' ){
+        
+        $('.in-news-archive a.2014').addClass('active');
+     }
+     
+
+
+//Awards Archives 
+
+ 	if(window.location.href.indexOf("emmas") > -1) {
+      
+       $('.EMMAs').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("cartus-global-network") > -1) {
+	    
+	    $('.Cartus').addClass('active');
+    }
+    
+     else if(window.location.href.indexOf("all") > -1) {
+	    
+	    $('.All').addClass('active');
+    }
 
 
 if ( $("#industry-insights-government a:contains('Business Solutions')") ) {

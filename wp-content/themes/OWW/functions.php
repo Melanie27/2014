@@ -126,6 +126,7 @@ function twentythirteen_setup() {
 	/*Additonal Thumbnails for OWW*/
 	add_image_size( 'leadershipsize', 75, 120, true );
 	add_image_size( 'newssize', 195, 122, true );
+	add_image_size( 'herosize', 120, 75, true );
 
 	// This theme uses its own gallery styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );

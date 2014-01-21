@@ -37,16 +37,11 @@
 							<section class="col-lg-12 col-md-12">
 								<div class="row">
 									<section class="col-lg-8 col-md-8 press-release-list">
-										 <h1 class="page-title">Press Releases for 2013</h1>
+										 <h1 class="page-title">Press Releases for <?php wp_get_archives(array( 'type' => 'yearly', 'format' => 'custom'  ))?></h1>
 										 	<section class="hidden-lg hidden-md hidden-sm">
 												<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>	
 											</section>
     
-    
-    
-    
-    
-        
         <table>
             
             <!-- Start the Loop -->
