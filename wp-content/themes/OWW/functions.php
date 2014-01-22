@@ -191,7 +191,7 @@ function wp_register_js() {
    
     wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/_/js/bootstrap.js' );
     wp_enqueue_script('bootstrap-js');
-    
+    	
     //Currently this script is only working when added in the footer -- look into this
     /*wp_register_script( 'myscript-js', get_template_directory_uri() . '/_/js/myscript.js' );
     wp_enqueue_script('myscript-js');*/
@@ -204,12 +204,12 @@ add_action( 'wp_enqueue_scripts', 'wp_register_js', 'wp_register_css' );
 function wp_register_css() {
 
 	//Loads Bootstrap
-	wp_register_style( 'bootstrap', get_template_directory_uri() . '/_/css/bootstrap.css' );
-    wp_enqueue_style( 'bootstrap' );
+	//wp_register_style( 'bootstrap', get_template_directory_uri() . '/_/css/bootstrap.css' );
+    //wp_enqueue_style( 'bootstrap' );
     
     //Loads Main Stylesheet HEADER 2
-    wp_register_style( 'mystyles', get_template_directory_uri() . '/_/css/mystyles.css' );
-    wp_enqueue_style( 'mystyles' );
+    //wp_register_style( 'mystyles', get_template_directory_uri() . '/_/css/mystyles.css' );
+    //wp_enqueue_style( 'mystyles' );
     
     //Loads IE8 conditional stylesheet
     wp_register_style( 'ie8-down', get_template_directory_uri() . '/_/css/mystyles_ie8_down.css' );

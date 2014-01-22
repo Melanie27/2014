@@ -14,7 +14,7 @@ add_action( 'save_post', 'add_committee_member_fields', 10, 2 );
 add_filter( 'template_include', 'include_template_function_ec', 1 );
 
 function create_executive_committee() {
-    register_post_type( 'vision-leadership',
+    register_post_type( 'executive_committee',
         array(
             'labels' => array(
                 'name' => 'Executive Committee',
@@ -46,7 +46,7 @@ function my_admin_executive_committee() {
     add_meta_box( 'executive_committee_meta_box',
         'Committee Member Details',
         'display_executive_committee_meta_box',
-        'vision-leadership', 'normal', 'high'
+        'executive_committee', 'normal', 'high'
     );
 }
 ?>
@@ -67,7 +67,7 @@ function display_executive_committee_meta_box( $committee_member ) {
 <?php
 function add_committee_member_fields( $committee_member_id, $committee_member ) {
     // Check post type for movie reviews
-    if ( $committee_member->post_type == 'vision-leadership' ) {
+    if ( $committee_member->post_type == 'executive_committee' ) {
         // Store data in post meta table if present in post data
         if ( isset( $_POST['committee_title_name'] ) && $_POST['committee_title_name'] != '' ) {
             update_post_meta( $committee_member_id, 'committee_title', $_POST['committee_title_name'] );
@@ -77,7 +77,7 @@ function add_committee_member_fields( $committee_member_id, $committee_member ) 
 ?>
 <?php
 function include_template_function_ec( $template_path ) {
-    if ( get_post_type() == 'vision-leadership' ) {
+    if ( get_post_type() == 'executive_committee' ) {
         if ( is_single() ) {
             // checks if the file exists in the theme first,
             // otherwise serve the file from the plugin

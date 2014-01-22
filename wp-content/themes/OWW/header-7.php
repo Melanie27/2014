@@ -6,8 +6,9 @@
      <title><?php include (TEMPLATEPATH . '/_/components/php/title.php'); ?></title>
      <meta name="description" content="">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
+ 
+	 <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_news.css" rel="stylesheet" media="screen">
      
    

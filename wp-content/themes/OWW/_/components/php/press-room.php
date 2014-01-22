@@ -12,7 +12,7 @@
 														<h1 class="hidden-xs hidden-sm">Press Room</h1>	
 														<section class="latest-releases">
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
-															<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>																		
+															<?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>																		
 														</section><!--Latest Releases-->
 														<div class="clearfix"></div>
 															<?php include (TEMPLATEPATH . '/_/components/php/recent-releases.php'); ?>	

@@ -14,17 +14,18 @@
 															<h1 class="hidden-sm hidden-xs">Awards and Honors</h1>
 																<div class="row">
 																	<section class="col-md-11">
+																	<?php $awards = new WP_Query('post_type=awards&posts_per_page=5');?>
 																		<ul class="list-unstyled">
-																			<li>Lorem Ipsum Dolore Sit Amet</li>
-																			<li>Headline Lorem Ipsum Dolore Sit Amet Oakwood Worldwide Profits</li>
-																			<li>Headline Lorem Ipsum</li>
-																			<li>Award Lorem Ipsum Dolore Headline Oakwood Worldwide Title</li>
+																		<?php query_posts('post_type=awards'); while ($awards->have_posts()): $awards->the_post(); ?>
+																			<li><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'award_blurb', true ) ); ?></a></li>
+																			<?php endwhile; ?>
+																		<?php wp_reset_query(); ?>
 																		</ul>
 																	</section>
 																</div>		
 																<div class="row archives">
 																	<div class="col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-																		<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/news/awards/">VIEW AWARDS</a>
+																		<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/awards/">VIEW AWARDS</a>
 																	</div>
 																</div>
 															</section><!--Awards and Honors-->

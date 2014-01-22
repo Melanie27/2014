@@ -56,6 +56,7 @@ function display_in_the_news_meta_box( $in_the_news ) {
     $article_link = esc_html( get_post_meta( $in_the_news->ID, 'article_link', true ) );
     $source_name = esc_html( get_post_meta( $in_the_news->ID, 'source_name', true ) );
     $article_subhead = esc_html( get_post_meta( $in_the_news->ID, 'article_subhead', true ) );
+    $in_the_news_blurb = esc_html( get_post_meta( $in_the_news->ID, 'in_the_news_blurb', true ) );
     
     ?>
     <table>
@@ -70,6 +71,10 @@ function display_in_the_news_meta_box( $in_the_news ) {
         <tr>
             <td style="width: 100%">Article Subhead</td>
             <td><input type="text" size="80" name="article_subhead_name" value="<?php echo $article_subhead; ?>" /></td>
+        </tr>
+         <tr>
+            <td style="width: 100%">Blurb</td>
+            <td><input type="text" size="80" name="in_the_news_blurb_name" value="<?php echo $in_the_news_blurb; ?>" /></td>
         </tr>
         
     </table>
@@ -89,6 +94,9 @@ function add_in_the_news_fields( $in_the_news_id, $in_the_news ) {
         }
         if ( isset( $_POST['article_subhead_name'] ) && $_POST['article_subhead_name'] != '' ) {
             update_post_meta( $in_the_news_id, 'article_subhead', $_POST['article_subhead_name'] );
+        }
+        if ( isset( $_POST['in_the_news_blurb_name'] ) && $_POST['in_the_news_blurb_name'] != '' ) {
+            update_post_meta( $in_the_news_id, 'in_the_news_blurb', $_POST['in_the_news_blurb_name'] );
         }
     }
 }

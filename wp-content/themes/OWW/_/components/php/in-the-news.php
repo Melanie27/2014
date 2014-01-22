@@ -12,24 +12,13 @@
 														<h1 class="hidden-xs hidden-sm">In the News</h1>		
 														<section class="latest-releases">
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
-															<ul class="news-thumbnails">
-																<li class="clearfix">
-																	<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/in-news-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																	<p class="date">Oct 5, 2013</p>
-																	<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-																</li>
-																<li class="clearfix">		
-																	<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/in-news-tb-02.jpg" alt="Press Room 2" class="pull-left">
-																	<p class="date">Oct 5, 2013</p>
-																	<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-																</li>	
-															</ul>
+															<?php include (TEMPLATEPATH . '/_/components/php/in-the-news-thumbs.php'); ?>
 														</section><!--Latest Releases-->
 														<div class="clearfix"></div>
 															<?php include (TEMPLATEPATH . '/_/components/php/recent-releases.php'); ?>	
 															<div class="row archives">
 																<div class="col-lg-9 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-																	<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/news/in-the-news/">See All</a>
+																	<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/in_the_news/">See All</a>
 																</div>
 															</div>
 														</div><!--panel body-->

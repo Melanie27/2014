@@ -1,34 +1,21 @@
-											<div class="col-md-6 col-sm-6">	
-												<ul class="news-thumbnails events">
-													<li class="clearfix">
-														<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/upcoming-events-tb-01.jpg" alt="Upcoming Events 1" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+											<div class="col-lg-12 col-md-6 col-sm-6">	
+											<?php $events = new WP_Query('post_type=events&posts_per_page=4');?>
+												<ul class="news-thumbnails events" style="display:inline-block;">
+												<?php query_posts('post_type=events'); while ($events->have_posts()): $events->the_post(); ?>	
+													<li class="clearfix pull-left">
+														<?php the_post_thumbnail('herosize'); ?>
+														<p class="date"><?php the_date();?></p>
+														<p class="headline"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'event_blurb', true ) ); ?></a></p>
 													</li>
-													<li class="clearfix">
-														<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/upcoming-events-tb-02.jpg" alt="In the News 2" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>		
+													<?php endwhile; ?>
+													<?php wp_reset_query(); ?>
+														
 												</ul>	
 											</div>
 											<div class="hidden-lg hidden-md hidden-sm">
 												 <?php include (TEMPLATEPATH . '/_/components/php/btn-all-events.php'); ?>	
 											</div>
-											<div class="col-md-6 col-sm-6 hidden-xs">
-												<ul class="news-thumbnails events">
-													<li class="clearfix">
-														<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/upcoming-events-tb-01.jpg" alt="Upcoming Events 1" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>
-													<li class="clearfix">
-														<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/upcoming-events-tb-02.jpg" alt="In the News 2" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>		
-												</ul>
-											</div>			
+											
 												
 												
 												

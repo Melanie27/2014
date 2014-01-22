@@ -167,7 +167,7 @@ var pathnameNews = window.location.pathname;
 
 //Awards Archives 
 
- 	if(window.location.href.indexOf("emmas") > -1) {
+ 	if(window.location.href.indexOf("emmas") > -1)   {
       
        $('.EMMAs').addClass('active');
     }
@@ -177,7 +177,7 @@ var pathnameNews = window.location.pathname;
 	    $('.Cartus').addClass('active');
     }
     
-     else if(window.location.href.indexOf("all") > -1) {
+     else if(window.location.href.indexOf("all") > -1 || window.location.href.indexOf("awards") > -1 ) {
 	    
 	    $('.All').addClass('active');
     }

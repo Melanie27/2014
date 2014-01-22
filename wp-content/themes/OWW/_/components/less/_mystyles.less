@@ -246,6 +246,79 @@ sup {
 	
 }
 
+.page-numbers {
+	
+	border:solid 1px @oww-border;
+	padding:10px;
+	margin:0px;
+}
+
+a.page-numbers:link, a.page-numbers:visited {
+	
+	color:@oww-poppy;
+	font-size:14px;
+	font-family: @district-bold;
+	padding:10px;
+}
+
+a.page-numbers:hover, a.page-numbers:active {
+	
+	color:@oww-poppy;
+	text-decoration:underline;
+	background-color:@oww-border;
+	
+}
+
+.page-numbers.current {
+	
+	text-decoration:underline;
+	color:white;
+	background-color:@oww-poppy;
+	
+}
+
+
+.archive-pagination {
+	
+	
+	margin-bottom:45px;
+	
+}
+
+.col-lg-6.archive-pagination {
+	
+	padding:25px 60px;
+}
+
+a.page-numbers.next:link, a.page-numbers.next:visited {
+	
+	background-image: url(../../images/news/news-arrow-right.png);
+	width:15px;
+	height:15px;
+	background-repeat:no-repeat;
+	position: absolute;
+	top: 40%;
+	left: 42%;
+	color: transparent;
+	border:none;
+	
+}
+
+a.page-numbers.prev:link, a.page-numbers.prev:visited {
+	
+	background-image: url(../../images/news/news-arrow-left.png);
+	width:15px;
+	height:15px;
+	background-repeat:no-repeat;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	border:none;
+	color: transparent;
+	
+}
+
+
 .orange-link:link, .orange-link:visited {
 	
 	text-transform:uppercase;
@@ -282,6 +355,11 @@ sup {
 
 }
 
+a.active:link, a.active:visited {
+	
+	color:@oww-poppy !important;
+}
+
 a.grey-links:link, a.grey-links:visited {
 	
 	color:@oww-dark-gray;
@@ -299,6 +377,11 @@ a.active:link, a.active:visited {
 }
 
 .attachment-herosize {
+	
+	float:left;
+}
+
+.attachment-leadershipsize {
 	
 	float:left;
 }
@@ -810,8 +893,18 @@ p.consult-desc {
 	
 		color:@oww-dark-gray;
 	}
+	
+	
 }
 
+
+.news-thumbnails.events {
+	
+	li {
+		
+		width:50%;
+	}
+}
 
 .insights {
 	
@@ -991,7 +1084,7 @@ p.caption {
 
 .first-third-one-third {
 	
-	border-right:solid 1px @oww-border;
+	border-right:none;
 	padding-bottom:47px;
 	
 	
@@ -1782,6 +1875,12 @@ footer {
 		padding:35px 30px 35px 30px;
 			
 	}
+	
+	.over2a {
+		
+		padding-bottom:45px;
+		padding-top:10px;
+	}
 
 	.hero-halves {
 	
@@ -1806,6 +1905,7 @@ footer {
 	.leaders {
 	
 		padding-left:40px;
+		border-left: solid 1px @oww-border;
 	
 	}
 
@@ -1887,6 +1987,7 @@ footer {
 			li {
 		
 				list-style-type:none;
+				width:50%;
 			
 			}
 	
@@ -2714,13 +2815,18 @@ footer {
 						font-size:12px;
 					
 					}
+					
+					li {
+						
+						width:100%;
+					}
 				
 			}
 				
 			h1 {
 					
 				margin-bottom:0px;
-				margin-top:20px;
+				margin-top:0px;
 				padding-top:30px;
 				padding-bottom:25px;
 				border-right:none;
@@ -3155,6 +3261,7 @@ footer {
 		
 			padding-left:15px;
 			padding-bottom:25px;
+			
 		
 		
 			.blurb {

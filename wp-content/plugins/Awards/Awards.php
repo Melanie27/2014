@@ -14,6 +14,7 @@ add_action( 'admin_init', 'my_admin_award' );
 add_action( 'save_post', 'add_award_fields', 10, 2 );
 add_filter( 'template_include', 'include_template_function_aw', 1 );
 add_action( 'init', 'create_my_taxonomies_aw', 0 );
+add_action( 'init', 'create_my_taxonomies_aw_year', 0 );
 
 
 
@@ -56,27 +57,19 @@ function my_admin_award() {
 <?php
 function display_award_meta_box( $award ) {
     // Retrieve current name of the Director and Movie Rating based on review ID
-    $award_director = esc_html( get_post_meta( $award->ID, 'award_director', true ) );
-    $award_rating = intval( get_post_meta( $award->ID, 'award_rating', true ) );
+    $award_press_release = esc_html( get_post_meta( $award->ID, 'award_press_release', true ) );
+    $award_blurb = esc_html( get_post_meta( $award->ID, 'award_blurb', true ) );
     ?>
     <table>
         <tr>
-            <td style="width: 100%">Movie Director</td>
-            <td><input type="text" size="80" name="award_director_name" value="<?php echo $award_director; ?>" /></td>
+            <td style="width: 100%">Press Release Link</td>
+            <td><input type="text" size="80" name="award_press_release_name" value="<?php echo $award_press_release; ?>" /></td>
         </tr>
         <tr>
-            <td style="width: 150px">Movie Rating</td>
-            <td>
-                <select style="width: 100px" name="award_rating">
-                <?php
-                // Generate all items of drop-down list
-                for ( $rating = 5; $rating >= 1; $rating -- ) {
-                ?>
-                    <option value="<?php echo $rating; ?>" <?php echo selected( $rating, $award_rating ); ?>>
-                    <?php echo $rating; ?> stars <?php } ?>
-                </select>
-            </td>
+            <td style="width: 100%">Award Blurb</td>
+            <td><input type="text" size="80" name="award_blurb_name" value="<?php echo $award_blurb; ?>" /></td>
         </tr>
+        
     </table>
     <?php
 }
@@ -86,11 +79,11 @@ function add_award_fields( $award_id, $award ) {
     // Check post type for movie reviews
     if ( $award->post_type == 'awards' ) {
         // Store data in post meta table if present in post data
-        if ( isset( $_POST['award_director_name'] ) && $_POST['award_director_name'] != '' ) {
-            update_post_meta( $award_id, 'award_director', $_POST['award_director_name'] );
+        if ( isset( $_POST['award_press_release_name'] ) && $_POST['award_press_release_name'] != '' ) {
+            update_post_meta( $award_id, 'award_press_release', $_POST['award_press_release_name'] );
         }
-        if ( isset( $_POST['award_rating'] ) && $_POST['award_rating'] != '' ) {
-            update_post_meta( $award_id, 'award_rating', $_POST['award_rating'] );
+        if ( isset( $_POST['award_blurb_name'] ) && $_POST['award_blurb_name'] != '' ) {
+            update_post_meta( $award_id, 'award_blurb', $_POST['award_blurb_name'] );
         }
     }
 }
@@ -129,6 +122,24 @@ function create_my_taxonomies_aw() {
                 'name' => 'Award Type',
                 'add_new_item' => 'Add New Award Type',
                 'new_item_name' => "New Award Type"
+            ),
+            'show_ui' => true,
+            'show_tagcloud' => false,
+            'hierarchical' => true
+        )
+    );
+}
+?>
+<?php
+function create_my_taxonomies_aw_year() {
+    register_taxonomy(
+        'awards_years',
+        'awards',
+        array(
+            'labels' => array(
+                'name' => 'Award Year',
+                'add_new_item' => 'Add New Award Year',
+                'new_item_name' => "New Award Year"
             ),
             'show_ui' => true,
             'show_tagcloud' => false,
