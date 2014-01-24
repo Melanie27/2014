@@ -61,19 +61,19 @@ get_header(7); ?>
 									</section>
 								</div><!--row-->
 							</section><!--three-->
-						<section class="content row">
-						<div class="col-lg-12">
-							<section class="four hidden-sm hidden-xs">
-							</section>
-						</div>
-					</section><!--content 4-->			
-					<hr />
-					<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>				
-					<hr />
-				</div>
-        </article>
-    <?php endwhile; ?>
-    </div>
-</div>
+							<section class="content row">
+								<div class="col-lg-12">
+									<section class="four hidden-sm hidden-xs">
+									</section>
+								</div>
+							</section><!--content 4-->			
+							<hr />
+							<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>				
+							<hr />
+						</div><!--entry-content-->
+					</article>
+				<?php endwhile; ?>
+			</div>
+		</div>
 <?php wp_reset_query(); ?>
 <?php get_footer(); ?>

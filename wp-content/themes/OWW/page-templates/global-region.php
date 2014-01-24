@@ -23,7 +23,7 @@ get_header(3); ?>
 							</div>
 						</section>		
 					</div><!--heading-->		
-					<?php include (TEMPLATEPATH . '/_/components/php/hero.php'); ?>
+					
 		  		</section> <!--two container-->	
 		  		<section class="three container">
 					<div class="row intro-regional">

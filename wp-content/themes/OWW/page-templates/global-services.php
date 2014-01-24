@@ -23,8 +23,8 @@
 							<h1 class="entry-title"><?php the_title(); ?></h1>									
 						</div>
 					</section>		
-				</div><!--heading-->		
-				<?php include "_/components/php/hero.php"; ?>
+				</div><!--heading-->	
+				
 		  	</section> <!--two-->	
 			<section class="three container">
 				<div class="row">

@@ -2,7 +2,7 @@
 /*
 Plugin Name: In The News
 Plugin URI: http://oakwoodworldwide.com/
-Description: Declares a plugin that will create a custom post type displaying Oakwood Worldwide articles in the news.
+Description: Declares a plugin that will create a custom post type displaying OWW articles in the news.
 Version: 1.0
 Author: Melanie McGanney
 Author URI: http://wp.tutsplus.com/
@@ -34,10 +34,9 @@ function create_in_the_news() {
             ),
  
             'public' => true,
-            'menu_position' => 15,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( '' ),
-            'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
+            'menu_icon' => plugins_url( 'oww-dashboard.png', __FILE__ ),
             'has_archive' => true
         )
     );

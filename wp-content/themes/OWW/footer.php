@@ -9,7 +9,6 @@
  * @since Twenty Thirteen 1.0
  */
 ?>
-
 	<section class="container">	
 		<div class="row">
 			<footer class="col-lg-12 col-md-12">	
@@ -52,59 +51,55 @@
 					<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 no-left-mobile">
 						<div class="row border">
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links">
-								<h5><a href="global-expertise.php">Global Expertise</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/global-expertise/">Global Expertise</a></h5>
 									<ul class="footer-lists footer-global">
 										<div class="row">
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="global-reach.php">Global Scale and Inventory</a></li>
-												<li><a href="client-services.php">Client Services</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/global-expertise/global-scale-and-inventory/">Global Scale and Inventory</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/global-expertise/client-services/">Client Services</a></li>
 											</section>
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="technologies.php">Technologies</a></li>
-												<li><a href="safety-security.php">Safety & Security</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/global-expertise/technologies/">Technologies</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/global-expertise/safety-security/">Safety & Security</a></li>
 											</section>
 										</div>
 									</ul>
 							</section>		
 							<hr class="hidden-lg hidden-md hidden-sm">					
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links">
-								<h5><a href="business-solutions.php">Business Solutions</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/business-solutions/">Business Solutions</a></h5>
 									<ul class="footer-lists" id="footer-industry">
 										<div class="row">
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="individual-business-traveler.php">Individual Business Traveler</a></li>
-												<li><a href="government.php">Government</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/individual-business-traveler/">Individual Business Traveler</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/government/">Government</a></li>
 											</section>
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">	
-												<li><a href="entertainment.php">Entertainment</a></li>
-												<li><a href="relocation.php">Relocation</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/entertainment/">Entertainment</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/relocation/">Relocation</a></li>
 											</section>
 										</div>	
 									</ul>	
 							</section>
 							<hr class="hidden-lg hidden-md hidden-sm">
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links">
-								<h5><a href="vision-leadership.php">Vision & Leadership</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/executive_committee/">Vision & Leadership</a></h5>
 									<ul class="footer-lists" id="footer-vision">
-										<div class="row">
-											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="executive-committee.php">Executive Committee</a></li>
-											</section>
-										</div>	
+										
 									</ul>	
 							</section>
 							<hr class="hidden-lg hidden-md hidden-sm">
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links">
-								<h5><a href="news.php">News</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/news/">News</a></h5>
 									<ul class="footer-lists" id="footer-news">
 										<div class="row">
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="press-releases.php">Press Releases</a></li>
-												<li><a href="in-the-news.php">In The News</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/press_releases/">Press Releases</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/in_the_news/">In The News</a></li>
 											</section>
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="awards.php">Awards</a></li>
-												<li><a href="upcoming-events.php">Events</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/awards/">Awards</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/events/">Events</a></li>
 											</section>
 										</div>
 									</ul>
@@ -115,14 +110,14 @@
 					<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 no-left-mobile">
 						<div class="row border">
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links bottom">
-								<h5><a href="affiliations.php">Affiliations</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/affiliations/">Affiliations</a></h5>
 									<ul class="footer-lists footer-global">
 																				
 									</ul>
 							</section>				
 							<hr class="hidden-lg hidden-md hidden-sm">	
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links bottom">
-								<h5><a href="careers.php">Careers</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/careers/">Careers</a></h5>
 								<ul class="footer-lists footer-global">
 									<div class="row">
 										<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
@@ -139,7 +134,7 @@
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
 												<li><a href="#">Terms of Use</a></li>
 											</section>
-											<section class="col-lg-12 col-md-12 col-xs-12">
+											<section class="col-lg-12 col-md-12 col-xs-12 col-xs-6">
 												<li><a href="#">Privacy Policy</a></li>
 											</section>
 										</div>

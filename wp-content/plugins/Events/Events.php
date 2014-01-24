@@ -34,10 +34,9 @@ function create_event() {
             ),
  
             'public' => true,
-            'menu_position' => 15,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( '' ),
-            'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
+            'menu_icon' => plugins_url( 'oww-dashboard.png', __FILE__ ),
             'has_archive' => true
         )
     );

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Awards
 Plugin URI: http://oakwoodworldwide.com/
-Description: Declares a plugin that will create a custom post type displaying Oakwood Worldwide's Awards
+Description: Declares a plugin that will create a custom post type displaying OWW Awards
 Version: 1.0
 Author: Melanie McGanney
 Author URI: http:melaniemcganney.com/
@@ -38,10 +38,9 @@ function create_award() {
             ),
  
             'public' => true,
-            'menu_position' => 15,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( '' ),
-            'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
+            'menu_icon' => plugins_url( 'oww-dashboard.png', __FILE__ ),
             'has_archive' => true
         )
     );
