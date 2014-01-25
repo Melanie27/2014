@@ -46,7 +46,7 @@
 						<section class="col-lg- col-md-4 col-sm-12 col-xs-12 no-right-padding">
 							<div class="solutions promo-video">
 								<a href="#" class="industry-sections">
-									<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/video-promo.jpg" alt="video-promo" class="img-responsive">	
+									,<!--<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/video-promo.jpg" alt="video-promo" class="img-responsive">-->	
 									<header class="industries">
 										<h3>Promo Video Title Lorem Ipsum Dolore Sit Amet</h3>
 										<div class="clearfix"></div>

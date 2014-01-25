@@ -46,8 +46,8 @@
 															</section>
 															<section class="col-lg-8 col-md-7 col-sm-8 press-text">
 																<h2><?php the_title(); ?></h2>
-																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></</p>
-																<p class="full-story "><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
+																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'event_description', true ) ); ?></</p>
+																<!--<p class="full-story "><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>-->	
 															</section>
 															<div class="clearfix"></div>				
 														</li>

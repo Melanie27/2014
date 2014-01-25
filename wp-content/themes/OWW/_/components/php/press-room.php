@@ -18,7 +18,7 @@
 															<?php include (TEMPLATEPATH . '/_/components/php/recent-releases.php'); ?>	
 														<div class="row archives">
 															<div class="col-lg-9 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-																<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/news/press-releases/">See All</a>
+																<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/press_releases/">See All</a>
 															</div>
 														</div>
 													</div><!--panel body-->

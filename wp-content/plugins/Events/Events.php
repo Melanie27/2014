@@ -54,6 +54,7 @@ function display_event_meta_box( $event ) {
     // Retrieve current name of the Director and Movie Rating based on review ID
     $event_location = esc_html( get_post_meta( $event->ID, 'event_location', true ) );
     $event_blurb = esc_html( get_post_meta( $event->ID, 'event_blurb', true ) );
+    $event_description = esc_html( get_post_meta( $event->ID, 'event_description', true ) );
     ?>
     <table>
         <tr>
@@ -63,6 +64,10 @@ function display_event_meta_box( $event ) {
         <tr>
             <td style="width: 100%">Event Blurb</td>
             <td><input type="text" size="80" name="event_blurb_name" value="<?php echo $event_blurb; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width: 100%">Event Description</td>
+            <td><input type="text" size="80" name="event_description_name" value="<?php echo $event_description; ?>" /></td>
         </tr>
     </table>
     <?php
@@ -78,6 +83,9 @@ function add_event_fields( $event_id, $event ) {
         }
         if ( isset( $_POST['event_blurb_name'] ) && $_POST['event_blurb_name'] != '' ) {
             update_post_meta( $event_id, 'event_blurb', $_POST['event_blurb_name'] );
+        }
+        if ( isset( $_POST['event_description_name'] ) && $_POST['event_description_name'] != '' ) {
+            update_post_meta( $event_id, 'event_description', $_POST['event_description_name'] );
         }
     }
 }

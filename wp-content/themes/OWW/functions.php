@@ -24,6 +24,10 @@
  */
 
 
+/*Custom Fields for Specific Page Templates*/
+
+
+
 /*Set default thumbnail size for OWW archive pages*/
  
 /*set_post_thumbnail_size( 195, 120 ); // 100 pixels wide by 100 pixels tall, box resize mode*/
@@ -127,6 +131,7 @@ function twentythirteen_setup() {
 	add_image_size( 'leadershipsize', 75, 120, true );
 	add_image_size( 'newssize', 195, 122, true );
 	add_image_size( 'herosize', 120, 75, true );
+	add_image_size( 'carouselsize', 350, 230, true );
 
 	// This theme uses its own gallery styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );

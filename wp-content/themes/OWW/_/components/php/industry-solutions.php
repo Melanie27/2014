@@ -27,7 +27,6 @@
 																	));
 																	
 																	?>
-																	
 																	<?php query_posts('post_type=case_studies'); while ($case_studies->have_posts()): $case_studies->the_post(); ?>
 																<p class="headline"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'case_study_blurb', true ) ); ?></a></p>			
 																<?php endwhile; ?>
@@ -44,7 +43,6 @@
 																	));
 																	
 																	?>
-																
 																<?php query_posts('post_type=white_papers'); while ($white_papers->have_posts()): $white_papers->the_post(); ?>
 																<p class="headline"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'white_paper_blurb', true ) ); ?></a></p>			
 																<?php endwhile; ?>
@@ -72,10 +70,8 @@
 																	'post_type' => 'case_studies',
 																	'posts_per_page' => '1',
 																	'meta_key' => 'case_study_industry',
-																	'meta_value' => 'government'
-																	
-																	));
-																	
+																	'meta_value' => 'government'																	
+																	));																	
 																	?>
 																	
 																	<?php query_posts('post_type=case_studies'); while ($case_studies->have_posts()): $case_studies->the_post(); ?>
@@ -91,9 +87,7 @@
 																	'posts_per_page' => '1',
 																	'meta_key' => 'white_paper_industry',
 																	'meta_value' => 'government'
-																	
 																	));
-																	
 																	?>
 																
 																<?php query_posts('post_type=white_papers'); while ($white_papers->have_posts()): $white_papers->the_post(); ?>
@@ -127,13 +121,13 @@
 																	
 																	));
 																	
-																	?>
-																	
+																	?>																	
 																	<?php query_posts('post_type=case_studies'); while ($case_studies->have_posts()): $case_studies->the_post(); ?>
-																<p class="headline"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'case_study_blurb', true ) ); ?></a></p>			
+																<p class="headline">
+																	<a href="<?php the_permalink(); ?>">
+																	<?php echo esc_html( get_post_meta( get_the_ID(), 'case_study_blurb', true ) ); ?></a></p>			
 																<?php endwhile; ?>
 																<?php wp_reset_query(); ?>
-
 															</section>
 															<section class="col-lg-6 col-md-6">
 																<h4>Whitepaper</h4>
@@ -142,10 +136,8 @@
 																	'posts_per_page' => '1',
 																	'meta_key' => 'white_paper_industry',
 																	'meta_value' => 'entertainment'
-																	
 																	));
-																	
-																	?>
+																?>
 																
 																<?php query_posts('post_type=white_papers'); while ($white_papers->have_posts()): $white_papers->the_post(); ?>
 																<p class="headline"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'white_paper_blurb', true ) ); ?></a></p>			
@@ -202,9 +194,7 @@
 																	'meta_value' => 'relocation'
 																	
 																	));
-																	
-																	?>
-																
+																?>
 																<?php query_posts('post_type=white_papers'); while ($white_papers->have_posts()): $white_papers->the_post(); ?>
 																<p class="headline"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'white_paper_blurb', true ) ); ?></a></p>			
 																<?php endwhile; ?>
@@ -218,8 +208,7 @@
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/affiliations-fpo.jpg" alt="affiliations-fpo" class="img-responsive hidden-xs" />
 												<h2>Headline Directing People to Check Out the Industry Afflications Page</h2>
 												<p>Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.Lorem ipsum in dui mauris. Vivamus hendrerit.</p>
-												<a href="<?php bloginfo( 'template_directory' ); ?>/affiliations/" class="orange-link">Call to action &#8594</a>
-												
+												<a href="<?php bloginfo( 'url' ); ?>/affiliations/" class="orange-link">Call to action &#8594</a>	
 											</section><!--Industry Affiliations Section-->
 										</div><!--end nested row-->
 									</section>

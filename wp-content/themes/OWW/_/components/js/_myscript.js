@@ -95,9 +95,15 @@ $('.panel-heading-business a ').each(function (index) {
 $('.current-menu-parent, .current-page-ancestor, .current-menu-ancestor' ).addClass('active');
 
 $('.current-menu-ancestor' ).addClass('active');
+$("#affiliations a:contains('Affiliations')").addClass('active');
+$("#industry-affiliations a:contains('Affiliations')").addClass('active');
+$("#in-the-news a:contains('News')").addClass('active');
+$("#awards a:contains('News')").addClass('active');
+
+
+
 /*News Subnavigation*/
 $("#press-releases a:contains('Press Releases')").addClass('active');
-
 $("#press-releases-single a:contains('Press Releases')").addClass('active');
 $("#in-the-news a:contains('In the News')").addClass('active');
 $("#in-the-news-single a:contains('In the News')").addClass('active');
@@ -194,6 +200,70 @@ if ( $("#industry-insights-relocation a:contains('Business Solutions')") ) {
 	$('.solutions-industry #relocation').addClass('active');
 	$('.solutions-industry #government').removeClass('active');
 }
+
+
+//Events Archive
+
+if(window.location.href.indexOf("january") > -1)   {
+      
+       $('.January').addClass('active');
+    } 
+    
+    else if (window.location.href.indexOf("february") > -1)   {
+      
+       $('.February').addClass('active');
+    } 
+    
+    else if (window.location.href.indexOf("march") > -1)   {
+      
+       $('.March').addClass('active');
+    } 
+
+    
+    else if(window.location.href.indexOf("april") > -1)   {
+      
+       $('.April').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("may") > -1)   {
+      
+       $('.May').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("june") > -1)   {
+      
+       $('.June').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("july") > -1)   {
+      
+       $('.July').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("august") > -1)   {
+      
+       $('.August').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("september") > -1)   {
+      
+       $('.September').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("october") > -1)   {
+      
+       $('.October').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("november") > -1)   {
+      
+       $('.November').addClass('active');
+    }
+    
+    else if(window.location.href.indexOf("december") > -1)   {
+      
+       $('.December').addClass('active');
+    }
 
 /*Scroll to Sections on Government Page*/
 	
