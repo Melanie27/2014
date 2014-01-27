@@ -32,6 +32,18 @@ function create_press_release() {
                 'not_found_in_trash' => 'No Press Releases found in Trash',
                 'parent' => 'Parent Press Release'
             ),
+            
+            'capabilities' => array(
+				'publish_posts' => 'write',
+				'edit_posts' => 'read',
+				'edit_others_posts' => 'edit_others_posts',
+				'delete_posts' => 'delete_posts',
+				'delete_others_posts' => 'delete_others_posts',
+				'read_private_posts' => 'read',
+				'edit_post' => 'read',
+				'delete_post' => 'read',
+				'read_post' => 'read',
+			),
  
             'public' => true,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),

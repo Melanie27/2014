@@ -16,7 +16,7 @@ function create_carousel_image() {
     register_post_type( 'carousel_images',
         array(
             'labels' => array(
-                'name' => 'Carousel Images',
+                'name' => 'Home Page Carousel',
                 'singular_name' => 'Carousel Image',
                 'add_new' => 'Add New',
                 'add_new_item' => 'Add New Carousel Image',
@@ -67,7 +67,7 @@ function display_carousel_image_meta_box( $carousel_image ) {
             <td><input type="text" size="80" name="carousel_image_photo_name" value="<?php echo $carousel_image_photo; ?>" /></td>
         </tr>
         <tr>
-            <td style="width: 100%">Image Position (1, 2 or 3)</td>
+            <td style="width: 100%">Slide Number (1, 2 or 3)</td>
             <td><input type="text" size="80" name="carousel_image_position_name" value="<?php echo $carousel_image_position; ?>" /></td>
         </tr>
      </table>
@@ -91,4 +91,3 @@ function add_carousel_image_fields( $carousel_image_id, $carousel_image ) {
     }
 }
 ?>
-

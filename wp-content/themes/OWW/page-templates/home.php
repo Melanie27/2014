@@ -144,7 +144,7 @@
 				<div class="row carousel-heading">
 					<section class="col-lg-12 col-md-12 ">
 						<h1>Promotions</h1>
-						 <?php include (TEMPLATEPATH . '/_/components/php/carousel-emea.php'); ?>	
+						 <?php include (TEMPLATEPATH . '/_/components/php/carousel.php'); ?>	
 					</section>
 				</div>
 			</section><!--end five-->	

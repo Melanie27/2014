@@ -4,14 +4,34 @@
 									<!-- Wrapper for slides -->
 										<div class="carousel-inner">
 											<div class="item active">
-												<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/awards/awards-slider-01.jpg" class="img-responsive">
+												<?php $carousel_awards = new WP_Query( array(
+														'post_type' => 'carousel_awards',
+														'posts_per_page' => '1',
+														'meta_key' => 'carousel_award_position',
+														'meta_value' => '1'			
+													));?>
+													<?php query_posts('post_type=carousel_awards'); while ($carousel_awards->have_posts()): $carousel_awards->the_post(); ?>
+												<?php the_post_thumbnail(''); ?>
+												<?php endwhile; ?>
+												<?php wp_reset_query(); ?> 
 											</div>
-											<div class="item">
-												<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/awards/awards-slider-01.jpg" class="img-responsive">
-											</div>	
-											<div class="item">
-												<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/awards/awards-slider-01.jpg" class="img-responsive">
-											</div>
+
+												<?php $carousel_awards = new WP_Query( array(
+														'post_type' => 'carousel_awards',
+														'posts_per_page' => '10',
+														'meta_key' => 'carousel_award_position',
+														'meta_value' => '2'			
+													));?>
+													<?php query_posts('post_type=carousel_awards'); while ($carousel_awards->have_posts()): $carousel_awards->the_post(); ?>
+													
+													<?php for ($i = 0; $i < 1; $i++) {
+														 echo '<div class="item">';
+														 	the_post_thumbnail('');
+														 echo '</div>';
+														 
+													}?>
+												<?php endwhile; ?>
+												<?php wp_reset_query(); ?> 
 										</div><!--end carousel inner-->
 										<!-- Controls -->
 										<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">

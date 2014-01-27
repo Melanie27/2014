@@ -72,7 +72,10 @@
 													</div>
 												</section><!--end two thirds-->
 																		
-											<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>												
+												<section class="col-lg-4 col-md-4"> 	
+													<?php include (TEMPLATEPATH . '/_/components/php/media-relations.php'); ?>
+												</section>
+																								
 											</div><!--end nested row-->
 										</section>
 									</div><!--row-->

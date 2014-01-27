@@ -3,64 +3,58 @@
 									<div id="carousel-example-generic" class="carousel slide">
 										<!-- Wrapper for slides -->
 										<div class="carousel-inner"> 
-											<!-- Slide -->
-											<div class="item active">
+													<div class="item active">
 												<div class="row">
-													<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-01.jpg" alt="military-01" class="img-responsive">
-														<div class="carousel-caption">
-															<h3>Buenos Aires</h3>
-														</div>
-													</div>
-													<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-02.jpg" alt="military-01" class="img-responsive">
-														<div class="carousel-caption">
-															<h3>Santiago</h3>
-														</div>
-													</div>
-													<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-03.jpg" alt="military-01" class="img-responsive">
-														<div class="carousel-caption">
-															<h3>Lima</h3>
-														</div>
-													</div>
-												</div><!--end row-->
-											</div><!--end item-->
-											<!-- Slide -->
+													<?php $sa_slides = new WP_Query( array(
+														'post_type' => 'sa_slides',
+														'posts_per_page' => '3',
+														'meta_key' => 'sa_slide_position',
+														'meta_value' => '1'			
+													));?>
+													<?php query_posts('post_type=sa_slides'); while ($sa_slides->have_posts()): $sa_slides->the_post(); ?>
+													<?php for ($i = 0; $i < 1; $i++) {													
+													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6">';
+														the_post_thumbnail('carouselsize');
+														echo '<div class="carousel-caption">';
+															echo '<h3>';
+																echo esc_html( get_post_meta( get_the_ID(), 'sa_slide_blurb', true ) );
+															echo '</h3>';
+														echo '</div>';
+
+													echo '</div>';
+
+													}?>
+													
+													<?php endwhile; ?>
+													<?php wp_reset_query(); ?> 													
+													</div><!--end row-->
+												</div><!--end item-->
+												
 											<div class="item">
 												<div class="row">
-													<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-01.jpg" alt="military-01" class="img-responsive">
-														<div class="carousel-caption">
-															<h3>Buenos Aires</h3>
-														</div>
-													</div>
-													<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-02.jpg" alt="military-01" class="img-responsive">
-														<div class="carousel-caption">
-															<h3>Santiago</h3>
-														</div>
-													</div>
-													<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-03.jpg" alt="military-01" class="img-responsive">
-														<div class="carousel-caption">
-															<h3>Lima</h3>
-														</div>
-													</div>
-												</div><!--end row-->
-											</div><!--end item-->
-											<!-- Slide -->
-												<div class="item">
-													<div class="row">
-														<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-01.jpg" alt="military-01" class="img-responsive">
-															<div class="carousel-caption">
-																<h3>Buenos Aires</h3>
-															</div>
-														</div>
-														<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-02.jpg" alt="military-01" class="img-responsive">
-															<div class="carousel-caption">
-																<h3>Santiago</h3>
-															</div>
-														</div>
-														<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/government/military-03.jpg" alt="military-01" class="img-responsive">
-															<div class="carousel-caption">
-																<h3>Lima</h3>
-															</div>
-														</div>
+													<?php $sa_slides = new WP_Query( array(
+														'post_type' => 'sa_slides',
+														'posts_per_page' => '3',
+														'meta_key' => 'sa_slide_position',
+														'meta_value' => '2'
+					
+													));?>
+													<?php query_posts('post_type=sa_slides'); while ($sa_slides->have_posts()): $sa_slides->the_post(); ?>
+													<?php for ($i = 0; $i < 1; $i++) {													
+													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6">';
+														the_post_thumbnail('carouselsize');
+														echo '<div class="carousel-caption">';
+															echo '<h3>';
+																echo esc_html( get_post_meta( get_the_ID(), 'sa_slide_blurb', true ) );
+															echo '</h3>';
+														echo '</div>';
+
+													echo '</div>';
+
+													}?>
+													
+													<?php endwhile; ?>
+													<?php wp_reset_query(); ?>
 													</div><!--end row-->
 												</div><!--end item-->
 											</div><!--end carousel-inner-->
