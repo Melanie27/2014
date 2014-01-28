@@ -7,7 +7,7 @@
  */
 
 get_header(3); ?>
-<body id="global-scale">
+<body id="careers">
   	<div class="container-full">
   		<section class="container landing">
 		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
@@ -26,74 +26,78 @@ get_header(3); ?>
 		  </section> <!--two container-->							
 		  <section class="three container">
 			<div class="row">
-				<section class="col-lg-12 col-md-12 global-intro">
-					<h1>Intro Placeholder Text</h1>
-					<h2>Placeholder. Wherever you need to go, Oakwood Worldwide is there.</h2>
-					<p>Placeholder body. Our goal is to find you the right option, in the right location, at the right price. Oakwood Worldwide does not own apartments outright, but governs an expansive global inventory consisting of franchisees and managed properties. Our exclusive network of suppliers gives us the flexibility on volume and location, providing our clients with more properties and cost options. Guests benefit from satisfaction standards with competitive provider system.</p>
+				<section class="col-lg-12 col-md-12 career-intro">
+					<h1>Working at Oakwood Worldwide</h1>
+					<h2>Oakwood Worldwide offers some of the best training, compensation and benefits in the industry.</h2>
+					<p>Placeholder body. At Oakwood Worldwide, we know our employees make it possible for us to consistently deliver world-class service to our internal and external clients alike. That’s why we work hard to offer competitive compensation, benefits package and an empowering work environment.</p>
 				</section>
-				<?php include (TEMPLATEPATH . '/_/components/php/global-destinations.php'); ?>						
+				<?php include (TEMPLATEPATH . '/_/components/php/career-icons.php'); ?>						
 			</div>
 		</section>
 		<hr />
-		<section class="container three three-a">
+		<section class="container three three-a hidden-sm hidden-xs">
 			<div class="row">
-				<section class="col-lg-12 col-md-12 regional-supply">
-					<h1>Regional Expertise</h1>	
-					<iframe src="http://sj.tbe.taleo.net/SJ2/ats/careers/jobSearch.jsp?org=OAKWOODWW&cws=1" frameborder="0" height="950" width="800">[Your user agent does not 
+				<section class="col-lg-12 col-md-12 search-jobs">
+					<h1>Search Current Openings</h1>	
+					<iframe src="http://sj.tbe.taleo.net/SJ2/ats/careers/jobSearch.jsp?org=OAKWOODWW&cws=1" frameborder="0" height="900" width="800">[Your user agent does not 
 support frames or is currently configured not to display 
 frames.]</iframe>		
 				</section>
 			</div>					
-			</section>		
+		</section>		
 		<hr />
   		<!--Supply Chain-->
   		<section class="container three three-a">
-			<div class="row">
-				<section class="col-lg-12 col-md-12 regional-supply">
-					<h1>Supply Chain</h1>			
-				</section>
-			</div>             
-			<div class="row regional-supply">
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+			           
+			<div class="row career-promo">
+				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 oakwood-university thirds">
+					<div class="row promo-header">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h1>Oakwood University</h1>
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Oakwood Worldwide has partnerships with more than 1,300 lorem ipsum.</p>
+					</div>
+					<div class="row ">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers1.jpg" alt="regional-icon" class="img-responsive">
+						</section>
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p>Throughout its history, Oakwood Worldwide has consistently invested in job training and career advancement for employees..</p>
 						</section>
 					</div>	
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+				<hr class="hidden-lg hidden-md hidden-sm">
+				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 why-oakwood thirds">
+					<div class="row promo-header">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h1>Why Oakwood Worldwide</h1>
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Associates speak over 26 languages and can communicate important information to guests in a variety of ways.</p>
+					</div>
+					<div class="row">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers2.jpg" alt="regional-icon" class="img-responsive">
+						</section>
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dui quam, sit amet bibendum enim varius sit amet. Curabitur vel elit aliquet</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+				<hr class="hidden-lg hidden-md hidden-sm">
+				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 referral thirds">
+					<div class="row promo-header">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h1>Employee Referral Program</h1>
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Furnishings are managed by Oakwood Worldwide personnel</p>
+					</div>
+					<div class="row">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers3.jpg" alt="regional-icon" class="img-responsive">
+						</section>
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p>Throughout its history, Oakwood Worldwide has consistently invested in job training and career advancement for employees.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
-						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Guests wont see a difference between staying in managed</p>
-						</section>
-					</div>
-				</section>
+				
 			</div>
 		</section><!--three-->				
 		<hr />	
