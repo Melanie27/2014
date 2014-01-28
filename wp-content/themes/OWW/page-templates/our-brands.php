@@ -76,7 +76,7 @@
 								
 								<section class="col-lg-4 col-md-4 intro ihs">
 									<div class="row">
-										<section class="col-lg-12 col-md-12 col-xs-6 logo">
+										<section class="col-lg-12 col-md-12 col-xs-10 logo">
 											<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs-lg.jpg" alt="Insurance Housing Solutions" class="img-responsive">
 										</section>
 										<div class="clearfix"></div>

@@ -19,7 +19,7 @@ get_header(3); ?>
 					<div class="row heading">
 						<section class="col-lg-12">
 							<div class="container">
-								<h1>United States and Canada</h1>										
+								<h1><?php the_title();?></h1>										
 							</div>
 						</section>		
 					</div><!--heading-->		
@@ -46,7 +46,7 @@ get_header(3); ?>
 					<div class="row carousel-heading">
 						<section class="col-lg-12 col-md-12">
 							<h2>Search Popular US and Canada Destinations</h2>
-								<ul class="hidden-lg hidden-md hidden-sm destinations">
+								<ul class="hidden-lg hidden-md destinations">
 									<li>Washington, D.C.</li>
 									<li>Tampa, FL</li>
 									<li>Charleston, SC</li>

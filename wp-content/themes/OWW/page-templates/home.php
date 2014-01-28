@@ -39,7 +39,7 @@
 							<div class="row">
 								<section class="col-lg-12 col-md-12 col-sm-12 logos brand-logos">
 									<div class="row">
-										<ul class="logos col-lg-12">
+										<ul class="logos col-lg-12 col-xs-6">
 											<li><img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-oakwood-homepage.jpg" alt="Oakwood" class="logo oakwood img-responsive"></li>
 											<li><img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-execustay-homepage.jpg" alt="Execustay" class="logo execustay img-responsive"></li>
 											<li><img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-ihs-homepage.jpg" alt="Insurance Housing Solutions" class="logo ihs img-responsive"></li>
@@ -143,12 +143,11 @@
 		<section class="seven container hidden-sm hidden-xs">
 				<div class="row carousel-heading">
 					<section class="col-lg-12 col-md-12 ">
-						<h1>Promotions</h1>
 						 <?php include (TEMPLATEPATH . '/_/components/php/carousel.php'); ?>	
 					</section>
 				</div>
 			</section><!--end five-->	
-			<div class="row hidden-lg hidden-md">
+			<div class="row hidden-lg hidden-md hidden-sm">
 				<section class="col-lg-12 seven">
 					<div class="container">
 						<section class="row promotions">
@@ -165,7 +164,7 @@
 					</div><!--container-->
 				</section><!--seven-->
 			</div><!--row-->
-			<hr />	
+			<hr class="hidden-sm"/>	
 			<section class="row">
 				<div class="col-lg-12">
 					<section class="eight hidden-sm hidden-xs">

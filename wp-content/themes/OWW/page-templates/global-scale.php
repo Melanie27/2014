@@ -30,10 +30,13 @@ get_header(3); ?>
 					<h1>Intro Placeholder Text</h1>
 					<h2>Placeholder. Wherever you need to go, Oakwood Worldwide is there.</h2>
 					<p>Placeholder body. Our goal is to find you the right option, in the right location, at the right price. Oakwood Worldwide does not own apartments outright, but governs an expansive global inventory consisting of franchisees and managed properties. Our exclusive network of suppliers gives us the flexibility on volume and location, providing our clients with more properties and cost options. Guests benefit from satisfaction standards with competitive provider system.</p>
-				</section>
-				<?php include (TEMPLATEPATH . '/_/components/php/global-destinations.php'); ?>						
+				</section>	
 			</div>
 		</section>
+		
+		<section class="seven container">	
+		<?php include (TEMPLATEPATH . '/_/components/php/global-destinations.php'); ?>
+		</section><!--seven-->	
 		<hr />
 		<section class="container three three-a">
 			<div class="row">

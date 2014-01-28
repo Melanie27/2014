@@ -46,7 +46,7 @@ get_header(3); ?>
 					<div class="row carousel-heading">
 						<section class="col-lg-12 col-md-12">
 							<h2>Search Popular <?php the_title(); ?> Destinations</h2>
-								<ul class="hidden-lg hidden-md hidden-sm destinations">
+								<ul class="hidden-lg hidden-md destinations">
 									<li>Washington, D.C.</li>
 									<li>Tampa, FL</li>
 									<li>Charleston, SC</li>
