@@ -204,6 +204,7 @@
 													</section>
 												</div><!--end relocation-->
 											</section><!--Column 2-->	
+											<hr class="hidden-lg hidden-md hidden-sm"/>
 											<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 industry-affiliations">
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/affiliations-fpo.jpg" alt="affiliations-fpo" class="img-responsive hidden-xs" />
 												<h2>Headline Directing People to Check Out the Industry Afflications Page</h2>
