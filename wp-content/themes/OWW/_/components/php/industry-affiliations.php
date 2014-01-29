@@ -3,7 +3,7 @@
 	<section class="row industry-logos">
 		<ul style="display:inline-block;">
 			<?php query_posts('post_type=affiliations'); while ($affiliations->have_posts()): $affiliations->the_post(); ?>
-			<li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" style="display:block;">
+			<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="display:block;">
 				<a href="<?php the_permalink(); ?>">
 					<?php the_post_thumbnail(); ?>
 				</a>

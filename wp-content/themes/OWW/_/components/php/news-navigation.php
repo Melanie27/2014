@@ -1,5 +1,5 @@
 										<!--News Navigation-->
-											<section class="col-lg-4 col-md-4 hidden-xs">
+											<section class="col-lg-3 col-lg-offset-1 hidden-md hidden-sm hidden-xs">
 												<section class="news navigation hidden-xs">
 													<h1>News</h1>
 														<ul>

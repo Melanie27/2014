@@ -1,3 +1,15 @@
+
+//Remove text from dynamically generated next and previous arrows
+
+	$("a.prev").each(function(){
+		var alteredString = $(this).text().replace(/« Previous/,"");
+		$(this).text(alteredString);
+	});
+	$("a.next").each(function(){
+		var alteredString = $(this).text().replace(/Next »/,"");
+		$(this).text(alteredString);
+	});
+
 //Make featured images in post responsive
 
 $('.wp-post-image').addClass('img-responsive');
@@ -98,7 +110,7 @@ $('.current-menu-ancestor' ).addClass('active');
 $("#affiliations a:contains('Affiliations')").addClass('active');
 $("#industry-affiliations a:contains('Affiliations')").addClass('active');
 $("#in-the-news a:contains('News')").addClass('active');
-$("#awards a:contains('News')").addClass('active');
+//$("#awards a:contains('News')").addClass('active');
 
 
 

@@ -39,11 +39,22 @@
 							<div class="row">
 								<section class="col-lg-12 col-md-12 col-sm-12 logos brand-logos">
 									<div class="row">
-										<ul class="logos col-lg-12 col-xs-6">
-											<li><img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-oakwood-homepage.jpg" alt="Oakwood" class="logo oakwood img-responsive"></li>
-											<li><img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-execustay-homepage.jpg" alt="Execustay" class="logo execustay img-responsive"></li>
-											<li><img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-ihs-homepage.jpg" alt="Insurance Housing Solutions" class="logo ihs img-responsive"></li>
-										
+										<ul class="logos col-lg-12 col-md-12 col-xs-6">
+											<li class="pull-left">
+												<a href="<?php bloginfo('url'); ?>/our-brands/">
+													<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-oakwood-homepage.jpg" alt="Oakwood" class="logo oakwood img-responsive">
+												</a>
+											</li>
+											<li class="pull-left">
+												<a href="<?php bloginfo('url'); ?>/our-brands/">
+													<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-execustay-homepage.jpg" alt="Execustay" class="logo execustay img-responsive">
+												</a>
+											</li>
+											<li class="pull-left">
+												<a href="<?php bloginfo('url'); ?>/our-brands/">
+													<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-ihs-homepage.jpg" alt="Insurance Housing Solutions" class="logo ihs img-responsive">
+												</a>
+											</li>
 										</ul>
 									</div>
 									<div class="clearfix"></div>
@@ -155,7 +166,7 @@
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/promo-1.jpg" alt="promo-1" class="img-responsive" >	
 							</div><!--end first third-->
 							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-								<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/promo-middle.jpg" alt="promo-middle" class="img-responsive">	
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/promo-1.jpg" alt="promo-middle" class="img-responsive">	
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 third-promo">
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/promo-1.jpg" alt="promo-1" class="img-responsive">				

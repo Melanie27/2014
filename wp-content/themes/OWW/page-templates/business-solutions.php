@@ -21,7 +21,6 @@ get_header(2); ?>
 				 <section class="col-lg-12">
 					 <div class="container">
 						 <h1>Business Solutions and Industry Insights</h1>
-						 <h2>80% of Fortune 1000 companies trust Oakwood with their corporate housing needs</h2>
 					</div>
 				</section>		
 			</div><!--heading-->	

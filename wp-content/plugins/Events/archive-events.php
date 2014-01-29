@@ -16,13 +16,7 @@
 								 </div><!--heading-->
 								 <?php include (TEMPLATEPATH . '/_/components/php/hero-thirds.php'); ?>
 							</section>
-							<!--two-->
-							<div class="container">
-								<section class="full-story hidden-lg hidden-md clearfix">
-									<h2 class="hidden-sm">Story Title Lorem Ipsum Dolore Sit Amet</h2>
-									<?php include (TEMPLATEPATH . '/_/components/php/news-full-story.php'); ?>
-								</section>
-							</div> 		    
+							<!--two-->	    
 							<?php if ( have_posts() ) : ?>
 							<hr class="hidden-lg hidden-md hidden-sm">		
 							<section class="three container">
@@ -30,7 +24,7 @@
 									<section class="col-lg-12 col-md-12">
 										<div class="row">
 											<section class="col-lg-8 col-md-8 press-release-list">
-												<h1 class="page-title">Events for </h1>
+												<h1 class="page-title">Events</h1>
 												<section class="hidden-lg hidden-md hidden-sm">
 												<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>	
 												</section>												
@@ -57,7 +51,7 @@
 												
 												<!-- Display pagination -->
 												<div class="row">
-													<div class="archive-pagination col-lg-6 col-lg-offset-3">
+													<div class="archive-pagination col-lg-8 col-lg-offset-4 col-md-7 col-md-offset-5">
 													<?php global $wp_query;
 													$total_pages = $wp_query->max_num_pages; 
 													if ($total_pages > 1){  

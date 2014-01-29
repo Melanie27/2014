@@ -3,9 +3,10 @@
 												<div class="panel-heading collapse5 last-item" id="collapse5">
 													<h1 class="title5 panel-title">
 														<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-															<span>Upcoming Events</span>
+															<h1>Upcoming Events</h1>
 														</a>
-														<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseFive" id="btn-5"></button>
+														<button type="button" class="btn mobile-toggle" data-toggle="collapse" data-target="#collapseFive" id="btn-5"></button>
+														
 													</h1>
 												</div>	
 												 <div id="collapseFive" class="panel-collapse collapse in">

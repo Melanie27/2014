@@ -32,10 +32,7 @@ get_header(7); ?>
 						<div class="entry-content">
 							<section class="three container">
 								<div class="row over2">
-									<section class="col-lg-12 col-md-12">
-										<div class="row">
-											<h1><?php the_title(); ?></h1>
-										</div>
+									<section class="col-lg-12 col-md-12 individual-affiliation">
 										<div class="row">
 											<section class="col-lg-4 col-md-4 logo-individual">
 												<?php the_post_thumbnail( array( 350, 350 ) ); ?>

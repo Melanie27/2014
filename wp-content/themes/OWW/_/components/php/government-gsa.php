@@ -2,9 +2,9 @@
 					<div class="panel-heading collapse4" id="collapse4">
 						<h1 class="title4 panel-title">
 							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapser">	
-								<span>GSA Schedule 48</span>
+								<h1>GSA Schedule 48</h1>
 							</a>
-							<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseFour" id="btn-4"></button>
+							<button type="button" class="btn mobile-toggle" data-toggle="collapse" data-target="#collapseFour" id="btn-4"></button>
 						</h1>
 					</div>	
 				<div id="collapseFour" class="panel-collapse collapse in">

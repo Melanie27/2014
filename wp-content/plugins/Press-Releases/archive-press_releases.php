@@ -17,12 +17,7 @@
 							<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds.php'); ?>
 						</section>
 						<!--two-->
-						<div class="container">
-							<section class="full-story hidden-lg hidden-md clearfix">
-								<h2 class="hidden-sm">Story Title Lorem Ipsum Dolore Sit Amet</h2>
-								<?php include (TEMPLATEPATH . '/_/components/php/news-full-story.php'); ?>
-							</section>
-						</div>  		    
+								    
 						<?php if ( have_posts() ) : ?>
 						<hr class="hidden-lg hidden-md hidden-sm">		
 						<section class="three container">
@@ -54,7 +49,7 @@
 												<?php endwhile; ?>                
 												<!-- Display pagination -->
 												<div class="row">
-													<div class="archive-pagination col-lg-6 col-lg-offset-3">
+													<div class="archive-pagination col-lg-8 col-lg-offset-4 col-md-7 col-md-offset-5">
 														<?php global $wp_query;
 															$total_pages = $wp_query->max_num_pages; 
 															if ($total_pages > 1){  

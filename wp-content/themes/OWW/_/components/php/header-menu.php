@@ -9,8 +9,9 @@
 				<span class="icon-bar"></span>
 			</button>
 		  	<button class="btn find-housing" type="button">Find Housing</button>
+		  	
 		  	<a href="<?php bloginfo('url'); ?>" id="logo" >
-			  	<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo"/>
+			  	<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo" class="img-responsive"/>
 			</a>		
         </div>
         <div class="navbar-collapse collapse in">

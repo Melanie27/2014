@@ -1,4 +1,4 @@
-																	<h1 class="hidden-lg hidden-md hidden-sm">In the News for 2013</h1>
+																	<h1 class="hidden-lg hidden-md hidden-sm hidden-xs"><?php the_title();?></h1>
 																	<?php $in_the_news = new WP_Query('post_type=in_the_news&posts_per_page=3');?>
 
 																	<ul class="news-thumbnails">

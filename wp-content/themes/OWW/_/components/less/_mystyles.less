@@ -191,6 +191,7 @@ h1 {
 	font-family: 'district_thinthin';
 	font-weight:300;
 	font-size: @oww-font-size-h1;
+	line-height:36px;
 
 	a {
 		
@@ -280,7 +281,7 @@ a.page-numbers:hover, a.page-numbers:active {
 
 .archive-pagination {
 	
-	
+	margin-top:25px;
 	margin-bottom:45px;
 	
 }
@@ -292,13 +293,9 @@ a.page-numbers:hover, a.page-numbers:active {
 
 a.page-numbers.next:link, a.page-numbers.next:visited {
 	
-	background-image: url(../../images/news/news-arrow-right.png);
+	background: url(../../images/news/news-arrow-right.png) center center no-repeat;
 	width:15px;
 	height:15px;
-	background-repeat:no-repeat;
-	position: absolute;
-	top: 40%;
-	left: 42%;
 	color: transparent;
 	border:none;
 	
@@ -306,13 +303,9 @@ a.page-numbers.next:link, a.page-numbers.next:visited {
 
 a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
-	background-image: url(../../images/news/news-arrow-left.png);
+	background: url(../../images/news/news-arrow-left.png) center center no-repeat;
 	width:15px;
 	height:15px;
-	background-repeat:no-repeat;
-	position: absolute;
-	top: 40%;
-	left: 10%;
 	border:none;
 	color: transparent;
 	
@@ -544,7 +537,8 @@ p.headline {
 ul.nav li.dropdown:hover ul.dropdown-menu{
     
     display: block;
-}	
+}
+
 
 .navbar-collapse {
 	
@@ -632,9 +626,18 @@ nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.active > a {
 	}
 }
 
+.sub-navigation {
+	
+	.navbar {
+		
+		box-shadow:none;
+	}
+}
+
 .navbar {
 	
 	margin-bottom:0px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
 }
 
 nav.navbar-fixed-top {
@@ -672,25 +675,30 @@ p.consult-desc {
 
 .heading {
 	
-	background-color: @oww-poppy;
-	opacity:.85;
+	background-color: rgba(240,83,34,0.85);
 	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	 filter: alpha(opacity=80);
+	 filter: alpha(opacity=85);
 	padding: 28px 0px 26px 0px;;
 	
 	
 	h1 {
 		
-		margin:0px 0px 5px 0px;
+		margin:0px;
 		color:white !important;
-		line-height:22px;
+		display:table-cell;
+		vertical-align: middle;
+		
 		
 	}
 		
 	h2 {
 		
 		color:white;
+		margin:0px;
 		font-family:@district-thin;
+		line-height:30px;
+		display:table-cell;
+		vertical-align: middle;
 		
 	}
 		
@@ -812,6 +820,11 @@ p.consult-desc {
 		height:auto;
 	}
 	
+	h1 {
+		
+		margin-bottom:30px;
+	}
+	
 	
 	.link-archives {
 		
@@ -824,6 +837,7 @@ p.consult-desc {
 	
 	color: @oww-light-gray;
 	font-size:@oww-font-size-date;
+	text-transform: uppercase;
 		
 }
 
@@ -920,11 +934,8 @@ p.consult-desc {
 	padding-bottom:25px;
 }
 
-.five .col-md-8{
 
-	padding-top:105px;
-		
-}
+
 
 
 a.link-archives:link, a.link-archives:visited {
@@ -1324,13 +1335,14 @@ footer {
 		background-color: @oww-poppy;
 		text-align:center;
 		text-transform:uppercase;
-		width:140px;
-		height:45px;
-		line-height:42px;
+		width:143px;
+		height:42px;
 		margin-right:2px;
 		position:fixed;
 		bottom:0px;
-		z-index:200;
+		z-index:20000;
+		font-size:14px;
+		line-height:42px;
 	}
 	
 	.btn-footer.housing {
@@ -1347,8 +1359,9 @@ footer {
 	h2 {
 		
 		font-family: @district-thin;
-		line-height: 30px;
-		font-size:24px;	
+		font-size:19px;
+		margin-top:0px;
+		margin-bottom:20px;	
 	}
 	
 	
@@ -1519,11 +1532,12 @@ footer {
       
 .panel-title {
 		
-	span {
+	height:80px;
 		
-		font-size:36px;
-		margin-top:20px;
-		margin-bottom:10px;
+	h1 {
+		
+		line-height:80px;
+		margin:0px;
 		display:block;
 	}
       
@@ -1573,11 +1587,12 @@ footer {
     text-align: left;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     z-index: 10;
-    background-color: @oww-poppy;
-    opacity: .85;
+    background-color: rgba(240,83,34,0.85);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
     filter: alpha(opacity=85);
     width:350px;
+    height:75px;
+    display:table;
     
       h3 {
 	    
@@ -1587,6 +1602,10 @@ footer {
 	    padding-bottom:0px;
 	    text-shadow:none;
 	    text-transform: capitalize;
+	    margin:0px;
+	    line-height:40px;
+	    vertical-align: middle;
+	    display:table-cell;
 	    
     }
    
@@ -1672,7 +1691,6 @@ footer {
 	
 		p {
 		
-			font-size:18px;
 			padding-left:18px;
 			padding-right:18px;
 			
@@ -1813,6 +1831,31 @@ footer {
 
 #industry-affiliations {
 	
+	
+	.individual-affiliation {
+			
+		padding-top:60px;
+			
+	}
+	
+	.industry-logos {
+		
+		padding-left:30px;
+		padding-right:30px;
+		
+		img {
+			
+			width:175px;
+			height:53px;
+			
+		}
+		
+		li {
+			
+			margin-bottom:50px;
+		}
+	}
+	
 	.three {
 		
 		padding-bottom:50px;
@@ -1825,9 +1868,7 @@ footer {
 		
 		.logo-individual {
 			
-			border-top:solid 1px @oww-border;
-			border-bottom:solid 1px @oww-border;
-			
+			margin-bottom:25px;			
 			
 		}
 		
@@ -1836,7 +1877,7 @@ footer {
 	.five {
 		
 		padding-top:45px;
-		padding-bottom: 75px;
+		padding-bottom: 25px;
 	}
 }
 
@@ -2190,13 +2231,14 @@ footer {
 				text-transform:uppercase;
 				color: @oww-dark-gray;
 				font-family: @district-book;
+				margin-top:8px;
 			}
 		}
 		
 		h3 {
 			
 			margin-top:0px;
-			margin-bottom:10px;
+			margin-bottom:4px;
 		}
 		
 	}
@@ -2318,9 +2360,11 @@ footer {
 		padding-right:15px;
 	}
 	
+	
 	h1 {
 		
 		font-size:@oww-font-size-h1-small;
+		line-height:28px;
 	}
 	
 	h2 {
@@ -2408,6 +2452,12 @@ footer {
 		}
 		
 	}
+	
+	.btn.mobile-toggle {
+	
+    	top: 25px;
+	
+	}
 
 	footer {
 		
@@ -2454,6 +2504,8 @@ footer {
 			padding-left:0px;
 			
 		}
+		
+		
 	}
 		
 	#logo {
@@ -2523,10 +2575,14 @@ footer {
 	}
 	
 	.panel-title {
+	
+		height:50px;
 		
-		span {
+		h1 {
 		
-			font-size:21px;
+			
+			line-height:50px;
+			
 		
 		}
 		
@@ -2702,13 +2758,6 @@ footer {
 			}
 		}
 	
-		.heading {
-		
-			h1 {
-			
-				line-height:28px;
-			}
-		}
 
 	}
 	
@@ -2787,6 +2836,8 @@ footer {
 
 #industry-affiliations {
 	
+	
+	
 	.three {
 		
 		padding-bottom:10px;
@@ -2806,6 +2857,17 @@ footer {
 			
 		}
 		
+	}
+	
+	.industry-logos {
+		
+		padding-left:15px;
+		padding-right:15px;
+		
+		img {
+			
+			
+		}
 	}
 	
 	.five {
@@ -3073,7 +3135,13 @@ footer {
 			padding-bottom:0px;
 		}
 	}
+	
+	.archive-pagination {
 		
+		padding-left:15px;
+	}
+	
+			
 }
 
 /*Small Screens 768 - 992 */
@@ -3252,15 +3320,6 @@ footer {
 		
 			}
 		}
-
-		.heading {
-		
-			h1 {
-			
-				line-height:36px;
-			}
-	
-		}
 	
 		.intro {
 	
@@ -3353,6 +3412,17 @@ footer {
 	
 	#industry-affiliations {
 	
+	.industry-logos {
+		
+		padding-left:30px;
+		padding-right:30px;
+		
+		img {
+			
+			
+		}
+	}
+	
 	.three {
 		
 		padding-bottom:25px;
@@ -3376,7 +3446,7 @@ footer {
 	
 	.five {
 		
-		padding-top:25px;
+		padding-top:50px;
 		padding-bottom: 0px;
 	}
 }
@@ -3689,23 +3759,7 @@ footer {
 		
 	}
 	
-	#our-brands {
 		
-		.heading {
-		
-			h1 {
-			
-				font-size:34px;
-				line-height:34px;
-			}
-		
-			h2 {
-			
-				margin-top:20px;
-			}
-		}
-	}
-	
 	#affiliations {
 	
 		.affiliations {
@@ -3859,7 +3913,12 @@ and (orientation : landscape) {
     
     	display: none;
 	
-	}	
+	}
+	
+	.caret {
+		
+		display:none;
+	}		
 }
 
 /* Media Queries for Screens with a max size of 768 px */
@@ -3972,27 +4031,7 @@ and (orientation : landscape) {
 	
 	}
                     
-    .heading {
-	    
-	    padding: 20px 0px;
-	    
-	    h1 {
-		    
-		    line-height:28px;
-		    font-size:@oww-font-size-h1-small;
-		    margin:0px;
-			
-		}
-	    
-	    h2 {
-		    
-		    font-size:@oww-font-size-h2-small;
-		    line-height: 22px;
-		    margin-bottom:0px;
-		    margin-top:10px;
-	    
-		}
-	}
+    
     
 	.industry-insights {
 		

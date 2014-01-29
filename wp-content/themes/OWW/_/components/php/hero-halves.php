@@ -52,11 +52,11 @@
 											<!-- Controls -->
 											<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
 												<span class="glyphicon glyphicon-chevron-left"></span>
-												<p class="date-prev">1940</p>
+												<p class="date-prev">2014</p>
 											</a>
 											<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
 												<span class="glyphicon glyphicon-chevron-right"></span>
-												<p class="date-next">2014</p>
+												<p class="date-next">1940</p>
 											</a>
 										</section><!--End hero halves-->	
 									</div><!--end nested row-->	

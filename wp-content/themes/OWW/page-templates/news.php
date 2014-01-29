@@ -29,10 +29,7 @@ get_header(6); ?>
 		  	<section class="three container">
 				<div class="row over2">
 					<section class="col-lg-12 col-md-12">
-						<div class="row">			
-							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">		
-								<?php include (TEMPLATEPATH . '/_/components/php/latest-news.php'); ?>	
-							</section><!--Latest News-->		
+						<div class="row">					
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols first-col">	
 								<?php include (TEMPLATEPATH . '/_/components/php/press-room.php'); ?>	
 							</section><!--Press Room-->	
@@ -51,19 +48,13 @@ get_header(6); ?>
 			</section><!--three-->
 				<section class="row">
 					<div class="col-lg-12">
-						<section class="four hidden-xs">
+						<section class="four hidden-sm hidden-xs">
 						</section>
 					</div>
 				</section><!--content 4-->
-				<div class="row hidden-sm hidden-xs">
-					<div class="col-lg-12">
-						<section class="five">
-							<div class="container">
-								<?php include (TEMPLATEPATH . '/_/components/php/events-desktop.php'); ?>	
-							</div><!--container-->
-						</section><!--five-->
-					</div>
-				</div>
+				<section class="five container hidden-sm hidden-xs">
+				<?php include (TEMPLATEPATH . '/_/components/php/events-desktop.php'); ?>	
+				</section><!--five-->
   				<section class="row">
 					<div class="col-lg-12">
 						<section class="six hidden-sm">
@@ -72,7 +63,6 @@ get_header(6); ?>
 				</section><!--content 6-->	
 				<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>	
 				<hr />
-
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
