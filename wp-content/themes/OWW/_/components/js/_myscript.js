@@ -303,7 +303,7 @@ if(window.location.href.indexOf("january") > -1)   {
     var target = "#" + $(this).data('target');
     
    
-    var targetOffset = $(target).offset().top -170;
+    var targetOffset = $(target).offset().top -140;
     console.log(target);
     console.log(targetOffset);
     $('html, body').animate({ scrollTop: targetOffset}, 1000);
@@ -316,7 +316,10 @@ console.log($(window).height());
 console.log($('.military').offset().top);
 
 
-$('#overview1 a').click(function () {
+//Government scroll and highlight - on second sticky navigation
+
+
+/*$('#overview1 a').click(function () {
 	
 	$('#overview1 a').addClass("active");
 	
@@ -326,7 +329,34 @@ $('#military1 a').click(function () {
 	
 	$('#military1 a').addClass("active");
 	
-} );
+} );*/
+
+
+
+
+/*Make the subnavigation fixed on govt page*/
+
+$(window).scroll(function() {
+	
+	var currentPosition = $(window).scrollTop(); //get current position
+	
+	if (currentPosition >= 10) {
+		
+		$('#government .sub-navigation').addClass("sub-move");
+	}
+	
+	else {
+		
+		$('#government .sub-navigation').removeClass("sub-move");
+	}
+	
+});
+
+
+if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
+            alert('i an an ipad');
+} else {
+
 
 $(window).scroll(function () {
 
@@ -393,6 +423,9 @@ $(window).scroll(function () {
        $('#gsa1 a').removeClass("active");
     }
 });
+
+
+}
 	
 	/*$('#overview1').click(function() {
 		$(window).scrollTop(425);
@@ -432,20 +465,3 @@ $(window).scroll(function () {
 	
 
 
-/*Make the subnavigation fixed on govt page*/
-
-$(window).scroll(function() {
-	
-	var currentPosition = $(window).scrollTop(); //get current position
-	
-	if (currentPosition >= 513) {
-		
-		$('#government .sub-navigation').addClass("sub-move");
-	}
-	
-	else {
-		
-		$('#government .sub-navigation').removeClass("sub-move");
-	}
-	
-});
