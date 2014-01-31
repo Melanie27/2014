@@ -34,7 +34,7 @@ get_header(3); ?>
 				<?php include (TEMPLATEPATH . '/_/components/php/career-icons.php'); ?>						
 			</div>
 		</section>
-		<hr />
+		
 		<section class="container three three-a hidden-sm hidden-xs">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 search-jobs">
@@ -56,7 +56,7 @@ frames.]</iframe>
 							<h1>Oakwood University</h1>
 						</section>
 					</div>
-					<div class="row ">
+					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers1.jpg" alt="regional-icon" class="img-responsive">
 						</section>
@@ -72,7 +72,7 @@ frames.]</iframe>
 							<h1>Why Oakwood Worldwide</h1>
 						</section>
 					</div>
-					<div class="row">
+					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers2.jpg" alt="regional-icon" class="img-responsive">
 						</section>
@@ -88,7 +88,7 @@ frames.]</iframe>
 							<h1>Employee Referral Program</h1>
 						</section>
 					</div>
-					<div class="row">
+					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers3.jpg" alt="regional-icon" class="img-responsive">
 						</section>

@@ -50,7 +50,7 @@ get_header(7); ?>
 													</p>
 													<div class="clearfix"></div>	
 												</section><!--end two thirds--> 
-												<hr />	
+													
 											</section>									
 											<section class="hidden-lg hidden-md hidden-sm">
 												<h1>Press Releases</h1>

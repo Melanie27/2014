@@ -56,7 +56,7 @@
 														$current_page = max(1, get_query_var('paged'));  
 														echo paginate_links(array(  
 														'base' => get_pagenum_link(1) . '%_%',  
-														'format' => '/page/%#%',  
+														'format' => 'page/%#%',  
 														'current' => $current_page,  
 														'total' => $total_pages,  
 													));  
@@ -69,7 +69,8 @@
 								</div><!--end nested row-->
 							</section>
 						</div><!--row-->
-					</section><!--three-->		
+					</section><!--three-->	
+			  		<hr class="hidden-lg hidden-md"/>	
 					<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>
 					<hr>
 				</div>

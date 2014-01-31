@@ -60,11 +60,11 @@ function display_event_meta_box( $event ) {
     ?>
     <table>
         <tr>
-            <td style="width: 100%">Event Location</td>
+            <td style="width: 100%">Date & Location</td>
             <td><input type="text" size="80" name="event_location_name" value="<?php echo $event_location; ?>" /></td>
         </tr>
         <tr>
-            <td style="width: 100%">Event Blurb</td>
+            <td style="width: 100%">Event Blurb (6 words) </td>
             <td><input type="text" size="80" name="event_blurb_name" value="<?php echo $event_blurb; ?>" /></td>
         </tr>
         <tr>

@@ -858,7 +858,7 @@ p.consult-desc {
 	}
 	
 	.blurb-intro {
-		height:106px;
+		
 		overflow:hidden;
 		
 		
@@ -867,7 +867,7 @@ p.consult-desc {
 	.full-story {
 			
 		display:block;
-		margin-bottom:45px;
+		margin-bottom:35px;
 				
 	}
 		
@@ -1286,7 +1286,7 @@ footer {
 	
 	section.footer-brands {
 		
-		padding-left:0px;
+		
 		margin-top:0px;
 		padding-top:50px;
 		
@@ -1374,7 +1374,10 @@ footer {
 		
 	}
 	
-	.page-links {
+	
+	
+	
+	.page-links  {
 		
 		margin-bottom:50px;
 		
@@ -1388,6 +1391,8 @@ footer {
 			a:link, a:visited {
 				
 				color: @oww-light-gray;
+				font-family: @district-medium;
+				font-weight:normal;
 				
 			}
 		}
@@ -1675,6 +1680,11 @@ footer {
 		margin-bottom:35px;
 		
 	}
+}
+
+.max-height-car {
+	
+	max-height:275px;
 }
 
 
@@ -2011,8 +2021,8 @@ footer {
 	
 		.leaders.top {
 	
+			padding-bottom:35px;
 			padding-top:120px;
-			padding-bottom:55px;
 	
 		}
 	
@@ -2024,8 +2034,10 @@ footer {
 		}
 
 		ul.leadership-photos {
-	
+		
+			display:inline-block;
 			margin-bottom:0px;
+			
 	
 			li {
 		
@@ -2377,6 +2389,14 @@ footer {
 		height:200px;
 		background-attachment:scroll;
 	}
+	
+	.heading {
+		
+		.container {
+			
+			padding-left:0px;
+		}
+	}
 
 	.five {
 		
@@ -2415,8 +2435,8 @@ footer {
 	}
 	
 	.teasers {
-		padding-left:0px;
 		
+		padding-left:0px;
 		
  	}
  	
@@ -2489,7 +2509,7 @@ footer {
 			
 		section.footer-brands {
 				
-			padding-bottom:25px;
+			padding-bottom:0px;
 			padding-top:25px;
 				
 		}
@@ -3146,9 +3166,8 @@ footer {
 	
 	.container.navigation {
 	  
-	  height:110px !important;
-	  padding-top:10px;
-	  
+	  	height:110px !important;
+	  	padding-top:10px;
 	  
 	  }
 	
@@ -3201,14 +3220,11 @@ footer {
     
   }
   
- 
-
-
-
-.navbar-collapse .navbar-nav>li>a {
+  .navbar-collapse .navbar-nav>li>a {
 	
 	font-size:12px;
-}
+	
+	}
 	
 	.navbar-nav > li > a {
 		
@@ -3222,9 +3238,6 @@ footer {
 	           
 	      padding:0px;
       }
-	
-	
-	
 		
 	article.one-third-two-thirds {
 			
@@ -3395,29 +3408,10 @@ footer {
 
 	}
 	
+	
 	#affiliations {
-		
-		.logo-individual {
-		
-			padding-top:30px;
-		
-		}
 	
-		.three {
 		
-			h2 {
-			
-				margin-bottom:10px;
-		
-			}
-		
-			.affiliations-text {
-			
-				margin-bottom:40px;
-			
-			}
-		}
-	
 		.industry-affiliations {
 			
 			h1 {
@@ -3428,56 +3422,132 @@ footer {
 			}
 		}	
 
-	}
-	
-	#industry-affiliations {
-	
-	.industry-logos {
 		
-		padding-left:30px;
-		padding-right:30px;
+		.industry-logos {
 		
-		img {
-			
-			
-		}
-	}
-	
-	.three {
+			padding-left:15px;
+			padding-right:15px;
 		
-		padding-bottom:25px;
+			img {
+			
+				width:50%;
+			
+			}
 		
-		h1 {
+			li {
 			
-			margin-top:45px;
-			margin-bottom:0px;
+				margin-bottom:35px;
 			
+			}
 		}
 		
-		.logo-individual {
+		.three {
+		
+			padding-bottom:25px;
+		
+			h1 {
 			
-			border-top:none;
-			border-bottom:none;
+				margin-top:45px;
+				margin-bottom:0px;
 			
+			}
+			
+			h2 {
+			
+				margin-bottom:10px;
+		
+			}
+			
+			.affiliations-text {
+			
+				margin-bottom:40px;
+			
+			}
+			
+		}
+	
+		.five {
+		
+			padding-top:40px;
+			padding-bottom: 0px;
+	
+			h1 {
+		
+				padding-top:0px;
+		
+			}
 			
 		}
 		
 	}
-	
-	.five {
-		
-		padding-top:50px;
-		padding-bottom: 0px;
-	}
-}
 
 	
+	#careers {
+		
+		.career-intro {
+			
+			padding-top:30px;
+		}
+		
+		.why-oakwood {
+			
+			border-right:none;
+		}
+		
+		.referral {
+			
+			border-right: solid 1px @oww-border;
+		}
+		
+		.three {
+			
+			padding-bottom:30px;
+		}
+		
+		.three.three-a {
+			
+			padding-bottom:0px;
+		}
+		
+		.career-trio {
+			
+			padding-left:15px;
+		}
+		
+		li {
+		
+			margin-left:0px;
+			
+		}
+		
+		.bullet-header {
+			
+			margin-left:0px;
+		}
+		
+		.career-bullets {
+			
+			padding-left:15px;
+		}
+	}
+	
 	#vision-leadership {
+		
+		.leaders {
+			
+			border-left:none;
+			padding-left:15px;
+		}
 		
 		.over {
 		
 			padding: 50px 30px;
 		
+		}
+		
+		.over2a {
+			
+			padding-left:15px;
 		}
 	
 		.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
@@ -3523,7 +3593,7 @@ footer {
 			
 			.leaders.top {
 				
-				padding-top:40px;
+				padding-top:30px;
 				
 			}
 		}
@@ -3533,6 +3603,7 @@ footer {
 			h1 {
 			
 				margin-top:0px;
+				margin-bottom:0px;
 			
 			}
 		}
@@ -3625,6 +3696,12 @@ footer {
 	
 	#executive-leadership {
 	
+		ul.leadership-photos {
+			
+			padding-top:35px;
+			
+		}
+		
 		.three {
 			
 			padding-bottom:20px;
@@ -3634,13 +3711,16 @@ footer {
 		
 			padding-right:15px;
 			padding-left:15px;
+			padding-bottom:30px;
 			
 		}
 		
-		.executive-text.last {
+		.exec-team {
 			
-			margin-bottom:30px;
+			padding-left:15px;
 		}
+		
+		
 	}
 	
 	.career-intro {
@@ -3668,10 +3748,9 @@ footer {
 				
 	.container.navigation {
 	  
-	  height:110px !important;
+	  height:110px !important;	  
 	  
-	  
-}
+	 }
 	
 	.dropdown-menu {
 		
@@ -3705,8 +3784,6 @@ footer {
 	}
 	
 	
-	
-
 	.navbar-nav > li > a {
 		
 		font-size: 12px;
@@ -3739,9 +3816,20 @@ footer {
 	
 	.blurb {
     	
-    	padding-bottom: 28px;
+    	padding-bottom: 23px;
 		padding-left: 10px;
 		padding-right: 10px;
+		
+		.full-story {
+			
+			margin-bottom:8px;
+		}
+	}
+	
+	
+	.blurb-intro {
+		
+		padding-right:20px;
 	}
 	
 	
@@ -4099,6 +4187,17 @@ and (orientation : landscape) {
 			
 		}
 	}
+	
+	ul.nav li.dropdown:hover ul.dropdown-menu {
+    
+    	display: none;
+	
+	}
+	
+	.caret {
+		
+		display:none;
+	}		
 
 }   
 

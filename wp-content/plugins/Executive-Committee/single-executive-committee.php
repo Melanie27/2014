@@ -32,7 +32,7 @@ get_header(2); ?>
 		  			  					
 			  	<section class="three container">
 					<div class="row over2">
-						<section class="col-lg-12 col-md-12 col-xs-12 no-left-padding">
+						<section class="col-lg-12 col-md-12 col-xs-12 exec-team no-left-padding">
 							<div class="row">
 								<section class="col-lg-12 col-md-12 clearfix">	
 									<h1><?php the_title()?> <span class="title hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'committee_title', true ) ); ?></span> </h1>
@@ -52,13 +52,13 @@ get_header(2); ?>
 								</section>					
 				<?php endwhile; ?>
 					 					
-					 			<hr class="hidden-lg hidden-md hidden-sm" />
+					 			<hr class="hidden-lg hidden-md" />
 									<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 executive-committee">
 									<?php $executive_committee = new WP_Query('post_type=executive_committee&posts_per_page=6');?>
 										<ul class="leadership-photos">
 										<?php query_posts('post_type=executive_committee'); while ($executive_committee->have_posts()): $executive_committee->the_post(); ?>
 											<div class="row">
-												<section class="col-lg-12 col-md-12 col-sm-6">
+												<section class="col-lg-12 col-md-12 col-sm-12">
 													<li class="clearfix">
 														<?php the_post_thumbnail('leadershipsize'); ?>
 														<h3 class="name"><?php the_title()?></h3>

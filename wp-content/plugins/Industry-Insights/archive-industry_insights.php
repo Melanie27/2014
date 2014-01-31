@@ -16,20 +16,14 @@
 							</div><!--heading-->
 							<?php include (TEMPLATEPATH . '/_/components/php/hero-industry-insights.php'); ?>
 						</section>
-						<!--two-->
-						<div class="container">
-							<section class="full-story hidden-lg hidden-md clearfix">
-								<h2 class="hidden-sm">Story Title Lorem Ipsum Dolore Sit Amet</h2>
-								<?php include (TEMPLATEPATH . '/_/components/php/news-full-story.php'); ?>
-							</section>
-						</div>	  		    
+						<!--two-->		    
 						<?php if ( have_posts() ) : ?>
 						<hr class="hidden-lg hidden-md hidden-sm">		
 						<section class="three container">
 							<div class="row over2">
 								<section class="col-lg-12 col-md-12">
 									<div class="row">
-										<section class="col-lg-8 col-md-8 press-release-list">
+										<section class="col-lg-8 col-md-8 press-release-list industry">
 										 	<h1 class="page-title">Industry Insights</h1>
 										 		<section class="hidden-lg hidden-md hidden-sm">
 													<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>	
@@ -62,7 +56,7 @@
 																	$current_page = max(1, get_query_var('paged'));  
 																	echo paginate_links(array(  
 																	'base' => get_pagenum_link(1) . '%_%',  
-																	'format' => '/page/%#%',  
+																	'format' => 'page/%#%',  
 																	'current' => $current_page,  
 																		'total' => $total_pages,  
 																	));  

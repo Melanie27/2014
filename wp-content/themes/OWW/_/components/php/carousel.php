@@ -4,7 +4,6 @@
 										<!-- Wrapper for slides -->
 										<div class="carousel-inner"> 
 											<!-- Slide -->
-											
 											<div class="item active">
 												<div class="row">
 													<?php $carousel_images = new WP_Query( array(
@@ -15,7 +14,7 @@
 													));?>
 													<?php query_posts('post_type=carousel_images'); while ($carousel_images->have_posts()): $carousel_images->the_post(); ?>
 													<?php for ($i = 0; $i < 1; $i++) {													
-													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6">';
+													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6 max-height-car">';
 														the_post_thumbnail('carouselsize');
 														echo '<div class="carousel-caption">';
 															echo '<h3>';
@@ -43,7 +42,7 @@
 													));?>
 													<?php query_posts('post_type=carousel_images'); while ($carousel_images->have_posts()): $carousel_images->the_post(); ?>
 													<?php for ($i = 0; $i < 1; $i++) {													
-													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6">';
+													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6 max-height-car">';
 														the_post_thumbnail('carouselsize');
 														echo '<div class="carousel-caption">';
 															echo '<h3>';

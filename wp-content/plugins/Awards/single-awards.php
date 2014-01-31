@@ -40,13 +40,27 @@ get_header(7); ?>
 												<section class="col-lg-8 col-md-8 press-release-list">
 												<!--awards navigation-->	
 													<div class="row">
-														<section class="col-lg-9 col-md-11 col-xs-12 awards-sections">
+														<section class="col-lg-9 col-md-11 col-xs-12 awards-sections awards-menu">
 															<h4>See Awards From:</h4>
-															<ul>
-																<li><<?php the_terms( $post->ID, 'awards_tags' ,  ' ' );?></li>
-																<li><a href="#" class="active">EMMAs</a></li>
-																<li><a href="#">Cartus Global Network</a></li>
-															</ul>
+															<!--List all the terms, with link to term archive-->	
+															<?php
+																$args = array( 'hide_empty=0' );
+																$terms = get_terms('awards_tags', $args);
+																$count = count($terms); $i=0;
+																if ($count > 0) {
+																	
+																	echo '<ul class="release-years awards-honors-archive">';
+																	$term_list = '<span class="my_term-archive">';
+																	foreach ($terms as $term) {
+																		$i++;
+																		$term_list .= '<li><a href="' . get_term_link( $term ) . '" class="'. sprintf(__('%s', 'my_localization_domain'), $term->name) .'" title="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '">' . $term->name . '</a></li>';
+    	 $term_list .= '</span>';
+																}
+																	
+																echo $term_list;
+																echo "</ul>";
+																}
+																?>	
 														</section>	
 													</div><!--Awards Navigation-->
 													<h1><?php the_title(); ?></h1>	
@@ -62,7 +76,7 @@ get_header(7); ?>
 														</p>
 														<div class="clearfix"></div>	
 													</section><!--end two thirds--> 
-													<hr />	
+													
 												</section>									
 							
 												<section class="hidden-lg hidden-md hidden-sm">

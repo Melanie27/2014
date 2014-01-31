@@ -109,25 +109,18 @@ $('.current-menu-parent, .current-page-ancestor, .current-menu-ancestor' ).addCl
 $('.current-menu-ancestor' ).addClass('active');
 $("#affiliations a:contains('Affiliations')").addClass('active');
 $("#industry-affiliations a:contains('Affiliations')").addClass('active');
-$("#in-the-news a:contains('News')").addClass('active');
-//$("#awards a:contains('News')").addClass('active');
 
 
 
 /*News Subnavigation*/
-$("#press-releases a:contains('Press Releases')").addClass('active');
-$("#press-releases-single a:contains('Press Releases')").addClass('active');
-
-
-
-$("#in-the-news a:contains('In the News')").addClass('active');
-$("#in-the-news-single a:contains('In the News')").addClass('active');
-$("#award a:contains('Awards & Honors')").addClass('active');
-$("#awards-single a:contains('Awards & Honors')").addClass('active');
-$("#events a:contains('Upcoming Events')").addClass('active');
-$("#events-single a:contains('Upcoming Events')").addClass('active');
-
-
+$("#press-releases a.side-nav:contains('Press Releases')").addClass('active');
+$("#press-releases-single a.side-nav:contains('Press Releases')").addClass('active');
+$("#in-the-news a.side-nav:contains('In the News')").addClass('active');
+$("#in-the-news-single a.side-nav:contains('In the News')").addClass('active');
+$("#award a.side-nav:contains('Awards & Honors')").addClass('active');
+$("#awards-single a.side-nav:contains('Awards & Honors')").addClass('active');
+$("#events a.side-nav:contains('Upcoming Events')").addClass('active');
+$("#events-single a.side-nav:contains('Upcoming Events')").addClass('active');
 
 
 if(window.location.href.indexOf("press_releases") > -1)   {
@@ -310,7 +303,7 @@ if(window.location.href.indexOf("january") > -1)   {
     var target = "#" + $(this).data('target');
     
    
-    var targetOffset = $(target).offset().top -140;
+    var targetOffset = $(target).offset().top -170;
     console.log(target);
     console.log(targetOffset);
     $('html, body').animate({ scrollTop: targetOffset}, 1000);
@@ -323,15 +316,24 @@ console.log($(window).height());
 console.log($('.military').offset().top);
 
 
+$('#overview1 a').click(function () {
+	
+	$('#overview1 a').addClass("active");
+	
+} );
+
+$('#military1 a').click(function () {
+	
+	$('#military1 a').addClass("active");
+	
+} );
+
 $(window).scroll(function () {
 
     if ($(window).scrollTop() + $(window).height() > $('#A').offset().top && ($(window).scrollTop() + $(window).height() < $('#B').offset().top)) {
         
         $('#overview1 a').addClass("active");
-        $('#military1 a').removeClass("active");
-        $('#federal-civilian1 a').removeClass("active");
-        $('#government-contractors1 a').removeClass("active");
-        $('#gsa1 a').removeClass("active");
+        $('#military1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
         
     } else {
        $('#military1 a').removeClass("active");
@@ -345,10 +347,8 @@ $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() > $('#B').offset().top && ($(window).scrollTop() + $(window).height() < $('#C').offset().top)) {
         
         $('#military1 a').addClass("active");
-        $('#overview1 a').removeClass("active");
-        $('#federal-civilian1 a').removeClass("active");
-        $('#government-contractors1 a').removeClass("active");
-        $('#gsa1 a').removeClass("active");
+        $('#overview1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
+        
         
     } else {
        $('#military1 a').removeClass("active");
@@ -363,10 +363,7 @@ $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() > $('#C').offset().top && ($(window).scrollTop() + $(window).height() < $('#D').offset().top)) {
         
         $('#federal-civilian1 a').addClass("active");
-         $('#overview1 a').removeClass("active");
-        $('#military1 a').removeClass("active");
-        $('#government-contractors1 a').removeClass("active");
-        $('#gsa1 a').removeClass("active");
+        $('#overview1 a, #military1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
        
     } else {
        $('#federal-civilian1 a').removeClass("active");
@@ -378,10 +375,7 @@ $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() > $('#D').offset().top && ($(window).scrollTop() + $(window).height() < $('#E').offset().top)) {
         console.log('hello');
         $('#government-contractors1 a').addClass("active");
-         $('#overview1 a').removeClass("active");
-        $('#military1 a').removeClass("active");
-        $('#federal-civilian1 a').removeClass("active");
-        $('#gsa1 a').removeClass("active");
+         $('#overview1 a, #military1 a, #federal-civilian1 a, #gsa1 a').removeClass("active");
         
     } else {
        $('#government-contractors1 a').removeClass("active");
@@ -393,10 +387,7 @@ $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() > $('#E').offset().top && ($(window).scrollTop() - $(window).height() < $('#E').offset().top)) {
         
         $('#gsa1 a').addClass("active");
-        $('#government-contractors1 a').removeClass("active");
-         $('#overview1 a').removeClass("active");
-        $('#military1 a').removeClass("active");
-        $('#federal-civilian1 a').removeClass("active");
+        $('#overview1 a, #military1 a, #government-contractors1 a, #federal-civilian1 a').removeClass("active");
         
     } else {
        $('#gsa1 a').removeClass("active");

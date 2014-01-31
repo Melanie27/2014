@@ -12,7 +12,7 @@
 																<div class="panel panel-default">
 																	<div class="panel-heading news-nav">
 																		<h4 class="panel-title">
-																			<a data-toggle="collapse" data-parent="#accordion" href="#collapsePR">
+																			<a data-toggle="collapse" data-parent="#accordion" href="#collapsePR" class="side-nav">
 																				<li><h4>Press Releases</h4>
 																			</a>
 																		</h4>
@@ -51,7 +51,7 @@
 																<div class="panel panel-default">
 																	<div class="panel-heading news-nav">
 																		<h4 class="panel-title">
-																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseITN">
+																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseITN" class="side-nav">
 																				<li><h4>In the News</h4>
 																			</a>
 																		</h4>
@@ -90,7 +90,7 @@
 																<div class="panel panel-default">
 																	<div class="panel-heading news-nav">
 																		<h4 class="panel-title">
-																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseAW">
+																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseAW" class="side-nav">
 																				<li><h4>Awards & Honors</h4>
 																			</a>
 																		</h4>
@@ -127,7 +127,7 @@
 																<div class="panel panel-default">
 																	<div class="panel-heading news-nav">
 																		<h4 class="panel-title">
-																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseUE">
+																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseUE" class="side-nav">
 																				<li><h4>Upcoming Events</h4>
 																			</a>
 																		</h4>

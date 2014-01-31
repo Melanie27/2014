@@ -13,7 +13,7 @@
 		<div class="row">
 			<footer class="col-lg-12 col-md-12">	
 				<div class="row">
-					<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-brands pull-right">
+					<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-brands pull-right no-left-mobile">
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1">
 								<h5>Our Brands</h5>
@@ -21,10 +21,10 @@
 							</section>	
 						</div><!--end nested row-->
 						<div class="row">
-							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12">
+							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6">
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oakwood.jpg" alt="Oakwood Logo" class="img-responsive" />
 							</section>
-							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12">
+							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6 ">
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-execustay.jpg" alt="Execustay Logo" class="img-responsive"/>
 							</section>
 						</div><!--end nested row-->
@@ -32,11 +32,10 @@
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12">
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs.jpg" alt="logo-ihs" class="img-responsive" />
 							</section>
+							<hr class="hidden-lg hidden-md hidden-sm no-left-mobile" />
 						</div>
-						<div class="row contact-us-housing">
+						<div class="row contact-us-housing no-left-mobile">
 							<section class="col-lg-8 col-lg-offset-3 col-md-9 col-md-offset-2">
-								
-								
 								<div class="row hidden-sm hidden-xs">
 									<section class="col-lg-4 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-2">
 										<a class="btn-footer housing footer-find-housing" href="#">Find Housing</a>
@@ -119,12 +118,7 @@
 							<hr class="hidden-lg hidden-md hidden-sm">	
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links bottom">
 								<h5><a href="<?php bloginfo('url'); ?>/careers/">Careers</a></h5>
-								<ul class="footer-lists footer-global">
-									<div class="row">
-										<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-										</section>
-									</div>	
-								</ul>	
+								
 							</section>
 							<div class="clearfix hidden-lg hidden-md hidden-xs"></div>
 							<hr class="hidden-lg hidden-md hidden-sm">

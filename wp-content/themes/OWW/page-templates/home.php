@@ -39,22 +39,24 @@
 							<div class="row">
 								<section class="col-lg-12 col-md-12 col-sm-12 logos brand-logos">
 									<div class="row">
-										<ul class="logos col-lg-12 col-md-12 col-xs-6">
-											<li class="pull-left">
+										<ul class="logos col-lg-12 col-md-12 col-sm-12 col-xs-6">
+											<div class="row">
+											<li class="pull-left  col-sm-3">
 												<a href="<?php bloginfo('url'); ?>/our-brands/">
 													<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-oakwood-homepage.jpg" alt="Oakwood" class="logo oakwood img-responsive">
 												</a>
 											</li>
-											<li class="pull-left">
+											<li class="pull-left  col-sm-3">
 												<a href="<?php bloginfo('url'); ?>/our-brands/">
 													<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-execustay-homepage.jpg" alt="Execustay" class="logo execustay img-responsive">
 												</a>
 											</li>
-											<li class="pull-left">
+											<li class="pull-left col-sm-4">
 												<a href="<?php bloginfo('url'); ?>/our-brands/">
 													<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/logo-ihs-homepage.jpg" alt="Insurance Housing Solutions" class="logo ihs img-responsive">
 												</a>
 											</li>
+											</div>
 										</ul>
 									</div>
 									<div class="clearfix"></div>

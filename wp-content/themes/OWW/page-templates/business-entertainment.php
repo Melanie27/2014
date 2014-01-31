@@ -77,7 +77,7 @@ get_header(5); ?>
 					</section>	
 				</div><!--end tabbed section-->
 			</section>
-			<hr class="margin-bottom" />
+			<hr class="hidden-lg" />
 			<div class="row industry-insights">
 				<section class="col-sm-12 hidden-lg hidden-md">
 					<div class="container">
