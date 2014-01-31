@@ -22,7 +22,7 @@ get_header(4); ?>
 								 </div>
 							</section>		
 						</div><!--heading-->
-						<?php include (TEMPLATEPATH . '/_/components/php/hero-government.php'); ?>
+						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-industry-insights.php'); */?>
 					</section> <!--two-->					
 					<div class="hidden-sm hidden-xs sub-navigation">
 						<section class="row">
@@ -31,11 +31,11 @@ get_header(4); ?>
 									<!-- Collect the nav links, forms, and other content for toggling -->
 									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 										<ul class="nav navbar-nav">
-											<li id="overview1"><a>Overview</a></li>
-											<li id="military1"><a>Military</a></li>
-											<li id="federal-civilian1"><a>Federal Civilian</a></li>
-											<li id="government-contractors1"><a>Government Contractors</a></li>
-											<li id="gsa1"><a>GSA Schedule 48</a></li>
+											<li id="overview1"><a href="#" class="searchbychar" data-target="A" onclick="return false">Overview</a></li>
+											<li id="military1"><a href="#"  class="searchbychar" data-target="B" onclick="return false">Military</a></li>
+											<li id="federal-civilian1"><a href="#" class="searchbychar" data-target="C" onclick="return false">Federal Civilian</a></li>
+											<li id="government-contractors1"><a href="#"  class="searchbychar" data-target="D" onclick="return false">Government Contractors</a></li>
+											<li id="gsa1"><a href="#" class="searchbychar" data-target="E" onclick="return false">GSA Schedule 48</a></li>
 										</ul>
 									</div><!-- /.navbar-collapse -->
 								</nav>
@@ -43,7 +43,7 @@ get_header(4); ?>
 						</section>
 					</div><!--end sub-nav-->
 					<hr />
-					<div class="container">
+					<div class="container" id="A">
 						<?php include (TEMPLATEPATH . '/_/components/php/government-overview.php'); ?>
 					</div><!--end container-->		
 					<hr />

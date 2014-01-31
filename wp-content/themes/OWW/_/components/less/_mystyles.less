@@ -31,6 +31,8 @@
 // -------------------------
 
 
+
+
 @district-black: 		 "district_blackblack", Helvetica, Arial, sans-serif;
 @district-black-italic:  "district_black_italicBlkIt", Helvetica, Arial, sans-serif;
 @district-bold: 		 'district_boldbold', Helvetica, Arial, sans-serif; 
@@ -671,6 +673,7 @@ p.consult-desc {
 .thirds {
 	
 	padding-top:35px;
+	padding-bottom:35px;
 }
 
 .heading {
@@ -1185,7 +1188,7 @@ article.one-third-two-thirds {
 	.four {
 		
 		background-image:url(../../images/business-solutions/bg-image-02.jpg);
-		height:512px;
+		
 	}
 	
 	.five {
@@ -1201,7 +1204,6 @@ article.one-third-two-thirds {
 	.six {
 		
 		background-image:url(../../images/business-solutions/bg-image-03.jpg);
-		height:512px;
 	}	
 		
 	h2 {
@@ -1735,11 +1737,7 @@ footer {
 		}
 	}
 
-	.six {
 	
-		height:512px;
-	
-	}
 
 	a.link-archives:link, a.link-archives:visited {
 	
@@ -1802,11 +1800,6 @@ footer {
 		}
 	}
 
-	.four, .six {
-	
-		height:512px;
-	
-	}
 
 	.industry-affiliations {
 	
@@ -2256,6 +2249,8 @@ footer {
 			
 			margin-top:55px;
 		}
+		
+		
 	}
 }
 
@@ -3148,6 +3143,15 @@ footer {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+	
+	.container.navigation {
+	  
+	  height:110px !important;
+	  padding-top:10px;
+	  
+	  
+	  }
+	
 	.navbar-collapse {
 		
 		padding-left:0px !important;
@@ -3160,12 +3164,13 @@ footer {
 		font-size:13px;
 		padding-left:6px;
 		padding-right:6px;
+		padding-top:35px;
 		
 	}
 	
 	.navbar-collapse .navbar-nav {
 		
-		float:left;
+		float:right;
 	}
 
 
@@ -3179,7 +3184,31 @@ footer {
 	.teasers {
 		
 		padding-left:0px;
-	}	
+		border-left:none;
+	}
+	
+	
+	#logo {
+		
+		img {
+			
+			width:110px;
+		}
+	}
+	
+  .navbar-header {
+   
+    
+  }
+  
+ 
+
+
+
+.navbar-collapse .navbar-nav>li>a {
+	
+	font-size:12px;
+}
 	
 	.navbar-nav > li > a {
 		
@@ -3194,19 +3223,9 @@ footer {
 	      padding:0px;
       }
 	
-	#logo {
-		
-		img {
-			
-			display:none;
-		}
-	}
 	
-	.navbar-nav {
-		
-		float:left;
-	}
 	
+		
 	article.one-third-two-thirds {
 			
 		ul {
@@ -3346,6 +3365,7 @@ footer {
 			padding-right:15px;
 			text-align:left;
 			border-left:none;
+			border-right:none;
 		
 		}
 	
@@ -3637,6 +3657,8 @@ footer {
 		padding-left:45px;
 	}
 	
+	
+	
 }
 
 /* Medium Screens 992 - 1200 */
@@ -3644,6 +3666,13 @@ footer {
 @media (min-width: 992px) and (max-width: 1200px) {
 
 				
+	.container.navigation {
+	  
+	  height:110px !important;
+	  
+	  
+}
+	
 	.dropdown-menu {
 		
 		left:0px;
@@ -3957,7 +3986,9 @@ and (orientation : landscape) {
     #collapseTwo,  #collapseThree,  #collapseFour, #collapseFive, #government #collapseOne, #entertainment #collapseOne {
         
         display: block;
+        
     }
+    
     
     .panel-heading-business, .panel-heading {
 	    
@@ -4095,7 +4126,7 @@ and (orientation : landscape) {
 } 
 
 
-@media (min-width: 481px) {
+@media (min-width: 321px) {
 	
 	.find-housing {
 		

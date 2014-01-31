@@ -53,6 +53,9 @@ function my_admin_industry_insight() {
 function display_industry_insight_meta_box( $industry_insight ) {
     $industry_insight_blurb = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_blurb', true ) );
     $industry_insight_photo_caption = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_photo_caption', true ) );
+    $industry_insight_sticky_story = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_story', true ) );
+    $industry_insight_sticky_photo = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_photo', true ) );
+    $industry_insight_sticky = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky', true ) );
     ?>
     <table>
         <tr>
@@ -62,6 +65,18 @@ function display_industry_insight_meta_box( $industry_insight ) {
         <tr>
             <td style="width: 100%">Photo Caption</td>
             <td><input type="text" size="80" name="industry_insight_photo_caption_name" value="<?php echo $industry_insight_photo_caption; ?>" /></td>
+        </tr>
+         <tr>
+            <td style="width:100%" height="50px;">Hero Intro</td>
+            <td><input type="text" size="80" name="industry_insight_sticky_story_name" value="<?php echo $industry_insight_sticky_story; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width:100%" height="50px;">Hero Photo</td>
+            <td><input type="text" size="80" name="industry_insight_sticky_photo_name" value="<?php echo $industry_insight_sticky_photo; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width:100%" height="50px;">Is it Sticky?</td>
+            <td><input type="text" size="80" name="industry_insight_sticky_name" value="<?php echo $industry_insight_sticky; ?>" /></td>
         </tr>
         
     </table>
@@ -78,6 +93,15 @@ function add_industry_insight_fields( $industry_insight_id, $industry_insight ) 
         }
         if ( isset( $_POST['industry_insight_photo_caption_name'] ) && $_POST['industry_insight_photo_caption_name'] != '' ) {
             update_post_meta( $industry_insight_id, 'industry_insight_photo_caption', $_POST['industry_insight_photo_caption_name'] );
+        }
+        if ( isset( $_POST['industry_insight_sticky_story_name'] ) && $_POST['industry_insight_sticky_story_name'] != '' ) {
+            update_post_meta( $industry_insight_id, 'industry_insight_sticky_story', $_POST['industry_insight_sticky_story_name'] );
+        }
+        if ( isset( $_POST['industry_insight_sticky_photo_name'] ) && $_POST['industry_insight_sticky_photo_name'] != '' ) {
+            update_post_meta( $industry_insight_id, 'industry_insight_sticky_photo', $_POST['industry_insight_sticky_photo_name'] );
+        }
+        if ( isset( $_POST['industry_insight_sticky_name'] ) && $_POST['industry_insight_sticky_name'] != '' ) {
+            update_post_meta( $industry_insight_id, 'industry_insight_sticky', $_POST['industry_insight_sticky_name'] );
         }
     }
 }

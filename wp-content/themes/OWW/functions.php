@@ -130,6 +130,7 @@ function twentythirteen_setup() {
 	/*Additonal Thumbnails for OWW*/
 	add_image_size( 'leadershipsize', 75, 120, true );
 	add_image_size( 'newssize', 195, 122, true );
+	add_image_size( 'stickysize', 350, 265, true );
 	add_image_size( 'herosize', 120, 75, true );
 	add_image_size( 'carouselsize', 350, 230, true );
 

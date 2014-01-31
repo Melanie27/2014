@@ -56,6 +56,8 @@ function display_in_the_news_meta_box( $in_the_news ) {
     $source_name = esc_html( get_post_meta( $in_the_news->ID, 'source_name', true ) );
     $article_subhead = esc_html( get_post_meta( $in_the_news->ID, 'article_subhead', true ) );
     $in_the_news_blurb = esc_html( get_post_meta( $in_the_news->ID, 'in_the_news_blurb', true ) );
+    $in_the_news_sticky = esc_html( get_post_meta( $in_the_news->ID, 'in_the_news_sticky', true ) );
+    $in_the_news_sticky_story = esc_html( get_post_meta( $in_the_news->ID, 'in_the_news_sticky_story', true ) );
     
     ?>
     <table>
@@ -74,6 +76,14 @@ function display_in_the_news_meta_box( $in_the_news ) {
          <tr>
             <td style="width: 100%">Blurb</td>
             <td><input type="text" size="80" name="in_the_news_blurb_name" value="<?php echo $in_the_news_blurb; ?>" /></td>
+        </tr>
+         <tr>
+            <td style="width: 100%">Sticky Story (yes)</td>
+            <td><input type="text" size="80" name="in_the_news_sticky_name" value="<?php echo $in_the_news_sticky; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width: 100%">Sticky Story Intro</td>
+            <td><input type="text" size="80" name="in_the_news_sticky_story_name" value="<?php echo $in_the_news_sticky_story; ?>" /></td>
         </tr>
         
     </table>
@@ -96,6 +106,12 @@ function add_in_the_news_fields( $in_the_news_id, $in_the_news ) {
         }
         if ( isset( $_POST['in_the_news_blurb_name'] ) && $_POST['in_the_news_blurb_name'] != '' ) {
             update_post_meta( $in_the_news_id, 'in_the_news_blurb', $_POST['in_the_news_blurb_name'] );
+        }
+        if ( isset( $_POST['in_the_news_sticky_name'] ) && $_POST['in_the_news_sticky_name'] != '' ) {
+            update_post_meta( $in_the_news_id, 'in_the_news_sticky', $_POST['in_the_news_sticky_name'] );
+        }
+        if ( isset( $_POST['in_the_news_sticky_story_name'] ) && $_POST['in_the_news_sticky_story_name'] != '' ) {
+            update_post_meta( $in_the_news_id, 'in_the_news_sticky_story', $_POST['in_the_news_sticky_story_name'] );
         }
     }
 }

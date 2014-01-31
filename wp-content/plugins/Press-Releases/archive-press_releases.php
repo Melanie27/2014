@@ -14,7 +14,7 @@
 								  	</div>
 								  </section>		
 							</div><!--heading-->
-							<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds.php'); ?>
+							<?php include (TEMPLATEPATH . '/_/components/php/hero-press-releases.php'); ?>
 						</section>
 						<!--two-->
 								    

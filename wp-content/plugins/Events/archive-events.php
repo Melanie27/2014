@@ -14,7 +14,7 @@
 								  		</div>
 								  	</section>		
 								 </div><!--heading-->
-								 <?php include (TEMPLATEPATH . '/_/components/php/hero-thirds.php'); ?>
+								 <?php include (TEMPLATEPATH . '/_/components/php/hero-events.php'); ?>
 							</section>
 							<!--two-->	    
 							<?php if ( have_posts() ) : ?>

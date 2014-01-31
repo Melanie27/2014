@@ -1,4 +1,4 @@
-				<div class="panel panel-default">
+				<div class="panel panel-default" id="C">
 					<div class="panel-heading collapse2" id="collapse2">
 						<h1 class="title2 panel-title">
 							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapser">

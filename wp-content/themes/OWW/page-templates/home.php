@@ -63,7 +63,7 @@
 						</section><!--end our brands-->
 						<section class="col-lg- col-md-4 col-sm-12 col-xs-12 no-right-padding">
 							<div class="solutions promo-video">
-								<a href="#" class="industry-sections">
+								
 									<!--<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/video-promo.jpg" alt="video-promo" class="img-responsive">-->
 									
 									<!-- Start of Brightcove Player -->
@@ -107,7 +107,7 @@
 										<h3>Promo Video Title Lorem Ipsum Dolore Sit Amet</h3>
 										<div class="clearfix"></div>
 									</header>-->
-								</a>
+								
 							</div><!--end video-->
 						</section>
 					</div><!--end nested row-->
@@ -130,7 +130,7 @@
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/homepage/vision-leadership-01.jpg" alt="vision-leadership-01" class="img-responsive hidden-xs">
 							<p class="">Sed aucto lorem ipsum dolore sit amet ndisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posu aesent. Vestibulum ante ipsum primis in faucibus orci luctus.</p>		
 						</div><!--end first third-->
-						<hr class="hidden-lg hidden-md hidden-sm">
+						<hr class="hidden-lg hidden-md">
 						<div class="col-lg-4 col-md-4 col-sm-6 thirds middle-third">
 							<h1><a href="news.php">News</a></h1>
 							 <?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>													

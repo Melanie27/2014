@@ -55,6 +55,8 @@ function display_event_meta_box( $event ) {
     $event_location = esc_html( get_post_meta( $event->ID, 'event_location', true ) );
     $event_blurb = esc_html( get_post_meta( $event->ID, 'event_blurb', true ) );
     $event_description = esc_html( get_post_meta( $event->ID, 'event_description', true ) );
+    $event_sticky = esc_html( get_post_meta( $event->ID, 'event_sticky', true ) );
+    $event_sticky_story = esc_html( get_post_meta( $event->ID, 'event_sticky_story', true ) );
     ?>
     <table>
         <tr>
@@ -69,6 +71,15 @@ function display_event_meta_box( $event ) {
             <td style="width: 100%">Event Description</td>
             <td><input type="text" size="80" name="event_description_name" value="<?php echo $event_description; ?>" /></td>
         </tr>
+        <tr>
+            <td style="width: 100%">Sticky Story? (yes)</td>
+            <td><input type="text" size="80" name="event_sticky_name" value="<?php echo $event_sticky; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width: 100%">Sticky Story Intro</td>
+            <td><input type="text" size="80" name="event_sticky_story_name" value="<?php echo $event_sticky_story; ?>" /></td>
+        </tr>
+        
     </table>
     <?php
 }
@@ -86,6 +97,12 @@ function add_event_fields( $event_id, $event ) {
         }
         if ( isset( $_POST['event_description_name'] ) && $_POST['event_description_name'] != '' ) {
             update_post_meta( $event_id, 'event_description', $_POST['event_description_name'] );
+        }
+        if ( isset( $_POST['event_sticky_name'] ) && $_POST['event_sticky_name'] != '' ) {
+            update_post_meta( $event_id, 'event_sticky', $_POST['event_sticky_name'] );
+        }
+        if ( isset( $_POST['event_sticky_story_name'] ) && $_POST['event_sticky_story_name'] != '' ) {
+            update_post_meta( $event_id, 'event_sticky_story', $_POST['event_sticky_story_name'] );
         }
     }
 }

@@ -33,17 +33,7 @@ function create_press_release() {
                 'parent' => 'Parent Press Release'
             ),
             
-            'capabilities' => array(
-				'publish_posts' => 'write',
-				'edit_posts' => 'read',
-				'edit_others_posts' => 'edit_others_posts',
-				'delete_posts' => 'delete_posts',
-				'delete_others_posts' => 'delete_others_posts',
-				'read_private_posts' => 'read',
-				'edit_post' => 'read',
-				'delete_post' => 'read',
-				'read_post' => 'read',
-			),
+       
  
             'public' => true,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
@@ -67,6 +57,9 @@ function display_press_release_meta_box( $press_release) {
     $press_release_subhead = esc_html( get_post_meta( $press_release->ID, 'press_release_subhead', true ) );
     $photo_caption = esc_html( get_post_meta( $press_release->ID, 'photo_caption', true ) );
     $press_release_blurb = esc_html( get_post_meta( $press_release->ID, 'press_release_blurb', true ) );
+    $press_release_sticky = esc_html( get_post_meta( $press_release->ID, 'press_release_sticky', true ) );
+    $press_release_sticky_story = esc_html( get_post_meta( $press_release->ID, 'press_release_sticky_story', true ) );
+    
    
     ?>
     <table>
@@ -81,6 +74,14 @@ function display_press_release_meta_box( $press_release) {
         <tr>
             <td style="width: 100%">Blurb</td>
             <td><input type="text" size="80" name="press_release_blurb_name" value="<?php echo $press_release_blurb; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width: 100%">Sticky Story (Yes)</td>
+            <td><input type="text" size="80" name="press_release_sticky_name" value="<?php echo $press_release_sticky; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width: 100%">Sticky Story Intro</td>
+            <td><input type="text" size="80" name="press_release_sticky_story_name" value="<?php echo $press_release_sticky_story; ?>" /></td>
         </tr>
             </table>
     <?php
@@ -100,6 +101,13 @@ function add_press_release_fields( $press_release_id, $press_release ) {
         if ( isset( $_POST['press_release_blurb_name'] ) && $_POST['press_release_blurb_name'] != '' ) {
             update_post_meta( $press_release_id, 'press_release_blurb', $_POST['press_release_blurb_name'] );
         }
+        if ( isset( $_POST['press_release_sticky_name'] ) && $_POST['press_release_sticky_name'] != '' ) {
+            update_post_meta( $press_release_id, 'press_release_sticky', $_POST['press_release_sticky_name'] );
+        }
+        if ( isset( $_POST['press_release_sticky_story_name'] ) && $_POST['press_release_sticky_story_name'] != '' ) {
+            update_post_meta( $press_release_id, 'press_release_sticky_story', $_POST['press_release_sticky_story_name'] );
+        }
+
     }
 }
 ?>
