@@ -1,5 +1,5 @@
 						<section class="three overview" id="overview">
-								<div class="row over2">
+								<div class="row over2" id="A">
 									<section class="col-lg-12 col-md-12 container">
 										<div class="row overview-top">
 											<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12" >
@@ -30,7 +30,7 @@
 											<div class="container">
 												<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 													<div class="solutions military">
-														<a href="#" class="industry-sections">
+														<a href="#" class="industry-sections" >
 															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/overview-01.jpg" alt="Woman Texting" class="img-responsive" />
 															<header class="industries">
 																<h3>Military</h3>
@@ -39,7 +39,7 @@
 														</a>
 														<section class="industry-text">	
 															<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
-															<a href="#military" class="orange-link">Learn More &#8594;</a>
+															<a href="#military" class="orange-link" data-target="B">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
 												</section>
@@ -54,7 +54,7 @@
 														</a>
 														<section class="industry-text">	
 															<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
-															<a href="#federal-civilian" class="orange-link">Learn More &#8594;</a>
+															<a href="#federal-civilian" class="orange-link" data-target="C">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
 												</section>
@@ -69,7 +69,7 @@
 														</a>
 														<section class="industry-text">	
 															<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
-															<a href="#government-contractors" class="orange-link">Learn More &#8594;</a>
+															<a href="#government-contractors" class="orange-link" data-target="D">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
 												</section>

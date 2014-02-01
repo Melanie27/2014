@@ -301,9 +301,8 @@ if(window.location.href.indexOf("january") > -1)   {
 	$( '.searchbychar' ).on('click', function(event) {
     event.preventDefault();
     var target = "#" + $(this).data('target');
-    
    
-    var targetOffset = $(target).offset().top -140;
+    var targetOffset = $(target).offset().top -170;
     console.log(target);
     console.log(targetOffset);
     $('html, body').animate({ scrollTop: targetOffset}, 1000);
@@ -312,29 +311,23 @@ if(window.location.href.indexOf("january") > -1)   {
 });
 
 console.log($(window).scrollTop());
-console.log($(window).height());
-console.log($('.military').offset().top);
-
-
-//Government scroll and highlight - on second sticky navigation
-
-
-/*$('#overview1 a').click(function () {
-	
-	$('#overview1 a').addClass("active");
-	
-} );
-
-$('#military1 a').click(function () {
-	
-	$('#military1 a').addClass("active");
-	
-} );*/
-
+//console.log($(window).height());
+console.log($('#A').offset().top);
+console.log($('#B').offset().top);
+console.log($('#C').offset().top);
+console.log($('#D').offset().top);
+console.log($('#E').offset().top);
 
 
 
 /*Make the subnavigation fixed on govt page*/
+
+
+if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
+            $('#government .sub-navigation').addClass("sub-move");
+            
+} else {
+
 
 $(window).scroll(function() {
 	
@@ -352,116 +345,127 @@ $(window).scroll(function() {
 	
 });
 
+}
+
+
+// Highlighting the subnav items while scrolling - alternative code for the iPad
 
 if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
-            alert('i an an ipad');
+            //alert('i an an ipad');
+            
+            if ($(window).height() > 0 && $(window).height() < 698) {
+	            
+	            $('#overview1 a').addClass("active");
+				$('#military1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
+            }
+            
+            else if ($(window).height() > 698 && $(window).height() < 1606) {
+				
+				$('#military1 a').addClass("active");
+				$('#overview1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
+			
+			}
+			
+			else if ($(window).height() > 1607 && $(window).height() < 2507) {
+				
+				$('#federal-civilian1 a').addClass("active");
+				$('#overview1 a, #military1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
+			
+			}
+			
+			else if ($(window).height() > 1608 && $(window).height() < 2507) {
+				
+				$('#government-contractors1 a').addClass("active");
+				$('#overview1 a, #military1 a, #federal-civilian1 a, #gsa1 a').removeClass("active");
+			
+			}
+			
+			else if ($(window).height() > 2508 && $(window).height() < 3067) {
+				
+				$('#government-contractors1 a').addClass("active");
+				$('#overview1 a, #military1 a, #federal-civilian1 a, #gsa1 a').removeClass("active");
+			
+			}
+
 } else {
 
 
-$(window).scroll(function () {
+	$(window).scroll(function () {
 
-    if ($(window).scrollTop() + $(window).height() > $('#A').offset().top && ($(window).scrollTop() + $(window).height() < $('#B').offset().top)) {
+    	if ($(window).scrollTop() + $(window).height() > $('#A').offset().top && ($(window).scrollTop() + $(window).height() < $('#B').offset().top)) {
         
-        $('#overview1 a').addClass("active");
-        $('#military1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
+        	$('#overview1 a').addClass("active");
+			$('#military1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
         
-    } else {
-       $('#military1 a').removeClass("active");
-       
-    }
-});
-
-
-$(window).scroll(function () {
-
-    if ($(window).scrollTop() + $(window).height() > $('#B').offset().top && ($(window).scrollTop() + $(window).height() < $('#C').offset().top)) {
-        
-        $('#military1 a').addClass("active");
-        $('#overview1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
-        
-        
-    } else {
-       $('#military1 a').removeClass("active");
-       
-    }
-});
-
-
-
-$(window).scroll(function () {
-
-    if ($(window).scrollTop() + $(window).height() > $('#C').offset().top && ($(window).scrollTop() + $(window).height() < $('#D').offset().top)) {
-        
-        $('#federal-civilian1 a').addClass("active");
-        $('#overview1 a, #military1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
-       
-    } else {
-       $('#federal-civilian1 a').removeClass("active");
-    }
-});
-
-$(window).scroll(function () {
-
-    if ($(window).scrollTop() + $(window).height() > $('#D').offset().top && ($(window).scrollTop() + $(window).height() < $('#E').offset().top)) {
-        console.log('hello');
-        $('#government-contractors1 a').addClass("active");
-         $('#overview1 a, #military1 a, #federal-civilian1 a, #gsa1 a').removeClass("active");
-        
-    } else {
-       $('#government-contractors1 a').removeClass("active");
-    }
-});
-
-$(window).scroll(function () {
-
-    if ($(window).scrollTop() + $(window).height() > $('#E').offset().top && ($(window).scrollTop() - $(window).height() < $('#E').offset().top)) {
-        
-        $('#gsa1 a').addClass("active");
-        $('#overview1 a, #military1 a, #government-contractors1 a, #federal-civilian1 a').removeClass("active");
-        
-    } else {
-       $('#gsa1 a').removeClass("active");
-    }
-});
-
-
-}
-	
-	/*$('#overview1').click(function() {
-		$(window).scrollTop(425);
-		$('.sub-navigation').addClass("sub-move");
-		$('#government-contractors1, #military1, #federal-civilian1, #gsa1').removeClass("active");
-		$('#overview1').addClass("active");
-	});
-	
-	$('#military1').click(function() {
-		$(window).scrollTop(1370);
-		$('.sub-navigation').addClass("sub-move");
-		$('#overview1, #government-contractors1, #federal-civilian1, #gsa1').removeClass("active");
-		$('#military1').addClass("active");
-	});
-	
-	$('#federal-civilian1').click(function() {
-		$(window).scrollTop(2260);
-		$('.sub-navigation').addClass("sub-move");
-		$('#overview1, #military1, #government-contractors1, #gsa1').removeClass("active"); 
-		$('#federal-civilian1').addClass("active");
-	});
-	
-	$('#government-contractors1').click(function() {
-		$(window).scrollTop(4000);
-		$('.sub-navigation').addClass("sub-move");
-		$('#government-contractors1').addClass("active");
-		$('#military1, #overview1, #federal-civilian1, #gsa1').removeClass("active");
+			} else {
 				
-	});
+				$('#military1 a').removeClass("active");
+       
+			}
+		});
+
+
+		$(window).scroll(function () {
+
+			if ($(window).scrollTop() + $(window).height() > $('#B').offset().top && ($(window).scrollTop() + $(window).height() < $('#C').offset().top)) {
+        
+				$('#military1 a').addClass("active");
+				$('#overview1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
+        
+        
+			} else {
+				
+				$('#military1 a').removeClass("active");
+       
+			}
+		});
+
+
+		$(window).scroll(function () {
+
+			if ($(window).scrollTop() + $(window).height() > $('#C').offset().top && ($(window).scrollTop() + $(window).height() < $('#D').offset().top)) {
+        
+				$('#federal-civilian1 a').addClass("active");
+				$('#overview1 a, #military1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
+       
+				} else {
+					
+					$('#federal-civilian1 a').removeClass("active");
+				
+				}
+			});
+
+		$(window).scroll(function () {
+
+			if ($(window).scrollTop() + $(window).height() > $('#D').offset().top && ($(window).scrollTop() + $(window).height() < $('#E').offset().top)) {
+        
+				$('#government-contractors1 a').addClass("active");
+				$('#overview1 a, #military1 a, #federal-civilian1 a, #gsa1 a').removeClass("active");
+        
+				} else {
+       
+					$('#government-contractors1 a').removeClass("active");
+				
+				}
+			});
+
+			$(window).scroll(function () {
+
+				if ($(window).scrollTop() + $(window).height() > $('#E').offset().top) {
+        
+					$('#gsa1 a').addClass("active");
+					$('#overview1 a, #military1 a, #government-contractors1 a, #federal-civilian1 a').removeClass("active");
+        
+				} else {
+       
+					$('#gsa1 a').removeClass("active");
+				
+				}
+			});
+}
+
+//Object oriented approach to the same
 	
-	$('#gsa1').click(function() {
-		$(window).scrollTop(4720);	 
-		$('.sub-navigation').addClass("sub-move");
-		$('#overview1, #military1, #federal-civilian1, #government-contractors1').removeClass("active");	 
-		$('#gsa1').addClass("active"); 
-	});*/
 	
 
 
