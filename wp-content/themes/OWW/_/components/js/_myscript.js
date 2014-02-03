@@ -1,4 +1,11 @@
 
+
+
+
+// Any scope
+
+// Global scope
+
 //Remove text from dynamically generated next and previous arrows
 
 	$("a.prev").each(function(){
@@ -303,24 +310,56 @@ if(window.location.href.indexOf("january") > -1)   {
     var target = "#" + $(this).data('target');
    
     var targetOffset = $(target).offset().top -170;
-    console.log(target);
-    console.log(targetOffset);
+    //console.log(target);
+    //console.log(targetOffset);
     $('html, body').animate({ scrollTop: targetOffset}, 1000);
        
        
 });
 
-console.log($(window).scrollTop());
+//console.log($(window).scrollTop());
 //console.log($(window).height());
-console.log($('#A').offset().top);
-console.log($('#B').offset().top);
-console.log($('#C').offset().top);
-console.log($('#D').offset().top);
-console.log($('#E').offset().top);
+//console.log($('#A').offset().top);
+//console.log($('#B').offset().top);
+//console.log($('#C').offset().top);
+//console.log($('#D').offset().top);
+//console.log($('#E').offset().top);
 
 
 
 /*Make the subnavigation fixed on govt page*/
+
+
+// deep linking the sections
+  $(document).ready(function() {
+    function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+    }
+    var locationPath = filterPath(location.pathname);
+    $('a[href*=#]').each(function() {
+      var thisPath = filterPath(this.pathname) || locationPath;
+      if (  locationPath == thisPath
+      && (location.hostname == this.hostname || !this.hostname)
+      && this.hash.replace(/#/,'') ) {
+        var $target = $(this.hash), target = this.hash;
+        if (target) {
+          //var targetOffset = $target.offset().top;
+          $(this).click(function(event) {
+            event.preventDefault();
+            //$('html, body').animate({scrollTop: targetOffset}, 400, function() {
+              location.hash = target;
+            //});
+          });
+        }
+      }
+    });
+  });
+
+
+
 
 
 if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
@@ -350,44 +389,6 @@ $(window).scroll(function() {
 
 // Highlighting the subnav items while scrolling - alternative code for the iPad
 
-if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
-            //alert('i an an ipad');
-            
-            if ($(window).height() > 0 && $(window).height() < 698) {
-	            
-	            $('#overview1 a').addClass("active");
-				$('#military1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
-            }
-            
-            else if ($(window).height() > 698 && $(window).height() < 1606) {
-				
-				$('#military1 a').addClass("active");
-				$('#overview1 a, #federal-civilian1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
-			
-			}
-			
-			else if ($(window).height() > 1607 && $(window).height() < 2507) {
-				
-				$('#federal-civilian1 a').addClass("active");
-				$('#overview1 a, #military1 a, #government-contractors1 a, #gsa1 a').removeClass("active");
-			
-			}
-			
-			else if ($(window).height() > 1608 && $(window).height() < 2507) {
-				
-				$('#government-contractors1 a').addClass("active");
-				$('#overview1 a, #military1 a, #federal-civilian1 a, #gsa1 a').removeClass("active");
-			
-			}
-			
-			else if ($(window).height() > 2508 && $(window).height() < 3067) {
-				
-				$('#government-contractors1 a').addClass("active");
-				$('#overview1 a, #military1 a, #federal-civilian1 a, #gsa1 a').removeClass("active");
-			
-			}
-
-} else {
 
 
 	$(window).scroll(function () {
@@ -399,7 +400,7 @@ if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
         
 			} else {
 				
-				$('#military1 a').removeClass("active");
+				$('#overview1 a').removeClass("active");
        
 			}
 		});
@@ -462,10 +463,94 @@ if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
 				
 				}
 			});
-}
+
 
 //Object oriented approach to the same
 	
 	
+/*$(function() {
+  
+  $(".name").click(function () { // hover over
+    $(this).closest('.info').find(".bio").toggle();
+  });
+  
+  // Animated Scroll
+  $(document).ready(function() {
+    function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+    }
+    var locationPath = filterPath(location.pathname);
+    $('a[href*=#]').each(function() {
+      var thisPath = filterPath(this.pathname) || locationPath;
+      if (  locationPath == thisPath
+      && (location.hostname == this.hostname || !this.hostname)
+      && this.hash.replace(/#/,'') ) {
+        var $target = $(this.hash), target = this.hash;
+        if (target, targetOffset) {
+          var targetOffset = $target.offset().top;
+          $(this).click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: targetOffset}, 400, function() {
+              //location.hash = target;
+            });
+          });
+        }
+      }
+    });
+  });
 
+  // Cache selectors
+  var lastId,
+      topMenu = $("#menu"),
+      topMenuHeight = topMenu.outerHeight()+15,
+      // All list items
+      menuItems = topMenu.find("a"),
+      // Anchors corresponding to menu items
+      scrollItems = menuItems.map(function(){
+        var item = $($(this).attr("href"));
+        if (item.length) { return item; }
+  });
 
+  // Bind to scroll
+  $(window).scroll(function(){
+     // Get container scroll position
+     var fromTop = $(this).scrollTop()+topMenuHeight -170;
+     
+     // Get id of current scroll item
+     var cur = scrollItems.map(function(){
+       if ($(this).offset().top < fromTop)
+         return this;
+     });
+     // Get the id of the current element
+     cur = cur[cur.length-1];
+     var id = cur && cur.length ? cur[0].id : "";
+     
+     if (lastId !== id) {
+        lastId = id;
+        // Set/remove active class
+        menuItems
+          .parent().removeClass("active")
+          .end().filter("[href=#"+id+"]").parent().addClass("active");
+     }                   
+  });
+
+  $(".nav-btn").click(function () {
+    $('#menu .container > input[type=checkbox]').removeAttr('checked');
+  });
+
+  var exp = "expanded";
+
+  $(document).on("click", "button.expand", function(e) {
+    var $container = $(this).closest(".speaker_entity"),
+    isExpanded = $container.hasClass( exp );
+
+    $container.toggleClass( exp, !isExpanded );
+
+    $(this).text( isExpanded ? "Read more" : "Close" );
+    e.stopPropagation();
+  });
+
+});*/

@@ -27,15 +27,15 @@ get_header(4); ?>
 					<div class="hidden-sm hidden-xs sub-navigation">
 						<section class="row">
 							<div class="col-lg-12 center-block">
-								<nav class="navbar navbar-default sub-nav" role="navigation">
+								<nav id="menu" class="navbar navbar-default sub-nav" role="navigation">
 									<!-- Collect the nav links, forms, and other content for toggling -->
-									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<div class="collapse navbar-collapse container" id="bs-example-navbar-collapse-1">
 										<ul class="nav navbar-nav">
-											<li id="overview1"><a href="#" class="searchbychar" data-target="A">Overview</a></li>
-											<li id="military1"><a href="#"  class="searchbychar" data-target="B">Military</a></li>
-											<li id="federal-civilian1"><a href="#" class="searchbychar" data-target="C">Federal Civilian</a></li>
-											<li id="government-contractors1"><a href="#"  class="searchbychar" data-target="D">Government Contractors</a></li>
-											<li id="gsa1"><a href="#" class="searchbychar" data-target="E">GSA Schedule 48</a></li>
+											<li id="overview1"><a href="#overview" class="searchbychar nav-btn" data-target="A">Overview</a></li>
+											<li id="military1"><a href="#military"  class="searchbychar nav-btn" data-target="B">Military</a></li>
+											<li id="federal-civilian1"><a href="#federal-civilian" class="searchbychar nav-btn" data-target="C">Federal Civilian</a></li>
+											<li id="government-contractors1"><a href="#government-contractors"  class="searchbychar nav-btn" data-target="D">Government Contractors</a></li>
+											<li id="gsa1"><a href="#gsa-schedule-48" class="searchbychar nav-btn" data-target="E">GSA Schedule 48</a></li>
 										</ul>
 									</div><!-- /.navbar-collapse -->
 								</nav>
@@ -43,7 +43,7 @@ get_header(4); ?>
 						</section>
 					</div><!--end sub-nav-->
 					<hr />
-					<div class="container" id="A">
+					<div class="container" id="overview">
 						<?php include (TEMPLATEPATH . '/_/components/php/government-overview.php'); ?>
 					</div><!--end container-->		
 					<hr />
@@ -81,7 +81,7 @@ get_header(4); ?>
 							</section>	
 				
 							<!--GSA Schedule 48 Accordion Panel-->
-							<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 accord-padding" id="gsa-48">
+							<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 accord-padding" id="gsa-schedule-48">
 								<div class="container">	
 									<?php include (TEMPLATEPATH . '/_/components/php/government-gsa.php'); ?>
 								</div>
