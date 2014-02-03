@@ -56,9 +56,9 @@ get_header(7); ?>
 											</section><!--end two thirds--> 
 											<hr />	
 										</section>								
-										<section class="hidden-lg hidden-md hidden-sm">
-											<h1>Press Releases</h1>
-											<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>
+										<section class="hidden-lg hidden-md hidden-sm news-single-archives">
+											<h1>Events</h1>
+											<?php include (TEMPLATEPATH . '/_/components/php/news-events-thumbs.php'); ?>
 										</section>				
 										<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							
 									</div><!--end nested row-->

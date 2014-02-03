@@ -2,35 +2,33 @@
 /**
  * The template for displaying all single posts
  *
- * * Template Name: In The News Single
+ * * Template Name: Press Release Single
  */
 
 get_header(7); ?>
 
-<body id="in-the-news-single">
+<body id="press-releases-single">
   	<div class="container-full">  
   		<section class="container landing">
-		  	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
+		  <?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
 		  	<div id="primary">
 			  	<div id="content" role="main">
 				  	<section class="two">
 					  	<div class="row heading">
 						  	<section class="col-lg-12">
 							  	<div class="container">
-								  	<h1>In The News: <?php the_title() ?></h1>
+								  	<h1>Press Releases: Single</h1>
 								</div>
 							</section>		
 						</div><!--heading-->
 						<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); ?>
-					</section> <!--two-->	
+					</section> <!--two-->	 
 					<?php
-						$mypost = array( 'post_type' => 'in-the-news', );
+						$mypost = array( 'post_type' => 'alerts', );
 						$loop = new WP_Query( $mypost );
-					?>
-        
+					?>    
 					<?php /* The loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
-        
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<div class="entry-content">
 							<section class="three container">
@@ -39,27 +37,24 @@ get_header(7); ?>
 										<div class="row">
 											<section class="col-lg-8 col-md-8 press-release-list">
 												<h1><?php the_title(); ?></h1>
-												<section class="press-release-hero">								
-													<?php the_post_thumbnail(); ?>
+												<section class="press-release-hero">
+													<?php the_post_thumbnail( array( 350, 350 ) ); ?>
 													<?php echo esc_html( get_post_meta( get_the_ID(), 'photo_caption', true ) ); ?>
 												</section>
 												<section class="press-release-content">	       	
 													<?php the_content(); ?>
-													<p>
-														<a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'article_link', true ) ); ?> target="_blank" ">View Article in <?php echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); ?></a>
-													</p>
 													<p class="more">More From:
 														<span class="tags">
-														<?php the_terms( $post->ID, 'in_the_news_years' ,  ' ' );?>
+														<?php the_terms( $post->ID, 'alerts_tags' ,  ' ' );?>
 														</span>
-													</p>									
+													</p>
 													<div class="clearfix"></div>	
 												</section><!--end two thirds--> 
 													
 											</section>									
-											<section class="hidden-lg hidden-md hidden-sm news-single-archives">
-												<h1>News for 2014</h1>
-												<?php include (TEMPLATEPATH . '/_/components/php/in-the-news-thumbs.php'); ?>
+											<section class="hidden-lg hidden-md hidden-sm">
+												<h1>Press Releases</h1>
+												<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>
 											</section>				
 											<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							
 										</div><!--end nested row-->
@@ -75,8 +70,8 @@ get_header(7); ?>
 							<hr />
 							<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>				
 							<hr />
-						</div>
-					</article> 
+						</div><!--entry-content-->
+					</article>
 				<?php endwhile; ?>
 			</div>
 		</div>

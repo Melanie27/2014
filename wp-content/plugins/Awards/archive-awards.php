@@ -52,23 +52,22 @@
 							<div class="row">
 								<section class="col-lg-8 col-md-8 press-release-list">
 									<h1 class="page-title">Awards and Honors</h1>
-									<section class="hidden-lg hidden-md hidden-sm">
-									<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>	
-									</section>
-
 									<!-- Start the Loop -->
 									<?php while ( have_posts() ) : the_post(); ?>
 									<!-- Display review title and author -->
-									<div class="row hidden-xs" id="press1">
+									<div class="row" id="press1">
 										<ul>
 											<li>
-												<section class="col-lg-4 col-md-5 col-sm-4 press-image">
-												<?php the_post_thumbnail( array( 195, 122 ) ); ?>
+												<section class="col-lg-4 col-md-5 col-sm-4 col-xs-6 press-image">
+													<?php the_post_thumbnail('newssize'); ?>
 												</section>
-												<section class="col-lg-8 col-md-7 col-sm-8 press-text">
-													<h2><?php the_title(); ?></h2>
-													<p><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></</p>
-													<p class="full-story "><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
+												<section class="col-lg-8 col-md-7 col-sm-8 col-xs-6 press-text">
+													<h2 class="hidden-xs"><?php the_title(); ?></h2>
+													<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
+													<a href="<?php the_permalink(); ?>"><p class="hidden-lg hidden-md hidden-sm">
+														<?php echo esc_html( get_post_meta( get_the_ID(), 'award_subhead', true ) ); ?>
+													</p></a>
+													<p class="full-story hidden-xs"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
 												</section>
 												<div class="clearfix"></div>				
 											</li>

@@ -16,7 +16,7 @@ get_header(7); ?>
 					 	<div class="row heading">
 						 	<section class="col-lg-12">
 							 	<div class="container">
-								 	<h1>Awards: <?php the_title(); ?></h1>
+								 	<h1>Awards<?php the_title(); ?></h1>
 								 </div>
 							</section>		
 						</div><!--heading-->
@@ -78,13 +78,14 @@ get_header(7); ?>
 													</section><!--end two thirds--> 
 													
 												</section>									
-							
-												<section class="hidden-lg hidden-md hidden-sm">
+												<hr/>
+												<section class="hidden-lg hidden-md hidden-sm news-single-archives">
 													<h1>Awards</h1>
-													<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>
+													<?php include (TEMPLATEPATH . '/_/components/php/awards-thumbs.php'); ?>
 												</section>				
 												<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							
 											</div><!--end nested row-->
+											
 										</section>
 									</div><!--row-->
 								</section><!--three-->

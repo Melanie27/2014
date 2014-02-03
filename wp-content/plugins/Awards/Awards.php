@@ -57,12 +57,17 @@ function my_admin_award() {
 function display_award_meta_box( $award ) {
     // Retrieve current name of the Director and Movie Rating based on review ID
     $award_press_release = esc_html( get_post_meta( $award->ID, 'award_press_release', true ) );
+    $award_subhead = esc_html( get_post_meta( $award->ID, 'award_subhead', true ) );
     $award_blurb = esc_html( get_post_meta( $award->ID, 'award_blurb', true ) );
     ?>
     <table>
         <tr>
             <td style="width: 100%">Press Release Link</td>
             <td><input type="text" size="80" name="award_press_release_name" value="<?php echo $award_press_release; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width: 100%">Award Subhead</td>
+            <td><input type="text" size="80" name="award_subhead_name" value="<?php echo $award_subhead; ?>" /></td>
         </tr>
         <tr>
             <td style="width: 100%">Award Blurb</td>
@@ -80,6 +85,9 @@ function add_award_fields( $award_id, $award ) {
         // Store data in post meta table if present in post data
         if ( isset( $_POST['award_press_release_name'] ) && $_POST['award_press_release_name'] != '' ) {
             update_post_meta( $award_id, 'award_press_release', $_POST['award_press_release_name'] );
+        }
+        if ( isset( $_POST['award_subhead_name'] ) && $_POST['award_subhead_name'] != '' ) {
+            update_post_meta( $award_id, 'award_subhead', $_POST['award_subhead_name'] );
         }
         if ( isset( $_POST['award_blurb_name'] ) && $_POST['award_blurb_name'] != '' ) {
             update_post_meta( $award_id, 'award_blurb', $_POST['award_blurb_name'] );

@@ -50,11 +50,11 @@ get_header(7); ?>
 													</p>
 													<div class="clearfix"></div>	
 												</section><!--end two thirds--> 
-													
-											</section>									
+											</section>
+											<hr class="hidden-lg hidden-md hidden-sm"/>									
 											<section class="hidden-lg hidden-md hidden-sm">
 												<h1>Press Releases</h1>
-												<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>
+												<?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>
 											</section>				
 											<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							
 										</div><!--end nested row-->

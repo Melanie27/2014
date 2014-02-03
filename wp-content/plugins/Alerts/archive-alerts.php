@@ -10,11 +10,11 @@
 					  		<div class="row heading">
 						  		<section class="col-lg-12">
 							  		<div class="container">
-								  		<h1>Press Releases</h1>
+								  		<h1>Alerts</h1>
 								  	</div>
 								  </section>		
 							</div><!--heading-->
-							<?php include (TEMPLATEPATH . '/_/components/php/hero-press-releases.php'); ?>
+							<?php include (TEMPLATEPATH . '/_/components/php/hero-alerts.php'); ?>
 						</section>
 						<!--two-->
 								    
@@ -25,22 +25,22 @@
 								<section class="col-lg-12 col-md-12">
 									<div class="row">
 										<section class="col-lg-8 col-md-8 press-release-list">
-										 	<h1 class="page-title">Press Releases</h1>
+										 	<h1 class="page-title">Alerts Archive</h1>
 												<!-- Start the Loop -->
 												<?php while ( have_posts() ) : the_post(); ?>
 												<div class="row" id="press1">
 													<ul>
-														<li class="clearfix">
+														<li>
 															<section class="col-lg-4 col-md-5 col-sm-4 col-xs-6 press-image">
 																<?php the_post_thumbnail('newssize'); ?>
 															</section>
-															<section class="col-lg-8 col-md-7 col-sm-8 press-text">
+															<section class="col-lg-8 col-md-7 col-sm-8 col-xs-6 press-text">
 																<h2 class="hidden-xs"><?php the_title(); ?></h2>
 																<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
-																<p class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></p>
-																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_blurb', true ) ); ?></p>
+																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'alert_subhead', true ) ); ?></p>
 																<p class="full-story hidden-xs"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
-															</section>				
+															</section>
+																			
 														</li>
 													</ul>
 												</div>
@@ -63,7 +63,7 @@
 													</div> 
 												</div>
 											</section><!--end two thirds-->															
-											<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>													
+											<?php /*include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); */?>													
 										</div><!--end nested row-->
 									</section>
 								</div><!--row-->
@@ -75,7 +75,7 @@
 								</div>
 							</section><!--content 4-->
 							<hr>			
-							<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>
+							<?php /*include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); */	?>
 							<hr>
 						</div>
 					</section>
