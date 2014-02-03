@@ -1,11 +1,5 @@
 
 
-
-
-// Any scope
-
-// Global scope
-
 //Remove text from dynamically generated next and previous arrows
 
 	$("a.prev").each(function(){
@@ -23,100 +17,35 @@ $('.wp-post-image').addClass('img-responsive');
 
 
 $('.carousel').carousel({
+  
   interval: false
+
 });
 
+
+/*Setting up the accordion images*/
 $(".collapse").collapse();
 
-$('#collapseOne').on('show.bs.collapse', function () {
-	$('#btn-1').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
-});
-
-$('#collapseOne').on('hidden.bs.collapse', function () {
-	$('#btn-1').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
-});
-
-
-$('#collapseTwo').on('show.bs.collapse', function () {
-	$('#btn-2').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
-});
-
-$('#collapseTwo').on('hidden.bs.collapse', function () {
-	$('#btn-2').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
-});
-
-
-$('#collapseThree').on('show.bs.collapse', function () {
-	$('#btn-3').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
-});
-
-$('#collapseThree').on('hidden.bs.collapse', function () {
-	$('#btn-3').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
-});
-
-
-$('#collapseFour').on('show.bs.collapse', function () {
-	$('#btn-4').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
-});
-
-$('#collapseFour').on('hidden.bs.collapse', function () {
-	$('#btn-4').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
-});
-
-
-$('#collapseFive').on('show.bs.collapse', function () {
-	$('#btn-5').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
-});
-
-$('#collapseFive').on('hidden.bs.collapse', function () {
-	$('#btn-5').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
-});
-
-
-$('.panel-heading-business a ').each(function (index) {
-			
-	var hashCol = $(this).attr('href');
-	var grandParent = $(this).parent().parent().attr('id');
-	var gString = $('.' + grandParent);
-	var btn = $(this).find("button");
-	var btnID = $(btn).attr("id");
-	var subString2 = btnID.substring(0, 3);	
-	btnString = $('.' + subString2);
-	btnIDString = $('#' + btnID);
-	var panelTitle  = $(this).parent().attr('class');
-	titleSub = panelTitle.substring(0, 6);
-	titleString = $('.' + titleSub);
-									
-	/*Add and remove the bottom border from the header when collapsing and expanding the accordion*/
-			
-	$(hashCol).on('show.bs.collapse', function () {
-				
-		//$(gString).css("border-bottom", "none");
-		/*$(btnIDString).css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");*/				
-			
+$('.panel-title a').each(function() {
+	
+	var coll = $(this).attr('href');
+	var button = $(this).next(".btn");
+	$(coll).on('show.bs.collapse', function () {
+		$(button).css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
 	});
-		
-		
-	$(hashCol).on('hidden.bs.collapse', function () {
-				
-		//$(gString).css("border-bottom", "solid 1px #ebebeb");
-		/*$(btnIDString).css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");*/
-						
+	$(coll).on('hidden.bs.collapse', function () {
+		$(button).css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
 	});
 
-
 });
-
 
 
 /*MAIN Navigation*/
 
 $('.current-menu-parent, .current-page-ancestor, .current-menu-ancestor' ).addClass('active');
-
 $('.current-menu-ancestor' ).addClass('active');
 $("#affiliations a:contains('Affiliations')").addClass('active');
 $("#industry-affiliations a:contains('Affiliations')").addClass('active');
-
 
 
 /*News Subnavigation*/
@@ -159,7 +88,6 @@ var pathname = window.location.pathname;
         $('.press-releases-archive a.2011').addClass('active');
      }
      
-     
      else if(window.location.href.indexOf("press_releases_tags/2012/") > -1) {
         
         $('.press-releases-archive a.2012').addClass('active');
@@ -175,9 +103,6 @@ var pathname = window.location.pathname;
         $('.press-releases-archive a.2014').addClass('active');
      }
      
-     
-     
-     
 // In the News Archives
 
 var pathnameNews = window.location.pathname;
@@ -189,12 +114,10 @@ var pathnameNews = window.location.pathname;
      }
      
   
-     
      else if(window.location.href.indexOf("in_the_news_years/2012/") > -1){
         
         $('.in-news-archive a.2012').addClass('active');
      }
-     
           
      else if(window.location.href.indexOf("in_the_news_years/2013/") > -1){
         
@@ -207,7 +130,6 @@ var pathnameNews = window.location.pathname;
         $('.in-news-archive a.2014').addClass('active');
      }
      
-
 
 //Awards Archives 
 
@@ -308,29 +230,14 @@ if(window.location.href.indexOf("january") > -1)   {
 	$( '.searchbychar' ).on('click', function(event) {
     event.preventDefault();
     var target = "#" + $(this).data('target');
-   
     var targetOffset = $(target).offset().top -170;
-    //console.log(target);
-    //console.log(targetOffset);
     $('html, body').animate({ scrollTop: targetOffset}, 1000);
        
        
 });
 
-//console.log($(window).scrollTop());
-//console.log($(window).height());
-//console.log($('#A').offset().top);
-//console.log($('#B').offset().top);
-//console.log($('#C').offset().top);
-//console.log($('#D').offset().top);
-//console.log($('#E').offset().top);
 
-
-
-/*Make the subnavigation fixed on govt page*/
-
-
-// deep linking the sections
+// deep linking the sections government page
   $(document).ready(function() {
     function filterPath(string) {
     return string
@@ -339,7 +246,7 @@ if(window.location.href.indexOf("january") > -1)   {
       .replace(/\/$/,'');
     }
     var locationPath = filterPath(location.pathname);
-    $('a[href*=#]').each(function() {
+    $('#government a[href*=#]').each(function() {
       var thisPath = filterPath(this.pathname) || locationPath;
       if (  locationPath == thisPath
       && (location.hostname == this.hostname || !this.hostname)
@@ -360,31 +267,31 @@ if(window.location.href.indexOf("january") > -1)   {
 
 
 
+if(window.location.href.indexOf("government") > -1)   {
 
-
-if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
+	if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
             $('#government .sub-navigation').addClass("sub-move");
             
-} else {
+		} else {
 
 
-$(window).scroll(function() {
+			$(window).scroll(function() {
 	
-	var currentPosition = $(window).scrollTop(); //get current position
+				var currentPosition = $(window).scrollTop(); //get current position
 	
-	if (currentPosition >= 10) {
+				if (currentPosition >= 10) {
 		
-		$('#government .sub-navigation').addClass("sub-move");
-	}
+					$('#government .sub-navigation').addClass("sub-move");
+				}
 	
-	else {
+				else {
 		
-		$('#government .sub-navigation').removeClass("sub-move");
-	}
+					$('#government .sub-navigation').removeClass("sub-move");
+				}
 	
-});
+			});
 
-}
+		}
 
 
 // Highlighting the subnav items while scrolling - alternative code for the iPad
@@ -464,93 +371,4 @@ $(window).scroll(function() {
 				}
 			});
 
-
-//Object oriented approach to the same
-	
-	
-/*$(function() {
-  
-  $(".name").click(function () { // hover over
-    $(this).closest('.info').find(".bio").toggle();
-  });
-  
-  // Animated Scroll
-  $(document).ready(function() {
-    function filterPath(string) {
-    return string
-      .replace(/^\//,'')
-      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-      .replace(/\/$/,'');
-    }
-    var locationPath = filterPath(location.pathname);
-    $('a[href*=#]').each(function() {
-      var thisPath = filterPath(this.pathname) || locationPath;
-      if (  locationPath == thisPath
-      && (location.hostname == this.hostname || !this.hostname)
-      && this.hash.replace(/#/,'') ) {
-        var $target = $(this.hash), target = this.hash;
-        if (target, targetOffset) {
-          var targetOffset = $target.offset().top;
-          $(this).click(function(event) {
-            event.preventDefault();
-            $('html, body').animate({scrollTop: targetOffset}, 400, function() {
-              //location.hash = target;
-            });
-          });
-        }
-      }
-    });
-  });
-
-  // Cache selectors
-  var lastId,
-      topMenu = $("#menu"),
-      topMenuHeight = topMenu.outerHeight()+15,
-      // All list items
-      menuItems = topMenu.find("a"),
-      // Anchors corresponding to menu items
-      scrollItems = menuItems.map(function(){
-        var item = $($(this).attr("href"));
-        if (item.length) { return item; }
-  });
-
-  // Bind to scroll
-  $(window).scroll(function(){
-     // Get container scroll position
-     var fromTop = $(this).scrollTop()+topMenuHeight -170;
-     
-     // Get id of current scroll item
-     var cur = scrollItems.map(function(){
-       if ($(this).offset().top < fromTop)
-         return this;
-     });
-     // Get the id of the current element
-     cur = cur[cur.length-1];
-     var id = cur && cur.length ? cur[0].id : "";
-     
-     if (lastId !== id) {
-        lastId = id;
-        // Set/remove active class
-        menuItems
-          .parent().removeClass("active")
-          .end().filter("[href=#"+id+"]").parent().addClass("active");
-     }                   
-  });
-
-  $(".nav-btn").click(function () {
-    $('#menu .container > input[type=checkbox]').removeAttr('checked');
-  });
-
-  var exp = "expanded";
-
-  $(document).on("click", "button.expand", function(e) {
-    var $container = $(this).closest(".speaker_entity"),
-    isExpanded = $container.hasClass( exp );
-
-    $container.toggleClass( exp, !isExpanded );
-
-    $(this).text( isExpanded ? "Read more" : "Close" );
-    e.stopPropagation();
-  });
-
-});*/
+}

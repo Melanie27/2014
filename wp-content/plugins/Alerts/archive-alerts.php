@@ -3,7 +3,7 @@
 <body id="press-releases">
   		<div class="container-full">
   			<section class="container landing">
-		  	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	  		
+		  	<?php /*include (TEMPLATEPATH . '/_/components/php/header-menu.php'); */?>	  		
 		  		<section id="primary">
 			  		<div id="content" role="main">
 				  		<section class="two">
@@ -16,8 +16,7 @@
 							</div><!--heading-->
 							<?php include (TEMPLATEPATH . '/_/components/php/hero-alerts.php'); ?>
 						</section>
-						<!--two-->
-								    
+						<!--two-->    
 						<?php if ( have_posts() ) : ?>
 						<hr class="hidden-lg hidden-md hidden-sm">		
 						<section class="three container">
@@ -39,8 +38,7 @@
 																<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'alert_subhead', true ) ); ?></p>
 																<p class="full-story hidden-xs"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
-															</section>
-																			
+															</section>				
 														</li>
 													</ul>
 												</div>
@@ -63,7 +61,6 @@
 													</div> 
 												</div>
 											</section><!--end two thirds-->															
-											<?php /*include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); */?>													
 										</div><!--end nested row-->
 									</section>
 								</div><!--row-->
@@ -75,9 +72,6 @@
 								</div>
 							</section><!--content 4-->
 							<hr>			
-							<?php /*include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); */	?>
-							<hr>
 						</div>
 					</section>
-				<br /><br />
-<?php get_footer(); ?>
+<?php /*get_footer();*/ ?>

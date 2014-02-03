@@ -1,4 +1,4 @@
-				<div class="panel panel-default" id="C">
+				<div class="panel panel-default subsections" id="C">
 					<div class="panel-heading collapse2" id="collapse2">
 						<h1 class="title2 panel-title">
 							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapser">
@@ -18,6 +18,9 @@
 												<h1 class="hidden-sm hidden-xs">Federal Civilian</h1>
 												<h2>What's the military's secret weapon? A home base away from home. Not just comfort efficiency. Not just amenities capabilities.</h2>
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/cover-story-federal-civilian.jpg" alt="cover-story-military" class="img-responsive pull-left govt-cover">
+												<p>From San Diego to Fort Belvoir, from London to Seoul: Oakwood has empowered military organizations with customized lodging solutions for 50 years offering efficient, stress-free procurement through the Defense Travel System, GSA Schedule 48, and all major Global Distribution Stystems.</p>
+												<p>Our nation's security depends on a well-managed, synchronized military that makes simplified, full-service lodging a Defense Department necessity. Strategically located near hundreds of military installations worldwide, Oakwood lodgings are custom-fit to meet all possible mission requirements.</p>
+												<p>And since military travelers have no margin for error, Oakwood offers end-to-end procurement management and support with large-scale DOD contract options for lower costs and easier administration.</p>
 												<p>From San Diego to Fort Belvoir, from London to Seoul: Oakwood has empowered military organizations with customized lodging solutions for 50 years offering efficient, stress-free procurement through the Defense Travel System, GSA Schedule 48, and all major Global Distribution Stystems.</p>
 												<p>Our nation's security depends on a well-managed, synchronized military that makes simplified, full-service lodging a Defense Department necessity. Strategically located near hundreds of military installations worldwide, Oakwood lodgings are custom-fit to meet all possible mission requirements.</p>
 												<p>And since military travelers have no margin for error, Oakwood offers end-to-end procurement management and support with large-scale DOD contract options for lower costs and easier administration.</p>

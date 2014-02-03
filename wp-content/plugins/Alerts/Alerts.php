@@ -33,8 +33,6 @@ function create_alert() {
                 'parent' => 'Parent Alert'
             ),
             
-       
- 
             'public' => true,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( '' ),

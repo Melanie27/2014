@@ -10,18 +10,18 @@ get_header(7); ?>
 <body id="press-releases-single">
   	<div class="container-full">  
   		<section class="container landing">
-		  <?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
+		  <?php /*include (TEMPLATEPATH . '/_/components/php/header-menu.php');*/ ?>
 		  	<div id="primary">
 			  	<div id="content" role="main">
 				  	<section class="two">
 					  	<div class="row heading">
 						  	<section class="col-lg-12">
 							  	<div class="container">
-								  	<h1>Press Releases: Single</h1>
+								  	<h1>Alerts: Single</h1>
 								</div>
 							</section>		
 						</div><!--heading-->
-						<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); ?>
+						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); */?>
 					</section> <!--two-->	 
 					<?php
 						$mypost = array( 'post_type' => 'alerts', );
@@ -53,10 +53,9 @@ get_header(7); ?>
 													
 											</section>									
 											<section class="hidden-lg hidden-md hidden-sm">
-												<h1>Press Releases</h1>
-												<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>
-											</section>				
-											<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							
+												<h1>Alerts</h1>
+												<?php include (TEMPLATEPATH . '/_/components/php/alerts-thumbs.php'); ?>
+											</section>										
 										</div><!--end nested row-->
 									</section>
 								</div><!--row-->
@@ -68,12 +67,10 @@ get_header(7); ?>
 								</div>
 							</section><!--content 4-->			
 							<hr />
-							<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>				
-							<hr />
 						</div><!--entry-content-->
 					</article>
 				<?php endwhile; ?>
 			</div>
 		</div>
 <?php wp_reset_query(); ?>
-<?php get_footer(); ?>
+<?php /*get_footer(); */?>
