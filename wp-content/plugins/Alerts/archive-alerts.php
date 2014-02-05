@@ -1,9 +1,9 @@
 <?php get_header(7); ?>
 
-<body id="press-releases">
+<body id="alerts">
   		<div class="container-full">
   			<section class="container landing">
-		  	<?php /*include (TEMPLATEPATH . '/_/components/php/header-menu.php'); */?>	  		
+		  	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	  		
 		  		<section id="primary">
 			  		<div id="content" role="main">
 				  		<section class="two">
@@ -16,6 +16,7 @@
 							</div><!--heading-->
 							<?php include (TEMPLATEPATH . '/_/components/php/hero-alerts.php'); ?>
 						</section>
+						
 						<!--two-->    
 						<?php if ( have_posts() ) : ?>
 						<hr class="hidden-lg hidden-md hidden-sm">		
@@ -37,7 +38,7 @@
 																<h2 class="hidden-xs"><?php the_title(); ?></h2>
 																<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'alert_subhead', true ) ); ?></p>
-																<p class="full-story hidden-xs"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
+																<p class="full-story"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
 															</section>				
 														</li>
 													</ul>
@@ -65,7 +66,7 @@
 									</section>
 								</div><!--row-->
 							</section><!--three-->		
-							<section class="content row">
+							<!--<section class="content row">
 								<div class="col-lg-12">
 									<section class="four hidden-sm hidden-xs">
 									</section>
@@ -74,4 +75,4 @@
 							<hr>			
 						</div>
 					</section>
-<?php /*get_footer();*/ ?>
+<?php get_footer(2); ?>

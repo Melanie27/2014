@@ -7,11 +7,11 @@
 												));					
 											?>
 											<?php query_posts('post_type=alerts'); while ($alerts->have_posts()): $alerts->the_post(); ?>
-											<section class="col-lg-4 col-md-4 col-sm-6 thirds cover-image hidden-sm hidden-xs">
+											<section class="col-lg-4 col-md-4 col-sm-4 col-xs-3 thirds cover-image">
 												<?php the_post_thumbnail('stickysize'); ?>
 											</section> <!--end one third-->
-											<section class="col-lg-8 col-md-8 thirds blurb">
-												<h2 class="hidden-xs"><?php the_title();?></h2>
+											<section class="col-lg-8 col-md-8 col-sm-8 col-xs-9 thirds blurb">
+												<h2><?php the_title();?></h2>
 												<p class="blurb-intro">
 													<?php echo esc_html( get_post_meta( get_the_ID(), 'alert_sticky_story', true ) ); ?>
 												</P>
@@ -24,3 +24,4 @@
 												<?php endwhile; ?>
 												<?php wp_reset_query(); ?>
 											</section> <!--end two thirds-->
+											<hr/>

@@ -4,9 +4,7 @@
 		<ul style="display:inline-block;">
 			<?php query_posts('post_type=affiliations'); while ($affiliations->have_posts()): $affiliations->the_post(); ?>
 			<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="display:block;">
-				<a href="<?php the_permalink(); ?>">
-					<?php the_post_thumbnail(); ?>
-				</a>
+				<a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
 			</li> 
 			<?php endwhile; ?>
 			<?php wp_reset_query(); ?>

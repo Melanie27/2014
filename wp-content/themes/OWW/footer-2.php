@@ -13,14 +13,14 @@
 		<div class="row">
 			<footer class="col-lg-12 col-md-12">	
 				<div class="row">
-					<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-brands pull-right no-left-mobile">
+					<!--<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-brands pull-right no-left-mobile">
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1">
 								<h5>Our Brands</h5>
 								<h2>Contact Us to Create Your Housing Program</h2>
 							</section>	
 						</div><!--end nested row-->
-						<div class="row">
+						<!--<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6">
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oakwood.jpg" alt="Oakwood Logo" class="img-responsive" />
 							</section>
@@ -28,7 +28,7 @@
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-execustay.jpg" alt="Execustay Logo" class="img-responsive"/>
 							</section>
 						</div><!--end nested row-->
-						<div class="row">
+						<!--<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12">
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs.jpg" alt="logo-ihs" class="img-responsive" />
 							</section>
@@ -47,7 +47,7 @@
 							</section>
 						</div>
 					</section> <!--end footer brands-->
-					<div class="clearfix hidden-lg hidden-md"></div>
+					<!--<div class="clearfix hidden-lg hidden-md"></div>
 					<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 no-left-mobile">
 						<div class="row border">
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links">
@@ -144,7 +144,7 @@
 									</ul>
 							</section>
 						</div>
-					</section>
+					</section>-->
 					<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 copyright">
 						<div class="row border">
 							<span class="icon-housing"> 

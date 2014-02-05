@@ -1,6 +1,6 @@
 						<div class="container">
 							<section class="two-a">	
-								<div class="row over hidden-sm hidden-xs">
+								<div class="row over">
 									<section class="col-lg-12 vert">
 										<div class="row">	
 											<?php include (TEMPLATEPATH . '/_/components/php/alerts-full-story.php'); ?>	

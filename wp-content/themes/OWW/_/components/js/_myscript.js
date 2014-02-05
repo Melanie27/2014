@@ -162,7 +162,7 @@ if ( $("#industry-insights-relocation a:contains('Business Solutions')") ) {
 }
 
 
-//Events Archive
+//Events Archive in News Navigation - highlight by selected month
 
 if(window.location.href.indexOf("january") > -1)   {
       
@@ -228,13 +228,12 @@ if(window.location.href.indexOf("january") > -1)   {
 /*Scroll to Sections on Government Page*/
 	
 	$( '.searchbychar' ).on('click', function(event) {
-    event.preventDefault();
-    var target = "#" + $(this).data('target');
-    var targetOffset = $(target).offset().top -170;
-    $('html, body').animate({ scrollTop: targetOffset}, 1000);
-       
-       
-});
+    	event.preventDefault();
+		var target = "#" + $(this).data('target');
+    	var targetOffset = $(target).offset().top -170;
+		$('html, body').animate({ scrollTop: targetOffset}, 1000);
+           
+	});
 
 
 // deep linking the sections government page
@@ -266,7 +265,6 @@ if(window.location.href.indexOf("january") > -1)   {
   });
 
 
-
 if(window.location.href.indexOf("government") > -1)   {
 
 	if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {          
@@ -295,7 +293,6 @@ if(window.location.href.indexOf("government") > -1)   {
 
 
 // Highlighting the subnav items while scrolling - alternative code for the iPad
-
 
 
 	$(window).scroll(function () {
@@ -357,18 +354,18 @@ if(window.location.href.indexOf("government") > -1)   {
 				}
 			});
 
-			$(window).scroll(function () {
+		$(window).scroll(function () {
 
-				if ($(window).scrollTop() + $(window).height() > $('#E').offset().top) {
+			if ($(window).scrollTop() + $(window).height() > $('#E').offset().top) {
         
-					$('#gsa1 a').addClass("active");
-					$('#overview1 a, #military1 a, #government-contractors1 a, #federal-civilian1 a').removeClass("active");
+				$('#gsa1 a').addClass("active");
+				$('#overview1 a, #military1 a, #government-contractors1 a, #federal-civilian1 a').removeClass("active");
         
-				} else {
+			} else {
        
-					$('#gsa1 a').removeClass("active");
+				$('#gsa1 a').removeClass("active");
 				
-				}
-			});
+			}
+		});
 
 }

@@ -7,10 +7,10 @@
 
 get_header(7); ?>
 
-<body id="press-releases-single">
+<body id="alerts-single">
   	<div class="container-full">  
   		<section class="container landing">
-		  <?php /*include (TEMPLATEPATH . '/_/components/php/header-menu.php');*/ ?>
+		  <?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
 		  	<div id="primary">
 			  	<div id="content" role="main">
 				  	<section class="two">
@@ -21,8 +21,9 @@ get_header(7); ?>
 								</div>
 							</section>		
 						</div><!--heading-->
-						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); */?>
-					</section> <!--two-->	 
+						<?php include (TEMPLATEPATH . '/_/components/php/hero-alerts.php'); ?>
+					</section> <!--two-->
+					<hr/>	 
 					<?php
 						$mypost = array( 'post_type' => 'alerts', );
 						$loop = new WP_Query( $mypost );
@@ -52,7 +53,7 @@ get_header(7); ?>
 												</section><!--end two thirds--> 
 													
 											</section>									
-											<section class="hidden-lg hidden-md hidden-sm">
+											<section class="hidden-lg hidden-md hidden-sm news-single-archives">
 												<h1>Alerts</h1>
 												<?php include (TEMPLATEPATH . '/_/components/php/alerts-thumbs.php'); ?>
 											</section>										
@@ -73,4 +74,4 @@ get_header(7); ?>
 			</div>
 		</div>
 <?php wp_reset_query(); ?>
-<?php /*get_footer(); */?>
+<?php get_footer(2); ?>
