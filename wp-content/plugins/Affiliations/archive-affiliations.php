@@ -75,9 +75,9 @@ get_header(2); ?>
 							<section class="col-lg-12 col-xs-12">
 								<h1>Industry Affiliations</h1>
 							</section>
-							<section class="col-lg-12">	
+							
 								<?php include (TEMPLATEPATH . '/_/components/php/industry-affiliations.php'); ?>
-							</section>
+							
 						</section>
 					</section>
 					<hr />

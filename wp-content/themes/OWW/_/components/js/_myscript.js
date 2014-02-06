@@ -44,8 +44,8 @@ $('.panel-title a').each(function() {
 
 $('.current-menu-parent, .current-page-ancestor, .current-menu-ancestor' ).addClass('active');
 $('.current-menu-ancestor' ).addClass('active');
-$("#affiliations a:contains('Affiliations')").addClass('active');
-$("#industry-affiliations a:contains('Affiliations')").addClass('active');
+$("#affiliations #menu-primary a:contains('Affiliations')").addClass('active');
+$("#industry-affiliations #menu-primary a:contains('Affiliations')").addClass('active');
 
 
 /*News Subnavigation*/
