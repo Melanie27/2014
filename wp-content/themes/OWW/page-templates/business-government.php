@@ -97,7 +97,7 @@ get_header(4); ?>
 							</section>	
 						</div><!--end tabbed section-->
 					</section>
-					<hr class="hidden-lg hidden-md"/>
+					<hr class="hidden-lg hidden-md "/>
 					<section class="content row">
 						<div class="col-lg-12">
 							<section class="eight hidden-sm hidden-xs">
