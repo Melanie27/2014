@@ -22,7 +22,7 @@ get_header(4); ?>
 								  </div>
 							</section>		
 						</div><!--heading-->
-						<?php include (TEMPLATEPATH . '/_/components/php/hero-government.php'); ?>
+						<?php include (TEMPLATEPATH . '/_/components/php/hero-industry-insights.php'); ?>
 					</section> <!--two-->	
 					<hr />
 					<?php
@@ -53,7 +53,7 @@ get_header(4); ?>
 												<div class="clearfix"></div>
 											</section><!--end two thirds-->
 											<hr class="hidden-lg hidden-md hidden-sm">
-											<?php include (TEMPLATEPATH . '/_/components/php/solutions-by-industry.php'); ?>	
+											<?php /*include (TEMPLATEPATH . '/_/components/php/solutions-by-industry.php');*/?>	
 										</div><!--end nested row-->		
 									</section>
 								</div><!--row-->

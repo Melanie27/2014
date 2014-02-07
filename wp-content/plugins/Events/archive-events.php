@@ -41,7 +41,7 @@
 																
 																<p>
 																<a href="<?php the_permalink(); ?>">
-																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'event_blurb', true ) ); ?></p>
+																
 															</a>
 																
 																<p class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'event_description', true ) ); ?></</p>

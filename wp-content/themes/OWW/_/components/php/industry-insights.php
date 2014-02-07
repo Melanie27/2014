@@ -17,7 +17,7 @@
 												</p>
 											</section> <!--end two thirds-->
 											<section class="col-lg-4 col-md-4 col-xs-12 thirds teasers">
-												<?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>		
+												<?php include (TEMPLATEPATH . '/_/components/php/industry-insights-thumbs.php'); ?>		
 											</section> <!--end three thirds-->
 										</div><!--end nested row-->	
 										<div class="row">

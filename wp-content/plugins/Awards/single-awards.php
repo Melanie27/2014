@@ -16,7 +16,7 @@ get_header(7); ?>
 					 	<div class="row heading">
 						 	<section class="col-lg-12">
 							 	<div class="container">
-								 	<h1>Awards<?php the_title(); ?></h1>
+								 	<h1>Awards: <?php the_title(); ?></h1>
 								 </div>
 							</section>		
 						</div><!--heading-->
