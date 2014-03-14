@@ -4241,11 +4241,11 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/less\/_mystyles.less",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/css\/_mystyles.css",
-		"outputPathIsSetByUser": 0,
+		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/css\/mystyles.css",
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
@@ -5767,7 +5767,7 @@
 		},
 	"\/wp-content\/themes\/OWW\/_\/css\/mystyles.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/css\/mystyles.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -7429,6 +7429,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/OWW\/images\/icons\/icon-pdf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1673,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/icons\/icon-pdf.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/icons\/icon-pdf.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/OWW\/images\/icons\/icon-search.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7816,6 +7826,26 @@
 		"initialSize": 422,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/search-icon.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/search-icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/OWW\/images\/site-policies\/etrust-eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8470,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/site-policies\/etrust-eu.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/site-policies\/etrust-eu.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/OWW\/images\/site-policies\/etrust-swiss.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7937,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/site-policies\/etrust-swiss.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/images\/site-policies\/etrust-swiss.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -8519,6 +8549,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/OWW\/page-templates\/contact-us.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/page-templates\/contact-us.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/OWW\/page-templates\/global-expertise.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8692,6 +8730,22 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/page-templates\/our-brands.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/OWW\/page-templates\/privacy-policy.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/page-templates\/privacy-policy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/OWW\/page-templates\/terms.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/page-templates\/terms.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
