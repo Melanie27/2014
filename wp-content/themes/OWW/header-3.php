@@ -9,7 +9,7 @@
 	 
 	 <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/bootstrap.css" rel="stylesheet" media="screen">
      <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles.css" rel="stylesheet" media="screen">
-     <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_global.css" rel="stylesheet" media="screen">
+     <link href="<?php bloginfo( 'template_directory' ); ?>/_/css/mystyles_global-2.css" rel="stylesheet" media="screen">
      
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
