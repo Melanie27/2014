@@ -2474,6 +2474,7 @@ footer {
 	}
 
 	.over2 {
+		
 		padding-bottom:100px;
 
 		a:link, a:visited {
@@ -2483,44 +2484,50 @@ footer {
 		}
 
 		ul, ol {
-		margin-left:80px;
-	}
+			
+			margin-left:80px;
+		}
 
-	ol {
+		ol {
 
-		li {
+			li {
 
 			list-style-type: decimal;
+			}
+		}
+
+		li {
+		
+			list-style-type: disc;
+			margin-bottom:10px;
+			padding-left:20px;
+		
 		}
 	}
 
-	li {
-		list-style-type: disc;
-		margin-bottom:10px;
-		padding-left:20px;
-	}
-	}
-
-	
-
 	p.uppercase {
+		
 		text-transform:uppercase;
 		margin-top:40px;
 	}
 
+	.etrust {
+		margin-top:20px;
+	}
+
 	.etrust-swiss {
+		
 		display:block;
-		background-image: url("../../images/site-policies/etrust-swiss.jpg");
 		height:100px;
 		width:290px;
 	}
 
 	.etrust-eu {
+		
 		display:block;
-		background-image: url("../../images/site-policies/etrust-eu.jpg");
 		height:100px;
 		width:290px;
-		margin-top:7px;
+		
 	}
 
 	.download-pdf {
@@ -2537,7 +2544,94 @@ footer {
 
 /*TERMS OF USE*/
 
+#terms {
+	
+	.two {
 
+		background-image:none;
+		height:90px;
+	}
+
+	.three {
+
+		h3 {
+			margin-top:40px;
+			margin-bottom:15px;
+		}
+	}
+
+	.six {
+
+		display:none;
+	}
+
+	.over2 {
+		
+		padding-bottom:100px;
+
+		a:link, a:visited {
+			color: @oww-dark-gray;
+			text-decoration:underline;
+
+		}
+
+		ul {
+			
+			margin-left:80px;
+		}
+
+		ol {
+
+			margin-left:20px;
+
+			li {
+
+			list-style-type: decimal;
+			
+			}
+		}
+
+		li {
+		
+			list-style-type: disc;
+			margin-bottom:10px;
+			padding-left:20px;
+		
+		}
+	}
+
+
+	.terms {
+		padding-left:0px;
+	}
+
+	.terms-intro {
+
+		h3 {
+			margin-top:35px;
+			margin-bottom:45px;
+		}
+	}
+
+	.terms-disclaimers, .terms-liability, .terms-release {
+
+		.uppercase {
+			font-family: @district-bold;
+		}
+	}
+
+	
+}
+
+/*PRIVACY POLICY*/
+
+	#privacy-policy {
+
+		.privacy {
+			
+			padding-left:0px;
+		}
+	}
 
 /*Media Queries*/
 
@@ -3376,6 +3470,56 @@ footer {
 		
 		padding-left:0px;
 	}
+
+	/*TERMS*/
+
+	#terms {
+
+		h1 {
+
+				font-size:22px;
+			}
+
+			.over2 {
+
+				ul {
+
+					margin-left:30px;
+				}
+
+				ol {
+
+					margin-left:0px;
+				}
+
+				li {
+
+					padding-left:10px;
+				}
+		}
+	}
+
+	#privacy-policy {
+
+		.over2 {
+
+				ul {
+
+					margin-left:30px;
+				}
+
+				ol {
+
+					margin-left:0px;
+				}
+
+				li {
+
+					padding-left:10px;
+				}
+		}
+
+	}
 	
 			
 }
@@ -3958,6 +4102,51 @@ footer {
 		padding-left:45px;
 	}
 	
+	/*TERMS*/
+
+	#terms {
+
+		.terms {
+
+			padding-left:15px;
+		}
+
+		.over2 {
+
+			ul {
+
+				margin-left:45px;
+			}
+
+			li {
+
+				padding-left:10px;
+			}
+		}
+	}
+
+	/*PRIVACY POLICY*/
+
+	#privacy-policy {
+
+		.privacy {
+
+			padding-left:15px;
+		}
+
+		.over2 {
+
+			ul {
+
+				margin-left:45px;
+			}
+
+			li {
+
+				padding-left:10px;
+			}
+		}
+	}
 	
 	
 }

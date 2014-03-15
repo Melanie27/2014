@@ -1424,18 +1424,18 @@ footer .copyright p {
   text-transform: uppercase;
   margin-top: 40px;
 }
+#privacy-policy .etrust {
+  margin-top: 20px;
+}
 #privacy-policy .etrust-swiss {
   display: block;
-  background-image: url("../../images/site-policies/etrust-swiss.jpg");
   height: 100px;
   width: 290px;
 }
 #privacy-policy .etrust-eu {
   display: block;
-  background-image: url("../../images/site-policies/etrust-eu.jpg");
   height: 100px;
   width: 290px;
-  margin-top: 7px;
 }
 #privacy-policy .download-pdf {
   margin-bottom: 10px;
@@ -1445,6 +1445,55 @@ footer .copyright p {
   color: #3b3b3b;
 }
 /*TERMS OF USE*/
+#terms .two {
+  background-image: none;
+  height: 90px;
+}
+#terms .three h3 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+#terms .six {
+  display: none;
+}
+#terms .over2 {
+  padding-bottom: 100px;
+}
+#terms .over2 a:link,
+#terms .over2 a:visited {
+  color: #3b3b3b;
+  text-decoration: underline;
+}
+#terms .over2 ul {
+  margin-left: 80px;
+}
+#terms .over2 ol {
+  margin-left: 20px;
+}
+#terms .over2 ol li {
+  list-style-type: decimal;
+}
+#terms .over2 li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+#terms .terms {
+  padding-left: 0px;
+}
+#terms .terms-intro h3 {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+#terms .terms-disclaimers .uppercase,
+#terms .terms-liability .uppercase,
+#terms .terms-release .uppercase {
+  font-family: 'district_boldbold', Helvetica, Arial, sans-serif;
+}
+/*PRIVACY POLICY*/
+#privacy-policy .privacy {
+  padding-left: 0px;
+}
 /*Media Queries*/
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
@@ -1876,6 +1925,28 @@ footer .copyright p {
   .industry-logos {
     padding-left: 0px;
   }
+  /*TERMS*/
+  #terms h1 {
+    font-size: 22px;
+  }
+  #terms .over2 ul {
+    margin-left: 30px;
+  }
+  #terms .over2 ol {
+    margin-left: 0px;
+  }
+  #terms .over2 li {
+    padding-left: 10px;
+  }
+  #privacy-policy .over2 ul {
+    margin-left: 30px;
+  }
+  #privacy-policy .over2 ol {
+    margin-left: 0px;
+  }
+  #privacy-policy .over2 li {
+    padding-left: 10px;
+  }
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2173,6 +2244,26 @@ footer .copyright p {
   }
   .career-icons {
     padding-left: 45px;
+  }
+  /*TERMS*/
+  #terms .terms {
+    padding-left: 15px;
+  }
+  #terms .over2 ul {
+    margin-left: 45px;
+  }
+  #terms .over2 li {
+    padding-left: 10px;
+  }
+  /*PRIVACY POLICY*/
+  #privacy-policy .privacy {
+    padding-left: 15px;
+  }
+  #privacy-policy .over2 ul {
+    margin-left: 45px;
+  }
+  #privacy-policy .over2 li {
+    padding-left: 10px;
   }
 }
 /* Medium Screens 992 - 1200 */

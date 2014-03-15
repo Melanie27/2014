@@ -15,7 +15,7 @@ get_header(3); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			<section class="two">
+			<section class="two south-america">
 					<div class="row heading">
 						<section class="col-lg-12">
 							<div class="container">

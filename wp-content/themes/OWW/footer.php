@@ -127,10 +127,10 @@
 									<ul class="footer-lists">
 										<div class="row">
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="#">Terms of Use</a></li>
+												<li><a href="<?php bloginfo('url');?>/terms-of-use/">Terms of Use</a></li>
 											</section>
 											<section class="col-lg-12 col-md-12 col-xs-12 col-xs-6">
-												<li><a href="#">Privacy Policy</a></li>
+												<li><a href="<?php bloginfo('url');?>/privacy-policy/">Privacy Policy</a></li>
 											</section>
 										</div>
 									</ul>
