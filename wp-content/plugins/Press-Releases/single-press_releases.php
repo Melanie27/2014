@@ -36,7 +36,7 @@ get_header(7); ?>
 									<section class="col-lg-12 col-md-12">
 										<div class="row">
 											<section class="col-lg-8 col-md-8 press-release-list">
-												<h1><?php the_title(); ?></h1>
+												<h2><?php the_title(); ?></h2>
 												<section class="press-release-hero">
 													<?php the_post_thumbnail( array( 350, 350 ) ); ?>
 													<?php echo esc_html( get_post_meta( get_the_ID(), 'photo_caption', true ) ); ?>
@@ -48,6 +48,9 @@ get_header(7); ?>
 														<?php the_terms( $post->ID, 'press_releases_tags' ,  ' ' );?>
 														</span>
 													</p>
+													<div class="clearfix">&nbsp;</div>
+													<p>About Oakwood Worldwide<br/>
+Oakwood Worldwide<sup>&reg;</sup>, based in Los Angeles, Calif., is the leading provider of corporate housing and serviced apartment solutions through its two well-known brands, Oakwood<sup>&reg;</sup> and ExecuStay<sup>&reg;</sup>. Both brands provide move-in-ready furnished housing designed to meet the needs of business travelers on long- and short-term assignments. Oakwood has access to the largest selection of housing options and a presence in all 50 United States and more than 70 countries. ExecuStay is the preferred corporate housing partner of Marriott<sup>&reg;</sup> International and is the only corporate housing brand where guests can earn Marriott Rewards® points for stays at any ExecuStay location in the U.S.</p>
 													<div class="clearfix"></div>	
 												</section><!--end two thirds--> 
 											</section>

@@ -80,4 +80,5 @@
 							<hr>
 						</div>
 					</section>
+				<br /><br />
 <?php get_footer(); ?>

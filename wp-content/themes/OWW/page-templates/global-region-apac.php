@@ -28,16 +28,19 @@ get_header(3); ?>
 		  		<section class="three container">
 					<div class="row intro-regional">
 						<section class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
-							<h1>Headline Highlighting a Figure About Oakwood Worldwide's Reach in This Area</h1>
-							<h2>You'll find us in major cities and rural areas throughout the 50 US states and Canada. This is placeholder text.</h2>
-							<p>This is placeholder body copy. Only Oakwood Worldwide can provide housing in more than 25,000 locations worldwide-throughout North America, Europe, the Middle East, Africa, and Latin America - all located within or nearby major metropolitan areas, centers of business and other points of interest.</p>
+							<h2>Asia and the Pacific (APAC)</h2>
+							<p>As the Asia Pacific region continues its growth as a center of world commerce, the demand for innovative, comprehensive corporate housing and serviced apartment solutions has also increased. So more companies are looking to Oakwood Worldwide as a corporate housing partner for more than accommodations, but also local insights and expertise, plus ongoing support to help insure success in this vital region. </p>
+							<p>Oakwood Worldwide operates regional headquarters in Singapore and has invested in 28 branded properties across China, Hong Kong, India, Indonesia, Japan, Korea, the Philippines and Thailand. Here, guests receive the same great quality matched with a high level of community amenities, providing more opportunities for networking outside the typical business environment</p>
+							<p>In addition, Oakwood Worldwide offers access to hundreds of additional corporate housing and serviced apartment accommodations across the Asia Pacific, ensuring that our clients are able to stay right where they need to be to offer the ideal location, and value, for both the traveler and the company.</p>
+							
+							<!--
 							<ul>
 								<li> A presence in all 50 United States</li>
 								<li> Top four markets are L.A., D.C., N.Y. and Chicago</li>
 								<li> WSSC in Phoenix, Arizona</li>
 								<li> Nine Oakwood buildings and 7 co-branded Oakwood and ExecuStay buildings in the United States</li>
 								<li> Latin American locations in Argentina, Brazil, Chile, Costa Rica, Mexico, Peru and Venezuela</li>
-							</ul>
+							</ul> -->
 						</section>
 					</div>
 				</section><!--end three-->
@@ -45,7 +48,7 @@ get_header(3); ?>
 				<section class="five container">
 					<div class="row carousel-heading">
 						<section class="col-lg-12 col-md-12">
-							<h2>Search Popular <?php the_title(); ?> Destinations</h2>
+							<h2>Discover Popular Destinations in <?php the_title(); ?></h2>
 								<ul class="hidden-lg hidden-md destinations">
 									<li>Washington, D.C.</li>
 									<li>Tampa, FL</li>
@@ -64,7 +67,7 @@ get_header(3); ?>
 				<section class="seven container">
 					<div class="row global-destinations">
 						<section class="col-lg-12 col-md-12 global-intro">
-							<h1>Explore Oakwood Worldwide's Other Global Destinations and Services</h1>
+							<h2>Learn More About Our Expertise in Other Regions</h2>
 						</section>
 						<?php include (TEMPLATEPATH . '/_/components/php/global-destinations.php'); ?>
 					</div>

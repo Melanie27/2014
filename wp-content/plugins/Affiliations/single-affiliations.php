@@ -17,7 +17,7 @@ get_header(7); ?>
 						<div class="row heading">
 							<section class="col-lg-12">
 								<div class="container">
-									<h1>Industry Affiliations: <?php the_title(); ?></h1>
+									<h1><?php the_title(); ?></h1>
 								</div>
 							</section>		
 						</div><!--heading-->

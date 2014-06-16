@@ -83,7 +83,41 @@
 																	</div><!--end collapse one-->
 																</div><!-- end panel-->
 															
-															
+															<!--Events-->
+															<div class="panel-group" id="accordion">
+																<div class="panel panel-default">
+																	<div class="panel-heading news-nav">
+																		<h4 class="panel-title">
+																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseUE" class="side-nav">
+																				<li><h4>Upcoming Events</h4>
+																			</a>
+																		</h4>
+																	</div><!--end panel heading-->
+																	<div id="collapseUE" class="panel-collapse collapse in">
+																		<div class="panel-body">																				
+																			
+																			<!--List all the terms, with link to term archive-->			
+																			<?php
+																				$args = array( 'hide_empty=0');
+																				$terms = get_terms('events_event_month', $args);
+																				$count = count($terms); $i=0;
+																				if ($count > 0) {
+																	
+																					echo '<ul class="release-years upcoming-events-archive">';
+																					$term_list = '<span class="my_term-archive">';
+																					foreach ($terms as $term) {
+																						$i++;
+																						$term_list .= '<li><a href="' . get_term_link( $term ) . '" class="'. sprintf(__('%s', 'my_localization_domain'), $term->name) .'" title="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '">' . $term->name . '</a></li>';
+    	 $term_list .= '</span>';
+																			}
+																	
+																			echo $term_list;
+																			echo "</ul>";
+																			}																			?>	
+																		</li>
+																	</div><!--end panel body-->
+																</div><!--end collapse one-->
+															</div><!-- end panel-->
 															
 															<!--Awards-->
 															<div class="panel-group" id="accordion">
@@ -122,41 +156,7 @@
 																	</div><!--end collapse one-->
 																</div><!-- end panel-->
 															
-															<!--Events-->
-															<div class="panel-group" id="accordion">
-																<div class="panel panel-default">
-																	<div class="panel-heading news-nav">
-																		<h4 class="panel-title">
-																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseUE" class="side-nav">
-																				<li><h4>Upcoming Events</h4>
-																			</a>
-																		</h4>
-																	</div><!--end panel heading-->
-																	<div id="collapseUE" class="panel-collapse collapse in">
-																		<div class="panel-body">																				
-																			
-																			<!--List all the terms, with link to term archive-->			
-																			<?php
-																				$args = array( 'hide_empty=0');
-																				$terms = get_terms('events_event_month', $args);
-																				$count = count($terms); $i=0;
-																				if ($count > 0) {
-																	
-																					echo '<ul class="release-years upcoming-events-archive">';
-																					$term_list = '<span class="my_term-archive">';
-																					foreach ($terms as $term) {
-																						$i++;
-																						$term_list .= '<li><a href="' . get_term_link( $term ) . '" class="'. sprintf(__('%s', 'my_localization_domain'), $term->name) .'" title="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '">' . $term->name . '</a></li>';
-    	 $term_list .= '</span>';
-																			}
-																	
-																			echo $term_list;
-																			echo "</ul>";
-																			}																			?>	
-																		</li>
-																	</div><!--end panel body-->
-																</div><!--end collapse one-->
-															</div><!-- end panel-->
+															
 														</div><!--end accordion-->
 													</ul>
 												</section><!--end news-->	

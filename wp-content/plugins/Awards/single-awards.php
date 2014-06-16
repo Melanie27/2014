@@ -12,15 +12,15 @@ get_header(7); ?>
 		 <?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
 		 	<div id="primary">
 			 	<div id="content" role="main">
-				 	<section class="two">
+				 	<section class="two" style="height:90px; background-image:none;">
 					 	<div class="row heading">
 						 	<section class="col-lg-12">
 							 	<div class="container">
 								 	<h1>Awards: <?php the_title(); ?></h1>
 								 </div>
 							</section>		
-						</div><!--heading-->
-						<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); ?>
+						</div>
+						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-thirds-awards.php'); */?>
 					</section> <!--two-->	
     
 					<?php
@@ -71,9 +71,9 @@ get_header(7); ?>
 													</section>
 													<section class="press-release-content">	       	
 														<?php the_content(); ?>									
-														<p class="more">More From:
+														<!--<p class="more">More From:
 															<span class="tags"><?php the_terms( $post->ID, 'press_releases_tags' ,  ' ' );?></span>
-														</p>
+														</p>-->
 														<div class="clearfix"></div>	
 													</section><!--end two thirds--> 
 													

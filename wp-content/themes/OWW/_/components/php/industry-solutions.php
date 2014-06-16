@@ -1,20 +1,19 @@
 								<div class="row over2">
 									<section class="col-lg-12 col-md-12 col-sm-12 news-columns">	
-										<h1 class="solutions-head">Solutions by Industry</h1>
-										<h2>We invented the corporate housing concept-and we're still leading the way. Find out how we support your industry.</h2>
-										<p>Whether you're relocating employees, have a group travel event, need to house consultants for a long-term assignment, are looking for military housing - or any other business need -our full-service solutions can take care of it all. Contact us to customize your corporate housing program.</p>
+										<h2 class="solutions-head">Solutions by Industry</h2>
+										<p>Whether you work within the government sector, Fortune 500 company, entertainment studio or a consulting practice, Oakwood Worldwide has the experience to find the right housing solution for your business requirements. Our specialized teams immerse themselves in your business—taking note of your particular needs, asking all the right questions and applying our unique insights to deliver a custom housing solution that satisfies both your travelers and your bottom line. </p>
 										<div class="row solutions-columns">
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 												<div class="solutions consulting">
 													<a href="<?php bloginfo( 'url' ); ?>/business-solutions/individual-business-traveler/" class="industry-sections">
 														<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/consulting.jpg" alt="Woman Texting" class="img-responsive" />
 														<header class="industries">
-															<h3>Individual Business Traveler</h3>
+															<h3>Business Travel</h3>
 															<div class="clearfix"></div>
 														</header>
 													</a>
 													<section class="industry-text">	
-														<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+														<p class="consult-desc">We’ll take care of it all—providing your travelers with convenient, comfortable housing solutions so they have the time and energy to do what they do best. </p>
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
 																<h4>Case Study</h4>
@@ -62,7 +61,7 @@
 														</header>
 													</a>
 													<section class="industry-text">
-														<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+														<p class="consult-desc">No two federal assignments are alike. Fortunately, our diverse inventory and expertise of corporate housing and serviced apartments solution allow us to specifically find accommodations that  meet most government per diems  and the needs of government  travelers. </p>
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
 																<h4>Case Study</h4>

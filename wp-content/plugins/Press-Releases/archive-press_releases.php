@@ -25,18 +25,19 @@
 								<section class="col-lg-12 col-md-12">
 									<div class="row">
 										<section class="col-lg-8 col-md-8 press-release-list">
-										 	<h1 class="page-title">Press Releases</h1>
+										 	<h2 class="page-title">Latest Press Releases</h2>
 												<!-- Start the Loop -->
 												<?php while ( have_posts() ) : the_post(); ?>
 												<div class="row" id="press1">
 													<ul>
 														<li class="clearfix">
-															<section class="col-lg-4 col-md-5 col-sm-4 col-xs-6 press-image">
+															<section class="col-lg-4 col-md-5 col-sm-4 col-xs-4 press-image">
 																<?php the_post_thumbnail('newssize'); ?>
 															</section>
-															<section class="col-lg-8 col-md-7 col-sm-8 press-text">
-																<h2 class="hidden-xs"><?php the_title(); ?></h2>
-																<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
+															<section class="col-lg-8 col-md-7 col-sm-8 col-xs-8 press-text">
+																<h3 class="hidden-xs hidden-sm"><?php the_title(); ?></h3>
+																<p class="hidden-lg hidden-md"><a href="<?php the_permalink(); ?>" style="color:#3B3B3B;"><?php the_title(); ?></a></p>
+																<p class="date hidden-lg hidden-md hidden-sm hidden-xs"><?php the_date();?></p>
 																<p class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></p>
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_blurb', true ) ); ?></p>
 																<p class="full-story hidden-xs"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
@@ -79,4 +80,5 @@
 							<hr>
 						</div>
 					</section>
+				<br /><br />
 <?php get_footer(); ?>

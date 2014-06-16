@@ -6,7 +6,7 @@
 																		<li class="clearfix">
 																			<?php the_post_thumbnail('herosize'); ?>
 																			<p class="date"><?php the_date();?></p>
-																			<a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'in_the_news_blurb', true ) ); ?></a>
+																			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 																		</li>
 																		
 																		<?php endwhile; ?>

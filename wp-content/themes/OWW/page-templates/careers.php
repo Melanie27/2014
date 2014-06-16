@@ -27,8 +27,8 @@ get_header(3); ?>
 		  <section class="three container">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 career-intro">
-					<h1>Working at Oakwood Worldwide</h1>
-					<h2>Oakwood Worldwide offers some of the best training, compensation and benefits in the industry.</h2>
+					<h2>Working at Oakwood Worldwide</h2>
+					<h3>Oakwood Worldwide offers some of the best training, compensation and benefits in the industry.</h3>
 					<p>Placeholder body. At Oakwood Worldwide, we know our employees make it possible for us to consistently deliver world-class service to our internal and external clients alike. That’s why we work hard to offer competitive compensation, benefits package and an empowering work environment.</p>
 				</section>
 				<?php include (TEMPLATEPATH . '/_/components/php/career-icons.php'); ?>						

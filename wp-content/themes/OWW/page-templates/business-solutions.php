@@ -20,7 +20,7 @@ get_header(2); ?>
 			 <div class="row heading">
 				 <section class="col-lg-12">
 					 <div class="container">
-						 <h1>Business Solutions and Industry Insights</h1>
+						 <h1>Business Solutions</h1>
 					</div>
 				</section>		
 			</div><!--heading-->	

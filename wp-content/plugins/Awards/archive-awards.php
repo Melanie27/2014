@@ -10,7 +10,7 @@
 						<div class="row heading">
 							<section class="col-lg-12">
 								<div class="container">
-									<h1>Awards</h1>
+									<h1>Awards &#38; Honors</h1>
 								</div>
 							</section>		
 						</div><!--heading-->
@@ -51,7 +51,7 @@
 						<section class="col-lg-12 col-md-12">
 							<div class="row">
 								<section class="col-lg-8 col-md-8 press-release-list">
-									<h1 class="page-title">Awards and Honors</h1>
+									<h2 class="page-title">Recent Awards &#38; Honors</h2>
 									<!-- Start the Loop -->
 									<?php while ( have_posts() ) : the_post(); ?>
 									<!-- Display review title and author -->
@@ -62,7 +62,7 @@
 													<?php the_post_thumbnail('newssize'); ?>
 												</section>
 												<section class="col-lg-8 col-md-7 col-sm-8 col-xs-6 press-text">
-													<h2 class="hidden-xs"><?php the_title(); ?></h2>
+													<h3 class="hidden-xs"><?php the_title(); ?></h3>
 													<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
 													<a href="<?php the_permalink(); ?>"><p class="hidden-lg hidden-md hidden-sm">
 														<?php echo esc_html( get_post_meta( get_the_ID(), 'award_subhead', true ) ); ?>

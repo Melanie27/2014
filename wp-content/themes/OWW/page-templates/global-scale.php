@@ -27,9 +27,9 @@ get_header(3); ?>
 		  <section class="three container">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 global-intro">
-					<h1>Intro Placeholder Text</h1>
-					<h2>Placeholder. Wherever you need to go, Oakwood Worldwide is there.</h2>
-					<p>Placeholder body. Our goal is to find you the right option, in the right location, at the right price. Oakwood Worldwide does not own apartments outright, but governs an expansive global inventory consisting of franchisees and managed properties. Our exclusive network of suppliers gives us the flexibility on volume and location, providing our clients with more properties and cost options. Guests benefit from satisfaction standards with competitive provider system.</p>
+					<h2>Our Industry-Leading Inventory</h2>
+					<h3>We’re committed to finding the right solutions for our clients and guests</h3>
+					<p>In addition to the inventory of properties we manage, Oakwood Worldwide has invested in an extensive supply chain of over 1,300 housing providers. Through this network we offer access to the world’s largest inventory of corporate housing and serviced apartments, allowing us to provide you with a virtually unlimited selection of accommodations in more than 70 countries and in all 50 states. Our unmatched global footprint, paired with our dedication to local market expertise gives us the flexibility to create responsive solutions that meet the demands of businesses and business travelers around the world.</p>
 				</section>	
 			</div>
 		</section>
@@ -41,47 +41,55 @@ get_header(3); ?>
 		<section class="container three three-a">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 regional-supply">
-					<h1>Regional Expertise</h1>			
+					<h2>Global Standards</h2>
+					<p>Each member of Oakwood Worldwide’s global network of suppliers is held to a high standard and undergoes a thorough vetting process. The units we provide are rigorously inspected prior to guest arrival and thoughtfully appointed with contemporary furniture and ready-to-use technology offering a place where guests are immediately comfortable and ready to do business.</p>
+				</section>
+			</div>
+		</section>
+		<section class="container three three-a">
+			<div class="row">
+				<section class="col-lg-12 col-md-12 regional-supply">
+					<h2>Regional Expertise</h2>			
 				</section>
 			</div>					
 			<div class="row regional-supply">
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-1.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>3,500 Associates worldwide</p>
+							<p>With headquarters in Los Angeles, a Worldwide Sales and Service Center in Phoenix and regional headquarters in London, Toronto, Singapore, and Washington D.C., Oakwood Worldwide employs 3,500 associates in the most important business markets around the world.</p>
 						</section>
 					</div>
 				</section>
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-2.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Associates speak over 26 languages and can communicate important information to guests in a variety of ways.</p>
+							<p>Oakwood Worldwide associates are skilled in over 26 languages, making us an adept partner for companies looking for a seamless transition to world markets. </p>
 						</section>
 					</div>
 				</section>
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-3.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Regional offices with local market knowledge connect you and your guests with what they need to safely adjust to their new surroundings.</p>
+							<p>Our regional offices are staffed with associates who have deep knowledge about the communities where they live and work themselves. This allows the Oakwood Worldwide team to provide guests with local knowledge they can really use, making for a smoother transition to new surroundings. </p>
 						</section>
 					</div>
 				</section>
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-4.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Oakwood Worldwide not only finds you a property at your price point, but ensures your guests feel comfortable no matter where they go.</p>
+							<p>Oakwood Worldwide’s industry-leading inventory of apartments and homes gives us the flexibility to provide accommodations that consistently meet the demands of business travelers and the companies that employ them.</p>
 						</section>
 					</div>
 				</section>
@@ -92,47 +100,47 @@ get_header(3); ?>
   		<section class="container three three-a">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 regional-supply">
-					<h1>Supply Chain</h1>			
+					<h2>Supply Chain</h2>			
 				</section>
 			</div>             
 			<div class="row regional-supply">
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-5.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Oakwood Worldwide has partnerships with more than 1,300 lorem ipsum.</p>
+							<p>Oakwood Worldwide has invested in a supply chain of over 1,300 providers to offer you an unparalleled selection of accommodations. </p>
 						</section>
 					</div>	
 				</section>
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-6.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Associates speak over 26 languages and can communicate important information to guests in a variety of ways.</p>
+							<p>We set stringent quality standards for our suppliers—every apartment must pass a 190-point inspection prior to guest arrival.</p>
 						</section>
 					</div>
 				</section>
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-7.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Furnishings are managed by Oakwood Worldwide personnel</p>
+							<p>Each furnishing is carefully selected for style and comfort, helping guests immediately feel comfortable in their new accommodations.</p>
 						</section>
 					</div>
 				</section>
 				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="row">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-8.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-							<p>Guests wont see a difference between staying in managed</p>
+							<p>Oakwood Worldwide can accommodate guests wherever they need to be for business, offering a wide variety of options that offer a consistently satisfying guest experience.</p>
 						</section>
 					</div>
 				</section>

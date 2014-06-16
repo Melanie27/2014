@@ -17,7 +17,7 @@ get_header(2); ?>
 						<div class="row heading">
 							<section class="col-lg-12">
 								<div class="container">
-									<h1>Vision and Leadership</h1>
+									<h1>Vision &#38; Leadership</h1>
 								</div>
 							</section>		
 						</div><!--heading-->		
@@ -31,10 +31,10 @@ get_header(2); ?>
 					<hr />
 					<section class="three container">
 						<div class="row over2a">
-							<section class="col-lg-9 col-md-9">
-								<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-								<h2>Morbi mollis augue nec lorem feugiat ornare. Pellentesque ultrices quis mi a mattis. Ut mollis eget urna at mattis. Duis ultricies vehicula sapien vitae tempus.</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo lacus et nibh venenatis, sed rhoncus erat pharetra. Mauris lobortis odio et ante viverra porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ante quis lectus aliquet placerat sit amet in risus.</p>
+							<section class="col-lg-12 col-md-12">
+								<h2>Heritage &#38; Values</h2>
+								<h3>&#34;The Oakwood Worldwide secret is simple: we go above and beyond for our clients. And, as it happens, when they grow, we grow. When they succeed, we succeed. It’s that easy because to us, our clients and guests mean everything.&#34; &#8212; Ric Villarreal, President</h3>
+								<p>In 1960, Oakwood Worldwide pioneered the corporate housing industry by recognizing an unspoken need for more flexible, adaptive and thoughtful housing solutions. Today, with that same entrepreneurial and intuitive spirit, Oakwood Worldwide continues to define the corporate housing and serviced apartment category by challenging the status quo. We’re always looking for new ways to deliver more choice, more flexibility and more efficient solutions that help drive the success of the clients we serve. We’re searching for new technologies to make our services more accessible from anywhere in the world. And we’re making investments in innovation, continuing our long-standing commitment to providing a world-class experience for our clients and guests. Which means you can count on us for progressive, reliable solutions delivered with the expertise and vision to take you and your company anywhere you need to go.</p>
 							</section>
 						</div>
 					</section>

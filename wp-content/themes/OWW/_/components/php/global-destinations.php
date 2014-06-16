@@ -30,7 +30,7 @@
 											<a href="<?php bloginfo('url'); ?>/global-expertise/global-scale-and-inventory/APAC" class="industry-sections">
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-us.jpg" alt="regional-icon" class="img-responsive">
 												<header class="industries">
-													<h3>Asia and the Pacific</h3>
+													<h3>Asia Pacific</h3>
 													<div class="clearfix"></div>
 												</header>
 											</a>	

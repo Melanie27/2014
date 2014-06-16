@@ -6,15 +6,15 @@
 		  		<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>		  		
 		  			<section id="primary">
 			  			<div id="content" role="main">
-				  			<section class="two">
+				  			<section class="two" style="height:90px; background-image:none;">
 					  			<div class="row heading">
 						  			<section class="col-lg-12">
 							  			<div class="container">
-								  			<h1>Events</h1>
+								  			<h1>Upcoming Events</h1>
 								  		</div>
 								  	</section>		
 								 </div><!--heading-->
-								 <?php include (TEMPLATEPATH . '/_/components/php/hero-events.php'); ?>
+								 <?php /*include (TEMPLATEPATH . '/_/components/php/hero-events.php'); */?>
 							</section>
 							<!--two-->	    
 							<?php if ( have_posts() ) : ?>
@@ -24,7 +24,8 @@
 									<section class="col-lg-12 col-md-12">
 										<div class="row">
 											<section class="col-lg-8 col-md-8 press-release-list">
-												<h1 class="page-title">Events</h1>
+												<h2 class="page-title">Join Us at These Upcoming Events</h2>
+												<p>For more information about these industry events, or Oakwood Worldwide’s participation, contact <a href="mailto:oakwoodinfo@oakwood.com">oakwoodinfo@oakwood.com</a></p>
 												<!-- Start the Loop -->
 												<?php while ( have_posts() ) : the_post(); ?>
 												<!-- Display review title and author -->
@@ -35,7 +36,7 @@
 															<?php the_post_thumbnail('newssize'); ?>
 															</section>
 															<section class="col-lg-8 col-md-7 col-sm-8 col-xs-6 press-text">
-																<h2 class="hidden-xs"><?php the_title(); ?></h2>
+																<h3 class="hidden-xs"><?php the_title(); ?></h3>
 																<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
 																<p class="location"><?php echo esc_html( get_post_meta( get_the_ID(), 'event_location', true ) ); ?></</p>
 																

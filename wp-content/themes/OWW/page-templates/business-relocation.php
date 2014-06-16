@@ -31,8 +31,8 @@ get_header(4); ?>
 				<section class="col-lg-12 col-md-12 container">
 					<div class="row overview-top">
 						<section class="col-lg-9 col-md-9 col-sm-12 col-xs-12" >
-							<h1>Extended Stay Lodging for the Relocating Professionals</h1>
-							<h2>For over 50 years, Oakwood Worldwide has given those who serve America a place they could call home.</h2>
+							<h2>Extended Stay Lodging for the Relocating Professionals</h2>
+							<h3>For over 50 years, Oakwood Worldwide has given those who serve America a place they could call home.</h3>
 							<p>As the first, largest and leading provider of extended stay lodging (ESL) solutions to the federal government, Oakwood offers a welcoming environment for government employees, with convenient locations, and access to various transportation options.</p>
 							<a href="<?php bloginfo('url'); ?>/business-solutions/individual-business-traveler/individual-business-traveler-single/" class="orange-link">Learn More &#8594;</a>
 						</section><!--end two thirds-->			
@@ -46,7 +46,7 @@ get_header(4); ?>
 				<section class="col-lg-12 col-md-12">						
 					<div class="row">
 						<section class="tab-section">
-							<h1>Why do Relocating Professionals Prefer Oakwood?</h1>					
+							<h2>Why do Relocating Professionals Prefer Oakwood?</h2>					
 							<?php include (TEMPLATEPATH . '/_/components/php/tabs-mobile.php'); ?>						
 							<?php include (TEMPLATEPATH . '/_/components/php/industry-tabs.php'); ?>
 						</section>
@@ -58,7 +58,7 @@ get_header(4); ?>
 		<div class="row industry-insights">
 			<section class="col-sm-12 hidden-lg hidden-md">
 				<div class="container">
-					<h1>Industry Insights</h1>
+					<h2>Industry Insights</h2>
 				</div>
 				<?php include (TEMPLATEPATH . '/_/components/php/industry-insights.php'); ?>
 			</section>

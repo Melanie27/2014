@@ -11,7 +11,7 @@
 												 	<div class="panel-body">
 														<?php include (TEMPLATEPATH . '/_/components/php/media-relations.php'); ?>	
 														<section class="awards-honors">
-															<h1 class="hidden-sm hidden-xs">Awards and Honors</h1>
+															<h2 class="hidden-sm hidden-xs">Awards and Honors</h2>
 																<div class="row">
 																	<section class="col-md-11">
 																	<?php $awards = new WP_Query('post_type=awards&posts_per_page=5');?>

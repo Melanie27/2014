@@ -14,7 +14,7 @@ get_header(4); ?>
 		  	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
 		  	<div id="primary" class="content-area">
 			  	<div id="content" class="site-content" role="main">
-				  	<section class="two">
+				  	<section class="two" style="background: none; height: auto;">
 					  	<div class="row heading">
 						  	<section class="col-lg-12">
 							  	<div class="container">
@@ -88,16 +88,22 @@ get_header(4); ?>
 							</section>
 						</div>
 					</section>
-					<!--end row that holds accordion-->		
-					<section class="container">
+			  	</div>
+					<!--end row that holds accordion-->	
+					<div class="clearfix">&nbsp;</div>	
+					<section class="container seven">
 						<div class="row hidden-xs">
 							<section class="tab-section col-lg-12">
-								<h1>Why does the Federal Government Prefer Oakwood?</h1>
+								<h2>Why does the Federal Government Prefer Oakwood?</h2>
 								<?php include (TEMPLATEPATH . '/_/components/php/industry-tabs.php'); ?>
 							</section>	
 						</div><!--end tabbed section-->
 					</section>
-					<hr class="hidden-lg hidden-md "/>
+					<div class="clearfix">&nbsp;</div>	
+			  	</section>
+					<hr class="hidden-lg hidden-md"/>
+					
+					
 					<section class="content row">
 						<div class="col-lg-12">
 							<section class="eight hidden-sm hidden-xs">
@@ -106,4 +112,5 @@ get_header(4); ?>
 					</section><!--content 12-->
 				</div><!-- #content -->
 			</div><!-- #primary -->
+  		</section>
 <?php get_footer(); ?>

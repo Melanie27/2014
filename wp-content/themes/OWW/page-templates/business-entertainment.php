@@ -42,8 +42,8 @@ get_header(5); ?>
 					<section class="col-lg-12 col-md-12 col-xs-12">
 						<div class="row">
 							<section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 entertainment-intro child-actors">
-								<h1>Child Actors Program</h1>
-								<h2>Each year many children and their parents come to Hollywood from all over the world to work in television, film, music and theatre. Oakwood Toluca Hills is the ideal apartment community for all aspiring stars.</h2>
+								<h2>Child Actors Program</h2>
+								<h3>Each year many children and their parents come to Hollywood from all over the world to work in television, film, music and theatre. Oakwood Toluca Hills is the ideal apartment community for all aspiring stars.</h3>
 								<section class="col-lg-8 col-lg-offset-2 col-xs-12">
 									<div class="row archives">
 										<section class="col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
@@ -54,8 +54,8 @@ get_header(5); ?>
 							</section><!--end child actors-->
 							<hr class="hidden-lg hidden-md">
 							<section class="col-lg-6 col-md-6 entertainment-intro filming">
-								<h1>Filming At Oakwood Worldwide</h1>
-								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et augue tempus magna elementum pharetra. Aenean nisi nibh, sollicitudin eget facilisis blandit, dignissim sed tortor. Etiam at volutpat sem. Sed augue.</h2>
+								<h2>Filming At Oakwood Worldwide</h2>
+								<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et augue tempus magna elementum pharetra. Aenean nisi nibh, sollicitudin eget facilisis blandit, dignissim sed tortor. Etiam at volutpat sem. Sed augue.</h3>
 								<section class="col-lg-8 col-lg-offset-2">
 									<div class="row archives">
 										<section class="col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
@@ -72,7 +72,7 @@ get_header(5); ?>
 			<section class="container five">
 				<div class="row">			
 					<section class="tab-section">
-						<h1>Why does the Entertainment Industry Prefer Oakwood?</h1>
+						<h2>Why does the Entertainment Industry Prefer Oakwood?</h2>
 							<?php include (TEMPLATEPATH . '/_/components/php/industry-tabs-phone.php'); ?>
 					</section>	
 				</div><!--end tabbed section-->
@@ -81,7 +81,7 @@ get_header(5); ?>
 			<div class="row industry-insights">
 				<section class="col-sm-12 hidden-lg hidden-md">
 					<div class="container">
-						<h1>Industry Insights</h1>
+						<h2>Industry Insights</h2>
 					</div>
 					<?php include (TEMPLATEPATH . '/_/components/php/industry-insights.php'); ?>
 				</section>
