@@ -9,7 +9,7 @@
 												</div>	
 												 <div id="collapseThree" class="panel-collapse collapse in">
 												 	<div class="panel-body">
-														<h1 class="hidden-xs hidden-sm">In the News</h1>		
+														<h2 class="hidden-xs hidden-sm">In the News</h2>		
 														<section class="latest-releases">
 															<h3 class="hidden-sm hidden-xs">Latest Stories</h3>
 															<?php include (TEMPLATEPATH . '/_/components/php/in-the-news-thumbs.php'); ?>

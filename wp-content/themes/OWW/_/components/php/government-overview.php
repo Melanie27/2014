@@ -33,7 +33,7 @@
 														<a href="#" class="industry-sections" >
 															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/overview-01.jpg" alt="Woman Texting" class="img-responsive" />
 															<header class="industries">
-																<h6>Military</h6>
+																<h3>Military</h3>
 																<div class="clearfix"></div>
 															</header>
 														</a>
@@ -48,7 +48,7 @@
 														<a href="#" class="industry-sections">
 															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/overview-02.jpg" alt="Woman Texting" class="img-responsive" />
 															<header class="industries">
-																<h6>Federal Civilians</h6>
+																<h3>Federal Civilians</h3>
 																<div class="clearfix"></div>
 															</header>
 														</a>
@@ -63,7 +63,7 @@
 														<a href="#" class="industry-sections">
 															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/overview-03.jpg" alt="Woman Texting" class="img-responsive" />
 															<header class="industries">
-																<h6>Government Contractors</h6>
+																<h3>Government Contractors</h3>
 																<div class="clearfix"></div>
 															</header>
 														</a>

@@ -91,7 +91,6 @@ h4 {
   font-family: 'district_thinthin';
   font-weight: 300;
   font-size: 23px;
-  line-height: 36px;
 }
 h5 {
   color: #bbbbbb;
@@ -717,17 +716,17 @@ article.one-third-two-thirds ul {
 #business-solutions .four {
   background-image: url(../../images/business-solutions/bg-image-02.jpg);
 }
-#business-solutions .five h1 {
+#business-solutions .five h2 {
   margin-bottom: 0px;
   margin-top: 50px;
+}
+#business-solutions .five h3 {
+  margin-top: 0px;
 }
 #business-solutions .six {
   background-image: url(../../images/business-solutions/bg-image-03.jpg);
 }
-#business-solutions h2 {
-  font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-}
-#business-solutions h4 {
+#business-solutions span {
   font-size: 12px;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
   color: #bbbbbb;

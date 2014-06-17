@@ -1,13 +1,9 @@
 										<!--News Navigation-->
 											<section class="col-lg-3 col-lg-offset-1 hidden-md hidden-sm hidden-xs">
 												<section class="news navigation hidden-xs">
-												
-												
-												
-													<h1>News</h1>
+													<h2>News</h2>
 														<ul>
 															<!--Press Releases-->
-															
 															<div class="panel-group" id="accordion">
 																<div class="panel panel-default">
 																	<div class="panel-heading news-nav">

@@ -39,7 +39,7 @@ get_header(2); ?>
 			<div class="col-lg-12">
 				<section class="five">
 					<div class="container">		
-						<h1><a href="industry-insights.php">Industry Insights</a></h1>
+						<h2>Industry Insights</h2>
 						<?php include (TEMPLATEPATH . '/_/components/php/industry-insights.php'); ?>
 					</div><!--container-->
 				</section><!--five-->

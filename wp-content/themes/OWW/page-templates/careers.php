@@ -38,7 +38,7 @@ get_header(3); ?>
 		<section class="container three three-a hidden-sm hidden-xs">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 search-jobs">
-					<h1>Search Current Openings</h1>	
+					<h2>Search Current Openings</h2>	
 					<iframe src="http://sj.tbe.taleo.net/SJ2/ats/careers/jobSearch.jsp?org=OAKWOODWW&cws=1" frameborder="0" height="900" width="800">[Your user agent does not 
 support frames or is currently configured not to display 
 frames.]</iframe>		
@@ -53,7 +53,7 @@ frames.]</iframe>
 				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 oakwood-university thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h1>Oakwood University</h1>
+							<h2>Oakwood University</h2>
 						</section>
 					</div>
 					<div class="row career-trio">
@@ -69,7 +69,7 @@ frames.]</iframe>
 				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 why-oakwood thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h1>Why Oakwood Worldwide</h1>
+							<h2>Why Oakwood Worldwide</h2>
 						</section>
 					</div>
 					<div class="row career-trio">
@@ -85,7 +85,7 @@ frames.]</iframe>
 				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 referral thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h1>Employee Referral Program</h1>
+							<h2>Employee Referral Program</h2>
 						</section>
 					</div>
 					<div class="row career-trio">

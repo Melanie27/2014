@@ -16,7 +16,7 @@
 														<p class="consult-desc">We’ll take care of it all—providing your travelers with convenient, comfortable housing solutions so they have the time and energy to do what they do best. </p>
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
-																<h4>Case Study</h4>
+																<span>Case Study</span>
 																<?php $case_studies = new WP_Query( array(
 																	'post_type' => 'case_studies',
 																	'posts_per_page' => '1',
@@ -32,7 +32,7 @@
 																<?php wp_reset_query(); ?>
 															</section>
 															<section class="col-lg-6 col-md-6">
-																<h4>Whitepaper</h4>
+																<span>Whitepaper</span>
 																<?php $white_papers = new WP_Query( array(
 																	'post_type' => 'white_papers',
 																	'posts_per_page' => '1',
@@ -64,7 +64,7 @@
 														<p class="consult-desc">No two federal assignments are alike. Fortunately, our diverse inventory and expertise of corporate housing and serviced apartments solution allow us to specifically find accommodations that  meet most government per diems  and the needs of government  travelers. </p>
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
-																<h4>Case Study</h4>
+																<span>Case Study</span>
 																<?php $case_studies = new WP_Query( array(
 																	'post_type' => 'case_studies',
 																	'posts_per_page' => '1',
@@ -80,7 +80,7 @@
 
 															</section>
 															<section class="col-lg-6 col-md-6">
-																<h4>Whitepaper</h4>
+																<span>Whitepaper</span>
 																<?php $white_papers = new WP_Query( array(
 																	'post_type' => 'white_papers',
 																	'posts_per_page' => '1',
@@ -111,7 +111,7 @@
 														<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
-																<h4>Case Study</h4>
+																<span>Case Study</span>
 																<?php $case_studies = new WP_Query( array(
 																	'post_type' => 'case_studies',
 																	'posts_per_page' => '1',
@@ -129,7 +129,7 @@
 																<?php wp_reset_query(); ?>
 															</section>
 															<section class="col-lg-6 col-md-6">
-																<h4>Whitepaper</h4>
+																<span>Whitepaper</span>
 																<?php $white_papers = new WP_Query( array(
 																	'post_type' => 'white_papers',
 																	'posts_per_page' => '1',
@@ -167,7 +167,7 @@
 														<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
-																<h4>Case Study</h4>
+																<span>Case Study</span>
 																<?php $case_studies = new WP_Query( array(
 																	'post_type' => 'case_studies',
 																	'posts_per_page' => '1',
@@ -185,7 +185,7 @@
 
 															</section>
 															<section class="col-lg-6 col-md-6">
-																<h4>Whitepaper</h4>
+																<span>Whitepaper</span>
 																<?php $white_papers = new WP_Query( array(
 																	'post_type' => 'white_papers',
 																	'posts_per_page' => '1',
@@ -206,7 +206,7 @@
 											<hr class="hidden-lg hidden-md hidden-sm"/>
 											<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 industry-affiliations">
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/affiliations-fpo.jpg" alt="affiliations-fpo" class="img-responsive hidden-xs" />
-												<h2>Headline Directing People to Check Out the Industry Afflications Page</h2>
+												<h4>Headline Directing People to Check Out the Industry Afflications Page</h4>
 												<p>Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.Lorem ipsum in dui mauris. Vivamus hendrerit.</p>
 												<a href="<?php bloginfo( 'url' ); ?>/affiliations/" class="orange-link">Call to action &#8594</a>	
 											</section><!--Industry Affiliations Section-->

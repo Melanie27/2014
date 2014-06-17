@@ -37,7 +37,7 @@ body {
   color: #3b3b3b;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.3125;
+  line-height: 1.5;
   padding-top: 110px;
 }
 .container-full {
@@ -75,7 +75,7 @@ h1 a:visited {
   color: #f05323;
 }
 h2 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: normal;
   color: #f05323;
   font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
@@ -90,8 +90,7 @@ h4 {
   color: #f05323;
   font-family: 'district_thinthin';
   font-weight: 300;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 23px;
 }
 h5 {
   color: #bbbbbb;
@@ -104,7 +103,7 @@ p {
   font-size: 16px;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
   color: #3b3b3b;
-  line-height: 1.3125;
+  line-height: 1.5;
 }
 sup {
   font-size: 10px;
@@ -459,8 +458,6 @@ p.consult-desc {
 .industries h3 {
   color: #FFFFFF;
   display: table-cell;
-  font-family: district_bookbook, Helvetica, Arial, sans-serif;
-  font-size: 16px;
   padding: 15px;
   text-transform: capitalize;
   vertical-align: middle;
@@ -719,17 +716,17 @@ article.one-third-two-thirds ul {
 #business-solutions .four {
   background-image: url(../../images/business-solutions/bg-image-02.jpg);
 }
-#business-solutions .five h1 {
+#business-solutions .five h2 {
   margin-bottom: 0px;
   margin-top: 50px;
+}
+#business-solutions .five h3 {
+  margin-top: 0px;
 }
 #business-solutions .six {
   background-image: url(../../images/business-solutions/bg-image-03.jpg);
 }
-#business-solutions h2 {
-  font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-}
-#business-solutions h4 {
+#business-solutions span {
   font-size: 12px;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
   color: #bbbbbb;
@@ -2153,6 +2150,19 @@ footer .copyright p {
   .container.navigation {
     height: 110px !important;
   }
+  .navbar-collapse {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbar-collapse .navbar-nav > li > a {
+    font-size: 13px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 35px;
+  }
+  .navbar-collapse .navbar-nav {
+    float: right;
+  }
   .dropdown-menu {
     left: 0px;
   }
@@ -2511,14 +2521,14 @@ footer .copyright p {
 .press-release-list {
   padding-left: 0px;
 }
-.press-release-list h1 {
+.press-release-list h2 {
   margin-top: 55px;
   margin-bottom: 40px;
 }
 .news {
   margin-bottom: 65px;
 }
-.news h1 {
+.news h2 {
   margin-top: 55px;
   margin-bottom: 35px;
 }
@@ -2545,8 +2555,7 @@ footer .copyright p {
 .press-text {
   padding-left: 0px;
 }
-.press-text h2 {
-  color: #f05323;
+.press-text h3 {
   margin-top: 0px;
 }
 .press-image {
@@ -2606,7 +2615,7 @@ footer .copyright p {
   padding: 0px;
   margin: 0px auto;
 }
-#awards .press-release-list h1 {
+#awards .press-release-list h2 {
   margin-top: 45px;
   margin-bottom: 50px;
 }
@@ -2736,9 +2745,6 @@ footer .copyright p {
   margin-top: 0px;
   margin-bottom: 45px;
 }
-#awards h2 {
-  color: #f05323;
-}
 /*End carousel*/
 .news.navigation li.active {
   color: #f05323;
@@ -2820,7 +2826,7 @@ p.location {
   .press-release-list {
     padding-left: 15px;
   }
-  .press-release-list h1 {
+  .press-release-list h2 {
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -2888,7 +2894,7 @@ p.location {
   #awards .two {
     background-image: url(../../images/sitewide/bg-image-01.jpg);
   }
-  #awards .press-release-list h1 {
+  #awards .press-release-list h2 {
     margin-top: 15px;
     margin-bottom: 20px;
   }
@@ -2907,7 +2913,7 @@ p.location {
   #awards-single .press-release-list {
     padding-right: 0px;
   }
-  #awards-single .press-release-list h1 {
+  #awards-single .press-release-list h2 {
     margin: 15px 0px;
   }
   .panel {
@@ -3013,14 +3019,14 @@ p.location {
     text-shadow: none;
     top: 165px;
   }
-  #awards .press-release-list h1 {
+  #awards .press-release-list h2 {
     margin-top: 25px;
     margin-bottom: 25px;
   }
   .news {
     margin-bottom: 25px;
   }
-  .news h1 {
+  .news h2 {
     margin-top: 25px;
   }
   .media-relations.phone {
@@ -3074,7 +3080,7 @@ p.location {
     width: 1024px;
     margin-left: 0px;
   }
-  .awards-honors h1 {
+  .awards-honors h2 {
     font-size: 35px;
   }
   .news-thumbnails.events li {

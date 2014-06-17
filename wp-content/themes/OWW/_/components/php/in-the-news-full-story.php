@@ -13,7 +13,7 @@
 												<?php the_post_thumbnail('stickysize'); ?>
 											</section> <!--end one third-->
 											<section class="col-lg-8 col-md-8 thirds blurb">
-												<h2 class="hidden-xs"><?php the_title();?></h2>
+												<h4 class="hidden-xs"><?php the_title();?></h4>
 												<p class="blurb-intro">
 													<?php echo esc_html( get_post_meta( get_the_ID(), 'in_the_news_sticky_story', true ) ); ?>
 												</P>

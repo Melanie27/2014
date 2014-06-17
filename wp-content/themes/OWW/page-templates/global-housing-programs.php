@@ -44,7 +44,7 @@ get_header(3); ?>
 							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Global-Scale-and-Inventory.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
@@ -70,7 +70,7 @@ get_header(3); ?>
 							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Comprehensive-Program-Management.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>

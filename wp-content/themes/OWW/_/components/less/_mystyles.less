@@ -119,9 +119,9 @@
 //Headings
 
 @oww-font-size-h1:            floor(@oww-font-size-base * 2.25); // ~36px
-@oww-font-size-h2:            floor(@oww-font-size-base * 2.25); // ~36px
+@oww-font-size-h2:            floor(@oww-font-size-base * 1.88); // ~30px
 @oww-font-size-h3:            ceil(@oww-font-size-base * 1.5); // ~24px
-@oww-font-size-h4:            ceil(@oww-font-size-base * 1.5); // ~24px
+@oww-font-size-h4:            ceil(@oww-font-size-base * 1.4); // ~22px
 @oww-font-size-h5:            ceil(@oww-font-size-base * .9375); // ~15px
 @oww-font-size-links: 		  ceil(@oww-font-size-base * .875); // ~14px
 @oww-font-size-menu: 		  ceil(@oww-font-size-base * .8125); // ~13px
@@ -143,7 +143,7 @@
 
 
 // Components
-@line-height-large:              1.3125;
+@line-height-large:              1.5;
 
 
 
@@ -236,7 +236,6 @@ h4 {
 	font-family: 'district_thinthin';
 	font-weight: 300;
 	font-size: @oww-font-size-h4;
-	line-height: 36px;
 }
 
 h5 {
@@ -777,8 +776,6 @@ p.consult-desc {
 			
 		color: #FFFFFF;
 		display: table-cell;
-		font-family: district_bookbook,Helvetica,Arial,sans-serif;
-		font-size: 16px;
 		padding: 15px;
 		text-transform: capitalize;
 		vertical-align: middle;
@@ -1229,11 +1226,15 @@ article.one-third-two-thirds {
 	
 	.five {
 		
-		h1 {
+		h2 {
 			
 			margin-bottom:0px;
 			margin-top:50px;
 					
+		}
+		
+		h3 {
+			margin-top:0px;
 		}
 	}
 	
@@ -1242,13 +1243,9 @@ article.one-third-two-thirds {
 		background-image:url(../../images/business-solutions/bg-image-03.jpg);
 	}	
 		
-	h2 {
-		
-		font-family: @district-thin;
-	}
 	
 		
-	h4 {
+	span {
 		
 		font-size:12px;
 		font-family: @district-book;
@@ -3849,6 +3846,27 @@ footer {
 	  height:110px !important;	  
 	  
 	 }
+	 
+	 .navbar-collapse {
+		
+		padding-left:0px !important;
+		padding-right:0px !important;
+		
+	}
+	
+	.navbar-collapse .navbar-nav > li > a {
+		
+		font-size:13px;
+		padding-left:6px;
+		padding-right:6px;
+		padding-top:35px;
+		
+	}
+	
+	.navbar-collapse .navbar-nav {
+		
+		float:right;
+	}
 	
 	.dropdown-menu {
 		

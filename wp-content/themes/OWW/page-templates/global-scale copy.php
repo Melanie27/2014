@@ -38,14 +38,14 @@ get_header(3); ?>
 		<?php include (TEMPLATEPATH . '/_/components/php/global-destinations.php'); ?>
 		</section><!--seven-->	
 		<hr />
-		<section class="container three three-a">
+		<!--<section class="container three three-a">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 regional-supply">
 					<h2>Global Standards</h2>
 					<p>Each member of Oakwood Worldwide’s global network of suppliers is held to a high standard and undergoes a thorough vetting process. The units we provide are rigorously inspected prior to guest arrival and thoughtfully appointed with contemporary furniture and ready-to-use technology offering a place where guests are immediately comfortable and ready to do business.</p>
 				</section>
 			</div>
-		</section>
+		</section>-->
 		<section class="container three three-a">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 regional-supply">
@@ -100,7 +100,8 @@ get_header(3); ?>
   		<section class="container three three-a">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 regional-supply">
-					<h2>Supply Chain</h2>			
+					<h2>Supply Chain</h2>
+					<p>Each member of Oakwood Worldwide’s global network of suppliers is held to a high standard and undergoes a thorough vetting process. The units we provide are rigorously inspected prior to guest arrival and thoughtfully appointed with contemporary furniture and ready-to-use technology offering a place where guests are immediately comfortable and ready to do business.</p>			
 				</section>
 			</div>             
 			<div class="row regional-supply">

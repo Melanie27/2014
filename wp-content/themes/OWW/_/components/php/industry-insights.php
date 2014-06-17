@@ -7,7 +7,7 @@
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/industry-insights.jpg" alt="Man on couch" class="img-responsive">
 											</section> <!--end one third-->
 											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs thirds blurb">
-												<h2>Story Title Lorem Ipsum Dolore Sit Amet</h2>
+												<h3>Story Title Lorem Ipsum Dolore Sit Amet</h3>
 												<P><span class="city">LOS ANGELES</span> - July 31, 2013 - Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor sppo suere lorem ipsum.</P>
 												<p class="full-story">
 													<a href="<?php bloginfo('url'); ?>/business-solutions/industry-insights" class="orange-link">Full Story</a>

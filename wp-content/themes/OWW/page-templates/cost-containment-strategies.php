@@ -29,9 +29,9 @@
 			<section class="three container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
-						<h2>Your Profitability—Our Top Priority</h2>
-						<h3>Enhanced transparency to keep you focused on your bottom line.</h3>	
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel enim tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis lectus ac quam blandit interdum. Curabitur posuere libero vitae quam tristique, at consectetur nisi laoreet. Proin ac sem ligula. Phasellus elementum libero vel mauris porta, nec ullamcorper sapien scelerisque. Vestibulum pharetra consectetur nunc, nec convallis neque semper vitae. Nunc nec tincidunt nisl, eu varius urna.</p>
+						<h2>Your Profitability &#8211; Our Top Priority</h2>
+						<h3>Best practices for the bottom line</h3>	
+						<p>Recognizing the investment companies are making when they procure corporate housing, Oakwood Worldwide is dedicated to making the process efficient and transparent. So we create proposals that are concise and written to your specific business needs, quickly delivering the information you need most. For ongoing analysis, we offer analytics and reporting capabilities that present the comprehensive data and qualitative insights you need to get a clear picture of your housing activity. Our size gives us a buying power that allows us to deliver value to our clients. And we offer consolidated invoicing options to simplify and streamline the financial management of group housing programs.</p>
 					</section>
 				</div>
 			</section><!--end three-->
@@ -39,8 +39,8 @@
 			<section class="five container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 ">
-						<h2>Detailed Reporting</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel enim tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis lectus ac quam blandit interdum. Curabitur posuere libero vitae quam tristique, at consectetur nisi laoreet. Proin ac sem ligula. Phasellus elementum libero vel mauris porta, nec ullamcorper sapien scelerisque. Vestibulum pharetra consectetur nunc, nec convallis neque semper vitae. Nunc nec tincidunt nisl, eu varius urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel enim tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis lectus ac quam blandit interdum. Curabitur posuere libero vitae quam tristique, at consectetur nisi laoreet. Proin ac sem ligula. Phasellus elementum libero vel mauris porta, nec ullamcorper sapien scelerisque. Vestibulum pharetra consectetur nunc, nec convallis neque semper vitae. Nunc nec tincidunt nisl, eu varius urna.</p>
+						<h2>Simplified Reporting </h2>
+						<p>Oakwood Worldwide provides robust and transparent reporting capabilities that present comprehensive data and quantitative insights that present clients with a clear picture of their housing activity, making it easier to manage and contain costs.</p>
 					</section>
 				</div>
 			</section><!--end five-->
@@ -48,8 +48,8 @@
 			<section class="seven container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 ">
-						<h2>Resource Management</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel enim tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis lectus ac quam blandit interdum. Curabitur posuere libero vitae quam tristique, at consectetur nisi laoreet. Proin ac sem ligula. Phasellus elementum libero vel mauris porta, nec ullamcorper sapien scelerisque. Vestibulum pharetra consectetur nunc, nec convallis neque semper vitae. Nunc nec tincidunt nisl, eu varius urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel enim tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis lectus ac quam blandit interdum. Curabitur posuere libero vitae quam tristique, at consectetur nisi laoreet. Proin ac sem ligula. Phasellus elementum libero vel mauris porta, nec ullamcorper sapien scelerisque. Vestibulum pharetra consectetur nunc, nec convallis neque semper vitae. Nunc nec tincidunt nisl, eu varius urna. </p>
+						<h2>Buying Power</h2>
+						<p>As the largest provider of corporate housing and serviced apartment in the world, Oakwood Worldwide offers a breadth and depth of resources found nowhere else. Our size and scope also gives us unmatched buying power, allowing us to offer our clients more value and access to solutions.</p>
 					</section>		
 				</div>
 			</section><!--seven-->		
@@ -57,8 +57,8 @@
 			<section class="nine container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12">
-						<h2>EPIC<sup>sm</sup></h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel enim tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis lectus ac quam blandit interdum. Curabitur posuere libero vitae quam tristique, at consectetur nisi laoreet. Proin ac sem ligula. Phasellus elementum libero vel mauris porta, nec ullamcorper sapien scelerisque. Vestibulum pharetra consectetur nunc, nec convallis neque semper vitae. Nunc nec tincidunt nisl, eu varius urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel enim tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis lectus ac quam blandit interdum. Curabitur posuere libero vitae quam tristique, at consectetur nisi laoreet. Proin ac sem ligula. Phasellus elementum libero vel mauris porta, nec ullamcorper sapien scelerisque. Vestibulum pharetra consectetur nunc, nec convallis neque semper vitae. Nunc nec tincidunt nisl, eu varius urna. </p>
+						<h2>Customized Invoices</h2>
+						<p>Oakwood Worldwide works to simplify the financial management of your housing program. We offer a variety of invoicing options to match your bookkeeping preferences. And our multi-currency invoices offer additional convenience for international companies looking to do business in their native currency.</p>
 					</section>
 				</div>
 			</section><!--nine-->		
