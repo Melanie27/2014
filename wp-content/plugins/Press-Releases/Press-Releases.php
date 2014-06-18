@@ -39,7 +39,8 @@ function create_press_release() {
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( '' ),
             'menu_icon' => plugins_url( 'oww-dashboard.png', __FILE__ ),
-            'has_archive' => true
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'press-releases' ),
         )
     );
 }

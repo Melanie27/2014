@@ -18,7 +18,7 @@
 															<?php include (TEMPLATEPATH . '/_/components/php/recent-stories.php'); ?>	
 															<div class="row archives">
 																<div class="col-lg-9 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-																	<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/in_the_news/">View Archive</a>
+																	<a class="link-archives see-all text-center" href="<?php bloginfo('url'); ?>/in-the-news/">View Archive</a>
 																</div>
 															</div>
 														</div><!--panel body-->

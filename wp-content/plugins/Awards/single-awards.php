@@ -12,7 +12,7 @@ get_header(7); ?>
 		 <?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
 		 	<div id="primary">
 			 	<div id="content" role="main">
-				 	<section class="two" style="height:90px; background-image:none;">
+				 	<section class="two">
 					 	<div class="row heading">
 						 	<section class="col-lg-12">
 							 	<div class="container">

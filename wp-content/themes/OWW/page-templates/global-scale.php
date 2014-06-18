@@ -33,7 +33,7 @@ get_header(3); ?>
 				</section>	
 			</div>
 		</section>
-		
+		<hr/>
 		<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
@@ -58,7 +58,7 @@ get_header(3); ?>
 					</section>		
 				</div>			
 			</section><!--three-->
-			<hr/>
+
 			<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
@@ -105,7 +105,6 @@ get_header(3); ?>
 								<p>With regional headquarters in London and access to hundreds of properties in 60 cities across the United Kingdom, Oakwood Worldwide offers the expertise to find corporate housing and serviced apartments that fit any traveler’s specifications. Our team of experts is ready to provide guests the accommodations and support that will position them for business success anywhere in the United Kingdom.
 								<p>In addition to our expertise in the United Kingdom, we offer unparalleled service across all of Europe, with a strong presence in Germany, France, Belgium, Italy, the Netherlands, Sweden and Switzerland, among others.</p>
 								<p>The evolving world of business has seen the remarkable rise of the Middle East and Africa as powerful centers of commerce in recent years. That makes Oakwood Worldwide’s strong presence in the region an important resource for companies seeking to capitalize on the growth of opportunities available there. As the region continues to grow, we continue to invest in new housing solutions throughout this evolving corner of the globe, consistently providing companies and travelers with innovative solutions that keep them ready for the next initiative.</p>
-								<a class="orange-link" href="risk-management-methods">Learn More &#8594;</a>	
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -115,10 +114,42 @@ get_header(3); ?>
 			<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
-						<h2>Risk Management Methods</h2>
+						<h2>Asia and the Pacific (APAC)</h2>
 					</section>
 				</div>				
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
-							<section class="col-lg-4 col-md-4 co
+							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+								<div class="solutions">
+									<a href="#" class="industry-sections">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+									</a>
+								</div>
+							</section>
+							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
+								<h3>Discover Popular Destinations in APAC</h3>
+								<p>As the Asia Pacific region continues its growth as a center of world commerce, the demand for innovative, comprehensive corporate housing and serviced apartment solutions has also increased. So more companies are looking to Oakwood Worldwide as a corporate housing partner for more than accommodations, but also local insights and expertise, plus ongoing support to help insure success in this vital region.</p>
+								<p>Oakwood Worldwide operates regional headquarters in Singapore and has invested in 28 branded properties across China, Hong Kong, India, Indonesia, Japan, Korea, the Philippines and Thailand. Here, guests receive the same great quality matched with a high level of community amenities, providing more opportunities for networking outside the typical business environment.</p>
+								<p>In addition, Oakwood Worldwide offers access to hundreds of additional corporate housing and serviced apartment accommodations across the Asia Pacific, ensuring that our clients are able to stay right where they need to be to offer the ideal location, and value, for both the traveler and the company.</p>
+							</section>
+						</div><!--end nested row-->	
+					</section>		
+				</div>			
+			</section><!--three-->			
+								
+		<div class="row">
+			<div class="col-lg-12">
+				<section class="four hidden-sm hidden-xs">
+				</section>
+			</div>
+		</div><!--content 4-->
+		<hr />
+		
+
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+<?php get_footer(); ?>

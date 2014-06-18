@@ -91,7 +91,6 @@ h4 {
   font-family: 'district_thinthin';
   font-weight: 300;
   font-size: 23px;
-  line-height: 36px;
 }
 h5 {
   color: #bbbbbb;
@@ -328,6 +327,9 @@ p.headline a:visited {
 ul.nav li.dropdown:hover ul.dropdown-menu {
   display: block;
 }
+.navbar-collapse {
+  background-color: white;
+}
 .navbar-collapse .navbar-nav {
   float: right;
 }
@@ -462,7 +464,7 @@ p.consult-desc {
   padding: 15px;
   text-transform: capitalize;
   vertical-align: middle;
-  width: 250px;
+  width: 290px;
 }
 .two {
   background-image: none;
@@ -487,9 +489,6 @@ p.consult-desc {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-}
-#home .two {
-  background-image: url(../../images/sitewide/bg-image-home.jpg) !important;
 }
 .media-relations.phone img {
   margin-right: 15px;
@@ -702,6 +701,7 @@ article.one-third-two-thirds ul {
 #business-solutions .two {
   /* background-image:url(../../images/business-solutions/bg-image-01.jpg);
 		height:512px; */
+  height: auto;
 }
 #business-solutions .three h3 {
   margin-top: 0px;
@@ -829,10 +829,12 @@ footer .page-links a:link,
 footer .page-links a:visited {
   color: #3b3b3b;
 }
+footer .page-links h5 {
+  font-family: 'district_mediummedium', Helvetica, Arial, sans-serif;
+}
 footer .page-links h5 a:link,
 footer .page-links h5 a:visited {
   color: #bbbbbb;
-  font-family: 'district_mediummedium', Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 footer .footer-brands {
@@ -915,10 +917,11 @@ footer .copyright p {
 .panel-title {
   height: 80px;
 }
-.panel-title h1 {
+.panel-title h2 {
   line-height: 80px;
   margin: 0px;
   display: block;
+  font-size: 22px;
 }
 .panel-title a {
   text-decoration: none;
@@ -966,6 +969,7 @@ footer .copyright p {
   line-height: 40px;
   vertical-align: middle;
   display: table-cell;
+  color: white;
 }
 .carousel-control {
   color: #000;
@@ -1010,6 +1014,7 @@ footer .copyright p {
 }
 .max-height-car {
   max-height: 275px;
+  margin-bottom: 45px;
 }
 /*Brands Table*/
 .brands-row-height1 {
@@ -1126,11 +1131,11 @@ footer .copyright p {
   color: #fff;
 }
 /*AFFILIATIONS*/
-#affiliations .three h1 {
+#affiliations .three h2 {
   margin-top: 45px;
   padding-left: 15px;
 }
-#affiliations .three h2 {
+#affiliations .three h3 {
   margin-top: 10px;
   margin-bottom: 50px;
   padding-left: 15px;
@@ -1152,10 +1157,13 @@ footer .copyright p {
 #affiliations .three .affiliations-text p {
   margin-left: 15px;
 }
-#affiliations .industry-affiliations h1 {
+#affiliations .industry-affiliations h2 {
   margin-top: 50px;
-  margin-bottom: 30px;
-  padding-left: 15px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+#affiliations .industry-affiliations p {
+  margin-bottom: 40px;
 }
 #affiliations .industry-affiliations a.link-archives:link,
 #affiliations .industry-affiliations a.link-archives:visited {
@@ -1180,7 +1188,7 @@ footer .copyright p {
 #industry-affiliations .three {
   padding-bottom: 50px;
 }
-#industry-affiliations .three h1 {
+#industry-affiliations .three h2 {
   margin-top: 60px;
   margin-bottom: 30px;
 }
@@ -1464,14 +1472,15 @@ footer .copyright p {
     line-height: 28px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   h3 {
     font-size: 16px;
+    line-height: 20px;
   }
   .two {
+    background-image: none;
     height: auto;
-    /* 200px; */
     background-attachment: scroll;
   }
   .heading .container {
@@ -1577,6 +1586,12 @@ footer .copyright p {
     padding-right: 0px;
     margin-right: -30px;
   }
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: none !important;
+  }
+  .caret {
+    display: none;
+  }
   .container > .navbar-header,
   .container > .navbar-collapse {
     margin-right: -30px;
@@ -1587,11 +1602,14 @@ footer .copyright p {
   .panel-title {
     height: 50px;
   }
-  .panel-title h1 {
+  .panel-title h2 {
     line-height: 50px;
   }
-  #business-solutions .two {
-    height: 200px;
+  #business-solutions .teasers {
+    border-left: none;
+  }
+  #business-solutions p.consult-desc {
+    padding-right: 0px;
   }
   #business-solutions .three {
     padding-bottom: 30px;
@@ -1599,7 +1617,6 @@ footer .copyright p {
     padding-right: 0px;
   }
   #business-solutions .three h1 {
-    font-size: 21px;
     margin-top: 0px;
   }
   #business-solutions .three .solutions-head {
@@ -1607,10 +1624,8 @@ footer .copyright p {
   }
   #business-solutions .three h2 {
     margin-top: 25px;
-    font-size: 16px;
   }
   #business-solutions .three h3 {
-    font-size: 16px;
     margin-top: 0px;
   }
   #business-solutions .five h1 {
@@ -1628,7 +1643,17 @@ footer .copyright p {
     padding-right: 0px;
   }
   #business-solutions .solutions {
+    height: 340px;
+  }
+  #business-solutions .solutions.consulting {
     height: 320px;
+  }
+  #business-solutions .solutions.government {
+    height: 370px;
+  }
+  #business-solutions .solutions.relocation,
+  #business-solutions .solutions.entertainment {
+    height: 290px;
   }
   #our-brands .three {
     padding: 0px;
@@ -1639,7 +1664,6 @@ footer .copyright p {
   }
   #our-brands .intro h2 {
     margin-top: 10px;
-    font-size: 16px;
     line-height: 26px;
     padding: 0px;
   }
@@ -1722,7 +1746,6 @@ footer .copyright p {
   #industry-affiliations .three h1 {
     margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 21px;
   }
   #industry-affiliations .three .logo-individual {
     border-top: none;
@@ -1736,17 +1759,22 @@ footer .copyright p {
     padding-top: 25px;
     padding-bottom: 0px;
   }
+  #vision-leadership .two {
+    background-image: none;
+    height: auto;
+  }
   #vision-leadership .six {
     height: 85px;
     margin-top: 35px;
   }
   #vision-leadership h1 {
     margin-bottom: 3px;
-    font-size: 23px;
   }
   #vision-leadership h2 {
-    margin-top: 0px;
-    font-size: 18px;
+    margin-top: 25px;
+  }
+  #vision-leadership .leaders {
+    border-left: none;
   }
   #vision-leadership .three a.link-archives:link,
   #vision-leadership .three a.link-archives:visited {
@@ -1756,10 +1784,8 @@ footer .copyright p {
   #vision-leadership .industry-affiliations h1 {
     margin-top: 0px;
     padding-top: 30px;
-    font-size: 23px;
   }
   #vision-leadership .hero-halves h1 {
-    font-size: 22px;
     font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
     margin-top: 20px;
   }
@@ -1872,9 +1898,41 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .two {
+    background-image: none;
+    height: auto;
+    background-attachment: scroll;
+  }
+  .navbar {
+    min-height: 65px !important;
+  }
+  .navbar-nav {
+    float: left;
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  .navbar-nav li.active {
+    background-color: #bbbbbb;
+  }
+  .navbar-nav li a {
+    font-size: 14px;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+    margin-right: -30px;
+  }
+  .container > .navbar-header,
+  .container > .navbar-collapse {
+    margin-right: -30px;
+  }
+  .navbar-nav > li > a {
+    padding-top: 5px;
+  }
   .container.navigation {
     height: 110px !important;
-    padding-top: 10px;
   }
   .navbar-collapse {
     padding-left: 0px !important;
@@ -1884,10 +1942,16 @@ footer .copyright p {
     font-size: 13px;
     padding-left: 6px;
     padding-right: 6px;
-    padding-top: 35px;
+    padding-top: 10px !important;
   }
   .navbar-collapse .navbar-nav {
     float: right;
+  }
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: none !important;
+  }
+  .caret {
+    display: none;
   }
   .container {
     padding-left: 15px;
@@ -2036,6 +2100,10 @@ footer .copyright p {
   #careers .career-bullets {
     padding-left: 15px;
   }
+  #vision-leadership .two {
+    background-image: none;
+    height: auto;
+  }
   #vision-leadership .leaders {
     border-left: none;
     padding-left: 15px;
@@ -2114,11 +2182,7 @@ footer .copyright p {
     padding-left: 15px;
     margin-bottom: 20px;
   }
-  #vision-leadership .hero-halves h1 {
-    font-size: 21px;
-  }
   #vision-leadership .hero-halves h2 {
-    font-size: 18px;
     margin-top: 5px;
   }
   #vision-leadership .hero-halves p {
@@ -2148,6 +2212,34 @@ footer .copyright p {
 }
 /* Medium Screens 992 - 1200 */
 @media (min-width: 992px) and (max-width: 1200px) {
+  .navbar {
+    min-height: 65px !important;
+  }
+  .navbar-nav {
+    float: left;
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  .navbar-nav li.active {
+    background-color: #bbbbbb;
+  }
+  .navbar-nav li a {
+    font-size: 14px;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+    margin-right: -30px;
+  }
+  .container > .navbar-header,
+  .container > .navbar-collapse {
+    margin-right: -30px;
+  }
+  .navbar-nav > li > a {
+    padding-top: 5px;
+  }
   .container.navigation {
     height: 110px !important;
   }
@@ -2159,13 +2251,16 @@ footer .copyright p {
     font-size: 13px;
     padding-left: 6px;
     padding-right: 6px;
-    padding-top: 35px;
+    padding-top: 10px !important;
   }
   .navbar-collapse .navbar-nav {
     float: right;
   }
-  .dropdown-menu {
-    left: 0px;
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: none !important;
+  }
+  .caret {
+    display: none;
   }
   .carousel {
     left: 15px;
@@ -2415,12 +2510,6 @@ footer .copyright p {
     margin-bottom: 20px;
     padding-left: 15px;
   }
-  ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: none;
-  }
-  .caret {
-    display: none;
-  }
 }
 @media (min-width: 481px) and (max-width: 1200px) {
   p {
@@ -2537,6 +2626,9 @@ h4 {
 }
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
+  .two {
+    background-image: none;
+  }
   .entertainment-intro h2 {
     padding: 0px;
   }
@@ -2635,6 +2727,9 @@ h4 {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .two {
+    background-image: none;
+  }
   .thirds {
     padding-bottom: 10px;
   }

@@ -1,23 +1,22 @@
 <?php
 /*
-Plugin Name: Executive Committee
+Plugin Name: Vision and Leadership
 Plugin URI: http://oakwoodworldwide.com/
-Description: Declares a plugin that will create a custom post type displaying OWW Executive Committee
+Description: Declares a plugin that will create a custom post type displaying OWW Leadership Team
 Version: 1.0
 Author: Melanie McGanney
 Author URI: http://oakwoodworldwide.com
 License: GPLv2
 */
-add_action( 'init', 'create_executive_committee' );
-add_action( 'admin_init', 'my_admin_executive_committee' );
-add_action( 'save_post', 'add_committee_member_fields', 10, 2 );
-add_filter( 'template_include', 'include_template_function_ec', 1 );
-
-function create_executive_committee() {
-    register_post_type( 'executive_committee',
+add_action( 'init', 'create_vision_and_leadership' );
+add_action( 'admin_init', 'my_admin_vision_leadership' );
+//add_action( 'save_post', 'add_committee_member_fields', 10, 2 );
+//add_filter( 'template_include', 'include_template_function_ec', 1 );
+function create_vision_and_leadership() {
+    register_post_type( 'vision_leadership',
         array(
             'labels' => array(
-                'name' => 'Executive Committee',
+                'name' => 'Vision and Leadership',
                 'singular_name' => 'Committee Member',
                 'add_new' => 'Add New',
                 'add_new_item' => 'Add New Committee Member',
@@ -37,21 +36,20 @@ function create_executive_committee() {
             'taxonomies' => array( '' ),
             'menu_icon' => plugins_url( 'oww-dashboard.png', __FILE__ ),
             'has_archive' => true,
-            'rewrite' => array( 'slug' => 'vision-and-leadership' ),
             'show_in_nav_menus' => true
         )
     );
 }
-function my_admin_executive_committee() {
-    add_meta_box( 'executive_committee_meta_box',
+function my_admin_vision_and_leadership() {
+    add_meta_box( 'vision_and_leadership_meta_box',
         'Committee Member Details',
-        'display_executive_committee_meta_box',
-        'executive_committee', 'normal', 'high'
+        'display_vision_and_leadership_meta_box',
+        'vision_leadership', 'normal', 'high'
     );
 }
 ?>
 <?php
-function display_executive_committee_meta_box( $committee_member ) {
+/*function display_vision_and_leadership_meta_box( $committee_member ) {
     // Retrieve current name of the Director and Movie Rating based on review ID
     $committee_title = esc_html( get_post_meta( $committee_member->ID, 'committee_title', true ) );
     ?>
@@ -67,7 +65,7 @@ function display_executive_committee_meta_box( $committee_member ) {
 <?php
 function add_committee_member_fields( $committee_member_id, $committee_member ) {
     // Check post type for movie reviews
-    if ( $committee_member->post_type == 'executive_committee' ) {
+    if ( $committee_member->post_type == 'vision_and_leadership' ) {
         // Store data in post meta table if present in post data
         if ( isset( $_POST['committee_title_name'] ) && $_POST['committee_title_name'] != '' ) {
             update_post_meta( $committee_member_id, 'committee_title', $_POST['committee_title_name'] );
@@ -77,7 +75,7 @@ function add_committee_member_fields( $committee_member_id, $committee_member ) 
 ?>
 <?php
 function include_template_function_ec( $template_path ) {
-    if ( get_post_type() == 'executive_committee' ) {
+    if ( get_post_type() == 'vision_and_leadership' ) {
         if ( is_single() ) {
             // checks if the file exists in the theme first,
             // otherwise serve the file from the plugin
@@ -97,4 +95,4 @@ function include_template_function_ec( $template_path ) {
     }
     return $template_path;
 }
-?>
+?>*/

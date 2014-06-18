@@ -30,16 +30,19 @@
 											<div class="row" id="press1">
 												<ul>
 													<li>
-														<section class="col-lg-4 col-md-5 col-sm-4 col-xs-6 press-image">
+														<section class="col-lg-4 col-md-5 col-sm-4 col-xs-4 press-image">
 														<?php the_post_thumbnail('newssize'); ?>
 														</section>
-														<section class="col-lg-8 col-md-7 col-sm-8 col-xs-6 press-text">
-															<h3 class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); ?> <?php the_title(); ?></h3>
-															<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
-															<p class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'article_subhead', true ) ); ?></p>
+														<section class="col-lg-8 col-md-7 col-sm-8 col-xs-8 press-text">
+															<h3><?php /*echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); */?> <?php the_title(); ?></h3>
+															<p class="date hidden-lg hidden-md hidden-sm hidden-xs"><?php the_date();?></p>
+															<p><?php echo esc_html( get_post_meta( get_the_ID(), 'article_subhead', true ) ); ?></p>
 															<a href="<?php the_permalink(); ?>">
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'in_the_news_blurb', true ) ); ?></p>
 															</a>
+															<p class="full-story hidden-lg hidden-md hidden-sm">
+																<a class="orange-link" href="<?php the_permalink(); ?>">Full Story &#8594;</a>
+															</p>
 															<p class="full-story hidden-xs">
 																<a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'article_link', true ) ); ?>" class="orange-link">Full Story: <?php echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); ?> &#8594;</a>
 															</p>	

@@ -44,11 +44,11 @@
 													<?php for ($i = 0; $i < 1; $i++) {													
 													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6 max-height-car">';
 														the_post_thumbnail('carouselsize');
-														echo '<div class="carousel-caption">';
+														/*echo '<div class="carousel-caption">';
 															echo '<h3>';
 																echo esc_html( get_post_meta( get_the_ID(), 'carousel_image_blurb', true ) );
 															echo '</h3>';
-														echo '</div>';
+														echo '</div>';*/
 
 													echo '</div>';
 

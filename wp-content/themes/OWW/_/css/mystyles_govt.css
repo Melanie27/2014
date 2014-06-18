@@ -490,10 +490,6 @@ p.consult-desc {
   background-repeat: no-repeat;
   width: 100%;
 }
-#home .two {
-  background-image: url(../../images/sitewide/bg-image-home.jpg) !important;
-  height: 512px;
-}
 .media-relations.phone img {
   margin-right: 15px;
 }
@@ -1483,8 +1479,8 @@ footer .copyright p {
     line-height: 20px;
   }
   .two {
+    background-image: none;
     height: auto;
-    /* 200px; */
     background-attachment: scroll;
   }
   .heading .container {
@@ -1763,6 +1759,10 @@ footer .copyright p {
     padding-top: 25px;
     padding-bottom: 0px;
   }
+  #vision-leadership .two {
+    background-image: none;
+    height: auto;
+  }
   #vision-leadership .six {
     height: 85px;
     margin-top: 35px;
@@ -1771,7 +1771,10 @@ footer .copyright p {
     margin-bottom: 3px;
   }
   #vision-leadership h2 {
-    margin-top: 0px;
+    margin-top: 25px;
+  }
+  #vision-leadership .leaders {
+    border-left: none;
   }
   #vision-leadership .three a.link-archives:link,
   #vision-leadership .three a.link-archives:visited {
@@ -1895,6 +1898,11 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .two {
+    background-image: none;
+    height: auto;
+    background-attachment: scroll;
+  }
   .navbar {
     min-height: 65px !important;
   }
@@ -2091,6 +2099,10 @@ footer .copyright p {
   }
   #careers .career-bullets {
     padding-left: 15px;
+  }
+  #vision-leadership .two {
+    background-image: none;
+    height: auto;
   }
   #vision-leadership .leaders {
     border-left: none;
@@ -2550,8 +2562,12 @@ footer .copyright p {
   background-image: url(../../images/government/bg-image-04.jpg);
   height: 200px;
 }
+#individual-business-traveler .two,
+#entertainment .two {
+  background-image: none;
+}
 .thirds {
-  padding-bottom: 10px;
+  padding-bottom: 35px;
 }
 .phone,
 .email {
@@ -2831,6 +2847,13 @@ nav {
   .insights {
     padding-bottom: 15px;
   }
+  #relocation .tab-section {
+    padding-left: 0px;
+  }
+  #relocation .two,
+  #individual-business-traveler .two {
+    background-image: none;
+  }
   #relocation .overview h1,
   #individual-business-traveler .overview h1 {
     margin-top: 45px;
@@ -2987,6 +3010,9 @@ nav {
 /*ENTERTAINMENT*/
 /*small screen*/
 @media (min-width: 768px) and (max-width: 991px) {
+  .two {
+    background-image: none;
+  }
   .panel-heading,
   .two-col-text {
     padding-left: 0px;
@@ -3045,6 +3071,9 @@ nav {
   }
   .industry-insights .thirds {
     padding-top: 25px;
+  }
+  #relocation .two {
+    background-image: none;
   }
   #relocation .tab-section {
     padding-left: 15px;

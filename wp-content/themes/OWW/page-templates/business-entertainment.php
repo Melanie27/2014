@@ -24,7 +24,7 @@ get_header(5); ?>
 						</div>
 					</section>		
 				</div><!--heading-->
-				<?php include (TEMPLATEPATH . '/_/components/php/hero-government.php'); ?>
+				<?php /*include (TEMPLATEPATH . '/_/components/php/hero-government.php');*/ ?>
 		  	</section> <!--two-->	
 			<hr />
 			<div class="container">

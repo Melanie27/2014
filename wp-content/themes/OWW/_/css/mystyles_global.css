@@ -490,10 +490,6 @@ p.consult-desc {
   background-repeat: no-repeat;
   width: 100%;
 }
-#home .two {
-  background-image: url(../../images/sitewide/bg-image-home.jpg) !important;
-  height: 200px;
-}
 .media-relations.phone img {
   margin-right: 15px;
 }
@@ -1182,9 +1178,6 @@ footer .copyright p {
   padding-left: 15px;
 }
 /*INDUSTRY AFFILIATIONS*/
-#industry-affiliations .two {
-  background-image: none;
-}
 #industry-affiliations .individual-affiliation {
   padding-top: 60px;
 }
@@ -1486,7 +1479,8 @@ footer .copyright p {
     line-height: 20px;
   }
   .two {
-    height: 200px;
+    background-image: none;
+    height: auto;
     background-attachment: scroll;
   }
   .heading .container {
@@ -1766,7 +1760,8 @@ footer .copyright p {
     padding-bottom: 0px;
   }
   #vision-leadership .two {
-    height: 345px;
+    background-image: none;
+    height: auto;
   }
   #vision-leadership .six {
     height: 85px;
@@ -1776,7 +1771,10 @@ footer .copyright p {
     margin-bottom: 3px;
   }
   #vision-leadership h2 {
-    margin-top: 0px;
+    margin-top: 25px;
+  }
+  #vision-leadership .leaders {
+    border-left: none;
   }
   #vision-leadership .three a.link-archives:link,
   #vision-leadership .three a.link-archives:visited {
@@ -1900,6 +1898,11 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .two {
+    background-image: none;
+    height: auto;
+    background-attachment: scroll;
+  }
   .navbar {
     min-height: 65px !important;
   }
@@ -2096,6 +2099,10 @@ footer .copyright p {
   }
   #careers .career-bullets {
     padding-left: 15px;
+  }
+  #vision-leadership .two {
+    background-image: none;
+    height: auto;
   }
   #vision-leadership .leaders {
     border-left: none;
@@ -2774,7 +2781,7 @@ footer .copyright p {
 /*xs screens*/
 @media (min-width: 1px) and (max-width: 767px) {
   .two {
-    height: 200px;
+    height: auto;
   }
   h3 {
     font-size: 21px;

@@ -36,7 +36,10 @@
 															</section>
 															<section class="col-lg-8 col-md-7 col-sm-8 col-xs-8 press-text">
 																<h3 class="hidden-xs hidden-sm"><?php the_title(); ?></h3>
-																<p class="hidden-lg hidden-md"><a href="<?php the_permalink(); ?>" style="color:#3B3B3B;"><?php the_title(); ?></a></p>
+																<h3 class="hidden-lg hidden-md"><?php the_title(); ?></h3>
+																<p class="full-story hidden-lg hidden-md hidden-sm">
+																	<a class="orange-link" href="<?php the_permalink(); ?>">Full Story &#8594;</a>
+																	</p>
 																<p class="date hidden-lg hidden-md hidden-sm hidden-xs"><?php the_date();?></p>
 																<p class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></p>
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_blurb', true ) ); ?></p>

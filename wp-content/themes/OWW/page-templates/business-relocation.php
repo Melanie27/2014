@@ -24,7 +24,7 @@ get_header(4); ?>
 					</div>
 				</section>		
 			</div><!--heading-->
-			<?php include (TEMPLATEPATH . '/_/components/php/hero-government.php'); ?>	
+			<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds-relocation.php'); ?>		
 		 </section> <!--two-->	
 		<section class="three container overview relocation" id="overview">
 			<div class="row over2">

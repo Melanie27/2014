@@ -1,4 +1,4 @@
-							<div class="row over hidden-xs container">
+							<div class="row over hidden-xs hidden-sm container">
 								<section class="col-lg-12 vert">
 									<div class="row">
 										<section class="col-lg-12 col-md-12 col-sm-12 hero-halves">
