@@ -63,7 +63,7 @@ get_header(7); ?>
 																?>	
 														</section>	
 													</div><!--Awards Navigation-->
-													<h1><?php the_title(); ?></h1>	
+													<h2><?php the_title(); ?></h2>	
 													<section class="press-release-hero">
 													<!-- Display featured image -->
 													<?php the_post_thumbnail(); ?>

@@ -41,7 +41,7 @@
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'in_the_news_blurb', true ) ); ?></p>
 															</a>
 															<p class="full-story hidden-xs">
-																<a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a>
+																<a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'article_link', true ) ); ?>" class="orange-link">Full Story: <?php echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); ?> &#8594;</a>
 															</p>	
 														</section>
 														<div class="clearfix"></div>				

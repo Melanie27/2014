@@ -99,7 +99,7 @@
 												</div><!--end government-->
 											</section>
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">	
-												<div class="solutions government">
+												<div class="solutions entertainment">
 													<a href="<?php bloginfo( 'url' ); ?>/business-solutions/entertainment/" class="industry-sections">
 														<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/entertainment.jpg" alt="Man Texting" class="img-responsive " />
 														<header class="industries">

@@ -13,8 +13,6 @@
 			  	<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo"/>
 			</a>		
         </div>
-       
-       
         <div class="navbar-collapse collapse in">
 			<?php
 			wp_nav_menu( array(

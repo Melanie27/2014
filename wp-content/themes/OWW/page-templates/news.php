@@ -15,7 +15,6 @@ get_header(6); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-
 			<section class="two">
 			 	<div class="row heading">
 				 	<section class="col-lg-12">

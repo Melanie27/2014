@@ -27,9 +27,9 @@ get_header(4); ?>
 					<div class="hidden-sm hidden-xs sub-navigation">
 						<section class="row">
 							<div class="col-lg-12 center-block">
-								<nav id="menu" class="navbar navbar-default sub-nav" role="navigation">
+								<nav id="menu" class="navbar navbar-default sub-nav sub-government" role="navigation">
 									<!-- Collect the nav links, forms, and other content for toggling -->
-									<div class="collapse navbar-collapse container" id="bs-example-navbar-collapse-1">
+									<div class="collapse container" id="bs-example-navbar-collapse-1">
 										<ul class="nav navbar-nav">
 											<li id="overview1"><a href="#overview" class="searchbychar nav-btn" data-target="A">Overview</a></li>
 											<li id="military1"><a href="#military"  class="searchbychar nav-btn" data-target="B">Military</a></li>
@@ -50,7 +50,7 @@ get_header(4); ?>
 					<div class="row industry-insights">
 						<section class="col-sm-12 hidden-lg hidden-md">
 							<div class="container">
-								<h1>Industry Insights</h1>
+								<h2>Industry Insights</h2>
 							</div>
 							<?php include (TEMPLATEPATH . '/_/components/php/industry-insights.php'); ?>
 						</section>

@@ -4,15 +4,12 @@
 .over {
 
 	background-color:white;
-	margin:45px auto;
-			
+	margin:45px auto;			
 }
-
 
 .two {
 	
 	background-image: url(../../images/government/bg-image-01.jpg);
-	
 }
 	
 .four {
@@ -43,16 +40,16 @@
 	
 	font-size:20px;
 	font-family: @district-light;
-
 }
 
 
 /*Navigation*/
 
-.sub-nav {
+.sub-nav.sub-government {
+	
 	
 	.navbar-nav {
-		
+		background-color:@oww-border;
 		float:none;
 		height: 75px !important;
 		
@@ -99,14 +96,14 @@ nav {
 
 .overview {
 		
-	h1 {
+	h2 {
 		margin-top:50px;
 		margin-bottom:5px;
 	}
 	
 	.insights {
 			
-		h1 {
+		h2 {
 				
 			margin-top:50px;
 			margin-bottom:30px;
@@ -166,14 +163,14 @@ nav {
 	padding-top:35px;
 	
 	
-	h2 {
+	h3 {
 			
 		margin:0px;
 		padding-bottom:10px;
 			
 	}
 		
-	h1 {
+	h2 {
 			
 		margin-top:0px;
 		
@@ -226,7 +223,6 @@ nav {
 .military, .federal-civilian {
 	
 	h2 {
-		
 		
 		margin-bottom:10px;
 	}
@@ -342,7 +338,7 @@ nav {
 		
 		.by-industry {
 			
-			h1 {
+			h2 {
 				
 				margin-top:70px;
 			}
@@ -641,7 +637,7 @@ nav {
 		
 		h2 {
 			
-			margin-top:5px;
+			margin-top:25px;
 		}
 	}
 	
@@ -672,11 +668,15 @@ nav {
 		padding-right:0px;
 		
 		
-		h1 {
+		h2 {
 			
 			margin-top: 25px;
 			margin-bottom:0px;
 			padding-left:15px;
+		}
+		
+		.teasers {
+			border-left:none;
 		}
 		
 		.two-a {
@@ -774,6 +774,10 @@ nav {
 	.industries {
 		
 		width:350px;
+		
+		h3 {
+			width:290px;
+		}
 	}
 	
 	#individual-business-traveler-single, #industry-insights-relocation {
@@ -990,6 +994,14 @@ nav {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
+	.sub-government {
+	
+		.nav > li {
+			
+			float:left;	
+		}
+	}
+	
 	.industries {
 		
 		width: 100%;
@@ -1068,18 +1080,7 @@ nav {
 		left:-65px;
 
 	}
-	
-	.carousel-control.right {
-
 		
-
-	}
-	
-	.ipad-padding {
-		
-		
-	}
-	
 	.carousel-inner {
 		
 		overflow:visible;
