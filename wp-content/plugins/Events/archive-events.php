@@ -6,7 +6,7 @@
 		  		<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>		  		
 		  			<section id="primary">
 			  			<div id="content" role="main">
-				  			<section class="two" style="height:90px; background-image:none;">
+				  			<section class="two">
 					  			<div class="row heading">
 						  			<section class="col-lg-12">
 							  			<div class="container">
@@ -27,7 +27,9 @@
 												<h2 class="page-title">Join Us at These Upcoming Events</h2>
 												<p>For more information about these industry events, or Oakwood Worldwide’s participation, contact <a href="mailto:oakwoodinfo@oakwood.com">oakwoodinfo@oakwood.com</a></p>
 												<!-- Start the Loop -->
+												
 												<?php while ( have_posts() ) : the_post(); ?>
+												
 												<!-- Display review title and author -->
 												<div class="row" id="press1">
 													<ul>

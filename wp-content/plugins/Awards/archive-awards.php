@@ -30,8 +30,7 @@
 											$args = array( 'hide_empty=0' );
 											$terms = get_terms('awards_tags', $args);
 											$count = count($terms); $i=0;
-											if ($count > 0) {
-																	
+											if ($count > 0) {				
 												echo '<ul class="release-years awards-honors-archive">';
 												$term_list = '<span class="my_term-archive">';
 												foreach ($terms as $term) {
@@ -62,8 +61,9 @@
 													<?php the_post_thumbnail('newssize'); ?>
 												</section>
 												<section class="col-lg-8 col-md-7 col-sm-8 col-xs-6 press-text">
+													<!--<p class="date hidden-sm"><?php the_date();?></p>-->
 													<h3 class="hidden-xs"><?php the_title(); ?></h3>
-													<p class="date hidden-lg hidden-md hidden-sm"><?php the_date();?></p>
+													
 													<a href="<?php the_permalink(); ?>"><p class="hidden-lg hidden-md hidden-sm">
 														<?php echo esc_html( get_post_meta( get_the_ID(), 'award_subhead', true ) ); ?>
 													</p></a>

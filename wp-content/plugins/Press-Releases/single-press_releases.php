@@ -21,7 +21,7 @@ get_header(7); ?>
 								</div>
 							</section>		
 						</div><!--heading-->
-						<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); ?>
+						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); */?>
 					</section> <!--two-->	 
 					<?php
 						$mypost = array( 'post_type' => 'press-releases', );

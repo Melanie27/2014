@@ -570,6 +570,10 @@ p.consult-desc {
 .news-thumbnails a:visited {
   color: #3b3b3b;
 }
+.news-thumbnails a.orange-link:link,
+.news-thumbnails a.orange-link:visited {
+  color: #f05323;
+}
 .news-thumbnails.events li {
   width: 50%;
 }

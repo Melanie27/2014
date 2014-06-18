@@ -132,6 +132,7 @@ function twentythirteen_setup() {
 	add_image_size( 'newssize', 195, 122, true );
 	add_image_size( 'stickysize', 350, 265, true );
 	add_image_size( 'herosize', 120, 75, true );
+	add_image_size( 'tinysize', 90, 50, true );
 	add_image_size( 'carouselsize', 350, 230, true );
 
 	// This theme uses its own gallery styles.

@@ -85,7 +85,7 @@
 																	<div class="panel-heading news-nav">
 																		<h4 class="panel-title">
 																			<a data-toggle="collapse" data-parent="#accordion" href="#collapseUE" class="side-nav">
-																				<li><h4>Upcoming Events</h4>
+																				<li><h4>Events by Month</h4>
 																			</a>
 																		</h4>
 																	</div><!--end panel heading-->

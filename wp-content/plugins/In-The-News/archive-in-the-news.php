@@ -34,8 +34,9 @@
 														<?php the_post_thumbnail('newssize'); ?>
 														</section>
 														<section class="col-lg-8 col-md-7 col-sm-8 col-xs-8 press-text">
+															<p class="date hidden-sm hidden-xs"><?php the_date();?></p>
 															<h3><?php /*echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); */?> <?php the_title(); ?></h3>
-															<p class="date hidden-lg hidden-md hidden-sm hidden-xs"><?php the_date();?></p>
+															
 															<p><?php echo esc_html( get_post_meta( get_the_ID(), 'article_subhead', true ) ); ?></p>
 															<a href="<?php the_permalink(); ?>">
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'in_the_news_blurb', true ) ); ?></p>
