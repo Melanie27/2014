@@ -1,6 +1,6 @@
 														<section class="media-relations hidden-sm hidden-xs">
 															<h2>Media Relations</h2>
-															<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/media-relations-tb-01.jpg" alt="Hannah Dolby" width="75" height="75" class="pull-left">
+															<!--<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/media-relations-tb-01.jpg" alt="Hannah Dolby" width="75" height="75" class="pull-left">-->
 															<h3>Hannah Dolby</h3>
 															<p>Global Communications Lead</p>
 															<a href="mailto: hdolby@aboutsage.com">hdolby@aboutsage.com</a>

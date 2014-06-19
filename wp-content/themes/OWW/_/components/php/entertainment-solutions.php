@@ -9,7 +9,7 @@
 														<h3>Film and Television Production</h3>
 														<div class="clearfix"></div>
 													</header>
-													<p>CLet us provide a furnished housing solution that keeps your production on schedule and under budget, and your cast and crew never farther than a few minutes away.</p>
+													<p>Let us provide a furnished housing solution that keeps your production on schedule and under budget, and your cast and crew never farther than a few minutes away.</p>
 												</section>
 											</div>
 										</section>

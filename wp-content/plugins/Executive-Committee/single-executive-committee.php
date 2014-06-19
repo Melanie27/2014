@@ -35,7 +35,7 @@ get_header(2); ?>
 						<section class="col-lg-12 col-md-12 col-xs-12 exec-team no-left-padding">
 							<div class="row">
 								<section class="col-lg-12 col-md-12 clearfix">	
-									<h1><?php the_title()?> <span class="title hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'committee_title', true ) ); ?></span> </h1>
+									<h2><?php the_title()?> <h3 class="hidden-xs title"><?php echo esc_html( get_post_meta( get_the_ID(), 'committee_title', true ) ); ?></h3> </h2>
 									<h3 class="hidden-lg hidden-md hidden-sm"><?php echo esc_html( get_post_meta( get_the_ID(), 'committee_title', true ) ); ?></h3>
 								</section>	
 							</div>	

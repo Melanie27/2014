@@ -46,9 +46,9 @@ get_header(4); ?>
 					<div class="container" id="overview">
 						<?php include (TEMPLATEPATH . '/_/components/php/government-overview.php'); ?>
 					</div><!--end container-->		
-					<hr />
+					
 					<div class="row industry-insights">
-						<section class="col-sm-12 hidden-lg hidden-md">
+						<section class="col-sm-12 hidden-lg hidden-md hidden-sm hidden-xs">
 							<div class="container">
 								<h2>Industry Insights</h2>
 							</div>
@@ -90,12 +90,13 @@ get_header(4); ?>
 					</section>
 			  	</div>
 					<!--end row that holds accordion-->	
-					<div class="clearfix">&nbsp;</div>	
-					<section class="container seven">
-						<div class="row hidden-xs">
-							<section class="tab-section col-lg-12">
-								<h2>Why Do Government Professionals Prefer Oakwood Worldwide?</h2>
-								<ul>
+					
+					<section class="three three-a container overview">
+						<div class="row over2">										
+							<section class="col-lg-12 col-md-12">						
+								<div class="row">
+								<h2 class="prefer">Why Do Government Professionals Prefer Oakwood Worldwide?</h2>
+								<ul class="prefer-oakwood">
 									<li>Our extended stay lodging is far more spacious than the typical hotel room, with separate living, sleeping and dining spaces and full-size kitchens</li>
 									<li>Our apartments are located within residential buildings and offer the mix of privacy, functionality and community that's ideal for extended stays</li>
 									<li>We offer thousand of global properties near city centers and government offices</li>
@@ -103,19 +104,17 @@ get_header(4); ?>
 									<li>We're an approved GSA Schedule 48 vendor and FedRooms provider and our rates fall within most TDY and PCS Per Diems</li>
 									<li>We offer personalized strategies for cost containment, such as group housing solutions, consolidated invoicing and flexible billing</li>
 									<li>We accept multiple payment options, with e-invoicing to help simplify expense reporting</li>
-									<li><We honor government-issued credit cards, as well as Global Distribution System (GDS) pre-approved rates/li>
+									<li>We honor government-issued credit cards, as well as Global Distribution System (GDS) pre-approved rates</li>
 								</ul>
-								
-								
-								
-							</section>	
-						</div><!--end tabbed section-->
+
+						</div>
+					</section>
+						</div>
 					</section>
 					<div class="clearfix">&nbsp;</div>	
 			  	</section>
 					<hr class="hidden-lg hidden-md"/>
-					
-					
+				
 					<section class="content row">
 						<div class="col-lg-12">
 							<section class="eight hidden-sm hidden-xs">

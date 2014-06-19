@@ -30,7 +30,7 @@ get_header(4); ?>
 			<div class="row over2">
 				<section class="col-lg-12 col-md-12 container">
 					<div class="row overview-top">
-						<section class="col-lg-9 col-md-9 col-sm-12 col-xs-12" >
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 							<h2>Housing Solutions for Business Travelers and Consultants</h2>
 							<h3>A Business Partner That Works for You</h3>
 							<p>Oakwood Worldwide provides global housing solutions that keep business travelers at their most productive. We work closely with our clients to find accommodations that meet travelers’ daily requirements, whether they need to be close to their work site, in a neighborhood with strong schools or a pet-friendly high rise. And to ensure a smooth transition, we coordinate arrival and departure, manage service requests and streamline invoicing, giving our clients less to worry about and more time to focus on the initiatives that brought them out in the first place.</p>
@@ -45,26 +45,23 @@ get_header(4); ?>
 			<div class="row over2">										
 				<section class="col-lg-12 col-md-12">						
 					<div class="row">
-						<section class="tab-section">
-							<h2>Why Do Business Travelers and Consultants Prefer Oakwood Worldwide?</h2>
-							<ul>
+						
+							<h2 class="prefer">Why Do Business Travelers and Consultants Prefer Oakwood Worldwide?</h2>
+							<ul class="prefer-oakwood">
 								<li>Our corporate and serviced apartments are far more spacious than the typical hotel room, with separate living, sleeping and dining spaces and full-size kitchens</li>
 								<li>Most of our residential buildings have business centers, fitness centers and lounges, offering the mix of privacy and community that's ideal for extended stays</li>
 								<li>Our dedicated specialists have the speed and experience to address issues and solve problems 24/7/365</li>
 								<li>Our high-quality accommodations are located within desirable neighborhoods and are priced to fit most budgets</li>
 								<li>Marriott Rewards<sup>&reg;</sup> members earn points for stays of 30 days or more at any ExecuStay<sup>&reg;</sup> location in the U.S.</li>
 							</ul>
-												
-							
-							
-						</section>
-					</div><!--end tabbed section-->
+			
+					</div>
 				</section>
 			</div><!--row-->
 		</section><!--three overview-->	
 		<hr class="hidden-lg hidden-md" />			
 		<div class="row industry-insights">
-			<section class="col-sm-12 hidden-lg hidden-md">
+			<section class="col-sm-12 hidden-lg hidden-md hidden-sm hidden-xs">
 				<div class="container">
 					<h2>Industry Insights</h2>
 				</div>

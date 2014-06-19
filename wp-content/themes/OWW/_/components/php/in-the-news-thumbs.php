@@ -9,7 +9,7 @@
 																		</span>
 																		<!--<p class="date hidden-xs hidden-sm"><?php the_date();?></p>-->
 																		<h3 class="hidden-lg hidden-md"><?php the_title(); ?></h3>
-																		<p class="full-story hidden-lg hidden-md hidden-sm">
+																		<p class="full-story hidden-lg hidden-md">
 																			<a class="orange-link" href="<?php the_permalink(); ?>">Full Story &#8594;</a>
 																		</p>
 																		<p class="headline hidden-sm hidden-xs">

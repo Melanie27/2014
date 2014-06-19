@@ -79,12 +79,14 @@ h2 {
   font-weight: normal;
   color: #f05323;
   font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
+  margin-top: 50px !important;
 }
 h3 {
   font-family: 'district_thinthin';
   color: #3b3b3b;
   font-size: 24px;
   line-height: 28px;
+  margin-top: 10px;
 }
 h4 {
   color: #f05323;
@@ -104,6 +106,7 @@ p {
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
   color: #3b3b3b;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 sup {
   font-size: 10px;
@@ -411,10 +414,6 @@ p.consult-desc {
 .over2 {
   margin: 0px auto;
 }
-.thirds {
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
 .heading {
   background: #f05322;
   background: rgba(240, 83, 34, 0.85);
@@ -489,10 +488,6 @@ p.consult-desc {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-}
-#home .two {
-  background-image: url(../../images/sitewide/bg-image-home.jpg) !important;
-  height: 512px !important;
 }
 .media-relations.phone img {
   margin-right: 15px;
@@ -574,8 +569,14 @@ p.consult-desc {
 .news-thumbnails a:visited {
   color: #3b3b3b;
 }
+.news-thumbnails a.orange-link:link,
+.news-thumbnails a.orange-link:visited {
+  color: #f05323;
+}
 .news-thumbnails.events li {
-  width: 50%;
+  display: block;
+  padding-left: 35px;
+  width: 395px;
 }
 .insights {
   padding-bottom: 25px;
@@ -590,9 +591,17 @@ a.link-archives:visited {
   border: solid 1px #ebebeb;
   line-height: 60px;
   margin-bottom: 15px;
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
   text-transform: uppercase;
+}
+a.link-archives.in-news:link,
+a.link-archives.in-news:visited {
+  margin-top: 40px;
+}
+a.link-archives.press-room:link,
+a.link-archives.press-room:visited {
+  margin-top: 65px;
 }
 a.link-archives:hover,
 a.link-archives:active {
@@ -644,13 +653,6 @@ p.caption {
 .three .media-relations a {
   color: #f05323;
 }
-.three .awards-honors .link-archives {
-  margin-top: 60px;
-}
-.three h3 {
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
 .recent-releases {
   margin-top: 10px;
 }
@@ -665,11 +667,6 @@ p.caption {
 .awards-honors li {
   padding: 12px 0px;
   border-bottom: solid 1px #ebebeb;
-}
-.upcoming-events h1 {
-  color: #f05323;
-  font-weight: 300;
-  margin-top: 55px;
 }
 .upcoming-events .link-archives:link,
 .upcoming-events .link-archives:visited {
@@ -702,6 +699,14 @@ article.one-third-two-thirds ul {
   padding: 0px 0px 0px 30px;
 }
 /*BUSINESS SOLUTIONS*/
+.prefer-oakwood {
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+.prefer-oakwood li {
+  list-style-type: disc;
+  margin-bottom: 8px;
+}
 #business-solutions .two {
   /* background-image:url(../../images/business-solutions/bg-image-01.jpg);
 		height:512px; */
@@ -723,7 +728,6 @@ article.one-third-two-thirds ul {
 }
 #business-solutions .five h2 {
   margin-bottom: 0px;
-  margin-top: 50px;
 }
 #business-solutions .five h3 {
   margin-top: 0px;
@@ -923,6 +927,7 @@ footer .copyright p {
 }
 .panel-title h2 {
   line-height: 80px;
+  margin-top: 0px !important;
   margin: 0px;
   display: block;
   font-size: 22px;
@@ -1013,8 +1018,7 @@ footer .copyright p {
 }
 .carousel-heading h2 {
   color: #f05323;
-  padding-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .max-height-car {
   max-height: 275px;
@@ -1110,7 +1114,6 @@ footer .copyright p {
   font-weight: bold;
 }
 #our-brands .intro h2 {
-  line-height: 36px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -1136,19 +1139,15 @@ footer .copyright p {
 }
 /*AFFILIATIONS*/
 #affiliations .three h2 {
-  margin-top: 45px;
   padding-left: 15px;
 }
 #affiliations .three h3 {
-  margin-top: 10px;
-  margin-bottom: 50px;
   padding-left: 15px;
 }
 #affiliations .three .affiliations-text {
   margin-bottom: 60px;
 }
 #affiliations .three .affiliations-text h2 {
-  margin-bottom: 20px;
   padding-left: 0px;
 }
 #affiliations .three .affiliations-text ul {
@@ -1158,12 +1157,7 @@ footer .copyright p {
 #affiliations .three .affiliations-text li {
   list-style-type: disc;
 }
-#affiliations .three .affiliations-text p {
-  margin-left: 15px;
-}
 #affiliations .industry-affiliations h2 {
-  margin-top: 50px;
-  margin-bottom: 20px;
   padding-left: 0px;
 }
 #affiliations .industry-affiliations p {
@@ -1182,6 +1176,9 @@ footer .copyright p {
   padding-left: 15px;
 }
 /*INDUSTRY AFFILIATIONS*/
+#industry-affiliations .two {
+  background-image: none;
+}
 #industry-affiliations .individual-affiliation {
   padding-top: 60px;
 }
@@ -1191,10 +1188,6 @@ footer .copyright p {
 }
 #industry-affiliations .three {
   padding-bottom: 50px;
-}
-#industry-affiliations .three h2 {
-  margin-top: 60px;
-  margin-bottom: 30px;
 }
 #industry-affiliations .three .logo-individual {
   margin-bottom: 25px;
@@ -1217,20 +1210,10 @@ footer .copyright p {
 #vision-leadership .six {
   background-image: url(../../images/vision-leadership/bg-image-03.jpg);
 }
-#vision-leadership h2 {
-  color: #f05323;
-}
 #vision-leadership .over {
   background-color: white;
   margin: 45px auto;
   padding: 35px 30px 35px 30px;
-}
-#vision-leadership .over2a {
-  padding-bottom: 45px;
-  padding-top: 10px;
-}
-#vision-leadership .hero-halves h1 {
-  margin-top: 0px;
 }
 #vision-leadership .first-third-one-third {
   padding-left: 0px;
@@ -1259,10 +1242,6 @@ footer .copyright p {
 #vision-leadership .industry-affiliations h1 {
   margin: 55px 0px 35px;
 }
-#vision-leadership .executive-committee h1 {
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
 #vision-leadership .executive-committee .blurb {
   border-right: none;
 }
@@ -1271,7 +1250,10 @@ footer .copyright p {
 }
 #vision-leadership .executive-committee .leaders.top {
   padding-bottom: 35px;
-  padding-top: 70px;
+  padding-top: 90px;
+}
+#vision-leadership .executive-committee .first-third-one-third {
+  padding-bottom: 0px;
 }
 #vision-leadership .executive-committee .leaders.bottom {
   padding-top: 120px;
@@ -1382,6 +1364,9 @@ footer .copyright p {
   margin-bottom: 45px;
 }
 /*EXECUTIVE LEADERSHIP*/
+#executive-leadership .name {
+  margin-top: 0px;
+}
 #executive-leadership .two {
   height: auto;
   /* 316px; */
@@ -1401,24 +1386,11 @@ footer .copyright p {
 #executive-leadership .three {
   padding-bottom: 60px;
 }
-#executive-leadership .three h1 {
-  margin-top: 60px;
-  margin-bottom: 25px;
-}
-#executive-leadership .three h1 .title {
-  font-size: 18px;
+#executive-leadership .three .title {
   text-transform: uppercase;
   color: #3b3b3b;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
-  margin-top: 8px;
-}
-#executive-leadership .three h3 {
-  margin-top: 0px;
-  margin-bottom: 4px;
-}
-/*Industry Insignts*/
-#industry-insights .media-relations h1 {
-  margin-top: 55px;
+  font-size: 18px;
 }
 /*CAREERS*/
 .career-bullets {
@@ -1449,9 +1421,11 @@ footer .copyright p {
 .career-promo section.thirds {
   padding-bottom: 75px;
 }
-.why-oakwood {
-  border-left: solid 1px #ebebeb;
+.oakwood-university {
   border-right: solid 1px #ebebeb;
+}
+.referral {
+  border-left: solid 1px #ebebeb;
 }
 .career-intro {
   margin-bottom: 60px;
@@ -1477,15 +1451,27 @@ footer .copyright p {
   }
   h2 {
     font-size: 20px;
+    margin-top: 25px !important;
   }
   h3 {
     font-size: 16px;
     line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .news-thumbnails h3 {
+    margin-top: 0px !important;
+  }
+  .news-thumbnails .full-story {
+    margin-top: 0px;
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .two {
     background-image: none;
     height: auto;
-    /* 200px; */
     background-attachment: scroll;
   }
   .heading .container {
@@ -1610,32 +1596,20 @@ footer .copyright p {
   .panel-title h2 {
     line-height: 50px;
   }
+  .prefer-oakwood {
+    padding-left: 15px;
+  }
   #business-solutions .teasers {
     border-left: none;
   }
   #business-solutions p.consult-desc {
     padding-right: 0px;
+    margin-top: 0px;
   }
   #business-solutions .three {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
-  }
-  #business-solutions .three h1 {
-    margin-top: 0px;
-  }
-  #business-solutions .three .solutions-head {
-    margin-top: 25px;
-  }
-  #business-solutions .three h2 {
-    margin-top: 25px;
-  }
-  #business-solutions .three h3 {
-    margin-top: 0px;
-  }
-  #business-solutions .five h1 {
-    margin-top: 0px;
-    padding-top: 25px;
   }
   #business-solutions .insights {
     padding-bottom: 25px;
@@ -1650,18 +1624,13 @@ footer .copyright p {
   #business-solutions .solutions {
     height: 340px;
   }
-  #business-solutions .solutions.consulting {
-    height: 320px;
+  #business-solutions .solutions.consulting,
+  #business-solutions .solutions.entertainment,
+  #business-solutions .solutions.relocation {
+    height: 370px;
   }
   #business-solutions .solutions.government {
     height: 370px;
-  }
-  #business-solutions .solutions.relocation,
-  #business-solutions .solutions.entertainment {
-    height: 290px;
-  }
-  #our-brands .three {
-    padding: 0px;
   }
   #our-brands .intro {
     padding-bottom: 20px;
@@ -1705,6 +1674,10 @@ footer .copyright p {
   #our-brands .five .col-md-8 {
     padding-top: 0px;
   }
+  #affiliations .logo-individual img {
+    width: 200px;
+    margin-top: 30px;
+  }
   #affiliations .three.container {
     padding: 0px;
   }
@@ -1715,26 +1688,10 @@ footer .copyright p {
     padding-left: 30px;
     padding-right: 30px;
   }
-  #affiliations .three h1 {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-  }
   #affiliations .three .affiliations-text {
     margin-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-  }
-  #affiliations .three .affiliations-text p {
-    margin-left: 0px;
-  }
-  #affiliations .three .affiliations-text h2 {
-    padding-top: 10px;
-  }
-  #affiliations .industry-affiliations h1 {
-    margin-top: 0px;
-    padding-top: 25px;
-    padding-left: 0px;
   }
   #affiliations .industry-affiliations a.link-archives:link,
   #affiliations .industry-affiliations a.link-archives:visited {
@@ -1747,10 +1704,6 @@ footer .copyright p {
   /*INDUSTRY AFFILIATIONS*/
   #industry-affiliations .three {
     padding-bottom: 10px;
-  }
-  #industry-affiliations .three h1 {
-    margin-top: 20px;
-    margin-bottom: 0px;
   }
   #industry-affiliations .three .logo-individual {
     border-top: none;
@@ -1772,12 +1725,6 @@ footer .copyright p {
     height: 85px;
     margin-top: 35px;
   }
-  #vision-leadership h1 {
-    margin-bottom: 3px;
-  }
-  #vision-leadership h2 {
-    margin-top: 25px;
-  }
   #vision-leadership .leaders {
     border-left: none;
   }
@@ -1785,20 +1732,6 @@ footer .copyright p {
   #vision-leadership .three a.link-archives:visited {
     margin-top: 20px;
     margin-bottom: 35px;
-  }
-  #vision-leadership .industry-affiliations h1 {
-    margin-top: 0px;
-    padding-top: 30px;
-  }
-  #vision-leadership .hero-halves h1 {
-    font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-    margin-top: 20px;
-  }
-  #vision-leadership .hero-halves h2 {
-    font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-  }
-  #vision-leadership .hero-halves p {
-    padding-bottom: 20px;
   }
   #vision-leadership .first-third-one-third {
     padding-bottom: 5px;
@@ -1818,13 +1751,6 @@ footer .copyright p {
   }
   #vision-leadership .executive-committee ul.leadership-photos li {
     width: 100%;
-  }
-  #vision-leadership .executive-committee h1 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    border-right: none;
   }
   #vision-leadership .executive-committee .first-third-one-third {
     border-right: none;
@@ -1856,10 +1782,6 @@ footer .copyright p {
   #executive-leadership .three h1 .title {
     font-size: 13px;
   }
-  #executive-leadership .three h3 {
-    margin-top: 0px;
-    margin-bottom: 15px;
-  }
   #executive-leadership .affiliations-text {
     padding: 0px;
     margin-bottom: 10px;
@@ -1882,15 +1804,6 @@ footer .copyright p {
   .career-intro {
     margin-bottom: 20px;
   }
-  .promo-header h1 {
-    margin-top: 0px;
-    margin-bottom: 30px;
-    height: auto;
-    display: block;
-  }
-  .career-promo section.thirds {
-    padding-bottom: 35px;
-  }
   #careers .three {
     padding-bottom: 0px;
   }
@@ -1903,6 +1816,11 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .two {
+    background-image: none;
+    height: auto;
+    background-attachment: scroll;
+  }
   .navbar {
     min-height: 65px !important;
   }
@@ -1990,16 +1908,8 @@ footer .copyright p {
   .industries {
     width: 100%;
   }
-  #business-solutions .additional h1 {
-    font-size: 36px;
-  }
   #business-solutions .three {
     padding-bottom: 30px;
-  }
-  #business-solutions .five h1 {
-    margin-top: 0px;
-    padding-top: 30px;
-    padding-left: 15px;
   }
   #business-solutions .industries {
     width: 350px;
@@ -2060,18 +1970,12 @@ footer .copyright p {
     margin-top: 45px;
     margin-bottom: 0px;
   }
-  #affiliations .three h2 {
-    margin-bottom: 10px;
-  }
   #affiliations .three .affiliations-text {
     margin-bottom: 40px;
   }
   #affiliations .five {
     padding-top: 40px;
     padding-bottom: 0px;
-  }
-  #affiliations .five h1 {
-    padding-top: 0px;
   }
   #careers .career-intro {
     padding-top: 30px;
@@ -2099,6 +2003,10 @@ footer .copyright p {
   }
   #careers .career-bullets {
     padding-left: 15px;
+  }
+  #vision-leadership .two {
+    background-image: none;
+    height: auto;
   }
   #vision-leadership .leaders {
     border-left: none;
@@ -2508,9 +2416,6 @@ footer .copyright p {
   }
 }
 @media (min-width: 481px) and (max-width: 1200px) {
-  p {
-    font-size: 15px;
-  }
   .three .second-col {
     padding: 42px 20px;
   }
@@ -2554,12 +2459,6 @@ footer .copyright p {
 .three .solutions {
   height: 245px;
 }
-.three h3 {
-  margin-top: 0px;
-}
-.three-a {
-  padding-top: 30px;
-}
 .five {
   padding-bottom: 35px;
 }
@@ -2569,36 +2468,6 @@ footer .copyright p {
 .six {
   height: 512px;
   background-image: url("../../images/sitewide/bg-image-08.jpg");
-}
-.carousel-heading h2 {
-  margin-top: 0px;
-}
-.global-intro h1 {
-  margin-top: 50px;
-  margin-bottom: 0px;
-}
-.global-intro h2 {
-  margin-top: 40px;
-}
-.global-intro p {
-  margin-bottom: 50px;
-}
-.global-reach h1 {
-  margin-top: 35px;
-  margin-bottom: 0px;
-}
-.global-reach h2 {
-  margin-bottom: 20px;
-}
-.experience h1 {
-  margin-top: 45px;
-}
-.experience h2 {
-  margin-top: 15px;
-  margin-bottom: 45px;
-}
-.intro-regional {
-  padding-bottom: 45px;
 }
 /*Global Reach Page*/
 #global-scale .two {
@@ -2643,19 +2512,6 @@ footer .copyright p {
 #emea .five,
 #apac .five {
   padding-bottom: 0px;
-}
-#united-states-canada .intro-regional h2,
-#south-america .intro-regional h2,
-#emea .intro-regional h2,
-#apac .intro-regional h2 {
-  margin-top: 45px;
-}
-#united-states-canada .intro-regional h3,
-#south-america .intro-regional h3,
-#emea .intro-regional h3,
-#apac .intro-regional h3 {
-  margin-top: 5px;
-  margin-bottom: 15px;
 }
 #united-states-canada .intro-regional ul,
 #south-america .intro-regional ul,
@@ -2715,24 +2571,6 @@ footer .copyright p {
 #technologies .eleven {
   padding-bottom: 0px;
 }
-#safety-security .three h2,
-#client-services .three h2,
-#technologies .three h2,
-#safety-security .five h2,
-#client-services .five h2,
-#technologies .five h2,
-#safety-security .seven h2,
-#client-services .seven h2,
-#technologies .seven h2,
-#safety-security .nine h2,
-#client-services .nine h2,
-#technologies .nine h2,
-#safety-security .eleven h2,
-#client-services .eleven h2,
-#technologies .eleven h2 {
-  margin-top: 50px;
-  padding-top: 0px;
-}
 #safety-security .three ul,
 #client-services .three ul,
 #technologies .three ul,
@@ -2779,9 +2617,6 @@ footer .copyright p {
   .two {
     height: auto;
   }
-  h3 {
-    font-size: 21px;
-  }
   .three {
     padding-bottom: 25px;
   }
@@ -2797,33 +2632,8 @@ footer .copyright p {
   .solutions .industry-sections img {
     margin: 0 0;
   }
-  #global-expertise .global-intro h1 {
-    margin-top: 20px;
-  }
   #global-expertise .five {
     padding-bottom: 0px;
-  }
-  .global-intro h2 {
-    margin-top: 25px;
-  }
-  .global-intro h3 {
-    margin-top: 10px;
-  }
-  .global-intro p {
-    margin-bottom: 0px;
-  }
-  .global-reach h2 {
-    margin-top: 25px;
-  }
-  .global-reach h3 {
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-  .experience h2 {
-    margin-top: 0px;
-  }
-  .experience h3 {
-    margin-bottom: 25px;
   }
   .industries {
     max-width: 390px;
@@ -2833,19 +2643,8 @@ footer .copyright p {
     max-width: 350px;
     margin: 0px;
   }
-  .five h2,
-  .seven h2 {
-    padding-top: 25px;
-  }
-  #global-scale .regional-supply h2 {
-    margin-top: 25px;
-    margin-bottom: 20px;
-  }
   #global-scale .three {
     padding-bottom: 0px;
-  }
-  #global-scale .global-intro p {
-    margin-bottom: 20px;
   }
   .country-map {
     max-height: 205px;
@@ -2892,18 +2691,6 @@ footer .copyright p {
   #apac .destinations li {
     margin-bottom: 10px;
   }
-  #united-states-canada .intro-regional h2,
-  #south-america .intro-regional h2,
-  #emea .intro-regional h2,
-  #apac .intro-regional h2 {
-    margin-top: 20px;
-  }
-  #united-states-canada .intro-regional h3,
-  #south-america .intro-regional h3,
-  #emea .intro-regional h3,
-  #apac .intro-regional h3 {
-    margin-bottom: 10px;
-  }
   #united-states-canada .intro-regional ul,
   #south-america .intro-regional ul,
   #emea .intro-regional ul,
@@ -2918,35 +2705,11 @@ footer .copyright p {
     padding-right: 15px;
     padding-left: 15px;
   }
-  #united-states-canada .global-destinations h2,
-  #south-america .global-destinations h2,
-  #emea .global-destinations h2,
-  #apac .global-destinations h2 {
-    padding-top: 0px;
-    margin-bottom: 25px;
-  }
   #united-states-canada .global-intro,
   #south-america .global-intro,
   #emea .global-intro,
   #apac .global-intro {
     padding: 0px;
-  }
-  #safety-security .three h2,
-  #client-services .three h2,
-  #technologies .three h2,
-  #safety-security .five h2,
-  #client-services .five h2,
-  #technologies .five h2,
-  #safety-security .seven h2,
-  #client-services .seven h2,
-  #technologies .seven h2,
-  #safety-security .nine h2,
-  #client-services .nine h2,
-  #technologies .nine h2,
-  #safety-security .eleven h2,
-  #client-services .eleven h2,
-  #technologies .eleven h2 {
-    margin-top: 20px;
   }
   #safety-security .three ul,
   #client-services .three ul,
@@ -2979,28 +2742,12 @@ footer .copyright p {
   .solutions {
     padding-left: 15px;
   }
-  .global-intro h2,
-  .intro-regional h2 {
-    margin-top: 40px;
-  }
   .global-intro p,
   .intro-regional p {
     padding-left: 15px;
   }
-  .experience h2 {
-    margin-top: 0px;
-  }
-  .experience h3 {
-    margin-bottom: 25px;
-  }
   .carousel-heading {
     margin-bottom: 20px;
-  }
-  .carousel-heading h3 {
-    padding-top: 25px;
-  }
-  #global-scale .regional-supply h2 {
-    padding-left: 15px;
   }
   .regional-supply img {
     margin-left: 15px;
@@ -3035,23 +2782,6 @@ footer .copyright p {
   .nine li,
   .eleven li {
     margin-left: 15px;
-  }
-  #safety-security .three h2,
-  #client-services .three h2,
-  #technologies .three h2,
-  #safety-security .five h2,
-  #client-services .five h2,
-  #technologies .five h2,
-  #safety-security .seven h2,
-  #client-services .seven h2,
-  #technologies .seven h2,
-  #safety-security .nine h2,
-  #client-services .nine h2,
-  #technologies .nine h2,
-  #safety-security .eleven h2,
-  #client-services .eleven h2,
-  #technologies .eleven h2 {
-    margin-top: 40px;
   }
 }
 /* Medium Screens 992 - 1200 */
@@ -3107,6 +2837,6 @@ footer .copyright p {
 }
 @media (min-width: 321px) and (max-width: 480px) {
   .three .solutions {
-    height: 215px;
+    height: 170px;
   }
 }

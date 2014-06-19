@@ -30,7 +30,7 @@ get_header(2); ?>
 								</div>-->
 								<div class="row affiliations">
 									<section class="col-lg-4 col-md-4 logo-individual hidden-xs">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/affiliations/logo-marriott.jpg" alt="logo-marriott">											
+										<img width="190" style="margin-top:90px;" src="<?php bloginfo( 'template_directory' ); ?>/images/affiliations/logo-marriott.jpg" alt="logo-marriott">											
 									</section>
 									<section class="col-lg-8 col-md-8 affiliations-text">
 										<h2>Marriott<sup>&reg;</sup> International</h2>
@@ -48,7 +48,7 @@ get_header(2); ?>
 								<hr class="hidden-lg hidden-md" />
 								<div class="row affiliations">
 									<section class="col-lg-4 col-md-4 logo-individual hidden-xs">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/affiliations/logo-regus.jpg" alt="logo-marriott">												
+										<img width="190" style="margin-top:90px;" src="<?php bloginfo( 'template_directory' ); ?>/images/affiliations/logo-regus.jpg" alt="logo-marriott">												
 									</section>
 									<section class="col-lg-8 col-md-8 affiliations-text">
 										<h2>Regus<sup>&reg;</sup></h2>

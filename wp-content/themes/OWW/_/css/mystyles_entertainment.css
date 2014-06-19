@@ -79,12 +79,14 @@ h2 {
   font-weight: normal;
   color: #f05323;
   font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
+  margin-top: 50px !important;
 }
 h3 {
   font-family: 'district_thinthin';
   color: #3b3b3b;
   font-size: 24px;
   line-height: 28px;
+  margin-top: 10px;
 }
 h4 {
   color: #f05323;
@@ -104,6 +106,7 @@ p {
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
   color: #3b3b3b;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 sup {
   font-size: 10px;
@@ -411,10 +414,6 @@ p.consult-desc {
 .over2 {
   margin: 0px auto;
 }
-.thirds {
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
 .heading {
   background: #f05322;
   background: rgba(240, 83, 34, 0.85);
@@ -575,7 +574,9 @@ p.consult-desc {
   color: #f05323;
 }
 .news-thumbnails.events li {
-  width: 50%;
+  display: block;
+  padding-left: 35px;
+  width: 395px;
 }
 .insights {
   padding-bottom: 25px;
@@ -590,9 +591,17 @@ a.link-archives:visited {
   border: solid 1px #ebebeb;
   line-height: 60px;
   margin-bottom: 15px;
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
   text-transform: uppercase;
+}
+a.link-archives.in-news:link,
+a.link-archives.in-news:visited {
+  margin-top: 40px;
+}
+a.link-archives.press-room:link,
+a.link-archives.press-room:visited {
+  margin-top: 65px;
 }
 a.link-archives:hover,
 a.link-archives:active {
@@ -644,13 +653,6 @@ p.caption {
 .three .media-relations a {
   color: #f05323;
 }
-.three .awards-honors .link-archives {
-  margin-top: 60px;
-}
-.three h3 {
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
 .recent-releases {
   margin-top: 10px;
 }
@@ -665,11 +667,6 @@ p.caption {
 .awards-honors li {
   padding: 12px 0px;
   border-bottom: solid 1px #ebebeb;
-}
-.upcoming-events h1 {
-  color: #f05323;
-  font-weight: 300;
-  margin-top: 55px;
 }
 .upcoming-events .link-archives:link,
 .upcoming-events .link-archives:visited {
@@ -702,6 +699,14 @@ article.one-third-two-thirds ul {
   padding: 0px 0px 0px 30px;
 }
 /*BUSINESS SOLUTIONS*/
+.prefer-oakwood {
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+.prefer-oakwood li {
+  list-style-type: disc;
+  margin-bottom: 8px;
+}
 #business-solutions .two {
   /* background-image:url(../../images/business-solutions/bg-image-01.jpg);
 		height:512px; */
@@ -723,7 +728,6 @@ article.one-third-two-thirds ul {
 }
 #business-solutions .five h2 {
   margin-bottom: 0px;
-  margin-top: 50px;
 }
 #business-solutions .five h3 {
   margin-top: 0px;
@@ -923,6 +927,7 @@ footer .copyright p {
 }
 .panel-title h2 {
   line-height: 80px;
+  margin-top: 0px !important;
   margin: 0px;
   display: block;
   font-size: 22px;
@@ -1013,8 +1018,7 @@ footer .copyright p {
 }
 .carousel-heading h2 {
   color: #f05323;
-  padding-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .max-height-car {
   max-height: 275px;
@@ -1110,7 +1114,6 @@ footer .copyright p {
   font-weight: bold;
 }
 #our-brands .intro h2 {
-  line-height: 36px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -1136,19 +1139,15 @@ footer .copyright p {
 }
 /*AFFILIATIONS*/
 #affiliations .three h2 {
-  margin-top: 45px;
   padding-left: 15px;
 }
 #affiliations .three h3 {
-  margin-top: 10px;
-  margin-bottom: 50px;
   padding-left: 15px;
 }
 #affiliations .three .affiliations-text {
   margin-bottom: 60px;
 }
 #affiliations .three .affiliations-text h2 {
-  margin-bottom: 20px;
   padding-left: 0px;
 }
 #affiliations .three .affiliations-text ul {
@@ -1158,12 +1157,7 @@ footer .copyright p {
 #affiliations .three .affiliations-text li {
   list-style-type: disc;
 }
-#affiliations .three .affiliations-text p {
-  margin-left: 15px;
-}
 #affiliations .industry-affiliations h2 {
-  margin-top: 50px;
-  margin-bottom: 20px;
   padding-left: 0px;
 }
 #affiliations .industry-affiliations p {
@@ -1182,6 +1176,9 @@ footer .copyright p {
   padding-left: 15px;
 }
 /*INDUSTRY AFFILIATIONS*/
+#industry-affiliations .two {
+  background-image: none;
+}
 #industry-affiliations .individual-affiliation {
   padding-top: 60px;
 }
@@ -1191,10 +1188,6 @@ footer .copyright p {
 }
 #industry-affiliations .three {
   padding-bottom: 50px;
-}
-#industry-affiliations .three h2 {
-  margin-top: 60px;
-  margin-bottom: 30px;
 }
 #industry-affiliations .three .logo-individual {
   margin-bottom: 25px;
@@ -1217,20 +1210,10 @@ footer .copyright p {
 #vision-leadership .six {
   background-image: url(../../images/vision-leadership/bg-image-03.jpg);
 }
-#vision-leadership h2 {
-  color: #f05323;
-}
 #vision-leadership .over {
   background-color: white;
   margin: 45px auto;
   padding: 35px 30px 35px 30px;
-}
-#vision-leadership .over2a {
-  padding-bottom: 45px;
-  padding-top: 10px;
-}
-#vision-leadership .hero-halves h1 {
-  margin-top: 0px;
 }
 #vision-leadership .first-third-one-third {
   padding-left: 0px;
@@ -1259,10 +1242,6 @@ footer .copyright p {
 #vision-leadership .industry-affiliations h1 {
   margin: 55px 0px 35px;
 }
-#vision-leadership .executive-committee h1 {
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
 #vision-leadership .executive-committee .blurb {
   border-right: none;
 }
@@ -1271,7 +1250,10 @@ footer .copyright p {
 }
 #vision-leadership .executive-committee .leaders.top {
   padding-bottom: 35px;
-  padding-top: 70px;
+  padding-top: 90px;
+}
+#vision-leadership .executive-committee .first-third-one-third {
+  padding-bottom: 0px;
 }
 #vision-leadership .executive-committee .leaders.bottom {
   padding-top: 120px;
@@ -1382,6 +1364,9 @@ footer .copyright p {
   margin-bottom: 45px;
 }
 /*EXECUTIVE LEADERSHIP*/
+#executive-leadership .name {
+  margin-top: 0px;
+}
 #executive-leadership .two {
   height: auto;
   /* 316px; */
@@ -1401,24 +1386,11 @@ footer .copyright p {
 #executive-leadership .three {
   padding-bottom: 60px;
 }
-#executive-leadership .three h1 {
-  margin-top: 60px;
-  margin-bottom: 25px;
-}
-#executive-leadership .three h1 .title {
-  font-size: 18px;
+#executive-leadership .three .title {
   text-transform: uppercase;
   color: #3b3b3b;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
-  margin-top: 8px;
-}
-#executive-leadership .three h3 {
-  margin-top: 0px;
-  margin-bottom: 4px;
-}
-/*Industry Insignts*/
-#industry-insights .media-relations h1 {
-  margin-top: 55px;
+  font-size: 18px;
 }
 /*CAREERS*/
 .career-bullets {
@@ -1449,9 +1421,11 @@ footer .copyright p {
 .career-promo section.thirds {
   padding-bottom: 75px;
 }
-.why-oakwood {
-  border-left: solid 1px #ebebeb;
+.oakwood-university {
   border-right: solid 1px #ebebeb;
+}
+.referral {
+  border-left: solid 1px #ebebeb;
 }
 .career-intro {
   margin-bottom: 60px;
@@ -1477,10 +1451,23 @@ footer .copyright p {
   }
   h2 {
     font-size: 20px;
+    margin-top: 25px !important;
   }
   h3 {
     font-size: 16px;
     line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .news-thumbnails h3 {
+    margin-top: 0px !important;
+  }
+  .news-thumbnails .full-story {
+    margin-top: 0px;
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .two {
     background-image: none;
@@ -1609,32 +1596,20 @@ footer .copyright p {
   .panel-title h2 {
     line-height: 50px;
   }
+  .prefer-oakwood {
+    padding-left: 15px;
+  }
   #business-solutions .teasers {
     border-left: none;
   }
   #business-solutions p.consult-desc {
     padding-right: 0px;
+    margin-top: 0px;
   }
   #business-solutions .three {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
-  }
-  #business-solutions .three h1 {
-    margin-top: 0px;
-  }
-  #business-solutions .three .solutions-head {
-    margin-top: 25px;
-  }
-  #business-solutions .three h2 {
-    margin-top: 25px;
-  }
-  #business-solutions .three h3 {
-    margin-top: 0px;
-  }
-  #business-solutions .five h1 {
-    margin-top: 0px;
-    padding-top: 25px;
   }
   #business-solutions .insights {
     padding-bottom: 25px;
@@ -1649,18 +1624,13 @@ footer .copyright p {
   #business-solutions .solutions {
     height: 340px;
   }
-  #business-solutions .solutions.consulting {
-    height: 320px;
+  #business-solutions .solutions.consulting,
+  #business-solutions .solutions.entertainment,
+  #business-solutions .solutions.relocation {
+    height: 370px;
   }
   #business-solutions .solutions.government {
     height: 370px;
-  }
-  #business-solutions .solutions.relocation,
-  #business-solutions .solutions.entertainment {
-    height: 290px;
-  }
-  #our-brands .three {
-    padding: 0px;
   }
   #our-brands .intro {
     padding-bottom: 20px;
@@ -1704,6 +1674,10 @@ footer .copyright p {
   #our-brands .five .col-md-8 {
     padding-top: 0px;
   }
+  #affiliations .logo-individual img {
+    width: 200px;
+    margin-top: 30px;
+  }
   #affiliations .three.container {
     padding: 0px;
   }
@@ -1714,26 +1688,10 @@ footer .copyright p {
     padding-left: 30px;
     padding-right: 30px;
   }
-  #affiliations .three h1 {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-  }
   #affiliations .three .affiliations-text {
     margin-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-  }
-  #affiliations .three .affiliations-text p {
-    margin-left: 0px;
-  }
-  #affiliations .three .affiliations-text h2 {
-    padding-top: 10px;
-  }
-  #affiliations .industry-affiliations h1 {
-    margin-top: 0px;
-    padding-top: 25px;
-    padding-left: 0px;
   }
   #affiliations .industry-affiliations a.link-archives:link,
   #affiliations .industry-affiliations a.link-archives:visited {
@@ -1746,10 +1704,6 @@ footer .copyright p {
   /*INDUSTRY AFFILIATIONS*/
   #industry-affiliations .three {
     padding-bottom: 10px;
-  }
-  #industry-affiliations .three h1 {
-    margin-top: 20px;
-    margin-bottom: 0px;
   }
   #industry-affiliations .three .logo-individual {
     border-top: none;
@@ -1771,12 +1725,6 @@ footer .copyright p {
     height: 85px;
     margin-top: 35px;
   }
-  #vision-leadership h1 {
-    margin-bottom: 3px;
-  }
-  #vision-leadership h2 {
-    margin-top: 25px;
-  }
   #vision-leadership .leaders {
     border-left: none;
   }
@@ -1784,20 +1732,6 @@ footer .copyright p {
   #vision-leadership .three a.link-archives:visited {
     margin-top: 20px;
     margin-bottom: 35px;
-  }
-  #vision-leadership .industry-affiliations h1 {
-    margin-top: 0px;
-    padding-top: 30px;
-  }
-  #vision-leadership .hero-halves h1 {
-    font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-    margin-top: 20px;
-  }
-  #vision-leadership .hero-halves h2 {
-    font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-  }
-  #vision-leadership .hero-halves p {
-    padding-bottom: 20px;
   }
   #vision-leadership .first-third-one-third {
     padding-bottom: 5px;
@@ -1817,13 +1751,6 @@ footer .copyright p {
   }
   #vision-leadership .executive-committee ul.leadership-photos li {
     width: 100%;
-  }
-  #vision-leadership .executive-committee h1 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    border-right: none;
   }
   #vision-leadership .executive-committee .first-third-one-third {
     border-right: none;
@@ -1855,10 +1782,6 @@ footer .copyright p {
   #executive-leadership .three h1 .title {
     font-size: 13px;
   }
-  #executive-leadership .three h3 {
-    margin-top: 0px;
-    margin-bottom: 15px;
-  }
   #executive-leadership .affiliations-text {
     padding: 0px;
     margin-bottom: 10px;
@@ -1880,15 +1803,6 @@ footer .copyright p {
   }
   .career-intro {
     margin-bottom: 20px;
-  }
-  .promo-header h1 {
-    margin-top: 0px;
-    margin-bottom: 30px;
-    height: auto;
-    display: block;
-  }
-  .career-promo section.thirds {
-    padding-bottom: 35px;
   }
   #careers .three {
     padding-bottom: 0px;
@@ -1994,16 +1908,8 @@ footer .copyright p {
   .industries {
     width: 100%;
   }
-  #business-solutions .additional h1 {
-    font-size: 36px;
-  }
   #business-solutions .three {
     padding-bottom: 30px;
-  }
-  #business-solutions .five h1 {
-    margin-top: 0px;
-    padding-top: 30px;
-    padding-left: 15px;
   }
   #business-solutions .industries {
     width: 350px;
@@ -2064,18 +1970,12 @@ footer .copyright p {
     margin-top: 45px;
     margin-bottom: 0px;
   }
-  #affiliations .three h2 {
-    margin-bottom: 10px;
-  }
   #affiliations .three .affiliations-text {
     margin-bottom: 40px;
   }
   #affiliations .five {
     padding-top: 40px;
     padding-bottom: 0px;
-  }
-  #affiliations .five h1 {
-    padding-top: 0px;
   }
   #careers .career-intro {
     padding-top: 30px;
@@ -2516,9 +2416,6 @@ footer .copyright p {
   }
 }
 @media (min-width: 481px) and (max-width: 1200px) {
-  p {
-    font-size: 15px;
-  }
   .three .second-col {
     padding: 42px 20px;
   }
@@ -2559,17 +2456,6 @@ footer .copyright p {
 .five .col-md-8 {
   padding-top: 0px;
 }
-.five h1 {
-  margin-top: 45px;
-  margin-bottom: 0px;
-}
-.five h2 {
-  margin-bottom: 20px;
-}
-.five h3 {
-  color: #f05323;
-  margin-top: 25px;
-}
 .five img {
   margin-right: 40px;
 }
@@ -2585,16 +2471,12 @@ footer .copyright p {
 .details li {
   line-height: 30px;
 }
-.extended-stay h2 {
-  margin-top: 50px;
-}
 .entertainment-solutions {
   margin-top: 75px;
 }
 .entertainment-solutions p {
   bottom: 55px;
   position: relative;
-  width: 200px;
 }
 .schools,
 .gaming {
@@ -2602,16 +2484,6 @@ footer .copyright p {
 }
 .entertainment-intro {
   text-align: center;
-}
-.entertainment-intro h1 {
-  margin-top: 45px;
-}
-.entertainment-intro h2 {
-  font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-  line-height: 36px;
-  margin-top: 25px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 .entertainment-intro .archives {
   margin-bottom: 40px;
@@ -2638,9 +2510,6 @@ h4 {
   }
   .margin-bottom {
     margin-bottom: 0px;
-  }
-  h1 {
-    font-size: 21px;
   }
   .film,
   .theatre {
@@ -2677,21 +2546,6 @@ h4 {
     position: static;
     margin-left: 0px;
   }
-  .extended-stay h1 {
-    margin-top: 20px;
-  }
-  .extended-stay h2 {
-    margin-top: 10px;
-    line-height: 20px;
-  }
-  .three {
-    padding-bottom: 20px;
-  }
-  .five h1 {
-    padding-top: 0px;
-    margin-top: 15px;
-    padding-left: 15px;
-  }
   .five .nav-tabs > li {
     font-size: 16px;
   }
@@ -2707,14 +2561,6 @@ h4 {
     padding-left: 15px;
     padding-right: 15px;
     border-right: none;
-  }
-  .child-actors h1,
-  .filming h1 {
-    margin-top: 30px;
-  }
-  .child-actors h2,
-  .filming h2 {
-    line-height: 26px;
   }
   .industry-insights .orange-link {
     margin-bottom: 30px;
@@ -2750,10 +2596,6 @@ h4 {
     padding-left: 30px;
     padding-right: 30px;
     border-right: none;
-  }
-  .five h1 {
-    padding-top: 0px;
-    margin-top: 20px;
   }
   .tab-content {
     margin-bottom: 40px;

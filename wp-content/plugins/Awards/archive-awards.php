@@ -57,17 +57,19 @@
 									<div class="row" id="press1">
 										<ul>
 											<li>
-												<section class="col-lg-4 col-md-5 col-sm-4 col-xs-6 press-image">
+												<section class="col-lg-4 col-md-5 col-sm-4 col-xs-4 press-image">
 													<?php the_post_thumbnail('newssize'); ?>
 												</section>
-												<section class="col-lg-8 col-md-7 col-sm-8 col-xs-6 press-text">
+												<section class="col-lg-8 col-md-7 col-sm-8 col-xs-8 press-text">
 													<!--<p class="date hidden-sm"><?php the_date();?></p>-->
-													<h3 class="hidden-xs"><?php the_title(); ?></h3>
+													<h3><?php the_title(); ?></h3>
 													
-													<a href="<?php the_permalink(); ?>"><p class="hidden-lg hidden-md hidden-sm">
+													<!--<a href="<?php the_permalink(); ?>">
+														<p class="hidden-lg hidden-md hidden-sm">
 														<?php echo esc_html( get_post_meta( get_the_ID(), 'award_subhead', true ) ); ?>
-													</p></a>
-													<p class="full-story hidden-xs"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
+														</p>
+													</a>-->
+													<p class="full-story"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
 												</section>
 												<div class="clearfix"></div>				
 											</li>

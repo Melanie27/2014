@@ -70,12 +70,13 @@ get_header(5); ?>
 					<!-- </section>
 				</div>
 			</section> <!--end three-->
-			<hr />			
-			<section class="container five">
-				<div class="row">			
-					<section class="tab-section">
-						<h2>Why Does The Entertainment Industry Prefer Oakwood Worldwide?</h2>
-						<ul>
+					
+			<section class="three three-a container overview">
+				<div class="row over2">										
+					<section class="col-lg-12 col-md-12">						
+						<div class="row">
+						<h2 class="prefer">Why Does The Entertainment Industry Prefer Oakwood Worldwide?</h2>
+						<ul class="prefer-oakwood">
 							<li>Our corporate and serviced apartments are far more spacious than the typical hotel room, with separate living, sleeping and dining spaces and full-size kitchens</li>
 							<li>We offer fitness centers, swimming pools, laundry facilities, Wi-Fi and other amenities in most locations for added convenience</li>
 							<li>Our dedicated specialists have the speed and experience to address issues and solve problems 24/7/365</li>
@@ -84,19 +85,20 @@ get_header(5); ?>
 							<li>We have convenient locations near film and television studios, theaters, etc.</li>
 							<li>We offer personalized strategies for cost containment, such as group housing solutions, consolidated invoicing and flexible billing</li>
 						</ul>
+						</div>
 					</section>	
-				</div><!--end tabbed section-->
+				</div>
 			</section>
 			<hr class="hidden-lg" />
 			<div class="row industry-insights">
-				<section class="col-sm-12 hidden-lg hidden-md">
+				<section class="col-sm-12 hidden-lg hidden-md hidden-sm hidden-xs">
 					<div class="container">
 						<h2>Industry Insights</h2>
 					</div>
 					<?php include (TEMPLATEPATH . '/_/components/php/industry-insights.php'); ?>
 				</section>
 			</div>
-			<hr />
+			
 			<section class="row hidden-sm">
 				<div class="col-lg-12 hidden-xs">
 					<section class="six">

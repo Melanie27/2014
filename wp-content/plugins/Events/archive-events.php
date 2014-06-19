@@ -23,9 +23,10 @@
 								<div class="row over2">
 									<section class="col-lg-12 col-md-12">
 										<div class="row">
-											<section class="col-lg-8 col-md-8 press-release-list">
-												<h2 class="page-title">Join Us at These Upcoming Events</h2>
+											<h2 class="page-title">Join Us at These Upcoming Events</h2>
 												<p>For more information about these industry events, or Oakwood Worldwide’s participation, contact <a href="mailto:oakwoodinfo@oakwood.com">oakwoodinfo@oakwood.com</a></p>
+											<section class="col-lg-8 col-md-8 press-release-list">
+												
 												<!-- Start the Loop -->
 												
 												<?php while ( have_posts() ) : the_post(); ?>

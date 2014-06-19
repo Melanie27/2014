@@ -39,13 +39,13 @@ get_header(2); ?>
 			<div class="col-lg-12">
 				<section class="five">
 					<div class="container">		
-						<h2>Industry Insights</h2>
+						<h2 class="hidden-xs hidden-sm">Industry Insights</h2>
 						<?php include (TEMPLATEPATH . '/_/components/php/industry-insights.php'); ?>
 					</div><!--container-->
 				</section><!--five-->
 			</div>
 		</section>
-  		<hr />
+  		
   		<section class="row">
 			<div class="col-lg-12">
 				<section class="six hidden-sm hidden-xs">

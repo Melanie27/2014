@@ -17,7 +17,7 @@ get_header(7); ?>
 					  	<div class="row heading">
 						  	<section class="col-lg-12">
 							  	<div class="container">
-								  	<h1>Press Releases: Single</h1>
+								  	<h1>Press Release: <?php the_title(); ?></h1>
 								</div>
 							</section>		
 						</div><!--heading-->
@@ -36,7 +36,7 @@ get_header(7); ?>
 									<section class="col-lg-12 col-md-12">
 										<div class="row">
 											<section class="col-lg-8 col-md-8 press-release-list">
-												<h2><?php the_title(); ?></h2>
+												<h2><?php /*the_title(); */?></h2>
 												<section class="press-release-hero">
 													<?php the_post_thumbnail( array( 350, 350 ) ); ?>
 													<?php echo esc_html( get_post_meta( get_the_ID(), 'photo_caption', true ) ); ?>

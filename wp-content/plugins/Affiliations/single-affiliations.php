@@ -35,7 +35,7 @@ get_header(7); ?>
 									<section class="col-lg-12 col-md-12 individual-affiliation">
 										<div class="row">
 											<section class="col-lg-4 col-md-4 logo-individual">
-												<?php the_post_thumbnail( array( 350, 350 ) ); ?>
+												<?php the_post_thumbnail(); ?>
 											</section>
 											<section class="col-lg-8 col-md-8 affiliations-text">
 												<?php the_content(); ?>

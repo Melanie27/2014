@@ -222,13 +222,15 @@ h2 {
 	font-weight:normal;
 	color:  @oww-poppy; 
 	font-family: @district-thin;
+	margin-top:50px !important;
 }
 
 h3 {
 	font-family: 'district_thinthin';
 	color: @oww-dark-gray;
 	font-size: @oww-font-size-h3;
-	line-height: 28px;	
+	line-height: 28px;
+	margin-top:10px;	
 }
 
 h4 {
@@ -252,6 +254,7 @@ p {
 	font-family: @district-book;
 	color: @oww-dark-gray;
 	line-height:@line-height-large;
+	margin-bottom:20px;
 		
 }
 
@@ -685,6 +688,7 @@ nav.navbar-fixed-top {
 p.consult-desc {
 	
 	padding-right:50px;
+	
 }
 
 
@@ -702,12 +706,6 @@ p.consult-desc {
 	
 	margin: 0px auto;
 	
-}
-
-.thirds {
-	
-	padding-top:35px;
-	padding-bottom:35px;
 }
 
 .heading {
@@ -965,7 +963,9 @@ p.consult-desc {
 	
 	li {
 		
-		width:50%;
+		display: block;
+		padding-left: 35px;
+		width: 395px;
 	}
 }
 
@@ -985,10 +985,19 @@ a.link-archives:link, a.link-archives:visited {
 	border: solid 1px @oww-border;
 	line-height:60px;
 	margin-bottom:15px;
-	margin-top:40px;
+	margin-top:50px;
 	text-align:center;
 	text-transform: uppercase;
 }
+
+a.link-archives.in-news:link, a.link-archives.in-news:visited { 
+	margin-top:40px;
+}
+
+a.link-archives.press-room:link, a.link-archives.press-room:visited { 
+	margin-top:65px;
+}
+
 
 a.link-archives:hover, a.link-archives:active {
 	
@@ -1079,17 +1088,11 @@ p.caption {
 		
 		.link-archives {
 			
-			margin-top:60px;	
+			
 		}
 		
 	}
 	
-	h3 {
-		
-		margin-top: 25px;
-		margin-bottom: 20px;
-
-	}
 
 }
 
@@ -1123,14 +1126,7 @@ p.caption {
 
 .upcoming-events {
 	
-	h1 {
 		
-		color: @oww-poppy;
-		font-weight:300;
-		margin-top:55px;
-		
-	}
-	
 	.link-archives:link, .link-archives:visited {
 		
 		margin-bottom:50px;
@@ -1188,6 +1184,16 @@ article.one-third-two-thirds {
 
 /*BUSINESS SOLUTIONS*/
 
+.prefer-oakwood {
+	padding-left:40px;
+	margin-bottom:50px;
+	
+	li {
+		list-style-type:disc;
+		margin-bottom:8px;
+	}
+}
+
 #business-solutions {
 
 	.two {
@@ -1231,7 +1237,7 @@ article.one-third-two-thirds {
 		h2 {
 			
 			margin-bottom:0px;
-			margin-top:50px;
+			
 					
 		}
 		
@@ -1578,6 +1584,7 @@ footer {
 	h2 {
 		
 		line-height:80px;
+		margin-top:0px !important;
 		margin:0px;
 		display:block;
 		font-size:22px;
@@ -1714,8 +1721,7 @@ footer {
 	
 	h2 {
 		color:@oww-poppy;
-		padding-top:35px;
-		margin-bottom:35px;
+		margin-bottom:20px;
 		
 	}
 }
@@ -1836,7 +1842,6 @@ footer {
 	
 		h2 {
 		
-			line-height:36px;
 			padding-left:30px;
 			padding-right:30px;
 			
@@ -1895,16 +1900,13 @@ footer {
 	.three {
 	
 		h2 {
-		
-			margin-top:45px;
+			
 			padding-left:15px;
 		
 		}
 	
 		h3 {
 		
-			margin-top:10px;
-			margin-bottom:50px;
 			padding-left:15px;
 		
 		}
@@ -1915,7 +1917,6 @@ footer {
 		
 			h2 {
 			
-				margin-bottom:20px;
 				padding-left:0px;
 			
 			}
@@ -1933,11 +1934,6 @@ footer {
 		
 			}
 		
-			p {
-			
-				margin-left:15px;
-		
-			}
 		}
 	}
 
@@ -1946,8 +1942,6 @@ footer {
 	
 		h2 {
 		
-			margin-top:50px;
-			margin-bottom:20px;
 			padding-left:0px;
 		
 		}
@@ -1983,6 +1977,9 @@ footer {
 
 #industry-affiliations {
 	
+	.two {
+		background-image:none;
+	}
 	
 	.individual-affiliation {
 			
@@ -2002,11 +1999,6 @@ footer {
 		
 		padding-bottom:50px;
 		
-		h2 {
-			
-			margin-top:60px;
-			margin-bottom:30px;
-		}
 		
 		.logo-individual {
 			
@@ -2054,12 +2046,7 @@ footer {
 		background-image:url(../../images/vision-leadership/bg-image-03.jpg);
 	}
 	
-	h2 {
 	
-		color:@oww-poppy;
-
-	}
-
 	.over {
 	
 		background-color:white;
@@ -2068,21 +2055,7 @@ footer {
 			
 	}
 	
-	.over2a {
-		
-		padding-bottom:45px;
-		padding-top:10px;
-	}
-
-	.hero-halves {
 	
-		h1 {
-		
-			margin-top:0px;
-		
-		}
-	}
-
 	.first-third-one-third {
 	
 		padding-left:0px;
@@ -2139,12 +2112,6 @@ footer {
 
 	.executive-committee {
 	
-		h1 {
-		
-			margin-top:60px;
-			margin-bottom:20px;
-		
-		}
 	
 		.blurb {
 		
@@ -2161,8 +2128,12 @@ footer {
 		.leaders.top {
 	
 			padding-bottom:35px;
-			padding-top:70px;
+			padding-top:90px;
 	
+		}
+		
+		.first-third-one-third {
+			padding-bottom:0px;
 		}
 	
 		.leaders.bottom {
@@ -2331,6 +2302,10 @@ footer {
 
 #executive-leadership {
 	
+	.name {
+		margin-top:0px;
+	}
+	
 	.two {
 		
 		height: auto;              /* 316px; */
@@ -2364,46 +2339,18 @@ footer {
 	
 		padding-bottom:60px; 
 		
-		h1 {
-			
-			margin-top:60px;
-			margin-bottom: 25px;
-			
 			.title {
 				
-				font-size:18px;
 				text-transform:uppercase;
 				color: @oww-dark-gray;
 				font-family: @district-book;
-				margin-top:8px;
+				font-size:18px;
 			}
-		}
-		
-		h3 {
-			
-			margin-top:0px;
-			margin-bottom:4px;
-		}
-		
-	}
-}
-
-
-/*Industry Insignts*/
-
-
-#industry-insights {
-	
-	.media-relations {
-		
-		h1 {
-			
-			margin-top:55px;
-		}
 		
 		
 	}
 }
+
 
 
 /*CAREERS*/
@@ -2462,10 +2409,13 @@ footer {
 	}
 }
 
-.why-oakwood {
+.oakwood-university {
 	
-	border-left:solid 1px @oww-border;
 	border-right:solid 1px @oww-border;
+}
+
+.referral {
+	border-left:solid 1px @oww-border;
 }
 
 .career-intro {
@@ -2513,12 +2463,32 @@ footer {
 	h2 {
 		
 		font-size:@oww-font-size-h2-small;
+		margin-top:25px !important;
 	}
 	
 	h3 {
 		
 		font-size:@oww-font-size-h3-small;
 		line-height:20px;
+		margin-top:10px;
+		margin-bottom:0px;
+		
+	}
+	
+	.news-thumbnails {
+		
+		h3 {
+			margin-top:0px !important;
+		}
+		
+		.full-story {
+			margin-top:0px;
+		}
+	}
+	
+	p {
+		margin-top:20px;
+		margin-bottom:20px;
 	}
 	
 	.two {
@@ -2748,6 +2718,12 @@ footer {
 		
 	}
 	
+	.prefer-oakwood {
+		padding-left:15px;
+		
+		
+	}
+	
 	#business-solutions {
 		.teasers {
 			
@@ -2756,6 +2732,7 @@ footer {
 		
 		p.consult-desc {
 			padding-right: 0px;
+			margin-top:0px;
 		}
 		
 		.three {
@@ -2764,40 +2741,8 @@ footer {
 			padding-left:0px;
 			padding-right:0px;
 				
-			h1 {
-				
-				margin-top:0px;	
-			}
-		
-			.solutions-head {
-			
-				margin-top:25px;
-			
-			}
-		
-			h2 {
-			
-				margin-top:25px;	
-				
-			}
-		
-			h3 {
-			
-				margin-top:0px;
-				
-			}
-		
 		}
-			
-		.five {
-			
-			h1 {
-				
-				margin-top:0px;
-				padding-top:25px;
-			}
-		}
-		
+					
 		.insights {
 			
 			padding-bottom:25px;
@@ -2820,26 +2765,19 @@ footer {
 			height:340px;
 		}
 		
-		 .solutions.consulting {
-			height:320px;
+		 .solutions.consulting, .solutions.entertainment, .solutions.relocation {
+			height:370px;
 		}	
 		
 		.solutions.government {
 			height:370px;
 		}	
 				
-		.solutions.relocation, .solutions.entertainment {
-			height:290px;
-		}
 			
 	}
 	
 	#our-brands {
 		
-			.three {
-				
-				padding:0px;
-			}
 			
 			.intro {
 				padding-bottom:20px;
@@ -2911,7 +2849,18 @@ footer {
 
 	}
 	
+		
+	
 	#affiliations {
+		
+			.logo-individual {
+			
+			img {
+				
+				width:200px;
+				margin-top:30px;
+			}
+		}
 		
 		.three.container {
 		
@@ -2933,13 +2882,6 @@ footer {
 	
 		.three {
 	
-			h1 {
-			
-				margin-top:25px;
-				margin-bottom:0px;
-				padding-left:0px;
-			
-			}
 	
 			.affiliations-text {
 		
@@ -2947,30 +2889,15 @@ footer {
 				padding-left:0px;
 				padding-right:0px;
 			
-				p {
-			
-					margin-left:0px;
-					
-				}	
-			
-				h2 {
 				
-					padding-top:10px;
+			
 				
-				}	
 			}
 					
 		}
 		
 		.industry-affiliations {
 			
-			h1 {
-				
-				margin-top:0px;
-				padding-top:25px;
-				padding-left:0px;
-				
-			}
 			
 			a.link-archives:link, a.link-archives:visited {
 		
@@ -3000,11 +2927,6 @@ footer {
 		
 		padding-bottom:10px;
 		
-		h1 {
-			
-			margin-top:20px;
-			margin-bottom:0px;
-		}
 		
 		.logo-individual {
 			
@@ -3042,18 +2964,6 @@ footer {
 		
 		}
 		
-		h1 {	
-	
-			margin-bottom:3px;
-			
-		}
-		
-		
-		h2 {
-			
-			margin-top:25px;
-		
-		}
 		
 		.leaders {
 			border-left:none;
@@ -3069,38 +2979,7 @@ footer {
 				
 			}
 		}
-		
-		.industry-affiliations {
-		
-			h1 {
 			
-				margin-top:0px;
-				padding-top:30px;
-				
-			}
-		}
-				
-		.hero-halves {
-			
-			h1 {
-				
-				font-family: @district-thin;
-				margin-top:20px;
-			
-			}
-					
-			h2 {
-				
-				font-family: @district-thin;
-			
-			}
-			
-			p {
-			
-				padding-bottom:20px;
-			
-			}
-		}
 		
 	
 		.first-third-one-third {
@@ -3141,15 +3020,7 @@ footer {
 				
 			}
 				
-			h1 {
-					
-				margin-bottom:0px;
-				margin-top:0px;
-				padding-top:30px;
-				padding-bottom:25px;
-				border-right:none;
-				
-			}
+			
 				
 			.first-third-one-third {
 				
@@ -3206,13 +3077,7 @@ footer {
 					
 			}
 					
-			h3 {
-					
-				margin-top:0px;
-				margin-bottom:15px;
-				
-			}
-				
+							
 		}
 		
 		.affiliations-text {
@@ -3260,27 +3125,7 @@ footer {
 	
 	}
 	
-	.promo-header {
 	
-	
-		h1 {
-			
-			margin-top:0px;
-			margin-bottom:30px;
-			height:auto;
-			display:block;
-		}
-	
-	}
-	
-	.career-promo {
-	
-		section.thirds {
-		
-			padding-bottom:35px;	
-		}
-		
-	}
 	
 	#careers {
 		
@@ -3479,30 +3324,14 @@ footer {
 	
 	#business-solutions {
 	
-		.additional {
-			
-			h1 {
-			
-			font-size:36px;
-			
-			}	
-		} 
+		
 		
 		.three {
 			
 			padding-bottom:30px;
 		}
 	
-		.five {
-		
-			h1 {
-			
-			margin-top:0px;
-			padding-top:30px;
-			padding-left:15px;
-			
-			}
-		}
+	
 		
 		.industries {
 			
@@ -3622,11 +3451,7 @@ footer {
 			
 			}
 			
-			h2 {
 			
-				margin-bottom:10px;
-		
-			}
 			
 			.affiliations-text {
 			
@@ -3641,12 +3466,7 @@ footer {
 			padding-top:40px;
 			padding-bottom: 0px;
 	
-			h1 {
-		
-				padding-top:0px;
-		
-			}
-			
+						
 		}
 		
 	}
@@ -4447,10 +4267,6 @@ and (orientation : landscape) {
 
 @media (min-width: 481px) and (max-width: 1200px) {
 	
-	p {
-		
-		font-size: 15px;
-	}
 		
 	.three {
 

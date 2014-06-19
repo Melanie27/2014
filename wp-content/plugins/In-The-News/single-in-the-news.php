@@ -21,7 +21,7 @@ get_header(7); ?>
 								</div>
 							</section>		
 						</div><!--heading-->
-						<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds-in-the-news.php'); ?>
+						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-thirds-in-the-news.php'); */?>
 					</section> <!--two-->	
 					<?php
 						$mypost = array( 'post_type' => 'in-the-news', );

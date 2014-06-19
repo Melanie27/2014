@@ -2,8 +2,8 @@
 					<section class="row">
 						<div class="col-xs-12">
 							<section class="media-relations phone hidden-lg hidden-md">
-								<h1>Media Relations</h1>
-								<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/media-relations-tb-01.jpg" alt="Hannah Dolby" width="75" height="75" class="pull-left">
+								<h2>Media Relations</h2>
+								<!--<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/media-relations-tb-01.jpg" alt="Hannah Dolby" width="75" height="75" class="pull-left">-->
 								<h3>Hannah Dolby</h3>
 								<p>Global Communications Lead</p>
 								<a href="mailto: hdolby@aboutsage.com">hdolby@aboutsage.com</a>
