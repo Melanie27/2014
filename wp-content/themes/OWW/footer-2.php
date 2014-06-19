@@ -161,10 +161,10 @@
 <footer>
 	<div class="row hidden-lg hidden-md hidden-sm hidden-xs">
 		<section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-6">
-			<a href="#" class="btn-footer footer-find-housing">Find Housing</a>
+			<a href="/find-housing/" class="btn-footer footer-find-housing">Find Housing</a>
 		</section>
 		<section class="col-lg-4 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-6 footer-buttons">
-			<a href="#" class="btn-footer footer-contact-us">Contact Us</a>
+			<a href="/contact-us/" class="btn-footer footer-contact-us">Contact Us</a>
 		</section>
 	</div>
 </footer>

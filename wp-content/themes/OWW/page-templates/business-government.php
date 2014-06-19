@@ -18,7 +18,7 @@ get_header(4); ?>
 					  	<div class="row heading">
 						  	<section class="col-lg-12">
 							  	<div class="container">
-								  	<h1>Business Solutions: Government</h1>
+								  	<h1>Government</h1>
 								 </div>
 							</section>		
 						</div><!--heading-->
@@ -94,8 +94,20 @@ get_header(4); ?>
 					<section class="container seven">
 						<div class="row hidden-xs">
 							<section class="tab-section col-lg-12">
-								<h2>Why does the Federal Government Prefer Oakwood?</h2>
-								<?php include (TEMPLATEPATH . '/_/components/php/industry-tabs.php'); ?>
+								<h2>Why Do Government Professionals Prefer Oakwood Worldwide?</h2>
+								<ul>
+									<li>Our extended stay lodging is far more spacious than the typical hotel room, with separate living, sleeping and dining spaces and full-size kitchens</li>
+									<li>Our apartments are located within residential buildings and offer the mix of privacy, functionality and community that's ideal for extended stays</li>
+									<li>We offer thousand of global properties near city centers and government offices</li>
+									<li>Our dedicated specialists have the speed and expertise to quickly find solutions for any need</li>
+									<li>We're an approved GSA Schedule 48 vendor and FedRooms provider and our rates fall within most TDY and PCS Per Diems</li>
+									<li>We offer personalized strategies for cost containment, such as group housing solutions, consolidated invoicing and flexible billing</li>
+									<li>We accept multiple payment options, with e-invoicing to help simplify expense reporting</li>
+									<li><We honor government-issued credit cards, as well as Global Distribution System (GDS) pre-approved rates/li>
+								</ul>
+								
+								
+								
 							</section>	
 						</div><!--end tabbed section-->
 					</section>

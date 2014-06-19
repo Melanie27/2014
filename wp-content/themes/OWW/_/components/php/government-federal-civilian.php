@@ -16,14 +16,9 @@
 										<section class="row">								
 											<div class="col-lg-8 col-md-8 two-col-text">
 												<h2 class="hidden-sm hidden-xs">Federal Civilian</h2>
-												<h3>What's the military's secret weapon? A home base away from home. Not just comfort efficiency. Not just amenities capabilities.</h3>
+												<h3>Personalized Service For Government Personnel </h3>
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/cover-story-federal-civilian.jpg" alt="cover-story-military" class="img-responsive pull-left govt-cover">
-												<p>From San Diego to Fort Belvoir, from London to Seoul: Oakwood has empowered military organizations with customized lodging solutions for 50 years offering efficient, stress-free procurement through the Defense Travel System, GSA Schedule 48, and all major Global Distribution Stystems.</p>
-												<p>Our nation's security depends on a well-managed, synchronized military that makes simplified, full-service lodging a Defense Department necessity. Strategically located near hundreds of military installations worldwide, Oakwood lodgings are custom-fit to meet all possible mission requirements.</p>
-												<p>And since military travelers have no margin for error, Oakwood offers end-to-end procurement management and support with large-scale DOD contract options for lower costs and easier administration.</p>
-												<p>From San Diego to Fort Belvoir, from London to Seoul: Oakwood has empowered military organizations with customized lodging solutions for 50 years offering efficient, stress-free procurement through the Defense Travel System, GSA Schedule 48, and all major Global Distribution Stystems.</p>
-												<p>Our nation's security depends on a well-managed, synchronized military that makes simplified, full-service lodging a Defense Department necessity. Strategically located near hundreds of military installations worldwide, Oakwood lodgings are custom-fit to meet all possible mission requirements.</p>
-												<p>And since military travelers have no margin for error, Oakwood offers end-to-end procurement management and support with large-scale DOD contract options for lower costs and easier administration.</p>
+												<p>A pioneer in the industry, Oakwood Worldwide continues to lead with innovations that make us the preferred choice for government sector travel. As a GSA-approved vendor, we are committed to leadership in providing solutions with unmatched customer service, creating total extended stay lodging solutions that are customized for each agency’s mission, personnel, policy and budget.</p>
 											</div>
 											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs contact-us">
 												<h4>Contact Us</h4>

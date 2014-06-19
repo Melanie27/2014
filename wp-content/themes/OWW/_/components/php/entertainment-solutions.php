@@ -9,7 +9,7 @@
 														<h3>Film and Television Production</h3>
 														<div class="clearfix"></div>
 													</header>
-													<p>Customized housing solutions tailored to keep your production on schedule and under budget.</p>
+													<p>CLet us provide a furnished housing solution that keeps your production on schedule and under budget, and your cast and crew never farther than a few minutes away.</p>
 												</section>
 											</div>
 										</section>
@@ -23,7 +23,7 @@
 														<h3>Theatre, Music and Stage</h3>
 														<div class="clearfix"></div>
 													</header>
-													<p>Affordable, venue-adjacent housing for traveling stage performers.your production on schedule and under budget.</p>
+													<p>We’ll find flexible, venue-adjacent and budget-friendly group accommodations for your traveling cast and crew.</p>
 												</section>
 											</div>	
 										</section>
@@ -37,7 +37,7 @@
 														<h3>Gaming Industry</h3>
 														<div class="clearfix"></div>
 													</header>
-													<p>From start-ups to gaming giants, Oakwood offers flexible, global housing solutions. </p>
+													<p>From start-ups to legends, people in the business of gaming know they can trust Oakwood Worldwide to provide the short or long term accommodations they need to succeed.</p>
 												</section>
 											</div>
 										</section>
@@ -51,7 +51,7 @@
 														<h3>Entertainment Schools</h3>
 														<div class="clearfix"></div>
 													</header>
-													<p>Housing located near many entertainment schools and colleges providing a "home away from home."</p>
+													<p>We offer spacious furnished apartments near top entertainment schools and colleges where travelers can relax in a comfortable and secure environment that provides a welcome blend of workspace and personal space.</p>
 												</section>
 											</div>
 										</section>

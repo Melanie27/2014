@@ -20,7 +20,7 @@ get_header(4); ?>
 			<div class="row heading">
 				<section class="col-lg-12">
 					<div class="container">
-						<h1>Business Solutions: <span class="entry-title"><?php the_title(); ?></span></h1>
+						<h1>Business Travel</h1>
 					</div>
 				</section>		
 			</div><!--heading-->
@@ -31,9 +31,9 @@ get_header(4); ?>
 				<section class="col-lg-12 col-md-12 container">
 					<div class="row overview-top">
 						<section class="col-lg-9 col-md-9 col-sm-12 col-xs-12" >
-							<h2>Extended Stay Lodging for the Consulting Industry</h2>
-							<h3>For over 50 years, Oakwood Worldwide has given those who serve America a place they could call home.</h3>
-							<p>As the first, largest and leading provider of extended stay lodging (ESL) solutions to the federal government, Oakwood offers a welcoming environment for government employees, with convenient locations, and access to various transportation options.</p>
+							<h2>Housing Solutions for Business Travelers and Consultants</h2>
+							<h3>A Business Partner That Works for You</h3>
+							<p>Oakwood Worldwide provides global housing solutions that keep business travelers at their most productive. We work closely with our clients to find accommodations that meet travelers’ daily requirements, whether they need to be close to their work site, in a neighborhood with strong schools or a pet-friendly high rise. And to ensure a smooth transition, we coordinate arrival and departure, manage service requests and streamline invoicing, giving our clients less to worry about and more time to focus on the initiatives that brought them out in the first place.</p>
 							<a href="<?php bloginfo('url'); ?>/business-solutions/individual-business-traveler/individual-business-traveler-single/" class="orange-link">Learn More &#8594;</a>
 						</section><!--end two thirds-->			
 					</div><!--end nested row-->
@@ -46,9 +46,17 @@ get_header(4); ?>
 				<section class="col-lg-12 col-md-12">						
 					<div class="row">
 						<section class="tab-section">
-							<h2>Why do Consultants Prefer Oakwood?</h2>					
-							<?php include (TEMPLATEPATH . '/_/components/php/tabs-mobile.php'); ?>						
-							<?php include (TEMPLATEPATH . '/_/components/php/industry-tabs.php'); ?>
+							<h2>Why Do Business Travelers and Consultants Prefer Oakwood Worldwide?</h2>
+							<ul>
+								<li>Our corporate and serviced apartments are far more spacious than the typical hotel room, with separate living, sleeping and dining spaces and full-size kitchens</li>
+								<li>Most of our residential buildings have business centers, fitness centers and lounges, offering the mix of privacy and community that's ideal for extended stays</li>
+								<li>Our dedicated specialists have the speed and experience to address issues and solve problems 24/7/365</li>
+								<li>Our high-quality accommodations are located within desirable neighborhoods and are priced to fit most budgets</li>
+								<li>Marriott Rewards<sup>&reg;</sup> members earn points for stays of 30 days or more at any ExecuStay<sup>&reg;</sup> location in the U.S.</li>
+							</ul>
+												
+							
+							
 						</section>
 					</div><!--end tabbed section-->
 				</section>

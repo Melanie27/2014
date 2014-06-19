@@ -16,11 +16,9 @@
 											<section class="row">								
 												<div class="col-lg-8 col-md-8 two-col-text">
 													<h2 class="hidden-xs hidden-sm">Military</h2>
-													<h3>What's the military's secret weapon? A home base away from home. Not just comfort efficiency. Not just amenities capabilities.</h3>
+													<h3>Where Great Strategy Meets Flawless Execution</h3>
 													<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/cover-story-military.png" alt="cover-story-military" class="img-responsive pull-left govt-cover">
-													<p>From San Diego to Fort Belvoir, from London to Seoul: Oakwood has empowered military organizations with customized lodging solutions for 50 years offering efficient, stress-free procurement through the Defense Travel System, GSA Schedule 48, and all major Global Distribution Stystems.</p>
-													<p>Our nation's security depends on a well-managed, synchronized military that makes simplified, full-service lodging a Defense Department necessity. Strategically located near hundreds of military installations worldwide, Oakwood lodgings are custom-fit to meet all possible mission requirements.</p>
-													<p>And since military travelers have no margin for error, Oakwood offers end-to-end procurement management and support with large-scale DOD contract options for lower costs and easier administration.</p>
+													<p>Oakwood Worldwide offers solutions that meet the complex lodging needs of military organizations. With a team of dedicated associates, we provide the expertise and experience it takes to help make the most challenging military placements successful. Our full-service lodging solutions provide the Defense Department with options that keep personnel productive wherever they are assigned for duty. We are strategically located nears hundreds of military installations worldwide to help meet mission requirements and offer end-to-end procurement management and support with large-scale DOD contract options to help control costs and simplify administration. </p>
 												</div>
 												<section class="col-lg-4 col-md-4 hidden-sm hidden-xs contact-us">
 													<h4>Contact Us</h4>
@@ -40,7 +38,7 @@
 											<hr class="hidden-sm hidden-xs">
 											<section class="row hidden-sm hidden-xs carousel-heading">
 												<div class="col-lg-12 col-md-12">
-													<h2>Search Fully Furnished Oakwood Military Lodging In Key US Cities at Oakwood.com</h2>
+													<h2>Explore our Accommodations</h2>
 												</div>
 											
 											</section>

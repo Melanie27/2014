@@ -16,15 +16,19 @@
 													<a href="#">Awards</a></span>, <a href="#">Oakwood Worldwide</a>
 												</p>
 											</section> <!--end two thirds-->
+											<!--
 											<section class="col-lg-4 col-md-4 col-xs-12 thirds teasers">
 												<?php include (TEMPLATEPATH . '/_/components/php/industry-insights-thumbs.php'); ?>		
-											</section> <!--end three thirds-->
+											</section> --> <!--end three thirds-->
 										</div><!--end nested row-->	
+										
+										<!--
 										<div class="row">
 											<section class="col-sm-12 col-sm-offset-0 col-xs-6">
 												<a href="#" class="orange-link hidden-lg hidden-md hidden-xs">See More&#8594;</a>
 											</section>
-										</div>
+										</div> -->
+										
 									</section><!--end ver-->
 								</div><!--row-->
 							</section><!--two-a-->

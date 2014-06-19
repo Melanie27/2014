@@ -38,10 +38,10 @@
 							<section class="col-lg-8 col-lg-offset-3 col-md-9 col-md-offset-2">
 								<div class="row hidden-sm hidden-xs">
 									<section class="col-lg-4 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-2">
-										<a class="btn-footer housing footer-find-housing" href="#">Find Housing</a>
+										<a class="btn-footer housing footer-find-housing" href="<?php bloginfo('url'); ?>/find-housing/">Find Housing</a>
 									</section>
 									<section class="col-lg-4  col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-1">
-										<a class="btn-footer contact footer-contact-us" href="#">Contact Us</a>
+										<a class="btn-footer contact footer-contact-us" href="<?php bloginfo('url'); ?>/contact-us/">Contact Us</a>
 									</section>
 								</div>
 							</section>
@@ -161,10 +161,10 @@
 	<footer>
 		<div class="row hidden-lg hidden-md hidden-sm hidden-xs">
 			<section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-6">
-				<a href="#" class="btn-footer footer-find-housing">Find Housing</a>
+				<a href="/find-housing/" class="btn-footer footer-find-housing">Find Housing</a>
 			</section>
 			<section class="col-lg-4 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-6 footer-buttons">
-				<a href="#" class="btn-footer footer-contact-us">Contact Us</a>
+				<a href="/contact-us/" class="btn-footer footer-contact-us">Contact Us</a>
 			</section>
 		</div>
 	</footer>

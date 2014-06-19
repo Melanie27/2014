@@ -490,6 +490,10 @@ p.consult-desc {
   background-repeat: no-repeat;
   width: 100%;
 }
+#home .two {
+  background-image: url(../../images/sitewide/bg-image-home.jpg) !important;
+  height: 512px !important;
+}
 .media-relations.phone img {
   margin-right: 15px;
 }
@@ -1481,6 +1485,7 @@ footer .copyright p {
   .two {
     background-image: none;
     height: auto;
+    /* 200px; */
     background-attachment: scroll;
   }
   .heading .container {

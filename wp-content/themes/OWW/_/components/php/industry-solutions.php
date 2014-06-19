@@ -1,7 +1,7 @@
 								<div class="row over2">
 									<section class="col-lg-12 col-md-12 col-sm-12 news-columns">	
 										<h2 class="solutions-head">Solutions by Industry</h2>
-										<p>Whether you work within the government sector, Fortune 500 company, entertainment studio or a consulting practice, Oakwood Worldwide has the experience to find the right housing solution for your business requirements. Our specialized teams immerse themselves in your business—taking note of your particular needs, asking all the right questions and applying our unique insights to deliver a custom housing solution that satisfies both your travelers and your bottom line. </p>
+										<p>Whether you work in the government sector, at a Fortune 500 company, an entertainment studio or a consulting firm, Oakwood Worldwide has the resources and experience to find the right housing solution for your business requirements. We have dedicated, industry-focused teams of associates concentrated on delivering solutions that meet the needs of organizations of all kinds, and the people who travel for them. </p>
 										<div class="row solutions-columns">
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 												<div class="solutions consulting">
@@ -13,7 +13,8 @@
 														</header>
 													</a>
 													<section class="industry-text">	
-														<p class="consult-desc">We’ll take care of it all—providing your travelers with convenient, comfortable housing solutions so they have the time and energy to do what they do best. </p>
+														<p class="consult-desc">We’ll handle every aspect of your corporate housing and serviced apartment needs, providing your travelers with convenient, comfortable housing solutions to give them the ability and energy to focus on what they do best.</p>
+														<!--
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
 																<span>Case Study</span>
@@ -47,7 +48,7 @@
 																<?php endwhile; ?>
 																<?php wp_reset_query(); ?>
 															</section>
-														</div><!--end nested row-->
+														</div> --><!--end nested row--> 
 													</section>
 												</div><!--end consulting-->
 											</section><!--Column 1-->
@@ -61,7 +62,8 @@
 														</header>
 													</a>
 													<section class="industry-text">
-														<p class="consult-desc">No two federal assignments are alike. Fortunately, our diverse inventory and expertise of corporate housing and serviced apartments solution allow us to specifically find accommodations that  meet most government per diems  and the needs of government  travelers. </p>
+														<p class="consult-desc">Oakwood Worldwide has the experience and resources to provide corporate housing and extended stay lodging solutions that meet most government per diems and the needs of government travelers.</p>
+														<!--
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
 																<span>Case Study</span>
@@ -94,7 +96,7 @@
 																<?php endwhile; ?>
 																<?php wp_reset_query(); ?>
 															</section>
-														</div><!--end nested row-->
+														</div> --><!--end nested row-->
 													</section>
 												</div><!--end government-->
 											</section>
@@ -108,7 +110,8 @@
 														</header>
 													</a>
 													<section class="industry-text">
-														<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+														<p class="consult-desc">Oakwood Worldwide offers accommodating furnished housing solutions that address above-the-line and below-the-line requests wherever theater groups, production crews and cast members need to be.</p>
+														<!--
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
 																<span>Case Study</span>
@@ -144,7 +147,7 @@
 																<?php wp_reset_query(); ?>																
 															
 															</section>
-														</div><!--end nested row-->
+														</div> --><!--end nested row-->
 													</section>
 												</div><!--end entertainment-->
 											</section>
@@ -164,7 +167,8 @@
 														</header>
 													</a>
 													<section class="industry-text">
-														<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+														<p class="consult-desc">Oakwood Worldwide is everywhere your talent needs to be, ready to provide a smooth transition with cost-effective global housing solutions in great neighborhoods, convenient to their new office or project site.</p>
+														<!--
 														<div class="row case-studies hidden-xs">
 															<section class="col-lg-6 col-md-6">
 																<span>Case Study</span>
@@ -199,15 +203,15 @@
 																<?php endwhile; ?>
 																<?php wp_reset_query(); ?>	
 															</section>
-														</div><!--end nested row-->
+														</div> --> <!--end nested row-->
 													</section>
 												</div><!--end relocation-->
 											</section><!--Column 2-->	
 											<hr class="hidden-lg hidden-md hidden-sm"/>
 											<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 industry-affiliations">
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/affiliations-fpo.jpg" alt="affiliations-fpo" class="img-responsive hidden-xs" />
-												<h4>Headline Directing People to Check Out the Industry Afflications Page</h4>
-												<p>Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.Lorem ipsum in dui mauris. Vivamus hendrerit.</p>
+												<h4>Industry Affiliations</h4>
+												<p>As a member of many respected business, relocation, entertainment, government and insurance associations, we’re always up to speed with your industry’s best practices—ensuring we can meet your corporate housing and serviced apartment needs with the most current and innovative solutions. </p>
 												<a href="<?php bloginfo( 'url' ); ?>/affiliations/" class="orange-link">Call to action &#8594</a>	
 											</section><!--Industry Affiliations Section-->
 										</div><!--end nested row-->

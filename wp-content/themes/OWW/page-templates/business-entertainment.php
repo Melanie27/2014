@@ -20,7 +20,7 @@ get_header(5); ?>
 				<div class="row heading">
 					<section class="col-lg-12">
 						<div class="container">
-							<h1>Business Solutions: Entertainment</h1>
+							<h1>Entertainment</h1>
 						</div>
 					</section>		
 				</div><!--heading-->
@@ -37,6 +37,8 @@ get_header(5); ?>
 					</section>
 				</div>
 			</section><!--content 4-->
+			
+			<!--
 			<section class="container three">	
 				<div class="row ">
 					<section class="col-lg-12 col-md-12 col-xs-12">
@@ -51,8 +53,8 @@ get_header(5); ?>
 										</section>
 									</div>
 								</section><!--end button-->
-							</section><!--end child actors-->
-							<hr class="hidden-lg hidden-md">
+							<!-- </section><!--end child actors-->
+							<!--<hr class="hidden-lg hidden-md">
 							<section class="col-lg-6 col-md-6 entertainment-intro filming">
 								<h2>Filming At Oakwood Worldwide</h2>
 								<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et augue tempus magna elementum pharetra. Aenean nisi nibh, sollicitudin eget facilisis blandit, dignissim sed tortor. Etiam at volutpat sem. Sed augue.</h3>
@@ -63,17 +65,25 @@ get_header(5); ?>
 										</section>
 									</div>
 								</section><!--end button-->
-							</section><!--end film-->
-						</div><!--end nested row-->
-					</section>
+							<!-- </section><!--end film-->
+						<!-- </div><!--end nested row-->
+					<!-- </section>
 				</div>
-			</section><!--end three-->
+			</section> <!--end three-->
 			<hr />			
 			<section class="container five">
 				<div class="row">			
 					<section class="tab-section">
-						<h2>Why does the Entertainment Industry Prefer Oakwood?</h2>
-							<?php include (TEMPLATEPATH . '/_/components/php/industry-tabs-phone.php'); ?>
+						<h2>Why Does The Entertainment Industry Prefer Oakwood Worldwide?</h2>
+						<ul>
+							<li>Our corporate and serviced apartments are far more spacious than the typical hotel room, with separate living, sleeping and dining spaces and full-size kitchens</li>
+							<li>We offer fitness centers, swimming pools, laundry facilities, Wi-Fi and other amenities in most locations for added convenience</li>
+							<li>Our dedicated specialists have the speed and experience to address issues and solve problems 24/7/365</li>
+							<li>We have over 50 years experience serving the entertainment industry</li>
+							<li>We offer the broadest range of accommodations with flexible pricing to meet most production budgets</li>
+							<li>We have convenient locations near film and television studios, theaters, etc.</li>
+							<li>We offer personalized strategies for cost containment, such as group housing solutions, consolidated invoicing and flexible billing</li>
+						</ul>
 					</section>	
 				</div><!--end tabbed section-->
 			</section>

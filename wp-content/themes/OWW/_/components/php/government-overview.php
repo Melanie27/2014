@@ -3,9 +3,9 @@
 									<section class="col-lg-12 col-md-12 container">
 										<div class="row overview-top">
 											<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12" >
-												<h2>Extended Stay Lodging for the Federal Government</h2>
-												<h3>For over 50 years, Oakwood Worldwide has given those who serve America a place they could call home.</h3>
-												<p>As the first, largest and leading provider of extended stay lodging (ESL) solutions to the federal government, Oakwood offers a welcoming environment for government employees, with convenient locations, and access to various transportation options.</p>
+												<h2>Government Lodging Solutions</h2>
+												<h3>Exceeding Expectations Within The Per Diem</h3>
+												<p>As the first and largest provider of extended stay lodging solutions to the federal government and military, Oakwood Worldwide leads the way in flexibility and choice, providing stress-free, turnkey accommodations that help get the job done for less.</p>
 											</section><!--end two thirds-->
 											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs contact-us">
 											<h4>Contact Us</h4>
@@ -38,7 +38,7 @@
 															</header>
 														</a>
 														<section class="industry-text">	
-															<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+															<p class="consult-desc">When our nation's security depends on well-managed military deployment, Oakwood Worldwide provides the full-service lodging facilities the Defense Department needs to keep their personnel productive.</p>
 															<a href="#military" class="orange-link" data-target="B">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
@@ -53,7 +53,7 @@
 															</header>
 														</a>
 														<section class="industry-text">	
-															<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+															<p class="consult-desc">Oakwood Worldwide’s global presence allows us to meet the needs of the federal mission, with extended stay lodging solutions near federal worksites and transportation resources, leading the industry in end-to-end procurement management and support.</p>
 															<a href="#federal-civilian" class="orange-link" data-target="C">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
@@ -68,7 +68,7 @@
 															</header>
 														</a>
 														<section class="industry-text">	
-															<p class="consult-desc">Lorem ipsum in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+															<p class="consult-desc">Oakwood Worldwide can help your organization simplify and consolidate its travel expenditures, helping to make your project more profitable.</p>
 															<a href="#government-contractors" class="orange-link" data-target="D">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
@@ -78,7 +78,7 @@
 										<hr class="hidden-xs">
 										<div class="row overview-gsa">
 											<section class="col-lg-11 col-md-11 col-xs-12">
-												<h3>Oakwood Worldwide is an approved <a href="#" class="gray-link">GSA Schedule 48</a> vendor and proud to be an extended stay lodging provider for FedRooms with rates that fall within TDY and most PCS per diems.</h3>
+												<h3>Oakwood Worldwide is an approved GSA Schedule 48 vendor with rates that fall within most TDY and PCS per diems.</h3>
 												<a href="#gsa-48" class="orange-link col-lg-offset-6 col-md-offset-6">Learn More &#8594;</a>
 											</section>
 										</div><!--end gsa-->

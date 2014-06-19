@@ -28,8 +28,9 @@ get_header(3); ?>
 			<div class="row">
 				<section class="col-lg-12 col-md-12 career-intro">
 					<h2>Working at Oakwood Worldwide</h2>
-					<h3>Oakwood Worldwide offers some of the best training, compensation and benefits in the industry.</h3>
-					<p>Placeholder body. At Oakwood Worldwide, we know our employees make it possible for us to consistently deliver world-class service to our internal and external clients alike. That’s why we work hard to offer competitive compensation, benefits package and an empowering work environment.</p>
+					<h3>We’re looking for associates ready to take on the world</h3>
+					<p>Hoping to take your hospitality experience to the next level? Look no further than the corporate housing and serviced apartment leader. At Oakwood Worldwide, we know that satisfied associates make for satisfied clients and guests. That's why we offer competitive compensation, a generous benefits package and an empowering work environment.</p>
+					<p>If you're someone who thrives in a dynamic atmosphere, works well with a team and has a "service spirit" that pushes you to go above and beyond, we want you!</p>
 				</section>
 				<?php include (TEMPLATEPATH . '/_/components/php/career-icons.php'); ?>						
 			</div>
@@ -53,7 +54,7 @@ frames.]</iframe>
 				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 oakwood-university thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h2>Oakwood University</h2>
+							<h2>Why Oakwood Worldwide</h2>
 						</section>
 					</div>
 					<div class="row career-trio">
@@ -61,7 +62,7 @@ frames.]</iframe>
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers1.jpg" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<p>Throughout its history, Oakwood Worldwide has consistently invested in job training and career advancement for employees..</p>
+							<p>As an associate, you’ll have a financially stable company on your side, making investments in your professional development and rewarding your achievements.</p>
 						</section>
 					</div>	
 				</section>
@@ -69,7 +70,7 @@ frames.]</iframe>
 				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 why-oakwood thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h2>Why Oakwood Worldwide</h2>
+							<h2>Oakwood University</h2>
 						</section>
 					</div>
 					<div class="row career-trio">
@@ -77,7 +78,7 @@ frames.]</iframe>
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers2.jpg" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dui quam, sit amet bibendum enim varius sit amet. Curabitur vel elit aliquet</p>
+							<p>Our ongoing training program, Oakwood University, offers comprehensive internal training for associates at every level of our organization.</p>
 						</section>
 					</div>
 				</section>
@@ -85,7 +86,7 @@ frames.]</iframe>
 				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 referral thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h2>Employee Referral Program</h2>
+							<h2>Our Associates</h2>
 						</section>
 					</div>
 					<div class="row career-trio">
@@ -93,7 +94,7 @@ frames.]</iframe>
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers3.jpg" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<p>Throughout its history, Oakwood Worldwide has consistently invested in job training and career advancement for employees.</p>
+							<p>We’re not looking for employees. We’re hoping to add to our team of associates—individuals who we respect as partners and who we fully entrust with the future of our company.</p>
 						</section>
 					</div>
 				</section>

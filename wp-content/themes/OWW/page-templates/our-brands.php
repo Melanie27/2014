@@ -12,149 +12,108 @@
   	<div class="container-full">
   		<section class="container landing">
 		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<section class="two">
+			 <div class="row heading">
+				 <section class="col-lg-12">
+					<div class="container">
+						<h1>Our Brands: Oakwood<sup>&reg;</sup>, ExecuStay<sup>&reg;</sup> and Insurance Housing Solutions<sup>&reg;</sup> </h1>
+					</div>
+				</section>		
+			</div><!--heading-->	
+		  </section> <!--two container-->							
+		  <section class="three container">
+			<div class="row">
+				<section class="col-lg-12 col-md-12 global-intro">
+					<h2>There are many variations of passages of Lorem Ipsum available</h2>
+					<h3>The standard chunk of Lorem Ipsum</h3>
+					<p>As the premier provider of corporate housing and serviced apartments, Oakwood Worldwide is uniquely positioned to provide global extended stay housing solutions that exceed the expectations of our customers across a wide variety of industries and institutions.</p>
+					<p>From individual travelers to large corporate groups, our clients know they can rely on Oakwood Worldwide to deliver personalized accommodations that make our guests feel at home, no matter how far from home. With the largest global inventory of move-in ready furnished accommodations, unmatched local expertise and an unparalleled commitment to customer satisfaction, it’s no wonder more corporations, relocating business travelers and insurance industry professionals trust Oakwood Worldwide than any other provider.</p>
+					<p>Each of the three Oakwood Worldwide brands – Oakwood, ExecuStay and Insurance Housing Solutions – offer access to a unique selection of accommodations and provides specific services to meet individual client needs. This depth of offering and choice of brands is why Oakwood Worldwide is the preferred corporate housing and serviced apartment provider for more than 100,000 guests each year.</p>
+
+				</section>	
+			</div>
+		</section>
+		<hr/>
+		<section class="three three-a container">
+				<div class="row">
+					<section class="col-lg-12 col-md-12 global-reach">
+						<h2>Lorem Ipsum</h2>
+					</section>
+				</div>				
+				<div class="row">
+					<section class="col-lg-12 col-md-12">						
+						<div class="row">
+							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+								<div class="solutions">
+									<a href="#" class="industry-sections">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+									</a>
+								</div>
+							</section>
+							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
+								<h3>The standard chunk of Lorem Ipsum</h3>
+								<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</section>
+						</div><!--end nested row-->	
+					</section>		
+				</div>			
+			</section><!--three-->
+
+			<section class="three three-a container">
+				<div class="row">
+					<section class="col-lg-12 col-md-12 global-reach">
+						<h2>Lorem Ipsum</h2>
+					</section>
+				</div>				
+				<div class="row">
+					<section class="col-lg-12 col-md-12">						
+						<div class="row">
+							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+								<div class="solutions">
+									<a href="#" class="industry-sections">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+									</a>
+								</div>
+							</section>
+							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
+								<h3>The standard chunk of Lorem Ipsum</h3>
+								<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>	
+							</section>
+						</div><!--end nested row-->	
+					</section>		
+				</div>			
+			</section><!--three-->	
 			
-		  		<section class="two">
-					<div class="row heading">
-						<section class="col-lg-12">
-							<div class="container">
-								<h1>Our Brands: Oakwood<sup>&reg;</sup>, ExecuStay<sup>&reg;</sup> and Insurance Housing Solutions<sup>&reg;</sup> </h1>
-							</div>
-						</section>		
-					</div><!--heading-->		
-				<!--place Hero overlay here-->
-		  		</section> <!--two container-->	
-				<section class="three container">
-				
-					<div class="">
-					  <section class="col-lg-12 col-md-12 brands-intro">
-						  <h2>Three Unique Brands</h2>
-						  <p>Enjoy more choice in your housing program through our brands, Oakwood, ExecuStay and Insurance Housing Solutions. Each of our three brands offers access to a unique selection of accommodations and provides specific services to meet your individual needs. So whether you want a three-bedroom for a three-month assignment in Bangalore, are looking to make a 30-day stay in Biloxi even more rewarding with Marriott Rewards® points or are in need of a spacious single family home that falls within restrictive ALE limits, you’ll have peace of mind knowing that we’re ready to accommodate.</p>
-						</section>
-				    </div>
-				    
-					<div class="row over2">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="">
-								<section class="col-lg-4 col-md-4 intro oakwood">
-									<div class="">
-										<section class="col-lg-12 col-md-12 col-xs-6 logo purple-bg">
-											<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/oakwood-white-logo.png" alt="Oakwood" class="img-responsive">
-										</section>
-										<div class="clearfix"></div>
-										<section class="col-lg-12 col-md-12 brands-row-height1">
-											<p class="no-padding">Oakwood’s global accessibility and local market presence provide you with maximum choice and flexibility in creating a high-quality, cost-effective housing program.</p>
-										</section>
-										<section class="col-lg-12 brands-row-height2">
-											<p class="orange-text">Stay Length</p>
-											<p class="gray-text">3–365+ days</p>
-										</section>
-										<section class="col-lg-12 brands-row-height3">
-											<p class="orange-text">Locations</p>
-											<p class="gray-text">In 70+ Countries</p>
-										</section>
-										<section class="col-lg-12 brands-row-height4">
-											<p class="orange-text">Housing Types</p>
-											<p class="gray-text">Fully furnished corporate housing and serviced apartments</p>
-										</section>
-										<section class="col-lg-12 brands-row-height5">
-											<p class="orange-text">Ideal For…</p>
-											<p class="gray-text">International business travelers, relocating families, expatriates, interns, groups</p>
-										</section>
-										<section class="col-lg-12 col-lg-offset-2 brands-row-height6">
-											<div class="row archives">
-												<section class="col-lg-8 col-lg-offset-0 col-md-8 col-sm-8 col-sm-offset-0 col-xs-8 col-xs-offset-0 learn-more">
-													<a class="link-archives see-all text-center" href="http://oakwood.com" target="_blank">LEARN MORE</a>
-												</section>			
-											</div>
-										</section>
-									</div>
-								</section><!-- end intro oakwood-->
-								<hr class="hidden-lg hidden-md"/>
+			<section class="three three-a container">
+				<div class="row">
+					<section class="col-lg-12 col-md-12 global-reach">
+						<h2>Lorem Ipsum</h2>
+					</section>
+				</div>				
+				<div class="row">
+					<section class="col-lg-12 col-md-12">						
+						<div class="row">
+							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+								<div class="solutions">
+									<a href="#" class="industry-sections">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+									</a>
+								</div>
+							</section>
+							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
+								<h3>The standard chunk of Lorem Ipsum</h3>
+								<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</section>
+						</div><!--end nested row-->	
+					</section>		
+				</div>			
+			</section><!--three-->	
 								
-								<section class="col-lg-4 col-md-4 intro execustay ">
-									<div class="">
-										<section class="col-lg-12 col-md-12 col-xs-6 logo blue-bg">
-											<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/execustay-white-logo.png" alt="Execustay" class="img-responsive">
-										</section>
-										<div class="clearfix"></div>
-										<section class="col-lg-12 col-md-12 brands-row-height1">
-											<p class="no-padding">ExecuStay’s local expertise, personalized service and unique ability to offer Marriott Rewards® points provide you with an extended stay housing solution that’s both comfortable and rewarding.</p>
-										</section>
-										<section class="col-lg-12 brands-row-height2">
-											<p class="orange-text">Stay Length</p>
-											<p class="gray-text">30+ days</p>
-										</section>
-										<section class="col-lg-12 brands-row-height3">
-											<p class="orange-text">Locations</p>
-											<p class="gray-text">In all 50 United States</p>
-										</section>
-										<section class="col-lg-12 brands-row-height4">
-											<p class="orange-text">Housing Types</p>
-											<p class="gray-text">Fully furnished corporate apartments</p>
-										</section>
-										<section class="col-lg-12 brands-row-height5">
-											<p class="orange-text">Ideal For…</p>
-											<p class="gray-text">U.S. business travelers, Marriott Rewards<sup>&reg;</sup> members, consultants, transferees, groups</p>
-										</section>
-										<section class="col-lg-12 col-lg-offset-2 brands-row-height6">
-											<div class="row archives">
-												<section class="col-lg-8 col-lg-offset-0 col-md-8 col-sm-8 col-sm-offset-0 col-xs-8 col-xs-offset-0 learn-more">
-													<a class="link-archives see-all text-center" href="http://execustay.com" target="_blank">LEARN MORE</a>
-												</section>
-											</div>
-										</section>
-									</div>
-								</section><!-- end intro execustay-->
-								<hr class="hidden-lg hidden-md"/>
-								
-								<section class="col-lg-4 col-md-4 intro ihs">
-									<div class="">
-										<section class="col-lg-12 col-md-12 col-xs-10 logo yellow-bg">
-											<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/ihs-black-logo.png" alt="Insurance Housing Solutions" class="img-responsive ihs-logo">
-										</section>
-										<div class="clearfix"></div>
-										<section class="col-lg-12 col-md-12 brands-row-height1">
-											<p class="no-padding">Insurance Housing Solutions’ extensive industry experience and unmatched inventory of accommodations provides unparalleled strength and responsiveness to companies serving individuals in need of emergency housing assistance. </p>
-										</section>
-										<section class="col-lg-12 brands-row-height2">
-											<p class="orange-text">Stay Length</p>
-											<p class="gray-text">However long you need</p>
-										</section>
-										<section class="col-lg-12 brands-row-height3">
-											<p class="orange-text">Locations</p>
-											<p class="gray-text">Wherever you need us, in the U.S. and Canada</p>
-										</section>
-										<section class="col-lg-12 brands-row-height4">
-											<p class="orange-text">Housing Types</p>
-											<p class="gray-text">Furnished and unfurnished apartments, single family homes, mobile homes and more</p>
-										</section>
-										<section class="col-lg-12 brands-row-height5">
-											<p class="orange-text">Ideal For…</p>
-											<p class="gray-text">Displaced policyholders, catastrophe response (CAT) teams</p>
-										</section>
-										<section class="col-lg-12 col-lg-offset-2 brands-row-height6">
-											<div class="row archives">
-												<section class="col-lg-8 col-lg-offset-0 col-md-8 col-sm-8 col-sm-offset-0 col-xs-8 col-xs-offset-0 learn-more">
-													<a class="link-archives see-all text-center" href="http://ihs.oakwoodworldwide.com/insurance-housing-solutions/" target="_blank">LEARN MORE</a>
-												</section>
-											</div>
-										</section>
-									</div>
-								</section><!-- end intro ihs-->
-							</div><!--end nested row-->
-						</section><!--12 cols-->
-					</div><!--over2-->
-					
-					<!--
-					<div class="">
-					  <section class="col-lg-12 col-md-12 brands-footer">
-						  <h1>One Great Experience</h1>
-						  <p>Oakwood Worldwide’s consistently high guest satisfaction and quality ratings are clear indication of our ongoing commitment to providing an exceptional client and guest experience across the board. Each of our brands must adhere to the same, strict quality standards and all of our associates are trained to provide the same level of service to our clients and guests, ensuring that no matter with which brand—or brands—you book, you’ll experience nothing less than the best from Oakwood Worldwide.</p>
-						</section>
-				    </div> -->
-				    
-				</section><!--end three-->
-				<section class="row hidden-lg hidden-md hidden-sm hidden-xs">
+		<section class="row hidden-lg hidden-md hidden-sm hidden-xs">
 					<div class="col-lg-12">
 						<section class="four">
 						</section>
@@ -168,5 +127,11 @@
 						</div>
 					</section><!--content 6-->
 				<hr />
-						
+		
+
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
 <?php get_footer(); ?>
