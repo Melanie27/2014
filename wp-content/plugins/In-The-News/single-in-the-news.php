@@ -58,7 +58,7 @@ get_header(7); ?>
 													
 											</section>									
 											<section class="hidden-lg hidden-md hidden-sm news-single-archives">
-												<h1>News for 2014</h1>
+												<h2>News for 2014</h2>
 												<?php include (TEMPLATEPATH . '/_/components/php/in-the-news-thumbs.php'); ?>
 											</section>				
 											<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							

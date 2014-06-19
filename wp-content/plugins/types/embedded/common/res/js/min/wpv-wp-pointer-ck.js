@@ -1,0 +1,1 @@
+function wpv_wp_pointer_ignore(n,e,o,p){jQuery.ajaxSetup({async:!1}),jQuery.post(ajaxurl,{action:"wpv_wp_pointer_set_ignore",option:n,wpv_nonce:e,value:o},function(n){}),"ignore"==o&&jQuery("#wpv_wp_pointer_clear_ignores_"+p).fadeIn()}

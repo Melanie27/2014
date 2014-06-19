@@ -41,7 +41,7 @@
 		<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
-						<h2>Lorem Ipsum</h2>
+						<h2>Oakwood</h2>
 					</section>
 				</div>				
 				<div class="row">
@@ -50,7 +50,7 @@
 							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Couple_Kitchen_Oakwood.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
@@ -66,7 +66,7 @@
 			<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
-						<h2>Lorem Ipsum</h2>
+						<h2>Execustay</h2>
 					</section>
 				</div>				
 				<div class="row">
@@ -75,7 +75,7 @@
 							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Business_Woman_Room_1_ExecuStay.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
@@ -91,7 +91,7 @@
 			<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
-						<h2>Lorem Ipsum</h2>
+						<h2>Insurance Housing Solutions</h2>
 					</section>
 				</div>				
 				<div class="row">
@@ -100,7 +100,7 @@
 							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/global-reach.jpg" alt="global-reach" class="img-responsive">
+										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Insurance-Couple-Embrace.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
