@@ -56,7 +56,7 @@
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
 								<h3>The standard chunk of Lorem Ipsum</h3>
-								<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								<p>Oakwood is the leading provider of corporate housing and serviced apartment solutions for anyone on the move, anywhere in the world—from relocating professionals with families to first-time business travelers. Our global reach, local expertise and industry-leading inventory of apartments and homes all make life easier for HR and project managers, relocation specialists and procurement professionals looking to make life more comfortable for their travelers.</p>
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -66,7 +66,7 @@
 			<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
-						<h2>Execustay</h2>
+						<h2>ExecuStay</h2>
 					</section>
 				</div>				
 				<div class="row">
@@ -81,7 +81,7 @@
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
 								<h3>The standard chunk of Lorem Ipsum</h3>
-								<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>	
+								<p>ExecuStay is the rewarding choice for fully furnished extended stay accommodations across the United States. Our locally managed and community-focused locations make it easy for guests to connect with everything they need—personally and professionally. And, as the only corporate housing brand to offer Marriott Rewards® points, our personalized housing solutions are ideal for consultants, relocating executives and frequent travelers looking for an even more rewarding extended stay experience.</p>	
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -106,7 +106,7 @@
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
 								<h3>The standard chunk of Lorem Ipsum</h3>
-								<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								<p>Insurance Housing Solutions is the premier resource for insurance professionals and displaced policyholders seeking emergency housing assistance with the highest levels of reliability and customer service.  Insurance Housing Solutions provides unparalleled strength and responsiveness, over 50 years of combined experience through our well-known brands Oakwood and ExecuStay and access to over 25,000 global locations.  We are ready 24/7/365 to respond instantly, place successfully and support thoroughly.  No matter the circumstance, Insurance Housing Solutions has the experience to deliver a compassionate, skilled solution.</p>
 							</section>
 						</div><!--end nested row-->	
 					</section>		

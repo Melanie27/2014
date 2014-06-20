@@ -59,7 +59,8 @@ frames.]</iframe>
 					</div>
 					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers1.jpg" alt="regional-icon" class="img-responsive">
+							<a class="read-article fancybox-media fancybox.iframe" href="http://www.youtube.com/embed/cOPJEcrVcEY" onclick="_gaq.push(['_trackEvent', 'OWW Careers Page', 'Click', 'OWW Careers Page Video']);"><img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers1.jpg" alt="regional-icon" class="img-responsive"></a>
+							
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<p>As an associate, you’ll have a financially stable company on your side, making investments in your professional development and rewarding your achievements.</p>
@@ -75,7 +76,7 @@ frames.]</iframe>
 					</div>
 					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers2.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/Oakwood-University.jpg" alt="oakwood-university" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<p>Our ongoing training program, Oakwood University, offers comprehensive internal training for associates at every level of our organization.</p>
@@ -91,7 +92,7 @@ frames.]</iframe>
 					</div>
 					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers3.jpg" alt="regional-icon" class="img-responsive">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/Our-Associates.jpg" alt="our-associates" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<p>We’re not looking for employees. We’re hoping to add to our team of associates—individuals who we respect as partners and who we fully entrust with the future of our company.</p>

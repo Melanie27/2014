@@ -31,7 +31,7 @@
 												<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 													<div class="solutions military">
 														<a href="#" class="industry-sections" >
-															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/overview-01.jpg" alt="Woman Texting" class="img-responsive" />
+															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/Military_Woman_Couch_ExecuStay.jpg" alt="military-execustay" class="img-responsive" />
 															<header class="industries">
 																<h3>Military</h3>
 																<div class="clearfix"></div>
@@ -46,7 +46,7 @@
 												<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 													<div class="solutions military">
 														<a href="#" class="industry-sections">
-															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/overview-02.jpg" alt="Woman Texting" class="img-responsive" />
+															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/Federal_Civilian_Man_Couch_relaxing_1_Oakwood.jpg" alt="federal-civilian-oakwood" class="img-responsive" />
 															<header class="industries">
 																<h3>Federal Civilians</h3>
 																<div class="clearfix"></div>
@@ -61,7 +61,7 @@
 												<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 big-left no-right-padding">
 													<div class="solutions military">
 														<a href="#" class="industry-sections">
-															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/overview-03.jpg" alt="Woman Texting" class="img-responsive" />
+															<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/Government-Contractor_Man_Table_ExecuStay.jpg" alt="government-contractor-execustay" class="img-responsive" />
 															<header class="industries">
 																<h3>Government Contractors</h3>
 																<div class="clearfix"></div>
@@ -76,12 +76,12 @@
 											</div><!--container-->
 										</div>
 										<hr class="hidden-xs">
-										<div class="row overview-gsa">
+										<!--<div class="row overview-gsa">
 											<section class="col-lg-11 col-md-11 col-xs-12">
 												<h3>Oakwood Worldwide is an approved GSA Schedule 48 vendor with rates that fall within most TDY and PCS per diems.</h3>
 												<a href="#gsa-48" class="orange-link col-lg-offset-6 col-md-offset-6">Learn More &#8594;</a>
 											</section>
-										</div><!--end gsa-->
+										</div>--><!--end gsa-->
 										
 										
 									</section>

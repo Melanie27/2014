@@ -51,7 +51,7 @@ get_header(3); ?>
 								</div>
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
-								<h3>Discover Popular Destinations in the U.S. and Canada</h3>
+								
 								<p>Oakwood Worldwide offers prime locations in urban and suburban neighborhoods in all 50 states and over 22 Canadian cities. Plus, with global headquarters in Los Angeles, a 24-hour worldwide sales and service center in Phoenix and dozens of regional offices in the U.S and Canada, we know the environs and can place your guests in the accommodations that fit their unique needs.</p>
 							</section>
 						</div><!--end nested row-->	
@@ -62,7 +62,7 @@ get_header(3); ?>
 			<section class="three three-a container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
-						<h2>South America</h2>
+						<h2>Latin America</h2>
 					</section>
 				</div>				
 				<div class="row">
@@ -76,8 +76,8 @@ get_header(3); ?>
 								</div>
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
-								<h3>Discover Popular South America Destinations</h3>
-								<p>As more companies expand their scope to include South America, they look to Oakwood Worldwide for innovative housing solutions and industry-leading local market expertise. Offering a wide range of corporate housing and serviced apartments across Chile, Peru, Brazil, Mexico, Argentina, Costa Rica and Venezuela, we have the ability to provide guests with accommodations that make them comfortable in their environs and focused on the business at hand in this growing region of the world.</p>	
+								
+								<p>As more companies expand their scope to include Latin America, they look to Oakwood Worldwide for innovative housing solutions and industry-leading local market expertise. With sales and service representatives dedicated to this region, we have personal relationships with destination service providers and our apartment suppliers as well as an understanding of cultural and regional nuances.  Our investment in this personal touch enables us to offer the largest network of corporate housing and serviced apartment options across Chile, Peru, Brazil, Mexico, Argentina, Costa Rica and Venezuela. </p>	
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -101,10 +101,11 @@ get_header(3); ?>
 								</div>
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
-								<h3>Discover Popular Destinations in EMEA</h3>
-								<p>With regional headquarters in London and access to hundreds of properties in 60 cities across the United Kingdom, Oakwood Worldwide offers the expertise to find corporate housing and serviced apartments that fit any traveler’s specifications. Our team of experts is ready to provide guests the accommodations and support that will position them for business success anywhere in the United Kingdom.
-								<p>In addition to our expertise in the United Kingdom, we offer unparalleled service across all of Europe, with a strong presence in Germany, France, Belgium, Italy, the Netherlands, Sweden and Switzerland, among others.</p>
-								<p>The evolving world of business has seen the remarkable rise of the Middle East and Africa as powerful centers of commerce in recent years. That makes Oakwood Worldwide’s strong presence in the region an important resource for companies seeking to capitalize on the growth of opportunities available there. As the region continues to grow, we continue to invest in new housing solutions throughout this evolving corner of the globe, consistently providing companies and travelers with innovative solutions that keep them ready for the next initiative.</p>
+								
+								<p>With regional headquarters in London and a network of properties across Europe, Oakwood Worldwide is able to fulfill the housing needs in top business destinations through the region. Our team of more than 75 associates, located in-region, speaks 12 languages and specializes in accommodations and unparalleled client support across all of Europe, with a strong presence in Germany, France, Belgium, Italy, the Netherlands, Sweden and Switzerland, among others.</p>
+
+<p>The evolving world of business has seen the remarkable rise of the Middle East and Africa as powerful centers of commerce in recent years. That makes Oakwood Worldwide’s presence in the region an important resource for companies seeking to capitalize on the growth of opportunities available there. We continue to invest in new housing solutions throughout this evolving corner of the globe.</p>
+								
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -128,7 +129,7 @@ get_header(3); ?>
 								</div>
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
-								<h3>Discover Popular Destinations in APAC</h3>
+								
 								<p>As the Asia Pacific region continues its growth as a center of world commerce, the demand for innovative, comprehensive corporate housing and serviced apartment solutions has also increased. So more companies are looking to Oakwood Worldwide as a corporate housing partner for more than accommodations, but also local insights and expertise, plus ongoing support to help insure success in this vital region.</p>
 								<p>Oakwood Worldwide operates regional headquarters in Singapore and has invested in 28 branded properties across China, Hong Kong, India, Indonesia, Japan, Korea, the Philippines and Thailand. Here, guests receive the same great quality matched with a high level of community amenities, providing more opportunities for networking outside the typical business environment.</p>
 								<p>In addition, Oakwood Worldwide offers access to hundreds of additional corporate housing and serviced apartment accommodations across the Asia Pacific, ensuring that our clients are able to stay right where they need to be to offer the ideal location, and value, for both the traveler and the company.</p>
