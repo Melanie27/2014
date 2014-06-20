@@ -51,16 +51,12 @@
 					<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 no-left-mobile">
 						<div class="row border">
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links">
-								<h5><a href="<?php bloginfo('url'); ?>/global-expertise/">Global Expertise</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/global-housing-programs/">Global Housing Programs</a></h5>
 									<ul class="footer-lists footer-global">
 										<div class="row">
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="<?php bloginfo('url'); ?>/global-expertise/global-scale-and-inventory/">Global Scale and Inventory</a></li>
-												<li><a href="<?php bloginfo('url'); ?>/global-expertise/client-services/">Client Services</a></li>
-											</section>
-											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="<?php bloginfo('url'); ?>/global-expertise/technologies/">Technologies</a></li>
-												<li><a href="<?php bloginfo('url'); ?>/global-expertise/safety-security/">Safety & Security</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/global-housing-programs/global-scale-and-inventory/">Global Scale and Inventory</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/global-housing-programs/comprehensive-program-management/">Comprehensive Program Management</a></li>
 											</section>
 										</div>
 									</ul>
@@ -83,7 +79,7 @@
 							</section>
 							<hr class="hidden-lg hidden-md hidden-sm">
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links">
-								<h5><a href="<?php bloginfo('url'); ?>/executive_committee/">Vision & Leadership</a></h5>
+								<h5><a href="<?php bloginfo('url'); ?>/vision-and-leadership/">Vision & Leadership</a></h5>
 									<ul class="footer-lists" id="footer-vision">
 										
 									</ul>	
@@ -94,8 +90,8 @@
 									<ul class="footer-lists" id="footer-news">
 										<div class="row">
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-												<li><a href="<?php bloginfo('url'); ?>/press_releases/">Press Releases</a></li>
-												<li><a href="<?php bloginfo('url'); ?>/in_the_news/">In The News</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/press-releases/">Press Releases</a></li>
+												<li><a href="<?php bloginfo('url'); ?>/in-the-news/">In The News</a></li>
 											</section>
 											<section class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
 												<li><a href="<?php bloginfo('url'); ?>/awards/">Awards</a></li>

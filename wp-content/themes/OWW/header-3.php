@@ -21,28 +21,5 @@
   <?php wp_head(); ?> 
   
   
-  <!-- Fancy Box -->
-     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_/css/jquery.fancybox.css"/>
-     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-     <script src="<?php echo get_template_directory_uri(); ?>/_/js/jquery.fancybox.pack.js"></script>
-     <script>
-	 /*  Fancy Box Video iframe Overlay  */
-	 
-	 		
-	  		$(document).ready(function() {
-			$(".fancybox-media").fancybox({
-				maxWidth	: 560,
-				maxHeight	: 315,
-				fitToView	: false,
-				width		: '70%',
-				height		: '70%',
-				autoSize	: false,
-				closeClick	: false,
-				openEffect	: 'none',
-				closeEffect	: 'none'
-			});
-		});	
-</script>
-
   </head>
   

@@ -1,7 +1,7 @@
 									<div class="row">
 										<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 career-icons center-block">
 											<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/career-development-opportunities.png" alt="regional-icon" class="img-responsive">
-											<p class="bullet-header">Career Development Opportunities</p>
+											<h3>Career Development Opportunities</h3>
 											<ul class="career-bullets">
 												<li>Award-winning training through Oakwood University</li>
 												<li>Career Planning Program</li>
@@ -11,7 +11,7 @@
 										</section>
 										<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 career-icons center-block">
 											<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/dynamic-work-enviornment.png" alt="regional-icon" class="img-responsive">
-											<p class="bullet-header">Dynamic Work Environment</p>
+											<h3>Dynamic Work Environment</h3>
 											<ul class="career-bullets">
 												<li>25% of associates have 10 or more years tenure</li>
 												<li>Associates have freedom to take responsibility and make decisions</li>
@@ -21,7 +21,7 @@
 										</section>
 										<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 career-icons center-block">
 											<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/beneifts.png" alt="regional-icon" class="img-responsive">
-											<p class="bullet-header">Generous Benefits</p>
+											<h3>Generous Benefits</h3>
 											<ul class="career-bullets">
 												<li>Paid vacation, sick days and holidays</li>
 												<li>Comprehensive medical, dental, vision and prescription insurance</li>
@@ -32,7 +32,7 @@
 										</section>
 										<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 career-icons center-block">
 											<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/recognition-and-rewards.png" alt="regional-icon" class="img-responsive">
-											<p class="bullet-header">Recognition & Awards</p>
+											<h3>Recognition & Awards</h3>
 											<ul class="career-bullets">
 												<li>Sales incentive programs, including annual President’s Club trip, for high achievers</li>
 												<li>Achievement recognition in offices across the globe</li>

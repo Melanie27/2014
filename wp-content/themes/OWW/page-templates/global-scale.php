@@ -43,16 +43,16 @@ get_header(3); ?>
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
-							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/US-and-Canada.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
-							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
-								
-								<p>Oakwood Worldwide offers prime locations in urban and suburban neighborhoods in all 50 states and over 22 Canadian cities. Plus, with global headquarters in Los Angeles, a 24-hour worldwide sales and service center in Phoenix and dozens of regional offices in the U.S and Canada, we know the environs and can place your guests in the accommodations that fit their unique needs.</p>
+							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
+								<p>With our global headquarters in Los Angeles and more than 40 regional offices across the country, Oakwood Worldwide’s presence and capabilities in the United States are unrivaled. Through two well-known brands, Oakwood and ExecuStay, we offer the most choice of move-in ready corporate housing designed to meet the needs of organizations with long- and short-term travel and mobility programs.  Whether you have a large intern group staying in one of our exclusive Oakwood branded properties Chicago, a consulting team rotating through New York or an entertainment group on long term stay in L.A., Oakwood Worldwide has the breadth of offering, local expertise, implementation and account teams to make each stay a success.</p>
+								<p>Oakwood Worldwide has invested in on-the-ground teams and a regional office in Toronto to lead our continued expansion in this region.  Our personal relationships with suppliers and ability to tour each apartment in our portfolio ensures an unmatched level of quality with the Oakwood brand anywhere in Canada your organization needs to be.</p>
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -68,14 +68,14 @@ get_header(3); ?>
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
-							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/South-America.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
-							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
+							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
 								
 								<p>As more companies expand their scope to include Latin America, they look to Oakwood Worldwide for innovative housing solutions and industry-leading local market expertise. With sales and service representatives dedicated to this region, we have personal relationships with destination service providers and our apartment suppliers as well as an understanding of cultural and regional nuances.  Our investment in this personal touch enables us to offer the largest network of corporate housing and serviced apartment options across Chile, Peru, Brazil, Mexico, Argentina, Costa Rica and Venezuela. </p>	
 							</section>
@@ -93,14 +93,14 @@ get_header(3); ?>
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
-							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/EMEA.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
-							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
+							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
 								
 								<p>With regional headquarters in London and a network of properties across Europe, Oakwood Worldwide is able to fulfill the housing needs in top business destinations through the region. Our team of more than 75 associates, located in-region, speaks 12 languages and specializes in accommodations and unparalleled client support across all of Europe, with a strong presence in Germany, France, Belgium, Italy, the Netherlands, Sweden and Switzerland, among others.</p>
 
@@ -121,14 +121,14 @@ get_header(3); ?>
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
-							<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">		
+							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 								<div class="solutions">
 									<a href="#" class="industry-sections">
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/APAC.jpg" alt="global-reach" class="img-responsive">
 									</a>
 								</div>
 							</section>
-							<section class="col-lg-8 col-md-8 col-sm-6 global-reach">
+							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
 								
 								<p>As the Asia Pacific region continues its growth as a center of world commerce, the demand for innovative, comprehensive corporate housing and serviced apartment solutions has also increased. So more companies are looking to Oakwood Worldwide as a corporate housing partner for more than accommodations, but also local insights and expertise, plus ongoing support to help insure success in this vital region.</p>
 								<p>Oakwood Worldwide operates regional headquarters in Singapore and has invested in 28 branded properties across China, Hong Kong, India, Indonesia, Japan, Korea, the Philippines and Thailand. Here, guests receive the same great quality matched with a high level of community amenities, providing more opportunities for networking outside the typical business environment.</p>

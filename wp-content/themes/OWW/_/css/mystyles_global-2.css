@@ -523,6 +523,9 @@ p.consult-desc {
   font-size: 12px;
   text-transform: uppercase;
 }
+.thirds {
+  padding-top: 35px;
+}
 .blurb {
   padding-bottom: 35px;
 }
@@ -535,7 +538,7 @@ p.consult-desc {
 }
 .blurb .full-story {
   display: block;
-  margin-bottom: 35px;
+  margin-bottom: 5px;
 }
 .blurb a:link,
 .blurb a:visited {
@@ -698,7 +701,16 @@ article.one-third-two-thirds ul {
   margin: 12px 0px 20px 0px;
   padding: 0px 0px 0px 30px;
 }
+#our-brands .global-reach h3 {
+  margin-top: 10px;
+}
+.global-reach h3 {
+  margin-top: 0px;
+}
 /*BUSINESS SOLUTIONS*/
+.prefer {
+  margin-bottom: 30px;
+}
 .prefer-oakwood {
   padding-left: 40px;
   margin-bottom: 50px;
@@ -1093,48 +1105,48 @@ footer .copyright p {
 }
 /*Divisions by Pages*/
 /*BRANDS*/
-#our-brands .intro {
+#find-housing .intro {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 40px;
 }
-#our-brands .intro p {
+#find-housing .intro p {
   font-size: 20px;
   line-height: 25px;
 }
-#our-brands .intro p.gray-text {
+#find-housing .intro p.gray-text {
   font-size: 24px;
   font-family: 'district_thinthin';
   line-height: 36px;
 }
-#our-brands .intro p.orange-text {
+#find-housing .intro p.orange-text {
   color: #f05323;
   font-size: 24px;
   padding-top: 20px;
   font-weight: bold;
 }
-#our-brands .intro h2 {
+#find-housing .intro h2 {
   padding-left: 30px;
   padding-right: 30px;
 }
-#our-brands .intro.execustay {
+#find-housing .intro.execustay {
   padding-left: 10px;
   padding-right: 10px;
 }
-#our-brands .five .col-md-8 {
+#find-housing .five .col-md-8 {
   padding-top: 15px;
 }
-#our-brands .logo img {
+#find-housing .logo img {
   margin: 30px auto;
 }
-#our-brands .logo img.ihs-logo {
+#find-housing .logo img.ihs-logo {
   margin: 35px auto;
 }
-#our-brands a.link-archives:link,
-#our-brands a.link-archives:visited {
+#find-housing a.link-archives:link,
+#find-housing a.link-archives:visited {
   margin-bottom: 0px;
 }
-#our-brands a.text-center {
+#find-housing a.text-center {
   color: #fff;
 }
 /*AFFILIATIONS*/
@@ -1394,7 +1406,6 @@ footer .copyright p {
 }
 /*CAREERS*/
 .career-bullets {
-  width: 200px;
   margin-bottom: 50px;
   margin-top: 5px;
   padding-left: 30px;
@@ -1437,6 +1448,9 @@ footer .copyright p {
 /*Media Queries*/
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
+  .solutions.military {
+    height: 400px;
+  }
   body {
     padding-top: 65px;
     padding-bottom: 85px;
@@ -1632,6 +1646,9 @@ footer .copyright p {
   #business-solutions .solutions.government {
     height: 370px;
   }
+  #find-housing .brands-intro {
+    padding-left: 0px;
+  }
   #our-brands .intro {
     padding-bottom: 20px;
     padding-top: 40px;
@@ -1816,6 +1833,18 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  #our-brands .global-reach p,
+  #our-brands .global-reach a {
+    padding-left: 0px;
+  }
+  .global-reach p,
+  .global-reach a {
+    padding-left: 15px;
+  }
+  .last-link {
+    margin-bottom: 20px;
+    display: block;
+  }
   .two {
     background-image: none;
     height: auto;
@@ -2005,8 +2034,8 @@ footer .copyright p {
     padding-left: 15px;
   }
   #vision-leadership .two {
-    background-image: none;
-    height: auto;
+    background-image: url("../../images/vision-leadership/bg-image-01.jpg") !important;
+    height: 512px;
   }
   #vision-leadership .leaders {
     border-left: none;
@@ -2021,6 +2050,9 @@ footer .copyright p {
   #vision-leadership .carousel-control .icon-prev,
   #vision-leadership .carousel-control .glyphicon-chevron-left {
     left: 70%;
+  }
+  #vision-leadership .carousel-text p {
+    height: 130px;
   }
   #vision-leadership .first-third-one-third {
     padding-left: 15px;
@@ -2062,24 +2094,26 @@ footer .copyright p {
   }
   #vision-leadership .carousel-indicators {
     bottom: -20px;
+    width: 70%;
+    left: 45%;
   }
   #vision-leadership .carousel-control.left {
     background-image: none;
-    bottom: -125px;
-    left: 342px;
+    bottom: -180px;
+    left: 95px;
     z-index: 100;
   }
   #vision-leadership .carousel-control.right {
     background-image: none;
-    bottom: -125px;
-    left: 647px;
+    bottom: -180px;
+    left: 550px;
     z-index: 100;
   }
   #vision-leadership .date-next,
   #vision-leadership .date-prev {
     position: relative;
     text-shadow: none;
-    top: 165px;
+    top: 225px;
   }
   #vision-leadership .logo-large {
     border: none;
@@ -2234,34 +2268,32 @@ footer .copyright p {
   #affiliations .affiliations {
     padding-top: 25px;
   }
-  #vision-leadership .carousel-caption {
-    bottom: 0px;
-    left: 30px;
-    width: 350px;
+  #vision-leadership .carousel-text p {
+    height: 155px;
   }
   #vision-leadership .carousel-indicators {
-    bottom: -5px;
-    left: 742px;
+    bottom: -2px;
+    left: 642px;
   }
   #vision-leadership .carousel-indicators:before {
     margin: 0px;
     top: 40%;
   }
   #vision-leadership .carousel-control.left {
-    bottom: -145px;
-    left: 478px;
+    bottom: -165px;
+    left: 378px;
     z-index: 100;
   }
   #vision-leadership .carousel-control.right {
-    bottom: -145px;
-    left: 882px;
+    bottom: -165px;
+    left: 782px;
     z-index: 100;
   }
   #vision-leadership .date-next,
   #vision-leadership .date-prev {
     position: relative;
     text-shadow: none;
-    top: 205px;
+    top: 225px;
   }
   #vision-leadership .logo-large {
     padding-left: 30px;
