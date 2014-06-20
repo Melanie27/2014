@@ -22426,7 +22426,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/less\/_mystyles_global.less",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/css\/mystyles_global-2.css",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/css\/mystyles_global.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
