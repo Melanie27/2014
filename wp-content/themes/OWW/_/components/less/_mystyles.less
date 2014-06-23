@@ -255,8 +255,19 @@ p {
 	color: @oww-dark-gray;
 	line-height:@line-height-large;
 	margin-bottom:20px;
+	
+	overflow-y: hidden;
 		
 }
+
+.global-reach {
+	
+		p {
+			margin-top:20px;
+		}
+		
+		
+	}
 
 sup {
 	
@@ -390,11 +401,18 @@ a.active:link, a.active:visited {
 	color:@oww-poppy;
 }
 
+.brands-solutions.last {
+	margin-bottom:30px;
+}
+
+
 p.headline {
+
 	
 	a:link, a:visited {
 		
 		color: @oww-dark-gray;
+		
 	}
 }
 
@@ -424,6 +442,12 @@ p.headline {
 		
 }
 
+.global-intro {
+	margin-bottom:30px;
+}
+
+
+
 .landing {
 	
 	position:relative;
@@ -451,7 +475,7 @@ p.headline {
 
 //Navigation Styles
 
-.btn.find-housing  {
+.btn.find-housing:link, .btn.find-housing:visited   {
 	
 	background-color: #FFFFFF;
     border-radius: 0;
@@ -463,6 +487,8 @@ p.headline {
     width: 85px;
     height:36px;
     border:solid 1px @oww-border;
+    padding-top:10px;
+    color:@oww-dark-gray;
 	
 }
 
@@ -881,6 +907,7 @@ p.consult-desc {
 .blurb {
 	
 	padding-bottom:35px;
+	min-height:325px;
 	
 	
 	h2 {
@@ -1144,6 +1171,7 @@ p.caption {
 }
 
 
+
 .intro {
 		
 	padding: 40px 0px;
@@ -1175,23 +1203,6 @@ article.one-third-two-thirds {
 	}
 }
 
-#our-brands {
-
-.global-reach {
-	
-	h3 {
-		margin-top:10px;
-	}
-}
-	
-}
-
-.global-reach {
-	
-	h3 {
-		margin-top:0px;
-	}
-}
 
 
 /*BUSINESS SOLUTIONS*/
@@ -1289,7 +1300,7 @@ article.one-third-two-thirds {
 		
 		.blurb {
 			
-			margin-bottom:40px;
+			
 			padding-bottom:0px;
 		}
 		
@@ -1329,10 +1340,19 @@ article.one-third-two-thirds {
 }
 
 
+
 /*FOOTER */
 
 footer {
+
+	h2 {
+		margin-top:30px !important;
+	}
 		
+	.row {
+		padding-bottom:0px;
+	}
+	
 	section.page-links {
 		
 		margin-top:0px;
@@ -1427,6 +1447,7 @@ footer {
 	h5 {
 		
 		text-transform:uppercase;
+		font-family: @district-medium;	
 		color: @oww-light-gray;
 		
 	}
@@ -1442,7 +1463,7 @@ footer {
 		}
 		
 		h5 {
-			font-family: @district-medium;	
+			
 			
 			a:link, a:visited {
 				
@@ -2455,6 +2476,18 @@ footer {
 
 @media (min-width: 1px) and (max-width: 767px) {
 
+	.brands-solutions {
+	
+	img {
+		margin-top:20px;
+	}
+}
+
+	a.link-archives.press-room:link, a.link-archives.press-room:visited, .upcoming-events .link-archives:link, .upcoming-events .link-archives:visited, a.link-archives.in-news:link, a.link-archives.in-news:visited  { 
+		margin-top:0px !important;
+	}
+	
+	
 	.solutions.military {
 		
 		height:400px;
@@ -2464,7 +2497,7 @@ footer {
 	body {
 		
 		padding-top:65px;
-		padding-bottom:85px;
+
 	}
 	
 	.container { 
@@ -2499,6 +2532,8 @@ footer {
 		
 		h3 {
 			margin-top:0px !important;
+			overflow:hidden;
+			text-overflow: ellipsis;
 		}
 		
 		.full-story {
@@ -2785,13 +2820,10 @@ footer {
 			height:340px;
 		}
 		
-		 .solutions.consulting, .solutions.entertainment, .solutions.relocation {
+		 .solutions.consulting, .solutions.entertainment, .solutions.relocation, .solutions.government {
 			height:370px;
 		}	
 		
-		.solutions.government {
-			height:370px;
-		}	
 				
 			
 	}
@@ -2804,9 +2836,6 @@ footer {
 	}
 	
 	#our-brands {
-		
-			
-			
 			
 			.intro {
 				padding-bottom:20px;
@@ -3121,16 +3150,7 @@ footer {
 			margin-bottom:20px;
 		
 		}
-	
-		.executive-committee {
-	
-			h1 {
-			
-				margin-top:0px;
-			
-			}
-		}
-	
+		
 		.no-left-padding {
 			
 			padding-right:0px;
@@ -3174,6 +3194,8 @@ footer {
 		padding-left:0px;
 	}
 	
+	
+	
 			
 }
 
@@ -3182,16 +3204,28 @@ footer {
 @media (min-width: 768px) and (max-width: 991px) {
 
 	
+	a.link-archives.press-room:link, a.link-archives.press-room:visited, .upcoming-events .link-archives:link, .upcoming-events .link-archives:visited, a.link-archives.in-news:link, a.link-archives.in-news:visited  { 
+		margin-top:0px !important;
+	}
+	
+		
+	.news-thumbnails {
+		
+		h3 {
+			margin-top:0px;
+		}
+	}
+	
 	#our-brands {
 	
 		.global-reach {
 	
-		p, a {
+			p, a {
 			padding-left:0px;
+			
+			}	
+		
 		}
-		
-		
-	}
 		
 	}
 	
@@ -3501,13 +3535,6 @@ footer {
 		
 			padding-bottom:25px;
 		
-			h1 {
-			
-				margin-top:45px;
-				margin-bottom:0px;
-			
-			}
-			
 			
 			
 			.affiliations-text {
@@ -3658,26 +3685,7 @@ footer {
 			}
 		}
 		
-		.hero-halves {
-		
-			h1 {
-			
-				margin-top:0px;
-				margin-bottom:0px;
-			
-			}
-		}
-	
-		.industry-affiliations {
-		
-			
-			h1 {
-				
-				margin:5px 15px 35px;
-			
-			}
-		}	
-				
+								
 	
 		.executive-text.last {
 		
@@ -3953,6 +3961,7 @@ footer {
     	padding-bottom: 23px;
 		padding-left: 10px;
 		padding-right: 10px;
+		
 		
 		.full-story {
 			
@@ -4367,6 +4376,11 @@ and (orientation : landscape) {
 
 @media (min-width: 1px) and (max-width: 320px) {
 	
+		#business-solutions .solutions.entertainment, #business-solutions .solutions.relocation, #business-solutions .solutions.government {
+			height:330px;
+		}	
+
+	
 	#business-solutions {
 		
 		.industries {
@@ -4377,15 +4391,17 @@ and (orientation : landscape) {
 			
 		}
 		
-		.solutions {
-			
-			height:265px;
-		}
+		
 				
 	}
 }
 
 @media (min-width: 321px) and (max-width: 420px) {
+	
+	
+	 #business-solutions .solutions.entertainment, #business-solutions .solutions.relocation, #business-solutions .solutions.government {
+			height:330px;
+		}	
 	
 	.industries {
 		

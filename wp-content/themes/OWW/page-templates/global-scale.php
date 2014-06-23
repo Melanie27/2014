@@ -6,7 +6,7 @@
  
  */
 
-get_header(3); ?>
+get_header(2); ?>
 <body id="global-scale">
   	<div class="container-full">
   		<section class="container landing">
@@ -44,11 +44,9 @@ get_header(3); ?>
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
+							
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/US-and-Canada.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+									
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
 								<p>With our global headquarters in Los Angeles and more than 40 regional offices across the country, Oakwood Worldwide’s presence and capabilities in the United States are unrivaled. Through two well-known brands, Oakwood and ExecuStay, we offer the most choice of move-in ready corporate housing designed to meet the needs of organizations with long- and short-term travel and mobility programs.  Whether you have a large intern group staying in one of our exclusive Oakwood branded properties Chicago, a consulting team rotating through New York or an entertainment group on long term stay in L.A., Oakwood Worldwide has the breadth of offering, local expertise, implementation and account teams to make each stay a success.</p>
@@ -69,11 +67,9 @@ get_header(3); ?>
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
+								
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/South-America.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+									
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
 								
@@ -94,11 +90,9 @@ get_header(3); ?>
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
+								
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/EMEA.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+									
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
 								
@@ -122,11 +116,9 @@ get_header(3); ?>
 					<section class="col-lg-12 col-md-12">						
 						<div class="row">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
+								
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/APAC.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+									
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
 								

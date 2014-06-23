@@ -62,7 +62,7 @@ get_header(4); ?>
 					</div>
 				</article>
 				<?php endwhile; ?>
-				<section class="row">
+				<!--<section class="row">
 					<div class="col-lg-12 col-md-12">
 						<section class="five container">
 							<div class="row">
@@ -74,9 +74,8 @@ get_header(4); ?>
 								<hr class="hidden-lg hidden-md hidden-sm">
 							</div>
 						</section><!--five-->						
-					</div><!--columns-->
-				</section><!--row-->		
-			<hr/>
+					<!--</div><!--columns-->
+				<!--</section><!--row-->		
     </div>
 </div>
 <?php wp_reset_query(); ?>

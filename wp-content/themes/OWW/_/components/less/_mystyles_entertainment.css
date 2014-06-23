@@ -1,3 +1,7 @@
+/*
+This file has been generated with SiteFlow (http://siteflow.witiz.com).
+To remove this comment, please support us and upgrade to SiteFlow Pro.
+*/
 @font-face {
   font-family: 'district_lightlight';
   src: url('../District/District-Light/district-light-webfont.eot');
@@ -107,10 +111,6 @@ p {
   color: #3b3b3b;
   line-height: 1.5;
   margin-bottom: 20px;
-  overflow-y: hidden;
-}
-.global-reach p {
-  margin-top: 20px;
 }
 sup {
   font-size: 10px;
@@ -205,12 +205,11 @@ a.active:link,
 a.active:visited {
   color: #f05323;
 }
-.brands-solutions.last {
-  margin-bottom: 30px;
-}
 p.headline a:link,
 p.headline a:visited {
   color: #3b3b3b;
+  height: 75px;
+  overflow: hidden;
 }
 .industry-sections:hover,
 .industry-sections:focus {
@@ -227,9 +226,6 @@ p.headline a:visited {
   padding: 0px;
   margin: 0px;
   overflow: hidden;
-}
-.global-intro {
-  margin-bottom: 30px;
 }
 .landing {
   position: relative;
@@ -252,8 +248,7 @@ p.headline a:visited {
 .no-left-padding {
   padding-left: 0px;
 }
-.btn.find-housing:link,
-.btn.find-housing:visited {
+.btn.find-housing {
   background-color: #FFFFFF;
   border-radius: 0;
   font-size: 10px;
@@ -264,8 +259,6 @@ p.headline a:visited {
   width: 85px;
   height: 36px;
   border: solid 1px #ebebeb;
-  padding-top: 10px;
-  color: #3b3b3b;
 }
 .btn.mobile-toggle {
   background-image: url(../../images/icons/icon-mobile-expand.jpg);
@@ -715,6 +708,12 @@ article.one-third-two-thirds ul {
   margin: 12px 0px 20px 0px;
   padding: 0px 0px 0px 30px;
 }
+#our-brands .global-reach h3 {
+  margin-top: 10px;
+}
+.global-reach h3 {
+  margin-top: 0px;
+}
 /*BUSINESS SOLUTIONS*/
 .prefer {
   margin-bottom: 30px;
@@ -765,6 +764,7 @@ article.one-third-two-thirds ul {
   margin-top: 50px;
 }
 #business-solutions .industry-insights .blurb {
+  margin-bottom: 40px;
   padding-bottom: 0px;
 }
 #business-solutions .industry-insights .thirds {
@@ -788,12 +788,6 @@ article.one-third-two-thirds ul {
   line-height: 32px;
 }
 /*FOOTER */
-footer h2 {
-  margin-top: 30px !important;
-}
-footer .row {
-  padding-bottom: 0px;
-}
 footer section.page-links {
   margin-top: 0px;
   padding-top: 50px;
@@ -853,7 +847,6 @@ footer h2 {
 }
 footer h5 {
   text-transform: uppercase;
-  font-family: 'district_mediummedium', Helvetica, Arial, sans-serif;
   color: #bbbbbb;
 }
 footer .page-links {
@@ -862,6 +855,9 @@ footer .page-links {
 footer .page-links a:link,
 footer .page-links a:visited {
   color: #3b3b3b;
+}
+footer .page-links h5 {
+  font-family: 'district_mediummedium', Helvetica, Arial, sans-serif;
 }
 footer .page-links h5 a:link,
 footer .page-links h5 a:visited {
@@ -1459,22 +1455,12 @@ footer .copyright p {
 /*Media Queries*/
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
-  .brands-solutions img {
-    margin-top: 20px;
-  }
-  a.link-archives.press-room:link,
-  a.link-archives.press-room:visited,
-  .upcoming-events .link-archives:link,
-  .upcoming-events .link-archives:visited,
-  a.link-archives.in-news:link,
-  a.link-archives.in-news:visited {
-    margin-top: 0px !important;
-  }
   .solutions.military {
     height: 400px;
   }
   body {
     padding-top: 65px;
+    padding-bottom: 85px;
   }
   .container {
     padding-left: 15px;
@@ -1496,8 +1482,6 @@ footer .copyright p {
   }
   .news-thumbnails h3 {
     margin-top: 0px !important;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
   .news-thumbnails .full-story {
     margin-top: 0px;
@@ -1663,7 +1647,9 @@ footer .copyright p {
   }
   #business-solutions .solutions.consulting,
   #business-solutions .solutions.entertainment,
-  #business-solutions .solutions.relocation,
+  #business-solutions .solutions.relocation {
+    height: 370px;
+  }
   #business-solutions .solutions.government {
     height: 370px;
   }
@@ -1827,6 +1813,9 @@ footer .copyright p {
   #executive-leadership .executive-text.last {
     margin-bottom: 20px;
   }
+  #executive-leadership .executive-committee h1 {
+    margin-top: 0px;
+  }
   #executive-leadership .no-left-padding {
     padding-right: 0px;
   }
@@ -1851,17 +1840,6 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
-  a.link-archives.press-room:link,
-  a.link-archives.press-room:visited,
-  .upcoming-events .link-archives:link,
-  .upcoming-events .link-archives:visited,
-  a.link-archives.in-news:link,
-  a.link-archives.in-news:visited {
-    margin-top: 0px !important;
-  }
-  .news-thumbnails h3 {
-    margin-top: 0px;
-  }
   #our-brands .global-reach p,
   #our-brands .global-reach a {
     padding-left: 0px;
@@ -2024,6 +2002,10 @@ footer .copyright p {
   #affiliations .three {
     padding-bottom: 25px;
   }
+  #affiliations .three h1 {
+    margin-top: 45px;
+    margin-bottom: 0px;
+  }
   #affiliations .three .affiliations-text {
     margin-bottom: 40px;
   }
@@ -2098,6 +2080,13 @@ footer .copyright p {
   }
   #vision-leadership .executive-committee .leaders.top {
     padding-top: 30px;
+  }
+  #vision-leadership .hero-halves h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #vision-leadership .industry-affiliations h1 {
+    margin: 5px 15px 35px;
   }
   #vision-leadership .executive-text.last {
     margin-bottom: 60px;
@@ -2479,25 +2468,220 @@ footer .copyright p {
   }
 }
 @media (min-width: 1px) and (max-width: 320px) {
-  #business-solutions .solutions.entertainment,
-  #business-solutions .solutions.relocation,
-  #business-solutions .solutions.government {
-    height: 330px;
-  }
   #business-solutions .industries {
     width: 100%;
     height: 66px;
     bottom: 65px;
   }
+  #business-solutions .solutions {
+    height: 265px;
+  }
 }
 @media (min-width: 321px) and (max-width: 420px) {
-  #business-solutions .solutions.entertainment,
-  #business-solutions .solutions.relocation,
-  #business-solutions .solutions.government {
-    height: 330px;
-  }
   .industries {
     width: 100%;
   }
 }
 /*End Media query*/
+.industries {
+  width: 247px;
+}
+.two {
+  background-image: url("../../images/sitewide/bg-image-07.jpg");
+}
+.blurb .full-story {
+  margin-bottom: 35px;
+}
+.five .col-md-8 {
+  padding-top: 0px;
+}
+.five img {
+  margin-right: 40px;
+}
+.five .two-col-text {
+  padding-bottom: 0px;
+}
+.margin-bottom {
+  margin-bottom: 40px;
+}
+.details ul {
+  margin-bottom: 35px;
+}
+.details li {
+  line-height: 30px;
+}
+.entertainment-solutions {
+  margin-top: 75px;
+}
+.entertainment-solutions p {
+  bottom: 55px;
+  position: relative;
+}
+.schools,
+.gaming {
+  padding-right: 0px;
+}
+.entertainment-intro {
+  text-align: center;
+}
+.entertainment-intro .archives {
+  margin-bottom: 40px;
+}
+.filming {
+  border-left: solid 1px #ebebeb;
+}
+h4 {
+  font-size: 24px;
+  color: #f05323;
+  font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+.entertainment-blocks {
+  padding-left: 15px;
+}
+/* Extra Small Screens 1 - 768 */
+@media (min-width: 1px) and (max-width: 767px) {
+  .two {
+    background-image: none;
+  }
+  .entertainment-intro h2 {
+    padding: 0px;
+  }
+  .margin-bottom {
+    margin-bottom: 0px;
+  }
+  .film,
+  .theatre {
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  .schools,
+  .gaming {
+    padding-right: 15px;
+    margin-bottom: 10px;
+  }
+  .schools {
+    margin-bottom: 30px;
+  }
+  .industries {
+    background-color: transparent;
+    position: static;
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  .industries h3 {
+    color: #f05323;
+    font-size: 13px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    text-transform: uppercase;
+  }
+  .entertainment-solutions {
+    margin-top: 0px;
+  }
+  .entertainment-solutions p {
+    position: static;
+    margin-left: 0px;
+  }
+  .five .nav-tabs > li {
+    font-size: 16px;
+  }
+  .five .tab-content {
+    padding-left: 15px;
+  }
+  .overview-gsa li,
+  .tab-section li {
+    font-size: 14px;
+  }
+  .child-actors,
+  .filming {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: none;
+  }
+  .industry-insights .orange-link {
+    margin-bottom: 30px;
+  }
+  .industry-insights .teasers {
+    border-left: none;
+  }
+  .insights {
+    padding-bottom: 0px;
+  }
+  .thirds {
+    padding-top: 15px;
+  }
+}
+/*Small Screens 768 - 992 */
+@media (min-width: 768px) and (max-width: 991px) {
+  .two {
+    background-image: none;
+  }
+  .thirds {
+    padding-bottom: 10px;
+  }
+  .extended-stay.three {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .film,
+  .theatre {
+    padding-left: 15px;
+  }
+  .child-actors,
+  .filming {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: none;
+  }
+  .tab-content {
+    margin-bottom: 40px;
+  }
+  .tab-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .industry-insights .orange-link {
+    margin-bottom: 30px;
+    display: block;
+  }
+  .industries {
+    width: 247px !important;
+  }
+  .filming {
+    border-left: none;
+  }
+  .entertainment-blocks {
+    padding-left: 30px;
+  }
+}
+/* Medium Screens 992 - 1200 */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .industries {
+    width: 220px;
+  }
+  .film,
+  .theatre {
+    padding-left: 15px;
+  }
+  .schools,
+  .gaming {
+    padding-right: 15px;
+  }
+  .three {
+    padding-left: 0px;
+  }
+  .entertainment-solutions {
+    margin-top: 35px;
+  }
+  .entertainment-solutions p {
+    margin-left: 0px;
+  }
+  .child-actors,
+  .filming {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

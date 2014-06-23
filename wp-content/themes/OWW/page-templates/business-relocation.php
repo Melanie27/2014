@@ -34,7 +34,7 @@ get_header(4); ?>
 							<h2>Relocation Housing Solutions</h2>
 							<h3>A Partner That’s Going Places</h3>
 							<p>A successful relocation depends on every member of the team executing their role with expertise and a focus on service. That’s why each of the top 10 relocation companies trust Oakwood Worldwide with providing specialized housing programs to meet clients’ mobility needs. With the industry’s most robust network of temporary housing accommodations, including locations in over 70 countries and all 50 United States, we have the inventory to meet the demand. But Oakwood Worldwide goes beyond simply providing accommodations and acts as a true partner in the relocation process, offering insights, counsel and expertise that come from 50 years of industry leadership.</p>
-							<a href="<?php bloginfo('url'); ?>/business-solutions/individual-business-traveler/individual-business-traveler-single/" class="orange-link">Learn More &#8594;</a>
+							<!--<a href="<?php bloginfo('url'); ?>/business-solutions/individual-business-traveler/individual-business-traveler-single/" class="orange-link">Learn More &#8594;</a>-->
 						</section><!--end two thirds-->			
 					</div><!--end nested row-->
 				</section><!--container-->

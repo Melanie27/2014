@@ -22,15 +22,21 @@
 						</div><!--end nested row-->
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6">
-								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oakwood.jpg" alt="Oakwood Logo" class="img-responsive" />
+								<a href="#">
+									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oakwood.jpg" alt="Oakwood Logo" class="img-responsive" />
+								</a>
 							</section>
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6 ">
-								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-execustay.jpg" alt="Execustay Logo" class="img-responsive"/>
+								<a href="#">
+									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-execustay.jpg" alt="Execustay Logo" class="img-responsive"/>
+								</a>
 							</section>
 						</div><!--end nested row-->
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12">
-								<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs.jpg" alt="logo-ihs" class="img-responsive" />
+								<a href="#">
+									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs.jpg" alt="logo-ihs" class="img-responsive" />
+								</a>
 							</section>
 							<hr class="hidden-lg hidden-md hidden-sm no-left-mobile" />
 						</div>
@@ -135,8 +141,8 @@
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links bottom">
 								<h5>Connect</h5>
 									<ul class="footer-lists social-media clearfix">
-										<li><a href="#"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-twitter.jpg" alt="Twitter" /></a></li>
-										<li><a href="#"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-linkedIn.jpg" alt="Linked In" /></a></li>	
+										<li><a href="https://twitter.com/oakwoodww"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-twitter.jpg" target="_blank" alt="Twitter" /></a></li>
+										<li><a href="http://www.linkedin.com/company/oakwood-worldwide"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-linkedIn.jpg" target="_blank" alt="Linked In" /></a></li>	
 									</ul>
 							</section>
 						</div>
@@ -146,7 +152,7 @@
 							<span class="icon-housing"> 
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-equal-housing.jpg" alt="icon-equal-housing" width="30" height="30" class="pull-left"/>
 							</span>
-							<p>Equal Housing Opportunity &copy;2004-2014 Oakwood Worldwide. </p>
+							<p class="pull-left">Equal Housing Opportunity &copy;2004-2014 Oakwood Worldwide. </p>
 						</div>
 					</section>
 				</div><!--end row-->
@@ -154,16 +160,7 @@
 		</div>
 	</section> <!--Footer-->	
 	<!--Buttons Visible xs screens-->	
-	<footer>
-		<div class="row hidden-lg hidden-md hidden-sm hidden-xs">
-			<section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-6">
-				<a href="/find-housing/" class="btn-footer footer-find-housing">Find Housing</a>
-			</section>
-			<section class="col-lg-4 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-6 footer-buttons">
-				<a href="/contact-us/" class="btn-footer footer-contact-us">Contact Us</a>
-			</section>
-		</div>
-	</footer>
+	
 </section><!-- container -->
   	<script src="<?php bloginfo( 'template_directory' ); ?>/_/js/myscript.js"></script>
   </body>

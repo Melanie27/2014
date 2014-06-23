@@ -34,7 +34,7 @@ get_header(4); ?>
 							<h2>Housing Solutions for Business Travelers and Consultants</h2>
 							<h3>A Business Partner That Works for You</h3>
 							<p>Oakwood Worldwide provides global housing solutions that keep business travelers at their most productive. We work closely with our clients to find accommodations that meet travelers’ daily requirements, whether they need to be close to their work site, in a neighborhood with strong schools or a pet-friendly high rise. And to ensure a smooth transition, we coordinate arrival and departure, manage service requests and streamline invoicing, giving our clients less to worry about and more time to focus on the initiatives that brought them out in the first place.</p>
-							<a href="<?php bloginfo('url'); ?>/business-solutions/individual-business-traveler/individual-business-traveler-single/" class="orange-link">Learn More &#8594;</a>
+							<!--<a href="<?php bloginfo('url'); ?>/business-solutions/individual-business-traveler/individual-business-traveler-single/" class="orange-link">Learn More &#8594;</a>-->
 						</section><!--end two thirds-->			
 					</div><!--end nested row-->
 				</section><!--container-->

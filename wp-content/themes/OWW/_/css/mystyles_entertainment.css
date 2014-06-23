@@ -107,6 +107,10 @@ p {
   color: #3b3b3b;
   line-height: 1.5;
   margin-bottom: 20px;
+  overflow-y: hidden;
+}
+.global-reach p {
+  margin-top: 20px;
 }
 sup {
   font-size: 10px;
@@ -201,6 +205,9 @@ a.active:link,
 a.active:visited {
   color: #f05323;
 }
+.brands-solutions.last {
+  margin-bottom: 30px;
+}
 p.headline a:link,
 p.headline a:visited {
   color: #3b3b3b;
@@ -220,6 +227,9 @@ p.headline a:visited {
   padding: 0px;
   margin: 0px;
   overflow: hidden;
+}
+.global-intro {
+  margin-bottom: 30px;
 }
 .landing {
   position: relative;
@@ -242,7 +252,8 @@ p.headline a:visited {
 .no-left-padding {
   padding-left: 0px;
 }
-.btn.find-housing {
+.btn.find-housing:link,
+.btn.find-housing:visited {
   background-color: #FFFFFF;
   border-radius: 0;
   font-size: 10px;
@@ -253,6 +264,8 @@ p.headline a:visited {
   width: 85px;
   height: 36px;
   border: solid 1px #ebebeb;
+  padding-top: 10px;
+  color: #3b3b3b;
 }
 .btn.mobile-toggle {
   background-image: url(../../images/icons/icon-mobile-expand.jpg);
@@ -523,8 +536,12 @@ p.consult-desc {
   font-size: 12px;
   text-transform: uppercase;
 }
+.thirds {
+  padding-top: 35px;
+}
 .blurb {
   padding-bottom: 35px;
+  min-height: 325px;
 }
 .blurb h2 {
   color: #f05323;
@@ -535,7 +552,7 @@ p.consult-desc {
 }
 .blurb .full-story {
   display: block;
-  margin-bottom: 35px;
+  margin-bottom: 5px;
 }
 .blurb a:link,
 .blurb a:visited {
@@ -699,6 +716,9 @@ article.one-third-two-thirds ul {
   padding: 0px 0px 0px 30px;
 }
 /*BUSINESS SOLUTIONS*/
+.prefer {
+  margin-bottom: 30px;
+}
 .prefer-oakwood {
   padding-left: 40px;
   margin-bottom: 50px;
@@ -745,7 +765,6 @@ article.one-third-two-thirds ul {
   margin-top: 50px;
 }
 #business-solutions .industry-insights .blurb {
-  margin-bottom: 40px;
   padding-bottom: 0px;
 }
 #business-solutions .industry-insights .thirds {
@@ -769,6 +788,12 @@ article.one-third-two-thirds ul {
   line-height: 32px;
 }
 /*FOOTER */
+footer h2 {
+  margin-top: 30px !important;
+}
+footer .row {
+  padding-bottom: 0px;
+}
 footer section.page-links {
   margin-top: 0px;
   padding-top: 50px;
@@ -828,6 +853,7 @@ footer h2 {
 }
 footer h5 {
   text-transform: uppercase;
+  font-family: 'district_mediummedium', Helvetica, Arial, sans-serif;
   color: #bbbbbb;
 }
 footer .page-links {
@@ -836,9 +862,6 @@ footer .page-links {
 footer .page-links a:link,
 footer .page-links a:visited {
   color: #3b3b3b;
-}
-footer .page-links h5 {
-  font-family: 'district_mediummedium', Helvetica, Arial, sans-serif;
 }
 footer .page-links h5 a:link,
 footer .page-links h5 a:visited {
@@ -1018,7 +1041,7 @@ footer .copyright p {
 }
 .carousel-heading h2 {
   color: #f05323;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .max-height-car {
   max-height: 275px;
@@ -1093,48 +1116,48 @@ footer .copyright p {
 }
 /*Divisions by Pages*/
 /*BRANDS*/
-#our-brands .intro {
+#find-housing .intro {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 40px;
 }
-#our-brands .intro p {
+#find-housing .intro p {
   font-size: 20px;
   line-height: 25px;
 }
-#our-brands .intro p.gray-text {
+#find-housing .intro p.gray-text {
   font-size: 24px;
   font-family: 'district_thinthin';
   line-height: 36px;
 }
-#our-brands .intro p.orange-text {
+#find-housing .intro p.orange-text {
   color: #f05323;
   font-size: 24px;
   padding-top: 20px;
   font-weight: bold;
 }
-#our-brands .intro h2 {
+#find-housing .intro h2 {
   padding-left: 30px;
   padding-right: 30px;
 }
-#our-brands .intro.execustay {
+#find-housing .intro.execustay {
   padding-left: 10px;
   padding-right: 10px;
 }
-#our-brands .five .col-md-8 {
+#find-housing .five .col-md-8 {
   padding-top: 15px;
 }
-#our-brands .logo img {
+#find-housing .logo img {
   margin: 30px auto;
 }
-#our-brands .logo img.ihs-logo {
+#find-housing .logo img.ihs-logo {
   margin: 35px auto;
 }
-#our-brands a.link-archives:link,
-#our-brands a.link-archives:visited {
+#find-housing a.link-archives:link,
+#find-housing a.link-archives:visited {
   margin-bottom: 0px;
 }
-#our-brands a.text-center {
+#find-housing a.text-center {
   color: #fff;
 }
 /*AFFILIATIONS*/
@@ -1394,7 +1417,6 @@ footer .copyright p {
 }
 /*CAREERS*/
 .career-bullets {
-  width: 200px;
   margin-bottom: 50px;
   margin-top: 5px;
   padding-left: 30px;
@@ -1437,9 +1459,22 @@ footer .copyright p {
 /*Media Queries*/
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
+  .brands-solutions img {
+    margin-top: 20px;
+  }
+  a.link-archives.press-room:link,
+  a.link-archives.press-room:visited,
+  .upcoming-events .link-archives:link,
+  .upcoming-events .link-archives:visited,
+  a.link-archives.in-news:link,
+  a.link-archives.in-news:visited {
+    margin-top: 0px !important;
+  }
+  .solutions.military {
+    height: 400px;
+  }
   body {
     padding-top: 65px;
-    padding-bottom: 85px;
   }
   .container {
     padding-left: 15px;
@@ -1461,6 +1496,8 @@ footer .copyright p {
   }
   .news-thumbnails h3 {
     margin-top: 0px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .news-thumbnails .full-story {
     margin-top: 0px;
@@ -1626,11 +1663,12 @@ footer .copyright p {
   }
   #business-solutions .solutions.consulting,
   #business-solutions .solutions.entertainment,
-  #business-solutions .solutions.relocation {
-    height: 370px;
-  }
+  #business-solutions .solutions.relocation,
   #business-solutions .solutions.government {
     height: 370px;
+  }
+  #find-housing .brands-intro {
+    padding-left: 0px;
   }
   #our-brands .intro {
     padding-bottom: 20px;
@@ -1789,9 +1827,6 @@ footer .copyright p {
   #executive-leadership .executive-text.last {
     margin-bottom: 20px;
   }
-  #executive-leadership .executive-committee h1 {
-    margin-top: 0px;
-  }
   #executive-leadership .no-left-padding {
     padding-right: 0px;
   }
@@ -1816,6 +1851,29 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  a.link-archives.press-room:link,
+  a.link-archives.press-room:visited,
+  .upcoming-events .link-archives:link,
+  .upcoming-events .link-archives:visited,
+  a.link-archives.in-news:link,
+  a.link-archives.in-news:visited {
+    margin-top: 0px !important;
+  }
+  .news-thumbnails h3 {
+    margin-top: 0px;
+  }
+  #our-brands .global-reach p,
+  #our-brands .global-reach a {
+    padding-left: 0px;
+  }
+  .global-reach p,
+  .global-reach a {
+    padding-left: 15px;
+  }
+  .last-link {
+    margin-bottom: 20px;
+    display: block;
+  }
   .two {
     background-image: none;
     height: auto;
@@ -1966,10 +2024,6 @@ footer .copyright p {
   #affiliations .three {
     padding-bottom: 25px;
   }
-  #affiliations .three h1 {
-    margin-top: 45px;
-    margin-bottom: 0px;
-  }
   #affiliations .three .affiliations-text {
     margin-bottom: 40px;
   }
@@ -2005,8 +2059,8 @@ footer .copyright p {
     padding-left: 15px;
   }
   #vision-leadership .two {
-    background-image: none;
-    height: auto;
+    background-image: url("../../images/vision-leadership/bg-image-01.jpg") !important;
+    height: 512px;
   }
   #vision-leadership .leaders {
     border-left: none;
@@ -2021,6 +2075,9 @@ footer .copyright p {
   #vision-leadership .carousel-control .icon-prev,
   #vision-leadership .carousel-control .glyphicon-chevron-left {
     left: 70%;
+  }
+  #vision-leadership .carousel-text p {
+    height: 130px;
   }
   #vision-leadership .first-third-one-third {
     padding-left: 15px;
@@ -2042,13 +2099,6 @@ footer .copyright p {
   #vision-leadership .executive-committee .leaders.top {
     padding-top: 30px;
   }
-  #vision-leadership .hero-halves h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  #vision-leadership .industry-affiliations h1 {
-    margin: 5px 15px 35px;
-  }
   #vision-leadership .executive-text.last {
     margin-bottom: 60px;
   }
@@ -2062,24 +2112,26 @@ footer .copyright p {
   }
   #vision-leadership .carousel-indicators {
     bottom: -20px;
+    width: 70%;
+    left: 45%;
   }
   #vision-leadership .carousel-control.left {
     background-image: none;
-    bottom: -125px;
-    left: 342px;
+    bottom: -180px;
+    left: 95px;
     z-index: 100;
   }
   #vision-leadership .carousel-control.right {
     background-image: none;
-    bottom: -125px;
-    left: 647px;
+    bottom: -180px;
+    left: 550px;
     z-index: 100;
   }
   #vision-leadership .date-next,
   #vision-leadership .date-prev {
     position: relative;
     text-shadow: none;
-    top: 165px;
+    top: 225px;
   }
   #vision-leadership .logo-large {
     border: none;
@@ -2234,34 +2286,32 @@ footer .copyright p {
   #affiliations .affiliations {
     padding-top: 25px;
   }
-  #vision-leadership .carousel-caption {
-    bottom: 0px;
-    left: 30px;
-    width: 350px;
+  #vision-leadership .carousel-text p {
+    height: 155px;
   }
   #vision-leadership .carousel-indicators {
-    bottom: -5px;
-    left: 742px;
+    bottom: -2px;
+    left: 642px;
   }
   #vision-leadership .carousel-indicators:before {
     margin: 0px;
     top: 40%;
   }
   #vision-leadership .carousel-control.left {
-    bottom: -145px;
-    left: 478px;
+    bottom: -165px;
+    left: 378px;
     z-index: 100;
   }
   #vision-leadership .carousel-control.right {
-    bottom: -145px;
-    left: 882px;
+    bottom: -165px;
+    left: 782px;
     z-index: 100;
   }
   #vision-leadership .date-next,
   #vision-leadership .date-prev {
     position: relative;
     text-shadow: none;
-    top: 205px;
+    top: 225px;
   }
   #vision-leadership .logo-large {
     padding-left: 30px;
@@ -2429,16 +2479,23 @@ footer .copyright p {
   }
 }
 @media (min-width: 1px) and (max-width: 320px) {
+  #business-solutions .solutions.entertainment,
+  #business-solutions .solutions.relocation,
+  #business-solutions .solutions.government {
+    height: 330px;
+  }
   #business-solutions .industries {
     width: 100%;
     height: 66px;
     bottom: 65px;
   }
-  #business-solutions .solutions {
-    height: 265px;
-  }
 }
 @media (min-width: 321px) and (max-width: 420px) {
+  #business-solutions .solutions.entertainment,
+  #business-solutions .solutions.relocation,
+  #business-solutions .solutions.government {
+    height: 330px;
+  }
   .industries {
     width: 100%;
   }

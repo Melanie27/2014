@@ -6,8 +6,7 @@
 ?>
 
 <?php get_header(2); ?>
-			
-			
+					
 <body id="our-brands">
   	<div class="container-full">
   		<section class="container landing">
@@ -42,21 +41,19 @@
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
 						<h2>Oakwood</h2>
+						<h3>The standard chunk of Lorem Ipsum</h3>
 					</section>
 				</div>				
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
-						<div class="row">
+						<div class="row brands-solutions">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Couple_Kitchen_Oakwood.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Couple_Kitchen_Oakwood.jpg" alt="global-reach" class="img-responsive">
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
-								<h3>The standard chunk of Lorem Ipsum</h3>
+								
 								<p>Oakwood is the leading provider of corporate housing and serviced apartment solutions for anyone on the move, anywhere in the world—from relocating professionals with families to first-time business travelers. Our global reach, local expertise and industry-leading inventory of apartments and homes all make life easier for HR and project managers, relocation specialists and procurement professionals looking to make life more comfortable for their travelers.</p>
+								<a class="orange-link" href="http://oakwood.com" target="_blank">Search Properties &#8594;</a>	
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -67,21 +64,19 @@
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
 						<h2>ExecuStay</h2>
+						<h3>The standard chunk of Lorem Ipsum</h3>
 					</section>
 				</div>				
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
-						<div class="row">
+						<div class="row brands-solutions">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Business_Woman_Room_1_ExecuStay.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Business_Woman_Room_1_ExecuStay.jpg" alt="global-reach" class="img-responsive">
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
-								<h3>The standard chunk of Lorem Ipsum</h3>
-								<p>ExecuStay is the rewarding choice for fully furnished extended stay accommodations across the United States. Our locally managed and community-focused locations make it easy for guests to connect with everything they need—personally and professionally. And, as the only corporate housing brand to offer Marriott Rewards® points, our personalized housing solutions are ideal for consultants, relocating executives and frequent travelers looking for an even more rewarding extended stay experience.</p>	
+								
+								<p>ExecuStay is the rewarding choice for fully furnished extended stay accommodations across the United States. Our locally managed and community-focused locations make it easy for guests to connect with everything they need—personally and professionally. And, as the only corporate housing brand to offer Marriott Rewards® points, our personalized housing solutions are ideal for consultants, relocating executives and frequent travelers looking for an even more rewarding extended stay experience.</p>
+								<a class="orange-link" href="http://execustay.com" target="_blank">Search Properties &#8594;</a>		
 							</section>
 						</div><!--end nested row-->	
 					</section>		
@@ -92,21 +87,19 @@
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
 						<h2>Insurance Housing Solutions</h2>
+						<h3>The standard chunk of Lorem Ipsum</h3>
 					</section>
 				</div>				
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
-						<div class="row">
+						<div class="row brands-solutions last">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Insurance-Couple-Embrace.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Insurance-Couple-Embrace.jpg" alt="global-reach" class="img-responsive">	
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
-								<h3>The standard chunk of Lorem Ipsum</h3>
+								
 								<p>Insurance Housing Solutions is the premier resource for insurance professionals and displaced policyholders seeking emergency housing assistance with the highest levels of reliability and customer service.  Insurance Housing Solutions provides unparalleled strength and responsiveness, over 50 years of combined experience through our well-known brands Oakwood and ExecuStay and access to over 25,000 global locations.  We are ready 24/7/365 to respond instantly, place successfully and support thoroughly.  No matter the circumstance, Insurance Housing Solutions has the experience to deliver a compassionate, skilled solution.</p>
+								<a class="orange-link" href="http://insurancehousingsolutions.com" target="_blank">Search Properties &#8594;</a>	
 							</section>
 						</div><!--end nested row-->	
 					</section>		

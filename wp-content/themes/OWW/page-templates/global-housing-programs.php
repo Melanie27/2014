@@ -6,7 +6,7 @@
  
  */
 
-get_header(3); ?>
+get_header(2); ?>
 <body id="global-expertise">
   	<div class="container-full">
   		<section class="container landing">
@@ -36,20 +36,16 @@ get_header(3); ?>
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
 						<h2>Global Scale and Inventory</h2>
+						<h3>Explore the many places we can take you</h3>
 					</section>
 				</div>				
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
-						<div class="row">
+						<div class="row brands-solutions">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Global-Scale-and-Inventory.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+									<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Global-Scale-and-Inventory.jpg" alt="global-reach" class="img-responsive">
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
-								<h3>Explore the many places we can take you</h3>
 								<p>With significant investments in properties, technologies and processes, Oakwood Worldwide is recognized as a leading provider of corporate housing and serviced apartment solutions. But, just as important, our clients count on our associates as valued advisors, listening to needs and offering reliable, progressive solutions delivered with expertise and vision that help them do business successfully anywhere in the world.</p>
 								<a class="orange-link" href="global-scale-and-inventory">Learn More &#8594;</a>	
 							</section>
@@ -62,20 +58,16 @@ get_header(3); ?>
 				<div class="row">
 					<section class="col-lg-12 col-md-12 global-reach">
 						<h2>Comprehensive Program Management</h2>
+						<h3>Discover the details that allow Oakwood Worldwide to create solutions that fit your unique needs</h3>
 					</section>
 				</div>				
 				<div class="row">
 					<section class="col-lg-12 col-md-12">						
-						<div class="row">
+						<div class="row brands-solutions last">
 							<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
-								<div class="solutions">
-									<a href="#" class="industry-sections">
-										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Comprehensive-Program-Management.jpg" alt="global-reach" class="img-responsive">
-									</a>
-								</div>
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Comprehensive-Program-Management.jpg" alt="global-reach" class="img-responsive">
 							</section>
 							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
-								<h3>Discover the details that allow Oakwood Worldwide to create solutions that fit your unique needs</h3>
 								<p>Learn about how Oakwood Worldwide continues to set the global standard for corporate housing with the largest flexible inventory, in-depth regional expertise across six continents, and a streamlined supply chain to ensure the highest quality and greatest efficiency for our guests.</p>
 								<a class="orange-link last-link" href="comprehensive-program-management">Learn More &#8594;</a>	
 							</section>
@@ -83,7 +75,7 @@ get_header(3); ?>
 					</section>		
 				</div>			
 			</section><!--three-->		
-			<section class="row">
+			<section class="row brands-solutions">
 				<div class="col-lg-12">
 					<section class="four hidden-sm hidden-xs">
 					</section>
