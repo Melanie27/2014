@@ -1105,48 +1105,48 @@ footer .copyright p {
 }
 /*Divisions by Pages*/
 /*BRANDS*/
-#find-housing .intro {
+#our-brands .intro {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 40px;
 }
-#find-housing .intro p {
+#our-brands .intro p {
   font-size: 20px;
   line-height: 25px;
 }
-#find-housing .intro p.gray-text {
+#our-brands .intro p.gray-text {
   font-size: 24px;
   font-family: 'district_thinthin';
   line-height: 36px;
 }
-#find-housing .intro p.orange-text {
+#our-brands .intro p.orange-text {
   color: #f05323;
   font-size: 24px;
   padding-top: 20px;
   font-weight: bold;
 }
-#find-housing .intro h2 {
+#our-brands .intro h2 {
   padding-left: 30px;
   padding-right: 30px;
 }
-#find-housing .intro.execustay {
+#our-brands .intro.execustay {
   padding-left: 10px;
   padding-right: 10px;
 }
-#find-housing .five .col-md-8 {
+#our-brands .five .col-md-8 {
   padding-top: 15px;
 }
-#find-housing .logo img {
+#our-brands .logo img {
   margin: 30px auto;
 }
-#find-housing .logo img.ihs-logo {
+#our-brands .logo img.ihs-logo {
   margin: 35px auto;
 }
-#find-housing a.link-archives:link,
-#find-housing a.link-archives:visited {
+#our-brands a.link-archives:link,
+#our-brands a.link-archives:visited {
   margin-bottom: 0px;
 }
-#find-housing a.text-center {
+#our-brands a.text-center {
   color: #fff;
 }
 /*AFFILIATIONS*/
@@ -1406,6 +1406,7 @@ footer .copyright p {
 }
 /*CAREERS*/
 .career-bullets {
+  width: 200px;
   margin-bottom: 50px;
   margin-top: 5px;
   padding-left: 30px;
@@ -1645,9 +1646,6 @@ footer .copyright p {
   }
   #business-solutions .solutions.government {
     height: 370px;
-  }
-  #find-housing .brands-intro {
-    padding-left: 0px;
   }
   #our-brands .intro {
     padding-bottom: 20px;

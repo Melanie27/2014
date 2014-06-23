@@ -23,7 +23,7 @@
 												</div><!--end second nested row-->
 											</section><!--end contact us-->
 										</div><!--end nested row-->
-										<div class="row overview-sections solutions-columns">
+										<!--<div class="row overview-sections solutions-columns">
 											<section class="col-lg-12 hidden-xs">
 												<h2>Proudly Serving:</h2>
 											</section>
@@ -42,7 +42,7 @@
 															<a href="#military" class="orange-link" data-target="B">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
-												</section>
+												<!--</section>
 												<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 													<div class="solutions military">
 														<a href="#" class="industry-sections">
@@ -57,7 +57,7 @@
 															<a href="#federal-civilian" class="orange-link" data-target="C">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
-												</section>
+												<!--</section>
 												<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 big-left no-right-padding">
 													<div class="solutions military">
 														<a href="#" class="industry-sections">
@@ -72,9 +72,9 @@
 															<a href="#government-contractors" class="orange-link" data-target="D">Learn More &#8594;</a>
 														</section>
 													</div><!--end military-->
-												</section>
+												<!--</section>
 											</div><!--container-->
-										</div>
+										<!--</div>-->
 										<hr class="hidden-xs">
 										<!--<div class="row overview-gsa">
 											<section class="col-lg-11 col-md-11 col-xs-12">

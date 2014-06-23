@@ -14,26 +14,13 @@
 								<section class="seven federal-civilian">
 									<div class="container">
 										<section class="row">								
-											<div class="col-lg-8 col-md-8 two-col-text">
+											<div class="col-lg-11 col-md-11 two-col-text">
 												<h2 class="hidden-sm hidden-xs">Federal Civilian</h2>
 												<h3>Personalized Service For Government Personnel </h3>
-												<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/cover-story-federal-civilian.jpg" alt="cover-story-military" class="img-responsive pull-left govt-cover">
+												<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/Federal_Civilian_Man_Couch_relaxing_1_Oakwood.jpg" alt="federal-civilian-oakwood" class="img-responsive pull-left govt-cover" />
 												<p>A pioneer in the industry, Oakwood Worldwide continues to lead with innovations that make us the preferred choice for government sector travel. As a GSA-approved vendor, we are committed to leadership in providing solutions with unmatched customer service, creating total extended stay lodging solutions that are customized for each agency’s mission, personnel, policy and budget.</p>
 											</div>
-											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs contact-us">
-												<h4>Contact Us</h4>
-													<div class="row">
-														<section class="col-lg-6 col-md-6">
-															<h3>US & Canada: </h3>
-															<p class="phone">1-888-268-9998</p>
-															<p class="email"><img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-email.jpg" alt="icon-email" width="25" height="20">Email Us</p>
-														</section>
-														<section class="col-lg-6 col-md-6">
-															<h3>Everywhere Else: </h3>
-															<p class="phone">1-757-648-7171</p>
-														</section>
-													</div><!--end second nested row-->
-												</section><!--end contact us-->
+											
 											</section>
 										</div><!--container-->
 									</section><!--seven-->
@@ -42,3 +29,5 @@
 						</div><!--panel body-->
 					</div><!--Collapse Two-->
 				</div><!--panel-->
+
+

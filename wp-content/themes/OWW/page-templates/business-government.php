@@ -109,8 +109,17 @@ get_header(4); ?>
 
 						</div>
 					</section>
+					
+					<section class="row hidden-sm hidden-xs carousel-heading">
+					<div class="col-lg-12 col-md-12">
+					 <h2>Explore our Accommodations</h2>
+				    </div>					
+				    </section>
+				    <?php include (TEMPLATEPATH . '/_/components/php/carousel-government.php'); ?>
+					
 						</div>
 					</section>
+					
 					<div class="clearfix">&nbsp;</div>	
 			  	</section>
 					<hr class="hidden-lg hidden-md"/>
