@@ -60,7 +60,7 @@ frames.]</iframe>
 					</div>
 					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<a class="read-article fancybox-media fancybox.iframe" href="http://www.youtube.com/embed/cOPJEcrVcEY" onclick="_gaq.push(['_trackEvent', 'OWW Careers Page', 'Click', 'OWW Careers Page Video']);"><img src="<?php bloginfo( 'template_directory' ); ?>/images/careers/careers1.jpg" alt="regional-icon" class="img-responsive"></a>
+							<iframe width="340" height="191" src="//www.youtube.com/embed/cOPJEcrVcEY?rel=0" frameborder="0" allowfullscreen></iframe>
 							
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
