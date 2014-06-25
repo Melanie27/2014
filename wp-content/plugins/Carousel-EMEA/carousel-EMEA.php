@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Carousel Global EMEA
+Plugin Name: Carousel Government
 Plugin URI: http://oakwoodworldwide.com/
-Description: Declares a plugin that will create a custom post type displaying OWW carousel for Global Section Europe, Middle East, Africa
+Description: Declares a plugin that will create a custom post type displaying OWW carousel for the Government Page
 Version: 1.0
 Author: Melanie McGanney
 Author URI: http://oakwoodworldwide.com/
@@ -16,19 +16,19 @@ function create_emea_slide() {
     register_post_type( 'emea_slides',
         array(
             'labels' => array(
-                'name' => 'Global EMEA Carousel',
-                'singular_name' => 'EMEA Slide',
+                'name' => 'Government Carousel',
+                'singular_name' => 'Government Slide',
                 'add_new' => 'Add New',
-                'add_new_item' => 'Add New EMEA Slide',
+                'add_new_item' => 'Add New Government Slide',
                 'edit' => 'Edit',
-                'edit_item' => 'Edit EMEA Slide',
-                'new_item' => 'New EMEA Slide',
+                'edit_item' => 'Edit Government Slide',
+                'new_item' => 'New Government Slide',
                 'view' => 'View',
-                'view_item' => 'View EMEA Slide',
-                'search_items' => 'Search EMEA Slides',
-                'not_found' => 'No EMEA Slides found',
-                'not_found_in_trash' => 'No EMEA Slides found in Trash',
-                'parent' => 'Parent EMEA Slides'
+                'view_item' => 'View Government Slide',
+                'search_items' => 'Search Government Slides',
+                'not_found' => 'No Government Slides found',
+                'not_found_in_trash' => 'No Government Slides found in Trash',
+                'parent' => 'Parent Government Slides'
             ),
  
             'public' => true,

@@ -14,7 +14,7 @@
 								<section class="eleven gsa">
 									<div class="container">
 										<section class="row">								
-											<div class="col-lg-11 col-md-11 two-col-text">
+											<div class="col-lg-11 col-md-11 two-col-text global-reach">
 												<h2 class="hidden-xs hidden-sm">GSA Schedule 48</h2>
 												<h3>The Right Credentials and the Right Price</h3>
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/GSA-Logo.png" alt="cover-story-military" class="img-responsive pull-left govt-cover">

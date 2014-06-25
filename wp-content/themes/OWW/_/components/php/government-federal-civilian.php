@@ -14,7 +14,7 @@
 								<section class="seven federal-civilian">
 									<div class="container">
 										<section class="row">								
-											<div class="col-lg-11 col-md-11 two-col-text">
+											<div class="col-lg-11 col-md-11 two-col-text global-reach">
 												<h2 class="hidden-sm hidden-xs">Federal Civilian</h2>
 												<h3>Personalized Service For Government Personnel </h3>
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/Federal_Civilian_Man_Couch_relaxing_1_Oakwood.jpg" alt="federal-civilian-oakwood" class="img-responsive pull-left govt-cover" />

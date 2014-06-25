@@ -31,7 +31,7 @@
 													</div><!--end row-->
 												</div><!--end item-->
 												
-											<div class="item">
+											<!--<div class="item">
 												<div class="row">
 													<?php $carousel_images = new WP_Query( array(
 														'post_type' => 'carousel_images',
@@ -57,7 +57,7 @@
 													<?php endwhile; ?>
 													<?php wp_reset_query(); ?>
 													</div><!--end row-->
-												</div><!--end item-->
+												<!-- </div> -->
 												</div><!--end carousel-inner-->
 											</div><!--end carousel-example-->
 											<!-- Controls --> 

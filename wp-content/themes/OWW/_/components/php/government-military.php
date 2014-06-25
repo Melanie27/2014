@@ -1,4 +1,4 @@
-				<div class="panel-group" id="accordion">
+				
 					<div class="panel panel-default subsections" id="B">
 						<div class="panel-heading collapse1" id="collapse1">
 							<h1 class="title1 panel-title">
@@ -14,7 +14,7 @@
 									<div class="col-lg-12 col-md-12">
 										<section class="five military">
 											<section class="row">								
-												<div class="col-lg-11 col-md-11 two-col-text">
+												<div class="col-lg-11 col-md-11 two-col-text global-reach">
 													<h2 class="hidden-xs hidden-sm">Military</h2>
 													<h3>Where Great Strategy Meets Flawless Execution</h3>
 													<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/Military_Woman_Couch_ExecuStay.jpg" alt="military-execustay" class="img-responsive pull-left govt-cover" />

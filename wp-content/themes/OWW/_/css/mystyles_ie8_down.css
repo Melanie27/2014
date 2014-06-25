@@ -1,10 +1,9 @@
-#press-releases .two,
-#in-the-news .two {
-  height: 512px;
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  z-index: 10000;
 }
-#press-releases .over,
-#in-the-news .over {
-  height: 325px;
+.promo-video {
+  z-index: 1;
 }
 #vision-leadership .carousel-caption {
   bottom: 30px;

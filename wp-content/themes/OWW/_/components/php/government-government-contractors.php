@@ -14,7 +14,7 @@
 									<section class="nine government-contractors">
 										<div class="container">
 											<section class="row">								
-												<div class="col-lg-11 col-md-11 two-col-text">
+												<div class="col-lg-11 col-md-11 two-col-text global-reach">
 													<h2 class="hidden-sm hidden-xs">Government Contractors</h2>
 													<h3>End-to-End Solutions Anywhere Across the Globe</h3>
 													<img src="<?php bloginfo( 'template_directory' ); ?>/images/government/Government-Contractor_Man_Table_ExecuStay.jpg" alt="government-contractor-execustay" class="img-responsive pull-left govt-cover" />

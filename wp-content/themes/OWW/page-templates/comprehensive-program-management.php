@@ -42,45 +42,45 @@ get_header(2); ?>
 				</section>
 			</div>					
 			<div class="row regional-supply">
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Single-Point-of-Contact.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Client Support</h3>
 							<p>Our clients’ needs are our top priority and Oakwood Worldwide’s sales and solutions teams are structured to work with the dynamics of your organization. With sales teams located in 50+ offices across the globe and localized account management, our coordinated approach ensures your business is always on, any time of day, anywhere in the world.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/24-hour-service.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>24-Hour Service</h3>
 							<p>Our investment in a 24/7/365 Worldwide Sales and Service Center is critical to providing booking, billing, sourcing and service request support for our clients and guests. Staffed to handle more than 300,000 inquiries each year, our WSSC takes care of you and your travelers before, during and after each stay with us.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Powerful-Partnerships.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Powerful Partnerships</h3>
 							<p>As an active member of industry organizations such as Worldwide ERC, Corporate Housing Providers Association and Forum for Expatriate Management, Oakwood Worldwide is heavily involved in practicing and developing the latest global housing best practices, ensuring our clients’ mobility programs evolve with the industry.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Online-account-access.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Online Account Access</h3>
 							<p>We have invested in proprietary technology to connect you and your guests with important account and reservation details.  eOakwood allows access to the details of your housing program, such as guest arrival and departure dates and service requests.  myOakwood offers your guests immediate access to their individual reservation details, housekeeping services and community information.</p>
 						</section>
@@ -98,45 +98,45 @@ get_header(2); ?>
 				</section>
 			</div>					
 			<div class="row regional-supply">
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Your-Profitability-Our-Top-Priority.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Your Profitability – Our Top Priority</h3>
 							<p>Recognizing the investment companies are making when they procure corporate housing, Oakwood Worldwide is dedicated to making the process efficient and transparent. From proactively writing proposals to ongoing analysis and reporting, we present the data and insights our clients need to manage global housing programs.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Simplified-Reporting.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Simplified Reporting</h3>
 							<p>Oakwood Worldwide provides robust and transparent reporting capabilities that present comprehensive data and quantitative insights that present clients with a clear picture of their housing activity, making it easier to manage and contain costs.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Buying-Power.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Buying Power</h3>
 							<p>As the largest provider of corporate housing and serviced apartments, Oakwood Worldwide offers a breadth and depth of resources found nowhere else. Our size and scope gives us unmatched buying power, strong supply chain alliances and the ability to scale with your business across town or across the globe.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Customized-Invoice.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Customized Invoices</h3>
 							<p>Oakwood Worldwide simplifies the financial management of your housing program while keeping compliance and security top of mind. Our options for consolidated, multi-currency invoicing based on contract terms with our established global legal entities effectively serve your organization’s best interest.</p>
 						</section>
@@ -154,45 +154,45 @@ get_header(2); ?>
 				</section>
 			</div>					
 			<div class="row regional-supply">
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Duty-of-Care.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Duty of Care</h3>
 							<p>Oakwood Worldwide developed its Duty of Care program in order to provide a standard of care that mitigates potential risks and minimizes the impact of unanticipated events. From disaster preparedness to crisis response to information safety and security, we have reactive and proactive measures in place to ensure uninterrupted service to our clients.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Regulatory-Compliance.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Regulatory Compliance</h3>
 							<p>Oakwood Worldwide complies with the laws and regulations of each country in which we do business. All of our DBA and trade names are registered globally, so our clients know they’re working with an accredited partner. And we’ve taken due diligence in ensuring that all of our suppliers are OFAC complaint, protecting both of our reputations from unforeseen risk.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Data-protection.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Data Protection</h3>
 							<p>Your privacy and data security is of paramount importance to us. We use a variety of proven methods to encrypt and secure our client data, including complying with the principles set forth by the U.S.-EU Safe Harbor framework. We have also enacted a disaster recovery plan, ensuring that our business will continue to operate in cases of unforeseen technological events.</p>
 						</section>
 					</div>
 				</section>
-				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="row">
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+						<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Corporate-Integrity.png" alt="regional-icon" class="img-responsive">
 						</section>
-						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
 							<h3>Corporate Integrity</h3>
 							<p>When you partner with Oakwood Worldwide, you’re working with one of the most financially stable corporate housing and serviced apartment brands, one whose reputation has inspired an industry for over 50 years. We invest heavily in our associates, supply chain, vendors, technology and partners in order to make our client’s housing programs a complete success.</p>
 						</section>

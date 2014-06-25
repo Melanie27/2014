@@ -59,12 +59,12 @@ $("#events a.side-nav:contains('Upcoming Events')").addClass('active');
 $("#events-single a.side-nav:contains('Upcoming Events')").addClass('active');
 
 
-if(window.location.href.indexOf("press_releases") > -1)   {
+if(window.location.href.indexOf("press-releases") > -1)   {
       
        $('#collapsePR.panel-collapse').addClass('in');
     }
     
-else if(window.location.href.indexOf("in_the_news") > -1)   {
+else if(window.location.href.indexOf("in-the-news") > -1)   {
       
        $('#collapseITN.panel-collapse').addClass('in');
     }
@@ -81,7 +81,7 @@ else if(window.location.href.indexOf("in_the_news") > -1)   {
 
 
 /*Archive Navigation*/
-var pathname = window.location.pathname;
+//var pathname = window.location.pathname;
 
  	if(window.location.href.indexOf("press_releases_tags/2011/") > -1){
         
@@ -105,7 +105,7 @@ var pathname = window.location.pathname;
      
 // In the News Archives
 
-var pathnameNews = window.location.pathname;
+//var pathnameNews = window.location.pathname;
 
 
  	if(window.location.href.indexOf("in_the_news_years/2011/") > -1) {
@@ -225,44 +225,20 @@ if(window.location.href.indexOf("january") > -1)   {
        $('.December').addClass('active');
     }
 
+
+  
+  
 /*Scroll to Sections on Government Page*/
 	
 	$( '.searchbychar' ).on('click', function(event) {
     	event.preventDefault();
-		var target = "#" + $(this).data('target');
+    	
+		var target = "#" + $(event.currentTarget).data('target');
     	var targetOffset = $(target).offset().top -170;
 		$('html, body').animate({ scrollTop: targetOffset}, 1000);
+		
            
 	});
-
-
-// deep linking the sections government page
-  $(document).ready(function() {
-    function filterPath(string) {
-    return string
-      .replace(/^\//,'')
-      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-      .replace(/\/$/,'');
-    }
-    var locationPath = filterPath(location.pathname);
-    $('#government a[href*=#]').each(function() {
-      var thisPath = filterPath(this.pathname) || locationPath;
-      if (  locationPath == thisPath
-      && (location.hostname == this.hostname || !this.hostname)
-      && this.hash.replace(/#/,'') ) {
-        var $target = $(this.hash), target = this.hash;
-        if (target) {
-          //var targetOffset = $target.offset().top;
-          $(this).click(function(event) {
-            event.preventDefault();
-            //$('html, body').animate({scrollTop: targetOffset}, 400, function() {
-              location.hash = target;
-            //});
-          });
-        }
-      }
-    });
-  });
 
 
 if(window.location.href.indexOf("government") > -1)   {

@@ -1,13 +1,19 @@
 									<div class="row">
-										<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 career-icons center-block">
-											<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/career-development-opportunities.png" alt="regional-icon" class="img-responsive">
-											<h3>Career Development Opportunities</h3>
-											<ul class="career-bullets">
-												<li>Award-winning training through Oakwood University</li>
-												<li>Career Planning Program</li>
-												<li>Tuition Reimbursement Program</li>
-												<li>Opportunities for transfers and promotions worldwide</li>
-											</ul>
+										<section class="col-lg-3 col-md-3 col-sm-12 col-xs-12 career-icons center-block">
+											<div class="row">
+												<section class="col-lg-12 col-md-12 col-sm-4 col-xs-4">
+													<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/career-development-opportunities.png" alt="regional-icon" class="img-responsive">
+												</section>	
+											<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
+											<h3 class="center-block" style="text-align:center;">Career Development Opportunities</h3>
+												<ul class="career-bullets">
+													<li>Award-winning training through Oakwood University</li>
+													<li>Career Planning Program</li>
+													<li>Tuition Reimbursement Program</li>
+													<li>Opportunities for transfers and promotions worldwide</li>
+												</ul>
+											</section>
+											</div>
 										</section>
 										<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 career-icons center-block">
 											<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/dynamic-work-enviornment.png" alt="regional-icon" class="img-responsive">

@@ -109,9 +109,6 @@ p {
   margin-bottom: 20px;
   overflow-y: hidden;
 }
-.global-reach p {
-  margin-top: 20px;
-}
 sup {
   font-size: 10px;
   vertical-align: top;
@@ -206,7 +203,10 @@ a.active:visited {
   color: #f05323;
 }
 .brands-solutions.last {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+p.location {
+  margin-bottom: 0px;
 }
 p.headline a:link,
 p.headline a:visited {
@@ -230,6 +230,9 @@ p.headline a:visited {
 }
 .global-intro {
   margin-bottom: 30px;
+}
+.global-reach h3 {
+  margin-bottom: 25px;
 }
 .landing {
   position: relative;
@@ -1414,6 +1417,7 @@ footer .copyright p {
   color: #3b3b3b;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 /*CAREERS*/
 .career-bullets {
@@ -1459,6 +1463,15 @@ footer .copyright p {
 /*Media Queries*/
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
+  .global-reach h3 {
+    margin-bottom: 0px;
+  }
+  #careers h3 {
+    padding-right: 15px;
+  }
+  .career-bullets {
+    padding-right: 15px;
+  }
   .brands-solutions img {
     margin-top: 20px;
   }
@@ -1862,13 +1875,10 @@ footer .copyright p {
   .news-thumbnails h3 {
     margin-top: 0px;
   }
-  #our-brands .global-reach p,
-  #our-brands .global-reach a {
-    padding-left: 0px;
-  }
   .global-reach p,
   .global-reach a {
-    padding-left: 15px;
+    padding-left: 0px;
+    margin-top: 20px;
   }
   .last-link {
     margin-bottom: 20px;

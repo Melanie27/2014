@@ -22,19 +22,19 @@
 						</div><!--end nested row-->
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6">
-								<a href="#">
+								<a href="<?php bloginfo('url'); ?>/our-brands/">
 									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oakwood.jpg" alt="Oakwood Logo" class="img-responsive" />
 								</a>
 							</section>
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6 ">
-								<a href="#">
+								<a href="<?php bloginfo('url'); ?>/our-brands/">
 									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-execustay.jpg" alt="Execustay Logo" class="img-responsive"/>
 								</a>
 							</section>
 						</div><!--end nested row-->
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12">
-								<a href="#">
+								<a href="<?php bloginfo('url'); ?>/our-brands/">
 									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs.jpg" alt="logo-ihs" class="img-responsive" />
 								</a>
 							</section>

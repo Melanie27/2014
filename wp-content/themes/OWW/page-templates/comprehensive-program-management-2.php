@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages
  *
- * * Template Name: Comprehensive Program Management
+ * * Template Name: Comprehensive Program Management Two
  
  */
 
@@ -91,7 +91,62 @@ get_header(2); ?>
 		</section>	
 			
 		<hr />
+		<section class="container three three-a">
+			<div class="row">
+				<section class="col-lg-12 col-md-12 regional-supply">
+					<h2>Account Services</h2>			
+				</section>
+			</div>					
+			<div class="row regional-supply">
+				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+					<div class="row">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-1.png" alt="regional-icon" class="img-responsive">
+						</section>
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+							<h3>Dedication Defined</h3>
+							<p>When companies of all sizes come to Oakwood Worldwide for their corporate housing and serviced apartment needs, they know they can rely on an experienced account service team that understands their business’s specific needs and works with them as a partner to ensure the success of their travel ventures.</p>
+						</section>
+					</div>
+				</section>
+				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="row">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-2.png" alt="regional-icon" class="img-responsive">
+						</section>
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+							<h3>A Single Point of Contact</h3>
+							<p>Oakwood Worldwide offers the corporate housing and serviced apartment industry's largest direct sales and solutions team, which means more personalized and responsive client services and a more dedicated level of care. During regular business hours, clients have direct access to a single point of contact – a Global Account Coordinator who will take the time to understand your business and find housing solutions that reflect your program goals and requirements. </p>
+						</section>
+					</div>
+				</section>
+				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="row">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-3.png" alt="regional-icon" class="img-responsive">
+						</section>
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+							<h3>24-Hour Service</h3>
+							<p>When businesses partner with Oakwood Worldwide for their corporate housing needs, they know that, in addition to the support of a dedicated account coordinator, guests can always contact the Oakwood Worldwide Sales and Service Center for questions that require immediate answers, maintenance requests and circumstances that arise after business hours. The WSSC, open for business 24/7/365, is here to ensure ongoing support for our clients.</p>
+						</section>
+					</div>
+				</section>
+				<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="row">
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/regional-icon-4.png" alt="regional-icon" class="img-responsive">
+						</section>
+						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+							<h3>Online Account Access</h3>
+							<p>eOakwood is your fastest way to access information about any of your guests’ stays. A fully integrated, custom web portal, eOakwood allows you to manage the details like guest arrival and departure dates, service requests, and booking details through a single interface.</p>
+							<p>Similar to eOakwood, myOakwood offers your guests immediate access to all of their reservation details, allowing them to view their arrival information, request changes to their departure date, submit service requests, learn about additional amenities available at their apartment and adjust to their new community with maps, driving directions and more.</p>
+						</section>
+					</div>
+				</section>
+			</div>
+		</section>	
 		
+				
 		<section class="container three three-a">
 			<div class="row">
 				<section class="col-lg-12 col-md-12 regional-supply">

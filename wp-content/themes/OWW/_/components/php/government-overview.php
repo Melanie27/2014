@@ -75,7 +75,7 @@
 												<!--</section>
 											</div><!--container-->
 										<!--</div>-->
-										<hr class="hidden-xs">
+										<hr class="hidden-xs hidden-sm">
 										<!--<div class="row overview-gsa">
 											<section class="col-lg-11 col-md-11 col-xs-12">
 												<h3>Oakwood Worldwide is an approved GSA Schedule 48 vendor with rates that fall within most TDY and PCS per diems.</h3>

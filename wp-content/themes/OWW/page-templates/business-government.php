@@ -60,6 +60,7 @@ get_header(4); ?>
 					<section class="three">
 						<div class="row">
 							<!--Military-->
+							<div class="panel-group" id="accordion">
 							<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 accord-padding" id="military">
 								<div class="container">	
 									<?php include (TEMPLATEPATH . '/_/components/php/government-military.php'); ?>
@@ -115,7 +116,7 @@ get_header(4); ?>
 					 <h2>Explore our Accommodations</h2>
 				    </div>					
 				    </section>
-				    <?php include (TEMPLATEPATH . '/_/components/php/carousel-government.php'); ?>
+				    <?php include (TEMPLATEPATH . '/_/components/php/carousel-emea.php'); ?>
 					
 						</div>
 					</section>
