@@ -15,7 +15,6 @@ get_header(3); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-
 			<section class="two">
 			 <div class="row heading">
 				 <section class="col-lg-12">
@@ -49,8 +48,7 @@ frames.]</iframe>
 		</section>		
 		<hr />
   		<!--Supply Chain-->
-  		<section class="container three three-a">
-			           
+  		<section class="container three three-a">          
 			<div class="row career-promo">
 				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 oakwood-university thirds">
 					<div class="row promo-header">

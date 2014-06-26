@@ -52,7 +52,7 @@
 												<?php endwhile; ?>                
 												<!-- Display pagination -->
 												<div class="row">
-													<div class="archive-pagination col-lg-8 col-lg-offset-4 col-md-7 col-md-offset-5">
+													<div class="archive-pagination col-lg-8 col-lg-offset-4 col-md-7 col-md-offset-5 col-xs-12">
 														<?php global $wp_query;
 															$total_pages = $wp_query->max_num_pages; 
 															if ($total_pages > 1){  

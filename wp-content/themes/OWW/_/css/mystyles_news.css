@@ -88,6 +88,9 @@ h3 {
   line-height: 28px;
   margin-top: 10px;
 }
+h3.icon-heading {
+  text-align: center;
+}
 h4 {
   color: #f05323;
   font-family: 'district_thinthin';
@@ -113,6 +116,9 @@ sup {
   font-size: 10px;
   vertical-align: top;
   line-height: 18px;
+}
+.regional-supply {
+  padding-bottom: 40px;
 }
 .wp-post-image {
   display: block;
@@ -956,7 +962,6 @@ footer .copyright p {
   margin-top: 0px !important;
   margin: 0px;
   display: block;
-  font-size: 22px;
 }
 .panel-title a {
   text-decoration: none;
@@ -1459,10 +1464,36 @@ footer .copyright p {
 .career-icons {
   padding-left: 30px;
 }
+.career-bullets {
+  margin-top: 20px;
+}
 /*HOME*/
 /*Media Queries*/
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
+  .page-numbers {
+    padding: 3px;
+  }
+  a.page-numbers:link,
+  a.page-numbers:visited {
+    font-size: 12px;
+    font-family: 'district_boldbold', Helvetica, Arial, sans-serif;
+    padding: 3px;
+  }
+  .archive-pagination {
+    margin-top: 25px;
+    margin-bottom: 45px;
+  }
+  a.page-numbers.next:link,
+  a.page-numbers.next:visited {
+    padding: 10px;
+    margin-left: 0px;
+  }
+  a.page-numbers.prev:link,
+  a.page-numbers.prev:visited {
+    padding: 10px;
+    margin-right: 0px;
+  }
   .global-reach h3 {
     margin-bottom: 0px;
   }
@@ -1471,6 +1502,7 @@ footer .copyright p {
   }
   .career-bullets {
     padding-right: 15px;
+    padding-left: 15px;
   }
   .brands-solutions img {
     margin-top: 20px;
@@ -1501,11 +1533,26 @@ footer .copyright p {
     font-size: 20px;
     margin-top: 25px !important;
   }
+  .panel-title {
+    height: 20px;
+  }
+  .panel-title h2 {
+    font-size: 20px;
+    margin-top: 25px !important;
+    line-height: 0px;
+    height: 0px;
+  }
   h3 {
     font-size: 16px;
     line-height: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
+  }
+  h3.icon-heading {
+    text-align: left;
+  }
+  p.icon-graph {
+    margin-top: 10px;
   }
   .news-thumbnails h3 {
     margin-top: 0px !important;
@@ -1639,12 +1686,6 @@ footer .copyright p {
   }
   .navbar-nav > li > a {
     padding-top: 5px;
-  }
-  .panel-title {
-    height: 50px;
-  }
-  .panel-title h2 {
-    line-height: 50px;
   }
   .prefer-oakwood {
     padding-left: 15px;
@@ -1864,6 +1905,9 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  h2.panel-title {
+    margin-top: 0px !important;
+  }
   a.link-archives.press-room:link,
   a.link-archives.press-room:visited,
   .upcoming-events .link-archives:link,
@@ -1871,6 +1915,13 @@ footer .copyright p {
   a.link-archives.in-news:link,
   a.link-archives.in-news:visited {
     margin-top: 0px !important;
+  }
+  h3.icon-heading {
+    text-align: left;
+    margin-top: 45px;
+  }
+  p.icon-graph {
+    margin-top: 10px;
   }
   .news-thumbnails h3 {
     margin-top: 0px;
@@ -2459,10 +2510,6 @@ footer .copyright p {
   li {
     font-size: 14px;
   }
-  .industry-insights h1 {
-    padding-top: 20px;
-    margin-top: 20px;
-  }
   .intro {
     padding: 40px 15px 50px;
   }
@@ -2840,14 +2887,6 @@ p.location {
 #alerts-single .two {
   background-image: none;
   background-color: #bbbbbb;
-}
-.panel-title,
-.title2.panel-title {
-  margin-top: 0px !important;
-}
-.panel-title h2,
-.title2.panel-title h2 {
-  margin-top: 0px !important;
 }
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
