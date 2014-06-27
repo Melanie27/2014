@@ -14,7 +14,7 @@
 								  	</div>
 								  </section>		
 							</div><!--heading-->
-							<?php include (TEMPLATEPATH . '/_/components/php/hero-in-the-news.php'); ?>
+							<!-- /_/components/php/hero-in-the-news.php -->
 						</section>
 						<!--two-->	  		    
 						<?php if ( have_posts() ) : ?>  
