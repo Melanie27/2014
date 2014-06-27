@@ -1,10 +1,5 @@
 <?php
-/**
-
- * Template Name: Cost Containment Strategies
- *
- 
- */?>
+/* Template Name: Cost Containment Strategies*/?>
 <?php get_header(3); ?>
 
 

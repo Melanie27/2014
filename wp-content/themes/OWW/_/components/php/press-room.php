@@ -9,13 +9,12 @@
 												</div>	
 												 <div id="collapseTwo" class="panel-collapse collapse in">
 												 	<div class="panel-body">
-														<h2 class="hidden-xs hidden-sm">Press Room</h2>	
+														<h2 class="hidden-xs hidden-sm"><a href="<?php bloginfo('url'); ?>/press-releases/">Press Room</a></h2>	
 														<section class="latest-releases">
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
 															<?php include (TEMPLATEPATH . '/_/components/php/news-thumbs.php'); ?>																		
 														</section><!--Latest Releases-->
 														<div class="clearfix"></div>
-															<?php /*include (TEMPLATEPATH . '/_/components/php/recent-releases.php'); */?>	
 														<div class="row archives">
 															<div class="col-lg-9 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
 																<a class="link-archives press-room see-all text-center" href="<?php bloginfo('url'); ?>/press-releases/">View Archive</a>

@@ -26,8 +26,6 @@
 														</section>
 													</div>
 												</div>
-										
-											
 											</section>
 										</div><!--container-->
 									</section><!--seven-->

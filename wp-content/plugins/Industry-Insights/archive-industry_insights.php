@@ -24,7 +24,7 @@
 								<section class="col-lg-12 col-md-12">
 									<div class="row">
 										<section class="col-lg-8 col-md-8 press-release-list industry">
-										 	<h1 class="page-title">Industry Insights</h1>
+										 	<h2 class="page-title">Industry Insights</h2>
 										 		<section class="hidden-lg hidden-md hidden-sm">
 													<?php include (TEMPLATEPATH . '/_/components/php/news-press-thumbs.php'); ?>	
 													</section>
@@ -38,7 +38,7 @@
 																	<?php the_post_thumbnail('newssize'); ?>
 																</section>
 																<section class="col-lg-8 col-md-7 col-sm-8 press-text">
-																	<h2><?php the_title(); ?></h2>
+																	<h3><?php the_title(); ?></h3>
 																	<p class="full-story "><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
 																</section>
 																<div class="clearfix"></div>				

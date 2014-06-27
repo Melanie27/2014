@@ -1,7 +1,6 @@
 @import "_mystyles.less";
 
 
-
  .news-thumbnails.events {
     
     	p {
@@ -16,10 +15,18 @@
 	border-bottom:none;
 }
 
+.panel-body {
+	
+	h2 {
+		a:link, a:visited {
+			color:@oww-poppy;
+		}
+	}
+}
+
 
 #news {
 
-	
 	.two-thirds-one-third {
 		border-left: solid 1px @oww-border;
 	}
@@ -30,7 +37,17 @@
 
 }
 
-#in-the-news-single {
+#events {
+	.two {
+		background-image:none;
+	}
+}
+
+
+
+
+
+#in-the-news-single, #in-the-news {
 	
 	.two {
 		background-image:none;
@@ -70,12 +87,6 @@
 	
 	background-image: url(../../images/sitewide/bg-image-01.jpg);
 	height:512px;	
-}
-
-#events {
-	.two {
-		background-image:none;
-	}
 }
 
 
@@ -403,7 +414,6 @@
 	   	 top: 150px;
 	   	 left: 1110px;
 	   	 
-	   	 
 	 }
 	   	
 	  .carousel-indicators {
@@ -434,10 +444,8 @@
     }
 		  
 	.glyphicon-chevron-right:before {
-	
 		content: url(../../images/news/awards/carousel-arrow-right.png);
 		
-
 	}
 		
 	.glyphicon-chevron-left:before {
@@ -494,7 +502,6 @@
 		margin-bottom:45px;
 		
 	}
-	
 	
 }
 
@@ -627,7 +634,6 @@ p.location {
 	}
 	
 	
-	
 	.blurb {
 		
 		border-right:none;
@@ -657,9 +663,7 @@ p.location {
 			
 		h2 {
 			
-			font-family: @district-thin;
 			color:@oww-poppy;
-			font-size:21px;
 			line-height:24px;
 			
 		}
@@ -724,7 +728,6 @@ p.location {
 		}
 	}
 	
-	
 	.media-relations {
 	
 		padding-bottom:25px;
@@ -732,7 +735,7 @@ p.location {
 	
 	.more {
 			
-			margin-top:5px;
+		margin-top:5px;
 	}
 		
 	.awards-menu {
@@ -802,7 +805,6 @@ p.location {
 		}
 		
 	
-		
 		a.link-archives:link, a.link-archives:visited {
 			
 			margin-top:0px;
@@ -868,10 +870,6 @@ p.location {
 			
 		}
 		
-		h1 {
-			
-			
-		}
 	}
 }		
 
@@ -926,9 +924,7 @@ p.location {
 					
 		h2 {
 			
-			font-family: @district-thin;
 			color:@oww-poppy;
-			font-size:21px;
 			line-height:24px;
 			
 		}
@@ -1040,10 +1036,7 @@ p.location {
 				margin-bottom:25px;
 				
 			}
-		}
-		
-		
-		
+		}	
 	}
 	
 	.news {
@@ -1070,9 +1063,6 @@ p.location {
 		}
 		
 	}	
-	
-	
-	
 		
 }
 
@@ -1159,8 +1149,7 @@ p.location {
 @media (min-width: 1px) and (max-width: 992px) { 
 
 	.three {
-	
-				
+			
 		.awards-honors {
 		
 			.link-archives {
@@ -1172,6 +1161,5 @@ p.location {
 		}
 				
 	}
-
 
 }

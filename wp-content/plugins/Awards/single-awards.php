@@ -1,10 +1,6 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- * * Template Name: Awards Single
- */
-get_header(7); ?>
+/* Template Name: Awards Single */?>
+<?php get_header(6); ?>
 
 <body id="awards-single">
   	<div class="container-full">  
@@ -22,7 +18,6 @@ get_header(7); ?>
 						</div>
 						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-thirds-awards.php'); */?>
 					</section> <!--two-->	
-    
 					<?php
 						$mypost = array( 'post_type' => 'awards', );
 						$loop = new WP_Query( $mypost );
@@ -85,17 +80,14 @@ get_header(7); ?>
 												</section>				
 												<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							
 											</div><!--end nested row-->
-											
 										</section>
 									</div><!--row-->
 								</section><!--three-->
-							<section class="content row">
-								<div class="col-lg-12">
-									<section class="four hidden-sm hidden-xs">
-									</section>
-								</div>
-							</section><!--content 4-->			
-							
+								<section class="content row">
+									<div class="col-lg-12">
+										<section class="four hidden-sm hidden-xs"></section>
+									</div>
+								</section><!--content 4-->			
 							<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>				
 							<hr />
 						</div>

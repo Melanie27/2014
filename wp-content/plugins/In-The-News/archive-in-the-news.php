@@ -1,4 +1,4 @@
-<?php get_header(7); ?>
+<?php get_header(6); ?>
 
 <body id="in-the-news">
   		<div class="container-full">
@@ -36,11 +36,6 @@
 														<section class="col-lg-8 col-md-7 col-sm-8 col-xs-8 press-text">
 															<p class="date hidden-sm hidden-xs"><?php the_date();?></p>
 															<h3><?php /*echo esc_html( get_post_meta( get_the_ID(), 'source_name', true ) ); */?> <?php the_title(); ?></h3>
-															
-															<!--<p><?php echo esc_html( get_post_meta( get_the_ID(), 'article_subhead', true ) ); ?></p>-->
-															<!--<a href="<?php the_permalink(); ?>">
-																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'in_the_news_blurb', true ) ); ?></p>
-															</a>-->
 															<p class="full-story hidden-lg hidden-md hidden-sm">
 																<a class="orange-link" href="<?php the_permalink(); ?>">Full Story &#8594;</a>
 															</p>

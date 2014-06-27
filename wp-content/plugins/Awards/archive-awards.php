@@ -61,14 +61,7 @@
 													<?php the_post_thumbnail('newssize'); ?>
 												</section>
 												<section class="col-lg-8 col-md-7 col-sm-8 col-xs-8 press-text">
-													<!--<p class="date hidden-sm"><?php the_date();?></p>-->
 													<h3><?php the_title(); ?></h3>
-													
-													<!--<a href="<?php the_permalink(); ?>">
-														<p class="hidden-lg hidden-md hidden-sm">
-														<?php echo esc_html( get_post_meta( get_the_ID(), 'award_subhead', true ) ); ?>
-														</p>
-													</a>-->
 													<p class="full-story"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
 												</section>
 												<div class="clearfix"></div>				

@@ -22,19 +22,19 @@
 						</div><!--end nested row-->
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6">
-								<a href="<?php bloginfo('url'); ?>/our-brands/">
+								<a href="http://oakwood.com" target="_blank">
 									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-oakwood.jpg" alt="Oakwood Logo" class="img-responsive" />
 								</a>
 							</section>
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-6 ">
-								<a href="<?php bloginfo('url'); ?>/our-brands/">
+								<a href="http://execustay.com" target="_blank">
 									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-execustay.jpg" alt="Execustay Logo" class="img-responsive"/>
 								</a>
 							</section>
 						</div><!--end nested row-->
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12">
-								<a href="<?php bloginfo('url'); ?>/our-brands/">
+								<a href="http://www.ihshousing.com/" target="_blank">
 									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs.jpg" alt="logo-ihs" class="img-responsive" />
 								</a>
 							</section>
@@ -141,8 +141,8 @@
 							<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 page-links bottom">
 								<h5>Connect</h5>
 									<ul class="footer-lists social-media clearfix">
-										<li><a href="https://twitter.com/oakwoodww"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-twitter.jpg" target="_blank" alt="Twitter" /></a></li>
-										<li><a href="http://www.linkedin.com/company/oakwood-worldwide"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-linkedIn.jpg" target="_blank" alt="Linked In" /></a></li>	
+										<li><a href="https://twitter.com/oakwoodww" target="_blank"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-twitter.jpg" alt="Twitter" /></a></li>
+										<li><a href="http://www.linkedin.com/company/oakwood-worldwide"  target="_blank"> <img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-linkedIn.jpg" alt="Linked In" /></a></li>	
 									</ul>
 							</section>
 						</div>
@@ -152,7 +152,7 @@
 							<span class="icon-housing"> 
 								<img src="<?php bloginfo( 'template_directory' ); ?>/images/icons/icon-equal-housing.jpg" alt="icon-equal-housing" width="30" height="30" class="pull-left"/>
 							</span>
-							<p class="pull-left">Equal Housing Opportunity &copy;2004-2014 Oakwood Worldwide. </p>
+							<span>Equal Housing Opportunity &copy;2004-2014 Oakwood Worldwide. </span>
 						</div>
 					</section>
 				</div><!--end row-->

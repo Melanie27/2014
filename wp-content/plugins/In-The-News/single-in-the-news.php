@@ -1,11 +1,6 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * * Template Name: In The News Single
- */
+<?php /*Template Name: In The News Single */ ?>
 
-get_header(7); ?>
+<?php get_header(6); ?>
 
 <body id="in-the-news-single">
   	<div class="container-full">  
@@ -27,10 +22,8 @@ get_header(7); ?>
 						$mypost = array( 'post_type' => 'in-the-news', );
 						$loop = new WP_Query( $mypost );
 					?>
-        
 					<?php /* The loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
-        
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<div class="entry-content">
 							<section class="three container">

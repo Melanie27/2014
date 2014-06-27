@@ -6,7 +6,6 @@
 											<section class="hidden-sm hidden-xs">
 											<?php include (TEMPLATEPATH . '/_/components/php/industry-insights-full-story.php'); ?>	
 											</section>
-											
 										</div><!--end nested row-->	
 									</section><!--end ver-->
 								</div><!--row-->

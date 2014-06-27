@@ -4,7 +4,6 @@
 										<!-- Wrapper for slides -->
 										<div class="carousel-inner"> 
 											<!-- Slide -->
-											
 											<div class="item active">
 												<div class="row">
 													<?php $apac_slides = new WP_Query( array(
@@ -30,19 +29,18 @@
 													<?php endwhile; ?>
 													<?php wp_reset_query(); ?> 													
 													</div><!--end row-->
-												</div><!--end item-->
-												
-											<div class="item">
-												<div class="row">
-													<?php $apac_slides = new WP_Query( array(
+												</div><!--end item-->	
+												<div class="item">
+													<div class="row">
+														<?php $apac_slides = new WP_Query( array(
 														'post_type' => 'apac_slides',
 														'posts_per_page' => '3',
 														'meta_key' => 'apac_slide_position',
 														'meta_value' => '2'
 					
-													));?>
-													<?php query_posts('post_type=apac_slides'); while ($apac_slides->have_posts()): $apac_slides->the_post(); ?>
-													<?php for ($i = 0; $i < 1; $i++) {													
+														));?>
+														<?php query_posts('post_type=apac_slides'); while ($apac_slides->have_posts()): $apac_slides->the_post(); ?>
+														<?php for ($i = 0; $i < 1; $i++) {													
 													echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-6">';
 														the_post_thumbnail('carouselsize');
 														echo '<div class="carousel-caption">';

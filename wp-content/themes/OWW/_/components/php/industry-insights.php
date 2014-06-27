@@ -17,7 +17,6 @@
 												</p>
 											</section> <!--end two thirds-->
 										</div><!--end nested row-->	
-										
 									</section><!--end ver-->
 								</div><!--row-->
 							</section><!--two-a-->

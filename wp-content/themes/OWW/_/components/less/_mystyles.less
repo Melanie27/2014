@@ -147,6 +147,27 @@
 
 
 
+/*make youtube video responsive*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-item-928 {
+	display:none !important;
+}
 
 
 body {
@@ -782,26 +803,7 @@ nav.navbar-fixed-top {
 		display:table-cell;
 		vertical-align: middle;
 		
-		
-	}
-		
-	h2 {
-		
-		color:white;
-		margin:0px;
-		font-family:@district-thin;
-		line-height:30px;
-		display:table-cell;
-		vertical-align: middle;
-		
-	}
-		
-	h3 {
-		
-		font-weight:300;
-		margin-bottom:0px;
-		
-	}
+	}		
 	
 }
 	
@@ -1203,7 +1205,6 @@ p.caption {
 }
 
 
-
 .intro {
 		
 	padding: 40px 0px;
@@ -1221,13 +1222,7 @@ hr {
 article.one-third-two-thirds {
 	
 	padding: 30px 0px 60px;
-	
-	h1 {
 		
-		margin-bottom:23px;
-		
-	}
-	
 	ul {
 		
 		margin:12px 0px 20px 0px;
@@ -1263,27 +1258,6 @@ article.one-third-two-thirds {
 		
 	}
 	
-	.three {
-		
-		h3 {
-			
-			margin-top:0px;
-			margin-bottom:0px;	
-		}
-		
-		h1 {
-		
-			margin-top: 50px;
-			margin-bottom:0px;
-			
-		}
-		
-		.additional {
-			
-			padding-bottom:50px;
-			
-		}
-	}
 	
 	.four {
 		
@@ -1292,14 +1266,7 @@ article.one-third-two-thirds {
 	}
 	
 	.five {
-		
-		h2 {
-			
-			margin-bottom:0px;
-			
-					
-		}
-		
+				
 		h3 {
 			margin-top:0px;
 		}
@@ -1310,7 +1277,6 @@ article.one-third-two-thirds {
 		background-image:url(../../images/business-solutions/bg-image-03.jpg);
 	}	
 		
-	
 		
 	span {
 		
@@ -1321,9 +1287,7 @@ article.one-third-two-thirds {
 	}
 	
 	
-	
 	.solutions-columns {
-		
 		margin-top:50px;
 	}
 	
@@ -1331,7 +1295,6 @@ article.one-third-two-thirds {
 	.industry-insights {
 		
 		.blurb {
-			
 			
 			padding-bottom:0px;
 		}
@@ -1343,34 +1306,8 @@ article.one-third-two-thirds {
 		}
 	}
  	
-	.additional {
-		
-		h1 {
-			
-			margin-top:0px;
-			margin-top:0px;
-			color: @oww-poppy;
-			font-size: 24px;
-			margin-bottom:25px;
-		}
-		
-		ul {
-			
-			list-style-type:none;
-			margin:0px;
-			padding:0px;
-			font-size: 20px;
-			font-family: @district-light;
-		}
-		
-		li {
-			
-			line-height:32px;
-		}
-	}
 
 }
-
 
 
 /*FOOTER */
@@ -1891,7 +1828,7 @@ footer {
 		p {
 		
 			font-size: 20px;
-  			line-height: 25px;
+  			
 			
 		}
 		
@@ -1899,6 +1836,10 @@ footer {
 			font-size: 24px;
 			font-family: 'district_thinthin';
 			line-height: 36px;
+		}
+		
+		p.gray-text.gray-padding {
+			padding-bottom:35px;
 		}
 		
 		p.orange-text {
@@ -2169,14 +2110,6 @@ footer {
 		margin-bottom:55px;
 	}
 		
-	.industry-affiliations {
-		
-		h1 {
-	
-			margin:55px 0px 35px;
-				
-		}	
-	}
 
 	.executive-committee {
 	
@@ -2447,27 +2380,9 @@ footer {
 	margin-top:10px;
 }
 
-.search-jobs {
-	
-	h1 {
-		
-		margin-top:45px;
-	}
-}
-
-.promo-header {
-	
-	h1 {
-		
-		display:table-cell;
-		vertical-align:middle;
-		height:125px;
-	}
-}
 
 .career-promo {
 
-	
 	img {
 		
 		margin-bottom:35px;
@@ -2507,7 +2422,6 @@ footer {
 }
 
 
-/*HOME*/
 
 /*Media Queries*/
 
@@ -2516,6 +2430,9 @@ footer {
 
 @media (min-width: 1px) and (max-width: 767px) {
 
+.menu-item-928 {
+	display:block !important;
+}
 
 .page-numbers {
 	padding:3px;
@@ -2563,6 +2480,15 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	h3 {
 		padding-right:15px;
 	}
+	
+	.career-promo {
+	
+		section.thirds {
+			padding-top:0px;
+			padding-bottom:0px;
+	}
+}
+
 }
 
 .career-bullets {
@@ -2680,13 +2606,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		}
 	}
 
-	.five {
-		
-		h1 {
-			
-			padding-top:25px;
-		}
-	}
 	
 	.six {
 		
@@ -2707,15 +2626,7 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		
 		
 	}
-	
-	.media-relations {
 		
-		h1 {
-			
-			margin-top:30px;
-		}
-	}
-	
 	.teasers {
 		
 		padding-left:0px;
@@ -2933,8 +2844,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		 .solutions.consulting, .solutions.entertainment, .solutions.relocation, .solutions.government {
 			height:370px;
 		}	
-		
-				
 			
 	}
 	
@@ -2947,66 +2856,66 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
 	#our-brands {
 			
-			.intro {
-				padding-bottom:20px;
-				padding-top:40px;
+		.intro {
+			padding-bottom:20px;
+			padding-top:40px;
 		
-				h2 {
+		h2 {
 			
-					margin-top:10px;
-					line-height:26px;
-					padding:0px;
-			
-				}
-			}
-			
-			.brands-row-height6 {
-				min-height: 60px;
-			}
-	
-			.intro.execustay {
-		
-				padding: 20px 15px;
-				border:none;
+			margin-top:10px;
+			line-height:26px;
+			padding:0px;
 			
 			}
-	
-			.execustay-brand {
-				margin-left:0px;
-			}
-	
-			.intro.oakwood {
-		
-				padding: 20px 15px;
-				border-right:none;
+		}
 			
-			}
+		.brands-row-height6 {
+			min-height: 60px;
+		}
 	
-			.intro.ihs {
+		.intro.execustay {
 		
-				padding-left:15px;
-				padding-right:15px;
-		
-			}
-	
-			.logo {
-		
-				margin-bottom:10px;
-		
-			}
-	
-			a.link-archives:link, a.link-archives:visited {
-				margin-top:10px;
-			    margin-bottom:10px;
-			}
-	
-			.five {
-		
-				h2 {
+			padding: 20px 15px;
+			border:none;
 			
-					padding-left:0px;
-					padding-right:0px;		
-				}
+		}
+	
+		.execustay-brand {
+			margin-left:0px;
+		}
+	
+		.intro.oakwood {
+		
+			padding: 20px 15px;
+			border-right:none;
+			
+		}
+	
+		.intro.ihs {
+		
+			padding-left:15px;
+			padding-right:15px;
+		
+		}
+	
+		.logo {
+		
+			margin-bottom:10px;
+		
+		}
+	
+		a.link-archives:link, a.link-archives:visited {
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+	
+		.five {
+		
+			h2 {
+			
+				padding-left:0px;
+				padding-right:0px;		
+			}
 		
 			.col-md-8 {
 			
@@ -3073,7 +2982,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 
 	}
 	
-	
 	.industry-logos {
 		
 		.img-responsive {
@@ -3115,7 +3023,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 
 	#vision-leadership {
 		
-		
 		.two {
 			background-image:none;
 			height:auto;
@@ -3128,12 +3035,10 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		
 		}
 		
-		
 		.leaders {
 			border-left:none;
 		}
 		
-	
 		.three {
 					
 			a.link-archives:link, a.link-archives:visited {
@@ -3144,8 +3049,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 			}
 		}
 			
-		
-	
 		.first-third-one-third {
 		
 			padding-bottom:5px;
@@ -3183,8 +3086,7 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 					}
 				
 			}
-				
-				
+					
 			.first-third-one-third {
 				
 				border-right:none;
@@ -3232,21 +3134,7 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		.three {
 	
 			padding-bottom:20px; 
-				
-			h1 {
-					
-				margin-top:25px;
-				margin-bottom: 5px;
-					
-				.title {
-						
-					font-size:13px;
-						
-				}
-					
-			}
-					
-							
+								
 		}
 		
 		.affiliations-text {
@@ -3320,7 +3208,9 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-	
+	.menu-item-928 {
+	display:block !important;
+}
 	.oakwood-university {
 		border-right:none;
 	}
@@ -3548,13 +3438,10 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
 	#business-solutions {
 	
-		
-		
 		.three {
 			
 			padding-bottom:30px;
 		}
-	
 	
 		
 		.industries {
@@ -3634,7 +3521,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
 	#affiliations {
 	
-		
 		.industry-affiliations {
 			
 			h1 {
@@ -3645,7 +3531,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 			}
 		}	
 
-		
 		.industry-logos {
 		
 			padding-left:15px;
@@ -3667,8 +3552,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		.three {
 		
 			padding-bottom:25px;
-		
-			
 			
 			.affiliations-text {
 			
@@ -3680,11 +3563,8 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
 		.five {
 		
-			padding-bottom: 0px;
-	
-						
+			padding-bottom: 0px;			
 		}
-		
 	}
 
 	
@@ -3693,7 +3573,7 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		.career-promo {
 		
 			section.thirds {
-			padding-bottom:0px;
+				padding-bottom:0px;
 			}
 		}
 		
@@ -3821,14 +3701,11 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 				padding-top:30px;
 				
 			}
-		}
-		
-								
+		}						
 	
 		.executive-text.last {
 		
-			margin-bottom:60px;
-			
+			margin-bottom:60px;	
 		}
 		
 		.carousel-caption {
@@ -3938,6 +3815,14 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		
 		padding-left:45px;
 	}
+	
+	#entertainment {
+	
+		.two {
+	
+			background-image: none;
+		}
+	}
 		
 }
 
@@ -3945,6 +3830,8 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
+	
+	
 	.oakwood-university {
 		
 		padding-left:0px;
@@ -4087,13 +3974,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
     	padding-left: 20px;
 	}
 	
-	#news {
-		
-		.first-third-one-third {
-			
-			padding-bottom:70px;
-		}
-	}
 	
 	.blurb {
     	
@@ -4238,14 +4118,20 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 		
 	}
 	
+	#news {
+		
+		.first-third-one-third {
+			
+			padding-bottom:70px;
+		}
+	}
+	
 	.max-height-car {
 	
 		max-height:235px;
 	
 	}
-	
-	
-	
+		
 }
 
 
@@ -4373,7 +4259,6 @@ and (orientation : landscape) {
         
     }
     
-    
     .panel-heading-business, .panel-heading {
 	    
 	    display:none;
@@ -4411,11 +4296,6 @@ and (orientation : landscape) {
 	
 	}
 
-	.five h1 {
-			
-		padding-top:50px;
-	
-	}
 	
 	.heading {
 		

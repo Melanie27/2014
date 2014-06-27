@@ -78,7 +78,6 @@
 																		</div><!--end panel body-->
 																	</div><!--end collapse one-->
 																</div><!-- end panel-->
-															
 															<!--Events-->
 															<div class="panel-group" id="accordion">
 																<div class="panel panel-default">
@@ -114,7 +113,6 @@
 																	</div><!--end panel body-->
 																</div><!--end collapse one-->
 															</div><!-- end panel-->
-															
 															<!--Awards-->
 															<div class="panel-group" id="accordion">
 																<div class="panel panel-default">
@@ -151,8 +149,6 @@
 																		</div><!--end panel body-->
 																	</div><!--end collapse one-->
 																</div><!-- end panel-->
-															
-															
 														</div><!--end accordion-->
 													</ul>
 												</section><!--end news-->	

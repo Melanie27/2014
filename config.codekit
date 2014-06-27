@@ -5480,28 +5480,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/fancybox-for-wordpress\/js\/min\/admin-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/fancybox-for-wordpress\/js\/min\/admin-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/fancybox-for-wordpress\/js\/min\/min\/admin-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/fancybox-for-wordpress\/js\/min\/jquery.easing.1.3.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/fancybox-for-wordpress\/js\/min\/jquery.easing.1.3.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/fancybox-for-wordpress\/js\/min\/min\/jquery.easing.1.3.min-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/fancybox-for-wordpress\/js\/min\/jquery.mousewheel.3.0.4.pack-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -6575,17 +6553,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/form-maker\/js\/min\/main-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/form-maker\/js\/min\/min\/main-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/form-maker\/js\/min\/main_front_end-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/form-maker\/js\/min\/main_front_end-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/form-maker\/js\/min\/min\/main_front_end-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7729,17 +7696,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/subscribe2\/include\/min\/s2_button.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/subscribe2\/include\/min\/s2_button.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/subscribe2\/include\/min\/min\/s2_button.min-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/subscribe2\/include\/min\/s2_button2-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -7768,17 +7724,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/subscribe2\/include\/min\/s2_checkbox-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/subscribe2\/include\/min\/min\/s2_checkbox-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/subscribe2\/include\/min\/s2_checkbox.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/subscribe2\/include\/min\/s2_checkbox.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/subscribe2\/include\/min\/min\/s2_checkbox.min-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -10743,34 +10688,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-ja-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-ja-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/min\/jquery.ui.datepicker-ja-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-ka-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-ka-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/min\/jquery.ui.datepicker-ka-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-kk-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-kk-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/min\/jquery.ui.datepicker-kk-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -10925,17 +10848,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-ro-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/min\/jquery.ui.datepicker-ro-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-sk-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/jquery.ui.datepicker-sk-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/i18n\/min\/min\/jquery.ui.datepicker-sk-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -11502,67 +11414,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ar-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ar-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_ar-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ca-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ca-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_ca-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_cn-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_cn-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_cn-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_es-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_es-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_es-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_fi-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_fi-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_fi-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_fr-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_fr-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_fr-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -11585,17 +11442,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_kk-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_kk-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_pl-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_pl-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_pl-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -11634,56 +11480,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_se-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_se-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_se-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_th-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/messages_th-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_th-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/methods_nl-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/methods_nl-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/localization\/min\/min\/methods_nl-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/min\/jquery.validate-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/min\/jquery.validate-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/min\/min\/jquery.validate-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/min\/jquery.validate.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/min\/jquery.validate.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/jquery-form-validation\/min\/min\/jquery.validate.min-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -11717,17 +11519,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/knockout-2.2.1.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/knockout-2.2.1-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/basic-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/basic-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/min\/basic-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -11810,34 +11601,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/numeric_fix-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/numeric_fix-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/min\/numeric_fix-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/post-relationship-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/post-relationship-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/min\/post-relationship-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/repetitive-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/repetitive-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/embedded\/resources\/js\/min\/min\/repetitive-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -12935,17 +12704,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/keymap\/min\/vim-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/keymap\/min\/vim-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/keymap\/min\/min\/vim-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/keymap\/vim.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -12972,17 +12730,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/codemirror.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/min\/codemirror-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/min\/codemirror-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/min\/codemirror-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/min\/min\/codemirror-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -13080,50 +12827,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/closetag-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/min\/closetag-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/foldcode-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/foldcode-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/min\/foldcode-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/formatting-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/formatting-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/min\/formatting-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/runmode-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/runmode-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/min\/runmode-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/search-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/search-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/lib\/util\/min\/min\/search-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -13277,17 +12980,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/asterisk\/min\/asterisk-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/asterisk\/min\/asterisk-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/asterisk\/min\/min\/asterisk-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/clike\/clike.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -13367,17 +13059,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/coffeescript\/min\/coffeescript-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/coffeescript\/min\/coffeescript-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/coffeescript\/min\/min\/coffeescript-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/commonlisp\/commonlisp.js": {
 		"fileType": 64,
@@ -13512,17 +13193,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/diff\/min\/diff-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/diff\/min\/diff-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/diff\/min\/min\/diff-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ecl\/ecl.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -13542,17 +13212,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ecl\/min\/ecl-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ecl\/min\/ecl-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ecl\/min\/min\/ecl-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/erlang\/erlang.js": {
 		"fileType": 64,
@@ -13593,28 +13252,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/gfm\/min\/gfm-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/gfm\/min\/gfm-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/gfm\/min\/min\/gfm-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/gfm\/min\/test-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/gfm\/min\/test-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/gfm\/min\/min\/test-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/gfm\/test.js": {
 		"fileType": 64,
@@ -13709,17 +13346,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/haskell\/min\/haskell-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/haskell\/min\/haskell-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/haskell\/min\/min\/haskell-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/haxe\/haxe.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -13790,17 +13416,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/htmlmixed\/min\/htmlmixed-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/htmlmixed\/min\/htmlmixed-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/htmlmixed\/min\/min\/htmlmixed-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/http\/http.js": {
 		"fileType": 64,
@@ -14048,17 +13663,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mirc\/min\/mirc-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mirc\/min\/mirc-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mirc\/min\/min\/mirc-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mirc\/mirc.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14078,17 +13682,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mysql\/min\/mysql-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mysql\/min\/mysql-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mysql\/min\/min\/mysql-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/mysql\/mysql.js": {
 		"fileType": 64,
@@ -14212,17 +13805,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/php\/min\/php-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/php\/min\/php-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/php\/min\/min\/php-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/php\/php.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14314,17 +13896,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/python\/min\/python-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/python\/min\/python-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/python\/min\/min\/python-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/python\/python.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14344,17 +13915,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/q\/min\/q-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/q\/min\/q-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/q\/min\/min\/q-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/q\/q.js": {
 		"fileType": 64,
@@ -14476,17 +14036,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ruby\/min\/ruby-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ruby\/min\/ruby-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ruby\/min\/min\/ruby-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/ruby\/ruby.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14506,17 +14055,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/rust\/min\/rust-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/rust\/min\/rust-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/rust\/min\/min\/rust-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/rust\/rust.js": {
 		"fileType": 64,
@@ -14538,17 +14076,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sass\/min\/sass-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sass\/min\/sass-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sass\/min\/min\/sass-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sass\/sass.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14569,17 +14096,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/scheme\/min\/scheme-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/scheme\/min\/scheme-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/scheme\/min\/min\/scheme-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/scheme\/scheme.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14599,17 +14115,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/shell\/min\/shell-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/shell\/min\/shell-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/shell\/min\/min\/shell-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/shell\/shell.js": {
 		"fileType": 64,
@@ -14722,17 +14227,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sparql\/min\/sparql-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sparql\/min\/sparql-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sparql\/min\/min\/sparql-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sparql\/sparql.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14752,17 +14246,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sql\/min\/sql-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sql\/min\/sql-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sql\/min\/min\/sql-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/sql\/sql.js": {
 		"fileType": 64,
@@ -14897,17 +14380,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/tiki\/min\/tiki-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/tiki\/min\/tiki-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/tiki\/min\/min\/tiki-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/tiki\/tiki.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -14936,17 +14408,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/turtle\/min\/turtle-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/turtle\/min\/turtle-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/turtle\/min\/min\/turtle-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/turtle\/turtle.js": {
 		"fileType": 64,
@@ -14998,17 +14459,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/vbscript\/min\/vbscript-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/vbscript\/min\/vbscript-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/vbscript\/min\/min\/vbscript-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/vbscript\/vbscript.js": {
 		"fileType": 64,
@@ -15080,17 +14530,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/xml\/min\/xml-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/xml\/min\/xml-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/xml\/min\/min\/xml-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/xml\/xml.js": {
 		"fileType": 64,
@@ -15228,17 +14667,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/yaml\/min\/yaml-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/yaml\/min\/yaml-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/yaml\/min\/min\/yaml-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/types\/resources\/js\/codemirror234\/mode\/yaml\/yaml.js": {
 		"fileType": 64,
@@ -15798,34 +15226,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ca-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ca-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_ca-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_cs-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_cs-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_cs-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_de-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_de-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_de-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -15842,45 +15248,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ja-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ja-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_ja-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_kk-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_kk-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_kk-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_lv-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_lv-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_lv-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_nl-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_nl-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_nl-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -15897,45 +15270,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ptpt-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_ptpt-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_ptpt-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_si-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_si-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_si-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_tr-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/messages_tr-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/messages_tr-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/methods_nl-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/methods_nl-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/jquery-form-validation\/localization\/min\/min\/methods_nl-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -16016,17 +15356,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/types\/resources\/js\/min\/basic-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/min\/basic-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/min\/min\/basic-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/types\/resources\/js\/min\/collapsible-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -16044,17 +15373,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/min\/custom-types-form-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/min\/min\/custom-types-form-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/types\/resources\/js\/min\/jquery.ui.datepicker.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/min\/jquery.ui.datepicker.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/types\/resources\/js\/min\/min\/jquery.ui.datepicker.min-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17223,78 +16541,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-admin-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-admin-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/min\/wp-seo-admin-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-admin-global.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-admin-global.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/min\/wp-seo-admin-global.min-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-admin.min-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-admin.min-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/min\/wp-seo-admin.min-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-bulk-editor-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-bulk-editor-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/min\/wp-seo-bulk-editor-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-bulk-editor.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-bulk-editor.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/min\/wp-seo-bulk-editor.min-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-metabox-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-metabox-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/min\/wp-seo-metabox-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-metabox.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/wp-seo-metabox.min-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/js\/min\/min\/wp-seo-metabox.min-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17792,39 +17044,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/community-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/community-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/min\/community-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/dashboard-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/dashboard-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/min\/dashboard-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/doubleSuggest-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/doubleSuggest-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/min\/doubleSuggest-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/jquery.tinysort.min-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -17842,39 +17061,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/listings-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/min\/listings-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/settings-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/settings-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/min\/settings-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/support-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/support-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/min\/support-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/updates-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/updates-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wpmudev-updates\/includes\/js\/min\/min\/updates-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -25061,6 +24247,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/OWW\/_\/components\/php\/entertainment-full-story.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/php\/entertainment-full-story.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/OWW\/_\/components\/php\/entertainment-solutions.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -25277,6 +24472,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/OWW\/_\/components\/php\/hero-thirds-entertainment.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/php\/hero-thirds-entertainment.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/OWW\/_\/components\/php\/hero-thirds-in-the-news.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -25300,6 +24504,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/php\/hero-thirds-relocation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/OWW\/_\/components\/php\/hero-thirds-traveler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/php\/hero-thirds-traveler.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -25570,6 +24783,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/php\/title.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/OWW\/_\/components\/php\/traveler-full-story.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/components\/php\/traveler-full-story.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -26237,28 +25459,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/js\/min\/bootstrap-ck.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/js\/min\/min\/bootstrap-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/OWW\/_\/js\/min\/jquery.fancybox-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/js\/min\/jquery.fancybox-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/js\/min\/min\/jquery.fancybox-ck-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/OWW\/_\/js\/min\/jquery.fancybox.pack-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/js\/min\/jquery.fancybox.pack-ck.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/OWW\/_\/js\/min\/min\/jquery.fancybox.pack-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -28995,15 +28195,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/header-6.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/OWW\/header-7.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/header-7.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -32122,15 +31313,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/page-templates\/careers.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/OWW\/page-templates\/comprehensive-program-management-2.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/OWW\/page-templates\/comprehensive-program-management-2.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

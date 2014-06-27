@@ -9,10 +9,10 @@
 															</span>
 															<!--<p class="date hidden-xs hidden-sm"><?php the_date();?></p>-->
 															<h3 class="hidden-lg hidden-md"><?php the_title(); ?>
-															<p class="full-story hidden-lg hidden-md">
-																<a class="orange-link" href="<?php the_permalink(); ?>">Full Story &#8594;</a>
-															</p></h3>
-															
+																<p class="full-story hidden-lg hidden-md">
+																	<a class="orange-link" href="<?php the_permalink(); ?>">Full Story &#8594;</a>
+																</p>
+															</h3>
 															<p class="headline hidden-sm hidden-xs">
 																<a href="<?php the_permalink(); ?>"><?php the_title(); ?>
 																	<?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_title', true ) ); ?>

@@ -3,7 +3,7 @@
 												'posts_per_page' => '1',
 												'meta_key' => 'industry_insight_sticky',
 												'meta_value' => 'yes',
-												'meta_key' => 'industry_insight_sticky_relocation',
+												'meta_key' => 'industry_insight_sticky_individual',
 												'meta_value' => 'yes'
 																	
 												));
@@ -24,14 +24,9 @@
 												</p>
 												<p>More from <span class="tags">
 													<?php the_terms( $post->ID, 'industry_insights_industry_type' ,  ' ' );?>
-													
 												</p>
-												
-												
 												<?php endwhile; ?>
 												<?php wp_reset_query(); ?>
-												
-												
 											</section> <!--end two thirds-->											
 											
 											

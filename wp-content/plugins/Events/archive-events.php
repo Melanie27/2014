@@ -1,4 +1,4 @@
-<?php get_header(7); ?>
+<?php get_header(6); ?>
 
 <body id="events">
   		<div class="container-full">
@@ -26,11 +26,8 @@
 											<h2 class="page-title">Join Us at These Upcoming Events</h2>
 												<p>For more information about these industry events, or Oakwood Worldwide’s participation, contact <a href="mailto:oakwoodinfo@oakwood.com">oakwoodinfo@oakwood.com</a></p>
 											<section class="col-lg-8 col-md-8 press-release-list">
-												
 												<!-- Start the Loop -->
-												
 												<?php while ( have_posts() ) : the_post(); ?>
-												
 												<!-- Display review title and author -->
 												<div class="row" id="press1">
 													<ul>
@@ -42,7 +39,6 @@
 																<h3><?php the_title(); ?></h3>
 																<p class="location"><?php echo esc_html( get_post_meta( get_the_ID(), 'event_location', true ) ); ?></p>
 																<p class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'event_description', true ) ); ?></p>
-																<!--<p class="full-story "><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>-->	
 															</section>
 															<div class="clearfix"></div>				
 														</li>
@@ -76,8 +72,7 @@
 						</section><!--three-->		
     					<section class="content row">
 							<div class="col-lg-12">
-								<section class="four hidden-sm hidden-xs">
-								</section>
+								<section class="four hidden-sm hidden-xs"></section>
 							</div>
 						</section><!--content 4-->
 						<hr>			

@@ -1,4 +1,4 @@
-<?php get_header(7); ?>
+<?php get_header(6); ?>
 
 <body id="press-releases">
   		<div class="container-full">

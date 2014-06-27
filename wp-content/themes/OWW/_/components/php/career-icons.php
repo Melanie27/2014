@@ -64,8 +64,3 @@
 											</div>
 										</section>
 									</div>
-									<div class="row archives hidden-lg hidden-md">
-										<div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-											<a class="link-archives see-all text-center" href="upcoming-events.php">SEARCH CURRENT OPENINGS</a>
-										</div>
-									</div>

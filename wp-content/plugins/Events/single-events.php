@@ -1,12 +1,7 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- * * Template Name: Press Release Single
- */
+/*Template Name: Press Release Single*/?>
 
-get_header(7); ?>
-
+<?php get_header(6); ?>
 <body id="events-single">
   	<div class="container-full">  
   		<section class="container landing">
@@ -23,12 +18,10 @@ get_header(7); ?>
 						</div><!--heading-->
 						<?php include (TEMPLATEPATH . '/_/components/php/hero-thirds-internal.php'); ?>
 					</section> <!--two-->	
-    
 					<?php
 						$mypost = array( 'post_type' => 'events', );
 						$loop = new WP_Query( $mypost );
 					?>
-    
 					<?php /* The loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -57,7 +50,7 @@ get_header(7); ?>
 											<hr />	
 										</section>								
 										<section class="hidden-lg hidden-md hidden-sm news-single-archives">
-											<h1>Events</h1>
+											<h2>Events</h2>
 											<?php include (TEMPLATEPATH . '/_/components/php/news-events-thumbs.php'); ?>
 										</section>				
 										<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							
@@ -67,8 +60,7 @@ get_header(7); ?>
 						</section><!--three-->
 						<section class="content row">
 							<div class="col-lg-12">
-								<section class="four hidden-sm hidden-xs">
-								</section>
+								<section class="four hidden-sm hidden-xs"></section>
 							</div>
 						</section><!--content 4-->			
 						<hr />

@@ -1,17 +1,12 @@
 <?php
-/**
-* Template Name: Privacy Policy*/
-
-?>
+/*Template Name: Privacy Policy*/?>
 
 <?php get_header(2); ?>
-			
-			
+					
 <body id="privacy-policy">
   	<div class="container-full">
   		<section class="container landing">
 		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
-			
 		  		<section class="two">
 					<div class="row heading">
 						<section class="col-lg-12">
@@ -20,7 +15,6 @@
 							</div>
 						</section>		
 					</div><!--heading-->		
-				<!--place Hero overlay here-->
 		  		</section> <!--two container-->	
 				<section class="three container">
 					<div class="row over2">
@@ -193,7 +187,6 @@
 							<p>This Privacy Policy is effective with respect to all data that we have collected since the date we started collecting data, which was January 1, 2000.</p>
 						</section>
 						<div class="clear"></div>	
-						
 					</div><!--over2-->
 				</section><!--end three-->	
 				<section class="row hidden-lg hidden-md hidden-sm hidden-xs">
@@ -202,13 +195,12 @@
 						</section>
 					</div>
 				</section><!--content 4-->		
-				
-					<section class="row hidden-xs">
-						<div class="col-lg-12">
-							<section class="six">
-							</section>
-						</div>
-					</section><!--content 6-->
+				<section class="row hidden-xs">
+					<div class="col-lg-12">
+						<section class="six">
+						</section>
+					</div>
+				</section><!--content 6-->
 				<hr />
 						
 		<?php get_footer(); ?>

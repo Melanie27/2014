@@ -10,7 +10,6 @@
 			</div>
 		</section>									
 	</div>
-
 	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 leaders top">
 		<?php $executive_committee = new WP_Query('post_type=executive_committee&posts_per_page=6');?>
 		<ul class="leadership-photos">
@@ -25,5 +24,4 @@
 			<?php wp_reset_query(); ?>
 		</ul>
 	</div>
-	
 </section>

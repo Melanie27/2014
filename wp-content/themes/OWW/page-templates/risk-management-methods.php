@@ -1,10 +1,5 @@
 <?php
-/**
-
- * Template Name: Risk Management Methods
- *
- 
- */?>
+/** Template Name: Risk Management Methods*/?>
 <?php get_header(3); ?>
 
 

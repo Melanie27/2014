@@ -8,7 +8,6 @@
 																	
 											?>
 											<?php query_posts('post_type=events'); while ($events->have_posts()): $events->the_post(); ?>
-											
 											<section class="col-lg-4 col-md-4 col-sm-6 thirds cover-image hidden-sm hidden-xs">
 												<?php the_post_thumbnail('stickysize'); ?>
 											</section> <!--end one third-->
@@ -22,12 +21,7 @@
 												</p>
 												<p>More from <span class="tags">
 													<?php the_terms( $post->ID, 'events_event_month' ,  ' ' );?>
-													
 												</p>
-												
-												
 												<?php endwhile; ?>
 												<?php wp_reset_query(); ?>
-												
-												
 											</section> <!--end two thirds-->

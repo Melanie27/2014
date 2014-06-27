@@ -1,11 +1,6 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * * Template Name: Press Release Single
- */
+<?php/* Template Name: Press Release Single*/?>
 
-get_header(7); ?>
+<?php get_header(6); ?>
 
 <body id="press-releases-single">
   	<div class="container-full">  

@@ -1,9 +1,5 @@
 <?php
-/**
-
- * Template Name: Find Housing */
-
-?>
+/* Template Name: Find Housing */?>
 
 <?php get_header(2); ?>
 			
@@ -12,7 +8,6 @@
   	<div class="container-full">
   		<section class="container landing">
 		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
-			
 		  		<section class="two">
 					<div class="row heading">
 						<section class="col-lg-12">
@@ -21,17 +16,14 @@
 							</div>
 						</section>		
 					</div><!--heading-->		
-				<!--place Hero overlay here-->
 		  		</section> <!--two container-->	
 				<section class="three container">
-				
 					<div class="">
 					  <section class="col-lg-12 col-md-12 brands-intro">
 						  <h2>Three Unique Brands</h2>
 						  <p>Enjoy more choice in your housing program through our brands, Oakwood, ExecuStay and Insurance Housing Solutions. Each of our three brands offers access to a unique selection of accommodations and provides specific services to meet your individual needs. So whether you want a three-bedroom for a three-month assignment in Bangalore, are looking to make a 30-day stay in Biloxi even more rewarding with Marriott Rewards® points or are in need of a spacious single family home that falls within restrictive ALE limits, you’ll have peace of mind knowing that we’re ready to accommodate.</p>
 						</section>
 				    </div>
-				    
 					<div class="row over2">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<div class="">
@@ -50,7 +42,7 @@
 										</section>
 										<section class="col-lg-12 brands-row-height3">
 											<p class="orange-text">Locations</p>
-											<p class="gray-text">In 70+ Countries</p>
+											<p class="gray-text gray-padding">In 70+ Countries</p>
 										</section>
 										<section class="col-lg-12 brands-row-height4">
 											<p class="orange-text">Housing Types</p>
@@ -70,7 +62,6 @@
 									</div>
 								</section><!-- end intro oakwood-->
 								<hr class="hidden-lg hidden-md"/>
-								
 								<section class="col-lg-4 col-md-4 intro execustay ">
 									<div class="">
 										<section class="col-lg-12 col-md-12 col-xs-6 logo blue-bg">
@@ -86,7 +77,7 @@
 										</section>
 										<section class="col-lg-12 brands-row-height3">
 											<p class="orange-text">Locations</p>
-											<p class="gray-text">In all 50 United States</p>
+											<p class="gray-text" id="gray-padding" style="padding-bottom:35px;">In all 50 United States</p>
 										</section>
 										<section class="col-lg-12 brands-row-height4">
 											<p class="orange-text">Housing Types</p>
@@ -106,7 +97,6 @@
 									</div>
 								</section><!-- end intro execustay-->
 								<hr class="hidden-lg hidden-md"/>
-								
 								<section class="col-lg-4 col-md-4 intro ihs">
 									<div class="">
 										<section class="col-lg-12 col-md-12 col-xs-10 logo yellow-bg">
@@ -144,7 +134,6 @@
 							</div><!--end nested row-->
 						</section><!--12 cols-->
 					</div><!--over2-->
-					
 					<!--
 					<div class="">
 					  <section class="col-lg-12 col-md-12 brands-footer">
@@ -152,21 +141,17 @@
 						  <p>Oakwood Worldwide’s consistently high guest satisfaction and quality ratings are clear indication of our ongoing commitment to providing an exceptional client and guest experience across the board. Each of our brands must adhere to the same, strict quality standards and all of our associates are trained to provide the same level of service to our clients and guests, ensuring that no matter with which brand—or brands—you book, you’ll experience nothing less than the best from Oakwood Worldwide.</p>
 						</section>
 				    </div> -->
-				    
 				</section><!--end three-->
 				<section class="row hidden-lg hidden-md hidden-sm hidden-xs">
 					<div class="col-lg-12">
-						<section class="four">
-						</section>
+						<section class="four"></section>
 					</div>
 				</section><!--content 4-->		
-				
-					<section class="row hidden-xs">
-						<div class="col-lg-12">
-							<section class="six">
-							</section>
-						</div>
-					</section><!--content 6-->
+				<section class="row hidden-xs">
+					<div class="col-lg-12">
+						<section class="six"></section>
+					</div>
+				</section><!--content 6-->
 				<hr />
 						
 <?php get_footer(); ?>

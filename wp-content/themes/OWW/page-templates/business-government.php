@@ -1,12 +1,7 @@
 <?php
-/**
- * The template for displaying all pages
- *
- * * Template Name: Business Government
- 
- */
+/* Template Name: Business Government*/?>
 
-get_header(4); ?>
+<?php get_header(4); ?>
 
 <body id="government">
   	<div class="container-full">
@@ -46,7 +41,6 @@ get_header(4); ?>
 					<div class="container" id="overview">
 						<?php include (TEMPLATEPATH . '/_/components/php/government-overview.php'); ?>
 					</div><!--end container-->		
-					
 					<div class="row industry-insights">
 						<section class="col-sm-12 hidden-lg hidden-md hidden-sm hidden-xs">
 							<div class="container">
@@ -55,7 +49,6 @@ get_header(4); ?>
 							<?php include (TEMPLATEPATH . '/_/components/php/industry-insights.php'); ?>
 						</section>
 					</div>
-					
 					<!--ACCORDION-->
 					<section class="three">
 						<div class="row">
@@ -66,21 +59,18 @@ get_header(4); ?>
 									<?php include (TEMPLATEPATH . '/_/components/php/government-military.php'); ?>
 								</div>						
 							</section>
-  					
 							<!--Federal Civilian Accordion Panel-->
 							<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 accord-padding" id="federal-civilian">
 								<div class="container">									
 									<?php include (TEMPLATEPATH . '/_/components/php/government-federal-civilian.php'); ?>
 								</div>
 							</section>
-				
 							<!--Government Contractors Accordion Panel-->	
 							<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 accord-padding" id="government-contractors">
 								<div class="container">		
 									<?php include (TEMPLATEPATH . '/_/components/php/government-government-contractors.php'); ?>
 								</div>	
 							</section>	
-				
 							<!--GSA Schedule 48 Accordion Panel-->
 							<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 accord-padding" id="gsa-schedule-48">
 								<div class="container">	
@@ -90,12 +80,11 @@ get_header(4); ?>
 						</div>
 					</section>
 			  	</div>
-					<!--end row that holds accordion-->	
-					
-					<section class="three three-a container overview">
-						<div class="row over2">										
-							<section class="col-lg-12 col-md-12">						
-								<div class="row">
+				<!--end row that holds accordion-->	
+				<section class="three three-a container overview">
+					<div class="row over2">										
+						<section class="col-lg-12 col-md-12">						
+							<div class="row">
 								<h2 class="prefer">Why Do Government Professionals Prefer Oakwood Worldwide?</h2>
 								<ul class="prefer-oakwood">
 									<li>Our extended stay lodging is far more spacious than the typical hotel room, with separate living, sleeping and dining spaces and full-size kitchens</li>
@@ -107,31 +96,25 @@ get_header(4); ?>
 									<li>We accept multiple payment options, with e-invoicing to help simplify expense reporting</li>
 									<li>We honor government-issued credit cards, as well as Global Distribution System (GDS) pre-approved rates</li>
 								</ul>
-
-						</div>
-					</section>
-					
-					<section class="row hidden-sm hidden-xs carousel-heading">
-					<div class="col-lg-12 col-md-12">
-					 <h2>Explore our Accommodations</h2>
-				    </div>					
-				    </section>
-				    <?php include (TEMPLATEPATH . '/_/components/php/carousel-emea.php'); ?>
-					
-						</div>
-					</section>
-					
-					<div class="clearfix">&nbsp;</div>	
-			  	</section>
-					<hr class="hidden-lg hidden-md"/>
-				
-					<section class="content row">
-						<div class="col-lg-12">
-							<section class="eight hidden-sm hidden-xs">
-							</section>
-						</div>
-					</section><!--content 12-->
-				</div><!-- #content -->
-			</div><!-- #primary -->
-  		</section>
+							</div>
+						</section>	
+						<section class="row hidden-sm hidden-xs carousel-heading">
+							<div class="col-lg-12 col-md-12">
+								<h2>Explore our Accommodations</h2>
+							</div>					
+						</section>
+						<?php include (TEMPLATEPATH . '/_/components/php/carousel-emea.php'); ?>	
+					</div>
+				</section>
+				<div class="clearfix">&nbsp;</div>	
+			  </section>
+			<hr class="hidden-lg hidden-md"/>
+				<section class="content row">
+					<div class="col-lg-12">
+						<section class="eight hidden-sm hidden-xs"></section>
+					</div>
+				</section><!--content 12-->
+			</div><!-- #content -->
+		</div><!-- #primary -->
+  	</section>
 <?php get_footer(); ?>

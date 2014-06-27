@@ -1,31 +1,22 @@
 <?php
-/**
+/* Template Name: Account Services*/?>
 
- * Template Name: Account Services
- *
- 
- */?>
 <?php get_header(3); ?>
-
-
 <body id="client-services">
   	<div class="container-full">
   		<section class="container landing">
 		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
-
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			<section class="two">
-				<div class="row heading">
-					<section class="col-lg-12">
-						<div class="container">
-							<h1 class="entry-title"><?php the_title(); ?></h1>									
-						</div>
-					</section>		
-				</div><!--heading-->	
-				
-		  	</section> <!--two-->	
+		 	<div id="primary" class="content-area">
+			 	<div id="content" class="site-content" role="main">
+				 	<section class="two">
+					 	<div class="row heading">
+						 	<section class="col-lg-12">
+							 	<div class="container">
+								 	<h1 class="entry-title"><?php the_title(); ?></h1>									
+								 </div>
+							</section>		
+						</div><!--heading-->	
+					</section> <!--two-->	
 			<section class="three container">
 				<div class="row">
 					<section class="col-lg-12 col-md-12  col-sm-12 col-xs-12">

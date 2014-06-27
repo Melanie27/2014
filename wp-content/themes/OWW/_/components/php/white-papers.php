@@ -7,8 +7,7 @@
 											<?php the_post_thumbnail('herosize'); ?>
 											<p class="date"><?php the_date();?></p>
 											<p class="headline"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_post_meta( get_the_ID(), 'white_paper_blurb', true ) ); ?></a></p>
-										</li>
-																		
+										</li>							
 										<?php endwhile; ?>
 										<?php wp_reset_query(); ?>
 									</ul>

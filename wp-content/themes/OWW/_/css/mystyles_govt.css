@@ -33,6 +33,26 @@
   font-weight: normal;
   font-style: normal;
 }
+/*make youtube video responsive*/
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.menu-item-928 {
+  display: none !important;
+}
 body {
   color: #3b3b3b;
   font-family: 'district_bookbook', Helvetica, Arial, sans-serif;
@@ -466,18 +486,6 @@ nav.navbar-fixed-top {
   display: table-cell;
   vertical-align: middle;
 }
-.heading h2 {
-  color: white;
-  margin: 0px;
-  font-family: 'district_thinthin', Helvetica, Arial, sans-serif;
-  line-height: 30px;
-  display: table-cell;
-  vertical-align: middle;
-}
-.heading h3 {
-  font-weight: 300;
-  margin-bottom: 0px;
-}
 .industry-text {
   position: relative;
   bottom: 60px;
@@ -734,9 +742,6 @@ hr {
 article.one-third-two-thirds {
   padding: 30px 0px 60px;
 }
-article.one-third-two-thirds h1 {
-  margin-bottom: 23px;
-}
 article.one-third-two-thirds ul {
   margin: 12px 0px 20px 0px;
   padding: 0px 0px 0px 30px;
@@ -758,22 +763,8 @@ article.one-third-two-thirds ul {
 		height:512px; */
   height: auto;
 }
-#business-solutions .three h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-#business-solutions .three h1 {
-  margin-top: 50px;
-  margin-bottom: 0px;
-}
-#business-solutions .three .additional {
-  padding-bottom: 50px;
-}
 #business-solutions .four {
   background-image: url(../../images/business-solutions/bg-image-02.jpg);
-}
-#business-solutions .five h2 {
-  margin-bottom: 0px;
 }
 #business-solutions .five h3 {
   margin-top: 0px;
@@ -796,22 +787,6 @@ article.one-third-two-thirds ul {
 #business-solutions .industry-insights .thirds {
   padding-top: 0px;
   margin-top: 20px;
-}
-#business-solutions .additional h1 {
-  margin-top: 0px;
-  color: #f05323;
-  font-size: 24px;
-  margin-bottom: 25px;
-}
-#business-solutions .additional ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  font-size: 20px;
-  font-family: 'district_lightlight', Helvetica, Arial, sans-serif;
-}
-#business-solutions .additional li {
-  line-height: 32px;
 }
 /*FOOTER */
 footer h2 {
@@ -1148,12 +1123,14 @@ footer .copyright p {
 }
 #find-housing .intro p {
   font-size: 20px;
-  line-height: 25px;
 }
 #find-housing .intro p.gray-text {
   font-size: 24px;
   font-family: 'district_thinthin';
   line-height: 36px;
+}
+#find-housing .intro p.gray-text.gray-padding {
+  padding-bottom: 35px;
 }
 #find-housing .intro p.orange-text {
   color: #f05323;
@@ -1286,9 +1263,6 @@ footer .copyright p {
 }
 #vision-leadership .affiliations-text {
   margin-bottom: 55px;
-}
-#vision-leadership .industry-affiliations h1 {
-  margin: 55px 0px 35px;
 }
 #vision-leadership .executive-committee .blurb {
   border-right: none;
@@ -1456,14 +1430,6 @@ footer .copyright p {
   margin-left: 15px;
   margin-top: 10px;
 }
-.search-jobs h1 {
-  margin-top: 45px;
-}
-.promo-header h1 {
-  display: table-cell;
-  vertical-align: middle;
-  height: 125px;
-}
 .career-promo img {
   margin-bottom: 35px;
 }
@@ -1488,10 +1454,12 @@ footer .copyright p {
 .global-scale-last {
   margin-bottom: 50px;
 }
-/*HOME*/
 /*Media Queries*/
 /* Extra Small Screens 1 - 768 */
 @media (min-width: 1px) and (max-width: 767px) {
+  .menu-item-928 {
+    display: block !important;
+  }
   .page-numbers {
     padding: 3px;
   }
@@ -1520,6 +1488,10 @@ footer .copyright p {
   }
   #careers h3 {
     padding-right: 15px;
+  }
+  #careers .career-promo section.thirds {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .career-bullets {
     padding-right: 15px;
@@ -1595,9 +1567,6 @@ footer .copyright p {
   .heading .container {
     padding-left: 0px;
   }
-  .five h1 {
-    padding-top: 25px;
-  }
   .six {
     height: 85px;
   }
@@ -1607,9 +1576,6 @@ footer .copyright p {
   .upcoming-events .link-archives:link,
   .upcoming-events .link-archives:visited {
     margin-bottom: 10px;
-  }
-  .media-relations h1 {
-    margin-top: 30px;
   }
   .teasers {
     padding-left: 0px;
@@ -1891,13 +1857,6 @@ footer .copyright p {
   #executive-leadership .three {
     padding-bottom: 20px;
   }
-  #executive-leadership .three h1 {
-    margin-top: 25px;
-    margin-bottom: 5px;
-  }
-  #executive-leadership .three h1 .title {
-    font-size: 13px;
-  }
   #executive-leadership .affiliations-text {
     padding: 0px;
     margin-bottom: 10px;
@@ -1935,6 +1894,9 @@ footer .copyright p {
 }
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .menu-item-928 {
+    display: block !important;
+  }
   .oakwood-university {
     border-right: none;
   }
@@ -2265,6 +2227,9 @@ footer .copyright p {
   .career-icons {
     padding-left: 45px;
   }
+  #entertainment .two {
+    background-image: none;
+  }
 }
 /* Medium Screens 992 - 1200 */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -2348,9 +2313,6 @@ footer .copyright p {
   .teasers {
     padding-left: 20px;
   }
-  #news .first-third-one-third {
-    padding-bottom: 70px;
-  }
   .blurb {
     padding-bottom: 23px;
     padding-left: 10px;
@@ -2425,6 +2387,9 @@ footer .copyright p {
   }
   #business-solutions .news-columns {
     padding: 0px;
+  }
+  #news .first-third-one-third {
+    padding-bottom: 70px;
   }
   .max-height-car {
     max-height: 235px;
@@ -2533,9 +2498,6 @@ footer .copyright p {
   .five .col-md-8 {
     padding-top: 0px;
   }
-  .five h1 {
-    padding-top: 50px;
-  }
   .heading {
     padding-left: 15px;
   }
@@ -2623,9 +2585,9 @@ p.consult-desc {
   background-image: url(../../images/government/bg-image-04.jpg);
   height: 200px;
 }
-#individual-business-traveler .two,
+/*ENTERTAINMENT*/
 #entertainment .two {
-  background-image: none;
+  background-image: url("../../images/sitewide/bg-image-07.jpg");
 }
 .thirds {
   padding-bottom: 35px;
@@ -2774,12 +2736,6 @@ nav {
 #industry-insights-relocation .four,
 #industry-insights-consulting .four {
   height: 250px;
-}
-#industry-insights-government .five h1,
-#industry-insights-relocation .five h1,
-#industry-insights-consulting .five h1 {
-  margin-top: 50px;
-  margin-bottom: 30px;
 }
 #industry-insights-government .five .news-thumbnails,
 #industry-insights-relocation .five .news-thumbnails,
@@ -2969,10 +2925,17 @@ nav {
     padding-left: 15px;
     padding-right: 15px;
   }
+  /*ENTERTAINMENT*/
+  #entertainment .two {
+    background-image: none;
+  }
 }
-/*ENTERTAINMENT*/
 /*small screen*/
 @media (min-width: 768px) and (max-width: 991px) {
+  /*ENTERTAINMENT*/
+  #entertainment .two {
+    background-image: none;
+  }
   .two {
     background-image: none;
   }
@@ -3039,10 +3002,6 @@ nav {
   #individual-business-traveler .industry-insights {
     padding-left: 15px;
     padding-right: 15px;
-  }
-  #individual-business-traveler .industry-insights h1 {
-    padding-left: 15px;
-    padding-top: 15px;
   }
   #individual-business-traveler .industry-insights .two-a {
     padding-bottom: 15px;
