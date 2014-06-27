@@ -216,6 +216,10 @@ h1 {
 		
 } 
 
+.header1 {
+	padding-right:5px;
+}
+
 h2 {
 	
 	font-size: @oww-font-size-h2;
@@ -235,6 +239,12 @@ h3 {
 
 h3.icon-heading {
 	text-align:center;
+}
+
+.awards-honors {
+	h2  {
+		margin-top:20px !important;
+	}
 }
 
 h4 {
@@ -265,6 +275,14 @@ p {
 }
 
 
+.date {
+	margin-bottom: 0px;
+}
+
+p.subhead {
+	margin-bottom: 0px;
+}
+
 
 sup {
 	
@@ -272,6 +290,14 @@ sup {
 	vertical-align:top;
 	line-height:18px;
 	
+}
+
+.terms-intro, .privacy-intro {
+	margin-top:50px;	
+}
+
+.effective-date.privacy, .terms-copyright.terms {
+	margin-bottom: 50px;
 }
 
 .regional-supply {
@@ -723,11 +749,6 @@ nav.navbar-fixed-top {
 	border:solid 1px blue;
 }
 
-p.consult-desc {
-	
-	padding-right:50px;
-	
-}
 
 
 /*HEADER OVERLAY*/
@@ -1075,14 +1096,14 @@ p.caption {
 		border-right:solid 1px @oww-border;
 		padding-top:42px;
 		padding-bottom:42px;
-		padding-right:70px;
+		padding-right:25px;
 			
 	}
 	
 	.second-col  {
 		
 		border-right:solid 1px @oww-border;
-		padding: 42px 35px;
+		padding: 42px 25px;
 	}
 	
 	
@@ -1096,7 +1117,7 @@ p.caption {
 	
 	.media-relations {
 		
-		margin-bottom: 65px;
+		margin-bottom: 30px;
 		
 		img {
 				
@@ -2200,6 +2221,7 @@ footer {
 		
 				list-style-type:none;
 				width:50%;
+				padding:5px;
 			
 			}
 	
@@ -2357,6 +2379,7 @@ footer {
 		
 		height: auto;              /* 316px; */
 	    background-image: none;    /* url("../../images/sitewide/bg-image-04-internal.jpg"); */
+	    
 	}
 	
 	.four {
@@ -2477,6 +2500,10 @@ footer {
 
 .career-bullets {
 	margin-top:20px;
+}
+
+.global-scale-last {
+	margin-bottom:50px;
 }
 
 
@@ -3178,6 +3205,12 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 									 
 			}
 			
+			.leaders.top {
+					 
+				padding-top: 35px;
+									 
+			}
+			
 		}
 	}
 	
@@ -3272,10 +3305,31 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 			
 }
 
+#contact-us {
+	
+	p {
+		margin:0px;
+	}
+	
+	.regional-headquarters {
+		margin-bottom:50px;
+	}
+}
+
 /*Small Screens 768 - 992 */
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+	
+	.oakwood-university {
+		border-right:none;
+	}
+	
+	#careers .referral {
+		border-left:none;
+		border-right:none;
+	}
+	
 	h2.panel-title {
 		 
 		margin-top:0px !important;
@@ -3626,7 +3680,6 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
 		.five {
 		
-			padding-top:40px;
 			padding-bottom: 0px;
 	
 						
@@ -3637,6 +3690,17 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
 	#careers {
 		
+		.career-promo {
+		
+			section.thirds {
+			padding-bottom:0px;
+			}
+		}
+		
+		.thirds {
+			padding-top:0px;
+		}
+		
 		.career-intro {
 			
 			padding-top:30px;
@@ -3646,12 +3710,7 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 			
 			border-right:none;
 		}
-		
-		.referral {
-			
-			border-right: solid 1px @oww-border;
-		}
-		
+				
 		.three {
 			
 			padding-bottom:30px;
@@ -3886,6 +3945,11 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
+	.oakwood-university {
+		
+		padding-left:0px;
+	}
+	
 	.navbar {
 		
 		min-height:65px !important;
@@ -4180,6 +4244,8 @@ a.page-numbers.prev:link, a.page-numbers.prev:visited {
 	
 	}
 	
+	
+	
 }
 
 
@@ -4244,8 +4310,9 @@ and (orientation : landscape) {
 	.two, .four, .six, .eight, .ten {
 		
 		background-attachment:scroll;
-		background-position:center; 
-		background-size:1024px auto;
+		background-position:center center; 
+		background-size: cover;
+		
 		
 	}
 

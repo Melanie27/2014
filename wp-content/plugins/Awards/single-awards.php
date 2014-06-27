@@ -95,7 +95,7 @@ get_header(7); ?>
 									</section>
 								</div>
 							</section><!--content 4-->			
-							<hr />
+							
 							<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>				
 							<hr />
 						</div>

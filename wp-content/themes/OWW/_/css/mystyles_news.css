@@ -74,6 +74,9 @@ h1 a:active {
 h1 a:visited {
   color: #f05323;
 }
+.header1 {
+  padding-right: 5px;
+}
 h2 {
   font-size: 30px;
   font-weight: normal;
@@ -90,6 +93,9 @@ h3 {
 }
 h3.icon-heading {
   text-align: center;
+}
+.awards-honors h2 {
+  margin-top: 20px !important;
 }
 h4 {
   color: #f05323;
@@ -112,10 +118,24 @@ p {
   margin-bottom: 20px;
   overflow-y: hidden;
 }
+.date {
+  margin-bottom: 0px;
+}
+p.subhead {
+  margin-bottom: 0px;
+}
 sup {
   font-size: 10px;
   vertical-align: top;
   line-height: 18px;
+}
+.terms-intro,
+.privacy-intro {
+  margin-top: 50px;
+}
+.effective-date.privacy,
+.terms-copyright.terms {
+  margin-bottom: 50px;
 }
 .regional-supply {
   padding-bottom: 40px;
@@ -424,9 +444,6 @@ nav.navbar-fixed-top {
   background-color: white;
   border: solid 1px blue;
 }
-p.consult-desc {
-  padding-right: 50px;
-}
 /*HEADER OVERLAY*/
 #home .over {
   background-color: white;
@@ -653,18 +670,18 @@ p.caption {
   border-right: solid 1px #ebebeb;
   padding-top: 42px;
   padding-bottom: 42px;
-  padding-right: 70px;
+  padding-right: 25px;
 }
 .three .second-col {
   border-right: solid 1px #ebebeb;
-  padding: 42px 35px;
+  padding: 42px 25px;
 }
 .three .third-col {
   border-right: none;
   padding: 42px 35px;
 }
 .three .media-relations {
-  margin-bottom: 65px;
+  margin-bottom: 30px;
 }
 .three .media-relations img {
   margin-top: 12px;
@@ -1297,6 +1314,7 @@ footer .copyright p {
 #vision-leadership .executive-committee ul.leadership-photos li {
   list-style-type: none;
   width: 50%;
+  padding: 5px;
 }
 #vision-leadership .executive-committee ul.leadership-photos img {
   margin-bottom: 20px;
@@ -1466,6 +1484,9 @@ footer .copyright p {
 }
 .career-bullets {
   margin-top: 20px;
+}
+.global-scale-last {
+  margin-bottom: 50px;
 }
 /*HOME*/
 /*Media Queries*/
@@ -1857,6 +1878,9 @@ footer .copyright p {
   #vision-leadership .executive-committee .leaders.bottom {
     padding: 0px;
   }
+  #vision-leadership .executive-committee .leaders.top {
+    padding-top: 35px;
+  }
   #executive-leadership ul.leadership-photos {
     padding-top: 35px;
   }
@@ -1903,8 +1927,21 @@ footer .copyright p {
     padding-left: 0px;
   }
 }
+#contact-us p {
+  margin: 0px;
+}
+#contact-us .regional-headquarters {
+  margin-bottom: 50px;
+}
 /*Small Screens 768 - 992 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .oakwood-university {
+    border-right: none;
+  }
+  #careers .referral {
+    border-left: none;
+    border-right: none;
+  }
   h2.panel-title {
     margin-top: 0px !important;
   }
@@ -2089,17 +2126,19 @@ footer .copyright p {
     margin-bottom: 40px;
   }
   #affiliations .five {
-    padding-top: 40px;
     padding-bottom: 0px;
+  }
+  #careers .career-promo section.thirds {
+    padding-bottom: 0px;
+  }
+  #careers .thirds {
+    padding-top: 0px;
   }
   #careers .career-intro {
     padding-top: 30px;
   }
   #careers .why-oakwood {
     border-right: none;
-  }
-  #careers .referral {
-    border-right: solid 1px #ebebeb;
   }
   #careers .three {
     padding-bottom: 30px;
@@ -2229,6 +2268,9 @@ footer .copyright p {
 }
 /* Medium Screens 992 - 1200 */
 @media (min-width: 992px) and (max-width: 1200px) {
+  .oakwood-university {
+    padding-left: 0px;
+  }
   .navbar {
     min-height: 65px !important;
   }
@@ -2426,8 +2468,8 @@ footer .copyright p {
   .eight,
   .ten {
     background-attachment: scroll;
-    background-position: center;
-    background-size: 1024px auto;
+    background-position: center center;
+    background-size: cover;
   }
   .two {
     background-position-y: -100px;
@@ -2565,8 +2607,8 @@ footer .copyright p {
 .panel {
   border-bottom: none;
 }
-#news .first-third-one-third {
-  border-right: solid 1px #ebebeb;
+#news .two-thirds-one-third {
+  border-left: solid 1px #ebebeb;
 }
 #news .five .col-md-8 {
   padding-top: 100px;
@@ -3179,9 +3221,6 @@ p.location {
   .awards-sections h4 {
     margin-right: 15px;
   }
-  #awards .two {
-    height: 420px;
-  }
   #awards .carousel-caption {
     bottom: 50px;
     left: 460px;
@@ -3212,9 +3251,6 @@ p.location {
   #awards .item {
     width: 1024px;
     margin-left: 0px;
-  }
-  .awards-honors h2 {
-    font-size: 35px;
   }
   .news-thumbnails.events li {
     display: block;

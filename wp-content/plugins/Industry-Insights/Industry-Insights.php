@@ -37,7 +37,8 @@ function create_industry_insight() {
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( '' ),
             'menu_icon' => plugins_url( 'oww-dashboard.png', __FILE__ ),
-            'has_archive' => true
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'industry-insights' )
         )
     );
 }
@@ -56,6 +57,10 @@ function display_industry_insight_meta_box( $industry_insight ) {
     $industry_insight_sticky_story = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_story', true ) );
     $industry_insight_sticky_photo = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_photo', true ) );
     $industry_insight_sticky = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky', true ) );
+    $industry_insight_sticky_relocation = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_relocation', true ) );
+    $industry_insight_sticky_entertainment = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_entertainment', true ) );
+    $industry_insight_sticky_government = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_government', true ) );
+    $industry_insight_sticky_individual = esc_html( get_post_meta( $industry_insight->ID, 'industry_insight_sticky_individual', true ) );
     ?>
     <table>
         <tr>
@@ -77,6 +82,22 @@ function display_industry_insight_meta_box( $industry_insight ) {
         <tr>
             <td style="width:100%" height="50px;">Is it Sticky?</td>
             <td><input type="text" size="80" name="industry_insight_sticky_name" value="<?php echo $industry_insight_sticky; ?>" /></td>
+        </tr>
+         <tr>
+            <td style="width:100%" height="50px;">Relocation?</td>
+            <td><input type="text" size="80" name="industry_insight_sticky_relocation_name" value="<?php echo $industry_insight_sticky_relocation; ?>" /></td>
+        </tr>
+         <tr>
+            <td style="width:100%" height="50px;">Entertainment?</td>
+            <td><input type="text" size="80" name="industry_insight_sticky_entertainment_name" value="<?php echo $industry_insight_sticky_entertainment; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width:100%" height="50px;">Government?</td>
+            <td><input type="text" size="80" name="industry_insight_sticky_government_name" value="<?php echo $industry_insight_sticky_government; ?>" /></td>
+        </tr>
+         <tr>
+            <td style="width:100%" height="50px;">Individual?</td>
+            <td><input type="text" size="80" name="industry_insight_sticky_individual_name" value="<?php echo $industry_insight_sticky_individual; ?>" /></td>
         </tr>
         
     </table>
@@ -102,6 +123,18 @@ function add_industry_insight_fields( $industry_insight_id, $industry_insight ) 
         }
         if ( isset( $_POST['industry_insight_sticky_name'] ) && $_POST['industry_insight_sticky_name'] != '' ) {
             update_post_meta( $industry_insight_id, 'industry_insight_sticky', $_POST['industry_insight_sticky_name'] );
+        }
+         if ( isset( $_POST['industry_insight_sticky_relocation_name'] ) && $_POST['industry_insight_sticky_relocation_name'] != '' ) {
+            update_post_meta( $industry_insight_id, 'industry_insight_sticky_relocation', $_POST['industry_insight_sticky_relocation_name'] );
+        }
+        if ( isset( $_POST['industry_insight_sticky_entertainment_name'] ) && $_POST['industry_insight_sticky_entertainment_name'] != '' ) {
+            update_post_meta( $industry_insight_id, 'industry_insight_sticky_entertainment', $_POST['industry_insight_sticky_entertainment_name'] );
+        }
+        if ( isset( $_POST['industry_insight_sticky_government_name'] ) && $_POST['industry_insight_sticky_government_name'] != '' ) {
+            update_post_meta( $industry_insight_id, 'industry_insight_sticky_government', $_POST['industry_insight_sticky_government_name'] );
+        }
+        if ( isset( $_POST['industry_insight_sticky_individual_name'] ) && $_POST['industry_insight_sticky_individual_name'] != '' ) {
+            update_post_meta( $industry_insight_id, 'industry_insight_sticky_individual', $_POST['industry_insight_sticky_individual_name'] );
         }
     }
 }

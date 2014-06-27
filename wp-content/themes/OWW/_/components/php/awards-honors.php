@@ -13,7 +13,7 @@
 														<section class="awards-honors">
 															<h2 class="hidden-sm hidden-xs">Awards and Honors</h2>
 																<div class="row">
-																	<section class="col-md-11">
+																	<section class="col-lg-12 col-md-12">
 																	<?php $awards = new WP_Query('post_type=awards&posts_per_page=3');?>
 																		<ul class="list-unstyled">
 																		<?php query_posts('post_type=awards'); while ($awards->have_posts()): $awards->the_post(); ?>

@@ -80,7 +80,7 @@ get_header(2); ?>
 							<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/Online-account-access.png" alt="regional-icon" class="img-responsive">
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
-							<h3>Online Account Access</h3>
+							<h3 class="icon-heading">Online Account Access</h3>
 							<p class="icon-graph">We have invested in proprietary technology to connect you and your guests with important account and reservation details.  eOakwood allows access to the details of your housing program, such as guest arrival and departure dates and service requests.  myOakwood offers your guests immediate access to their individual reservation details, housekeeping services and community information.</p>
 						</section>
 					</div>

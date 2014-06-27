@@ -26,14 +26,14 @@
 				<section class="three container">
 					<div class="row over2">
 						<section class="reservations">
-							<h1>Reservations, Corporate Sales and Customer Service</h1>
+							<h2>Reservations, Corporate Sales and Customer Service</h2>
 							<ul class="contact-numbers">
 								<li><h3>Phone Number: <span class="click-number">1-877-388-7041</span></h3></li>
 								<li><h3>International: <span class="click-number">1-602-427-2781</span></h3></li>
 							</ul>
 						</section>
 						<section class="headquarters">
-							<h1>Worldwide Headquarters</h1>
+							<h2>Worldwide Headquarters</h2>
 							<div class="address">
 								<p>Oakwood Worldwide</p>
 								<p>2222 Corinth Avenue</p>
@@ -46,7 +46,7 @@
 							</div>	
 						</section>
 						<section class="regional-headquarters">
-							<h1>Regional Headquarters</h1>
+							<h2>Regional Headquarters</h2>
 							<ul class="region-list">
 								<div class="row">
 									<section class="col-lg-6">

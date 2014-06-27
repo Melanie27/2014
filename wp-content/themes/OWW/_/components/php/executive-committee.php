@@ -1,11 +1,11 @@
 <section class="executive-committee row">
 	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 first-third-one-third">
 		<section class="row">
-			<div class="col-lg-12 col-md-12 col-sm-6">		
+			<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">		
 				<h2>Executive Leadership</h2>
 				<img src="<?php bloginfo( 'template_directory' ); ?>/images/news/executive-leadership.jpg" alt="upcoming-events-01" class="img-responsive hidden-xs">
 			</div>		
-			<div class="col-lg-12 col-md-12 col-sm-6 hidden-xs">		
+			<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">		
 				<p class="blurb">Inspired by our Founder, Howard Ruby and our President, Ric Villarreal, our executive committee leads Oakwood Worldwide with a focus on our client relationships, technology, overall guest experience and valued associates. Discover how the unique backgrounds of our committee members have shaped the strategic growth of our company today. </p>
 			</div>
 		</section>									

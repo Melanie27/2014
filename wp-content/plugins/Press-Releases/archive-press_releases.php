@@ -42,7 +42,7 @@
 																	<a class="orange-link" href="<?php the_permalink(); ?>">Full Story &#8594;</a>
 																</p>
 																
-																<p class="hidden-xs"><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></p>
+																<p class="hidden-xs subhead"><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_subhead', true ) ); ?></p>
 																<p><?php echo esc_html( get_post_meta( get_the_ID(), 'press_release_blurb', true ) ); ?></p>
 																<p class="full-story hidden-xs"><a href="<?php the_permalink(); ?>" class="orange-link">Full Story &#8594;</a></p>	
 															</section>				

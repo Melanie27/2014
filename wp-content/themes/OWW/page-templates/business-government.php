@@ -14,7 +14,7 @@ get_header(4); ?>
 		  	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>
 		  	<div id="primary" class="content-area">
 			  	<div id="content" class="site-content" role="main">
-				  	<section class="two" style="background: none; height: auto;">
+				  	<section class="two">
 					  	<div class="row heading">
 						  	<section class="col-lg-12">
 							  	<div class="container">
@@ -22,7 +22,7 @@ get_header(4); ?>
 								 </div>
 							</section>		
 						</div><!--heading-->
-						<?php /*include (TEMPLATEPATH . '/_/components/php/hero-industry-insights.php'); */?>
+						<?php include (TEMPLATEPATH . '/_/components/php/hero-industry-insights.php'); ?>
 					</section> <!--two-->					
 					<div class="hidden-sm hidden-xs sub-navigation">
 						<section class="row">

@@ -12,7 +12,6 @@ get_header(3); ?>
   	<div class="container-full">
   		<section class="container landing">
 		 	<?php include (TEMPLATEPATH . '/_/components/php/header-menu.php'); ?>	
-
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<section class="two">
@@ -50,7 +49,7 @@ frames.]</iframe>
   		<!--Supply Chain-->
   		<section class="container three three-a">          
 			<div class="row career-promo">
-				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 oakwood-university thirds">
+				<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 oakwood-university thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<h2>Why Oakwood Worldwide</h2>
@@ -58,7 +57,7 @@ frames.]</iframe>
 					</div>
 					<div class="row career-trio">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<iframe width="340" height="191" src="//www.youtube.com/embed/cOPJEcrVcEY?rel=0" frameborder="0" allowfullscreen></iframe>
+							<iframe width="340" height="191" src="//www.youtube.com/embed/cOPJEcrVcEY?wmode=opaque&rel=0" frameborder="0" allowfullscreen></iframe>
 							
 						</section>
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -67,7 +66,7 @@ frames.]</iframe>
 					</div>	
 				</section>
 				<hr class="hidden-lg hidden-md hidden-sm">
-				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 why-oakwood thirds">
+				<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 why-oakwood thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<h2>Oakwood University</h2>
@@ -83,7 +82,7 @@ frames.]</iframe>
 					</div>
 				</section>
 				<hr class="hidden-lg hidden-md hidden-sm">
-				<section class="col-lg-4 col-md-4 col-sm-6 col-xs-12 referral thirds">
+				<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 referral thirds">
 					<div class="row promo-header">
 						<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<h2>Our Associates</h2>

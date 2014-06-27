@@ -120,7 +120,7 @@ get_header(2); ?>
 										<img src="<?php bloginfo( 'template_directory' ); ?>/images/global-services/APAC.jpg" alt="global-reach" class="img-responsive">
 									
 							</section>
-							<section class="col-lg-8 col-md-8 col-sm-12 global-reach">
+							<section class="col-lg-8 col-md-8 col-sm-12 global-reach global-scale-last">
 								
 								<p>As the Asia Pacific region continues its growth as a center of world commerce, the demand for innovative, comprehensive corporate housing and serviced apartment solutions has also increased. So more companies are looking to Oakwood Worldwide as a corporate housing partner for more than accommodations, but also local insights and expertise, plus ongoing support to help insure success in this vital region.</p>
 								<p>Oakwood Worldwide operates regional headquarters in Singapore and has invested in 28 branded properties across China, Hong Kong, India, Indonesia, Japan, Korea, the Philippines and Thailand. Here, guests receive the same great quality matched with a high level of community amenities, providing more opportunities for networking outside the typical business environment.</p>

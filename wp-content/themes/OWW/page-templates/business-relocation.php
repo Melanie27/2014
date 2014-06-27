@@ -60,8 +60,7 @@ get_header(4); ?>
 					</div>
 				</section>
 			</div><!--row-->
-		</section><!--three overview-->	
-		<hr class="hidden-lg hidden-md" />			
+		</section><!--three overview-->				
 		<div class="row industry-insights">
 			<section class="col-sm-12 hidden-lg hidden-md hidden-sm hidden-xs">
 				<div class="container">

@@ -155,7 +155,7 @@
 									</section>
 								</div> <!--end row-->		
 								<div class="row over2">
-									<section class="col-lg-12 col-md-12 col-sm-6 news-columns">	
+									<section class="col-lg-12 col-md-12 col-sm-12 news-columns">	
 										<div class="row">
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">		
 												<div class="solutions relocation">

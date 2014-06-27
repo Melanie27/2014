@@ -3,7 +3,7 @@
 												'posts_per_page' => '1',
 												'meta_key' => 'industry_insight_sticky',
 												'meta_value' => 'yes',
-												'meta_key' => 'industry_insight_sticky_government',
+												'meta_key' => 'industry_insight_sticky_entertainment',
 												'meta_value' => 'yes'
 																	
 												));
