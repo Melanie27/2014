@@ -42,12 +42,12 @@ get_header(2); ?>
 									</section>	
 								</div>	
 								<div class="row">
-									<section class="col-lg-8 col-md-8">
+									<section class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 										<div class="row">
-											<section class="col-lg-4 col-md-3 col-sm-3 col-xs-6 pull-left">
+											<section class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
 												<?php the_post_thumbnail(); ?>
 											</section>
-											<section class="col-lg-8 col-md-9 no-left-padding executive-text">
+											<section class="col-lg-8 col-md-9 col-sm-12 col-xs-12 no-left-padding executive-text">
 												<?php the_content(); ?>
 											</section>
 										</div>

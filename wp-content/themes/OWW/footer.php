@@ -34,7 +34,7 @@
 						</div><!--end nested row-->
 						<div class="row">
 							<section class="col-lg-12 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12">
-								<a href="http://www.ihshousing.com/" target="_blank">
+								<a href="http://insurancehousingsolutions.com" target="_blank">
 									<img src="<?php bloginfo( 'template_directory' ); ?>/images/sitewide/logo-ihs.jpg" alt="logo-ihs" class="img-responsive" />
 								</a>
 							</section>

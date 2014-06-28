@@ -66,16 +66,15 @@
 													</section>
 													<section class="press-release-content">	       	
 														<?php the_content(); ?>									
-														<!--<p class="more">More From:
-															<span class="tags"><?php the_terms( $post->ID, 'press_releases_tags' ,  ' ' );?></span>
-														</p>-->
 														<div class="clearfix"></div>	
 													</section><!--end two thirds--> 
 													
 												</section>									
 												<hr/>
-												<section class="hidden-lg hidden-md hidden-sm news-single-archives">
-													<h1>Awards</h1>
+												<section class="hidden-lg hidden-md hidden-sm">
+													<div class="col-xs-12">
+														<h2>Awards</h2>
+													</div>
 													<?php include (TEMPLATEPATH . '/_/components/php/awards-thumbs.php'); ?>
 												</section>				
 												<?php include (TEMPLATEPATH . '/_/components/php/news-navigation.php'); ?>							

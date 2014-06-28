@@ -1778,19 +1778,26 @@ footer .copyright p {
   }
   .industry-logos .img-responsive {
     padding-left: 15px;
-    width: 40%;
+    width: 60%;
   }
   /*INDUSTRY AFFILIATIONS*/
+  #industry-affiliations .individual-affiliation {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #industry-affiliations .industry-logos {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #industry-affiliations .industry-logos .img-responsive {
+    width: 60%;
+  }
   #industry-affiliations .three {
     padding-bottom: 10px;
   }
   #industry-affiliations .three .logo-individual {
     border-top: none;
     border-bottom: none;
-  }
-  #industry-affiliations .industry-logos {
-    padding-left: 15px;
-    padding-right: 15px;
   }
   #industry-affiliations .five {
     padding-top: 25px;
@@ -1846,6 +1853,13 @@ footer .copyright p {
   }
   #vision-leadership .executive-committee .leaders.top {
     padding-top: 35px;
+  }
+  #executive-leadership .executive-text p {
+    padding-right: 15px;
+  }
+  #executive-leadership .exec-team img {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   #executive-leadership ul.leadership-photos {
     padding-top: 35px;
@@ -2205,6 +2219,13 @@ footer .copyright p {
   }
   #vision-leadership .hero-halves p {
     font-size: 14px;
+  }
+  #executive-leadership .executive-text p {
+    padding-right: 15px;
+  }
+  #executive-leadership .exec-team img {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   #executive-leadership ul.leadership-photos {
     padding-top: 35px;
@@ -3066,6 +3087,9 @@ p.location {
   #alerts-single .two {
     background-color: white;
     height: auto;
+  }
+  p.location {
+    margin-top: 0px;
   }
 }
 /*Small Screens 768 - 992 */

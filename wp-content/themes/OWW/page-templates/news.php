@@ -53,7 +53,6 @@
 						</div>
 					</section><!--content 6-->	
 					<?php include (TEMPLATEPATH . '/_/components/php/media-relations-mobile.php'); ?>	
-					<hr />
 				</div><!-- #content -->
 			</div><!-- #primary -->
 

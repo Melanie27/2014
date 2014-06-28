@@ -212,7 +212,7 @@
 												<img src="<?php bloginfo( 'template_directory' ); ?>/images/business-solutions/affiliations-fpo.jpg" alt="affiliations-fpo" class="img-responsive hidden-xs" />
 												<h4>Industry Affiliations</h4>
 												<p>As a member of many respected business, relocation, entertainment, government and insurance associations, we’re always up to speed with your industry’s best practices—ensuring we can meet your corporate housing and serviced apartment needs with the most current and innovative solutions. </p>
-												<a href="<?php bloginfo( 'url' ); ?>/affiliations/" class="orange-link">Call to action &#8594</a>	
+												<a href="<?php bloginfo( 'url' ); ?>/affiliations/" class="orange-link">Learn More &#8594</a>	
 											</section><!--Industry Affiliations Section-->
 										</div><!--end nested row-->
 									</section>
